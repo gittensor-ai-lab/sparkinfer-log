@@ -1,0 +1,17 @@
+>> vast funds: $3.46 (balance + credit)
+>> instance 42613343: ssh root@<ip>:40017
+>> model already cached — skipping download
+RESULT_JSON {"commit": "0f483c0", "tps": 0, "top1": 0, "kl": 99, "frontier_tps": 419.84, "label": "REJECT", "reason": "build failed (does not compile)", "pass": false}
+
+=== VERDICT ===
+{
+  "commit": "0f483c0",
+  "tps": 0,
+  "top1": 0,
+  "kl": 99,
+  "frontier_tps": 419.84,
+  "label": "REJECT",
+  "reason": "build failed (does not compile)",
+  "pass": false
+}
+>> leaving instance 42613343 running (--keep)

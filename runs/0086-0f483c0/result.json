@@ -1,0 +1,17 @@
+{
+  "id": "0086-0f483c0",
+  "pr": 86,
+  "title": "perf(decode): single-pass MoE top-k + fused RoPE/KV-append (+3.2% decode)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/86",
+  "commit": "0f483c0",
+  "label": "REJECT",
+  "tps": 0,
+  "baseline_tps": 419.84,
+  "delta_pct": null,
+  "delta_tps": null,
+  "top1": 0,
+  "kl": 99,
+  "gpu": "RTX 5090 (sm_120) \u00b7 vast.ai",
+  "date": "2026-06-29",
+  "frontier": 419.84
+}

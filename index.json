@@ -36,6 +36,15 @@
     "date": "2026-06-29"
   },
   {
+    "id": "0086-0f483c0",
+    "pr": 86,
+    "title": "perf(decode): single-pass MoE top-k + fused RoPE/KV-append (+3.2% decode)",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 0,
+    "date": "2026-06-29"
+  },
+  {
     "id": "0086-1fafcc2",
     "pr": 86,
     "title": "perf(decode): single-pass MoE top-k + fused RoPE/KV-append (+3.2% decode)",
