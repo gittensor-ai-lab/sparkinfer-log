@@ -1,0 +1,29 @@
+[
+  {
+    "id": "0072-d459d58",
+    "pr": 72,
+    "title": "perf(gemm): split-K the router projection GEMV for decode occupancy (+3% decode)",
+    "label": "S",
+    "delta_pct": 3.5,
+    "tps": 394.45,
+    "date": "2026-06-28"
+  },
+  {
+    "id": "0083-3d7173a",
+    "pr": 83,
+    "title": "perf(decode): emit Q8_1 from the residual RMSNorm to drop the per-layer activation quantize (+2.7% decode)",
+    "label": "XS",
+    "delta_pct": 2.4,
+    "tps": 390.25,
+    "date": "2026-06-28"
+  },
+  {
+    "id": "0083-e20b053",
+    "pr": 83,
+    "title": "perf(decode): emit Q8_1 from the residual RMSNorm to drop the per-layer activation quantize (+2.7% decode)",
+    "label": "XS",
+    "delta_pct": 2.5,
+    "tps": 404.06,
+    "date": "2026-06-29"
+  }
+]

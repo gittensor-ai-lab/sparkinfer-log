@@ -1,0 +1,7 @@
+>> same-box baseline: origin/main = 381.04 tok/s on this box
+PR #83 @ 3d7173a: evaluating 'pull/83/head' (frontier=381.04) on instance 42932791 [pinned] ...
+PR #83: {"commit": "3d7173a", "tps": 390.25, "top1": 0.95, "kl": 0.2035, "frontier_tps": 381.04, "label": "XS", "delta_tps": 9.21, "pct_over_frontier": 2.4, "pct_of_ceiling": 92.9, "pass": true}
+PR #83: posted eval:XS — NOT merged.
+>> round labels: merge-first #72; needs-rebase [83]
+>> stopping instance 42932791 — model cache persists for next run
+done — no merges (manual).

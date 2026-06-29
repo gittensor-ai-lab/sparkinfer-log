@@ -1,0 +1,17 @@
+{
+  "id": "0072-d459d58",
+  "pr": 72,
+  "title": "perf(gemm): split-K the router projection GEMV for decode occupancy (+3% decode)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/72",
+  "commit": "d459d58",
+  "label": "S",
+  "tps": 394.45,
+  "baseline_tps": 381.04,
+  "delta_pct": 3.5,
+  "delta_tps": 13.41,
+  "top1": 0.97,
+  "kl": 0.1417,
+  "gpu": "RTX 5090 (sm_120) \u00b7 vast.ai",
+  "date": "2026-06-28",
+  "frontier": 381.04
+}

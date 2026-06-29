@@ -1,0 +1,4 @@
+>> same-box baseline: origin/main = 381.04 tok/s on this box
+PR #72 @ d459d58: evaluating 'pull/72/head' (frontier=381.04) on instance 42932791 [pinned] ...
+PR #72: {"commit": "d459d58", "tps": 394.45, "top1": 0.97, "kl": 0.1417, "frontier_tps": 381.04, "label": "S", "delta_tps": 13.41, "pct_over_frontier": 3.5, "pct_of_ceiling": 93.9, "pass": true}
+PR #72: posted eval:S — NOT merged.
