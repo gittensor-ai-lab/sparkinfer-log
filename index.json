@@ -70,5 +70,14 @@
     "delta_pct": 3.7,
     "tps": 408.73,
     "date": "2026-06-29"
+  },
+  {
+    "id": "0089-4e13546",
+    "pr": 89,
+    "title": "perf(decode): run Q/K/V projections on concurrent CUDA streams (+5.7% decode)",
+    "label": "S",
+    "delta_pct": 5.7,
+    "tps": 443.38,
+    "date": "2026-06-29"
   }
 ]

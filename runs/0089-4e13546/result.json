@@ -1,0 +1,17 @@
+{
+  "id": "0089-4e13546",
+  "pr": 89,
+  "title": "perf(decode): run Q/K/V projections on concurrent CUDA streams (+5.7% decode)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/89",
+  "commit": "4e13546",
+  "label": "S",
+  "tps": 443.38,
+  "baseline_tps": 419.63,
+  "delta_pct": 5.7,
+  "delta_tps": 23.75,
+  "top1": 0.97,
+  "kl": 0.1417,
+  "gpu": "RTX 5090 (sm_120) \u00b7 vast.ai",
+  "date": "2026-06-29",
+  "frontier": 419.63
+}
