@@ -1,0 +1,17 @@
+{
+  "id": "0087-b7562da",
+  "pr": 87,
+  "title": "perf(attn): fuse Q/K/V Q4_K MMVQ into one launch (+3% decode)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/87",
+  "commit": "b7562da",
+  "label": "none",
+  "tps": 437.3,
+  "baseline_tps": 436.21,
+  "delta_pct": 0.2,
+  "delta_tps": 1.09,
+  "top1": 0.97,
+  "kl": 0.1417,
+  "gpu": "RTX 5090 (sm_120) \u00b7 vast.ai",
+  "date": "2026-06-29",
+  "frontier": 436.21
+}

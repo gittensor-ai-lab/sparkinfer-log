@@ -1,0 +1,19 @@
+>> vast funds: $2.97 (balance + credit)
+>> instance 42932791: ssh root@<ip>:44100
+>> model already cached — skipping download
+RESULT_JSON {"commit": "b7562da", "tps": 437.3, "top1": 0.97, "kl": 0.1417, "frontier_tps": 436.21, "label": "none", "delta_tps": 1.09, "pct_over_frontier": 0.2, "note": "within significance gate \u2014 not a verified improvement", "pass": true}
+
+=== VERDICT ===
+{
+  "commit": "b7562da",
+  "tps": 437.3,
+  "top1": 0.97,
+  "kl": 0.1417,
+  "frontier_tps": 436.21,
+  "label": "none",
+  "delta_tps": 1.09,
+  "pct_over_frontier": 0.2,
+  "note": "within significance gate \u2014 not a verified improvement",
+  "pass": true
+}
+>> leaving instance 42932791 running (--keep)

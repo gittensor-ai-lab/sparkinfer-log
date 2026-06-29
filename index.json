@@ -81,6 +81,15 @@
     "date": "2026-06-29"
   },
   {
+    "id": "0087-b7562da",
+    "pr": 87,
+    "title": "perf(attn): fuse Q/K/V Q4_K MMVQ into one launch (+3% decode)",
+    "label": "none",
+    "delta_pct": 0.2,
+    "tps": 437.3,
+    "date": "2026-06-29"
+  },
+  {
     "id": "0089-4e13546",
     "pr": 89,
     "title": "perf(decode): run Q/K/V projections on concurrent CUDA streams (+5.7% decode)",
