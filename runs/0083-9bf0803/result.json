@@ -1,0 +1,17 @@
+{
+  "id": "0083-9bf0803",
+  "pr": 83,
+  "title": "perf(decode): emit Q8_1 from the residual RMSNorm to drop the per-layer activation quantize (+2.7% decode)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/83",
+  "commit": "9bf0803",
+  "label": "S",
+  "tps": 410.85,
+  "baseline_tps": 394.03,
+  "delta_pct": 4.3,
+  "delta_tps": 16.82,
+  "top1": 0.97,
+  "kl": 0.1417,
+  "gpu": "RTX 5090 (sm_120) \u00b7 vast.ai",
+  "date": "2026-06-29",
+  "frontier": 394.03
+}
