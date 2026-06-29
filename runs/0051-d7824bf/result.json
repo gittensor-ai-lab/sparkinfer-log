@@ -1,0 +1,17 @@
+{
+  "id": "0051-d7824bf",
+  "pr": 51,
+  "title": "runtime: prompt-lookup speculative decoding for bs=1 MoE decode",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/51",
+  "commit": "d7824bf",
+  "label": "none",
+  "tps": 419.68,
+  "baseline_tps": 419.63,
+  "delta_pct": 0.0,
+  "delta_tps": 0.05,
+  "top1": 0.97,
+  "kl": 0.1417,
+  "gpu": "RTX 5090 (sm_120) \u00b7 vast.ai",
+  "date": "2026-06-29",
+  "frontier": 419.63
+}

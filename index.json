@@ -1,5 +1,14 @@
 [
   {
+    "id": "0051-d7824bf",
+    "pr": 51,
+    "title": "runtime: prompt-lookup speculative decoding for bs=1 MoE decode",
+    "label": "none",
+    "delta_pct": 0.0,
+    "tps": 419.68,
+    "date": "2026-06-29"
+  },
+  {
     "id": "0072-d459d58",
     "pr": 72,
     "title": "perf(gemm): split-K the router projection GEMV for decode occupancy (+3% decode)",
