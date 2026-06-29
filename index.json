@@ -43,5 +43,14 @@
     "delta_pct": 3.6,
     "tps": 408.23,
     "date": "2026-06-29"
+  },
+  {
+    "id": "0087-0fb1fe1",
+    "pr": 87,
+    "title": "perf(attn): fuse Q/K/V Q4_K MMVQ into one launch (+3% decode)",
+    "label": "S",
+    "delta_pct": 3.7,
+    "tps": 408.73,
+    "date": "2026-06-29"
   }
 ]

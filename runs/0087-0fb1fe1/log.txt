@@ -1,0 +1,19 @@
+>> vast funds: $4.87 (balance + credit)
+>> instance 42932791: ssh root@<ip>:44100
+>> model already cached — skipping download
+RESULT_JSON {"commit": "0fb1fe1", "tps": 408.73, "top1": 0.97, "kl": 0.1417, "frontier_tps": 394.03, "label": "S", "delta_tps": 14.7, "pct_over_frontier": 3.7, "pct_of_ceiling": 97.3, "pass": true}
+
+=== VERDICT ===
+{
+  "commit": "0fb1fe1",
+  "tps": 408.73,
+  "top1": 0.97,
+  "kl": 0.1417,
+  "frontier_tps": 394.03,
+  "label": "S",
+  "delta_tps": 14.7,
+  "pct_over_frontier": 3.7,
+  "pct_of_ceiling": 97.3,
+  "pass": true
+}
+>> leaving instance 42932791 running (--keep)
