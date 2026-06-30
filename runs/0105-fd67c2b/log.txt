@@ -1,0 +1,27 @@
+>> vast funds: $9.54 (balance + credit)
+>> instance 43254631: ssh root@<ip>:45470
+>> model already cached — skipping download
+>> held-out eval prompt seed: 7d1e68bc5990193f
+RESULT_JSON {"commit": "fd67c2b", "tps": 413.07, "top1": 0.9524, "kl": 0.0181, "frontier_tps": 433.26, "label": "none", "delta_tps": -20.19, "pct_over_frontier": -4.7, "note": "within significance gate \u2014 not a verified improvement", "pass": true, "clocks_pinned": false, "clock_mhz": "2850", "clock_spread_mhz": "7", "pin_target_mhz": "", "eval_seed": "7d1e68bc5990193f", "model_sha_pinned": true, "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176"}
+
+=== VERDICT ===
+{
+  "commit": "fd67c2b",
+  "tps": 413.07,
+  "top1": 0.9524,
+  "kl": 0.0181,
+  "frontier_tps": 433.26,
+  "label": "none",
+  "delta_tps": -20.19,
+  "pct_over_frontier": -4.7,
+  "note": "within significance gate \u2014 not a verified improvement",
+  "pass": true,
+  "clocks_pinned": false,
+  "clock_mhz": "2850",
+  "clock_spread_mhz": "7",
+  "pin_target_mhz": "",
+  "eval_seed": "7d1e68bc5990193f",
+  "model_sha_pinned": true,
+  "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176"
+}
+>> leaving instance 43254631 running (--keep)

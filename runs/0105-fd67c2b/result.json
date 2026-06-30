@@ -1,0 +1,23 @@
+{
+  "id": "0105-fd67c2b",
+  "pr": 105,
+  "title": "perf(decode): emit Q8_1 from gate/up MMVQ tail, drop the MoE-down quantize node",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/105",
+  "commit": "fd67c2b",
+  "label": "none",
+  "tps": 413.07,
+  "baseline_tps": 433.26,
+  "delta_pct": -4.7,
+  "delta_tps": -20.19,
+  "top1": 0.9524,
+  "kl": 0.0181,
+  "gpu": "RTX 5090 (sm_120) \u00b7 vast.ai",
+  "date": "2026-06-30",
+  "frontier": 433.26,
+  "clocks_pinned": false,
+  "clock_mhz": "2850",
+  "clock_spread_mhz": "7",
+  "eval_seed": "7d1e68bc5990193f",
+  "model_sha_pinned": true,
+  "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176"
+}

@@ -97,5 +97,14 @@
     "delta_pct": 5.7,
     "tps": 443.38,
     "date": "2026-06-29"
+  },
+  {
+    "id": "0105-fd67c2b",
+    "pr": 105,
+    "title": "perf(decode): emit Q8_1 from gate/up MMVQ tail, drop the MoE-down quantize node",
+    "label": "none",
+    "delta_pct": -4.7,
+    "tps": 413.07,
+    "date": "2026-06-30"
   }
 ]
