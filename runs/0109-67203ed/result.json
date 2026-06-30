@@ -1,0 +1,23 @@
+{
+  "id": "0109-67203ed",
+  "pr": 109,
+  "title": "perf(moe): router\u2192gu2 PDL chain + fused gate/up MMVQ ",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/109",
+  "commit": "67203ed",
+  "label": "none",
+  "tps": 440.48,
+  "baseline_tps": 433.26,
+  "delta_pct": 1.7,
+  "delta_tps": 7.22,
+  "top1": 0.9753,
+  "kl": 0.0094,
+  "gpu": "RTX 5090 (sm_120) \u00b7 vast.ai",
+  "date": "2026-06-30",
+  "frontier": 433.26,
+  "clocks_pinned": false,
+  "clock_mhz": "2842",
+  "clock_spread_mhz": "8",
+  "eval_seed": "f399c250ad6b429e",
+  "model_sha_pinned": true,
+  "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176"
+}

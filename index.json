@@ -106,5 +106,14 @@
     "delta_pct": -4.7,
     "tps": 413.07,
     "date": "2026-06-30"
+  },
+  {
+    "id": "0109-67203ed",
+    "pr": 109,
+    "title": "perf(moe): router\u2192gu2 PDL chain + fused gate/up MMVQ ",
+    "label": "none",
+    "delta_pct": 1.7,
+    "tps": 440.48,
+    "date": "2026-06-30"
   }
 ]
