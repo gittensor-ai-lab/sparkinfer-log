@@ -1,0 +1,23 @@
+{
+  "id": "0091-cf9803d",
+  "pr": 91,
+  "title": "feat(moe): LRU expert cache + async layer-ahead prefetch",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/91",
+  "commit": "cf9803d",
+  "label": "REJECT",
+  "tps": 0,
+  "baseline_tps": 461.69,
+  "delta_pct": null,
+  "delta_tps": null,
+  "top1": 0,
+  "kl": 99,
+  "gpu": "RTX 5090 (sm_120) \u00b7 vast.ai",
+  "date": "2026-07-01",
+  "frontier": 461.69,
+  "clocks_pinned": null,
+  "clock_mhz": null,
+  "clock_spread_mhz": null,
+  "eval_seed": null,
+  "model_sha_pinned": null,
+  "llama_commit": null
+}

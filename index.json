@@ -99,6 +99,15 @@
     "date": "2026-06-29"
   },
   {
+    "id": "0091-cf9803d",
+    "pr": 91,
+    "title": "feat(moe): LRU expert cache + async layer-ahead prefetch",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 0,
+    "date": "2026-07-01"
+  },
+  {
     "id": "0105-fd67c2b",
     "pr": 105,
     "title": "perf(decode): emit Q8_1 from gate/up MMVQ tail, drop the MoE-down quantize node",

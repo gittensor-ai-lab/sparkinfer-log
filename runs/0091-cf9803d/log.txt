@@ -1,0 +1,18 @@
+>> vast funds: $5.24 (balance + credit)
+>> instance 43296623: ssh root@<ip>:47550
+>> model already cached — skipping download
+>> held-out eval prompt seed: cfb1db7fee7247f0
+RESULT_JSON {"commit": "cf9803d", "tps": 0, "top1": 0, "kl": 99, "frontier_tps": 461.69, "label": "REJECT", "reason": "build failed (does not compile)", "pass": false}
+
+=== VERDICT ===
+{
+  "commit": "cf9803d",
+  "tps": 0,
+  "top1": 0,
+  "kl": 99,
+  "frontier_tps": 461.69,
+  "label": "REJECT",
+  "reason": "build failed (does not compile)",
+  "pass": false
+}
+>> leaving instance 43296623 running (--keep)
