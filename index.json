@@ -151,5 +151,14 @@
     "delta_pct": null,
     "tps": 475.07,
     "date": "2026-07-01"
+  },
+  {
+    "id": "0119-be85922",
+    "pr": 119,
+    "title": "perf: batch-8 MMVQ rows per CTA \u2014 MoE gate/up + attn Q/K/V/O",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 492.8,
+    "date": "2026-07-01"
   }
 ]

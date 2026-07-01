@@ -1,0 +1,23 @@
+{
+  "id": "0119-be85922",
+  "pr": 119,
+  "title": "perf: batch-8 MMVQ rows per CTA \u2014 MoE gate/up + attn Q/K/V/O",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/119",
+  "commit": "be85922",
+  "label": "REJECT",
+  "tps": 492.8,
+  "baseline_tps": 461.69,
+  "delta_pct": null,
+  "delta_tps": null,
+  "top1": 0.0,
+  "kl": 18.8005,
+  "gpu": "RTX 5090 (sm_120) \u00b7 vast.ai",
+  "date": "2026-07-01",
+  "frontier": 461.69,
+  "clocks_pinned": false,
+  "clock_mhz": "2932",
+  "clock_spread_mhz": "15",
+  "eval_seed": "7bf283c32e2ff649",
+  "model_sha_pinned": true,
+  "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176"
+}
