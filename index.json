@@ -160,5 +160,14 @@
     "delta_pct": null,
     "tps": 492.8,
     "date": "2026-07-01"
+  },
+  {
+    "id": "0120-391d961",
+    "pr": 120,
+    "title": "perf: batch-8 MMVQ launch reduction + quant_h\u2192down PDL overlap",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 491.73,
+    "date": "2026-07-01"
   }
 ]

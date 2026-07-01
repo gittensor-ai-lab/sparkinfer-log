@@ -1,0 +1,23 @@
+{
+  "id": "0120-391d961",
+  "pr": 120,
+  "title": "perf: batch-8 MMVQ launch reduction + quant_h\u2192down PDL overlap",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/120",
+  "commit": "391d961",
+  "label": "REJECT",
+  "tps": 491.73,
+  "baseline_tps": 461.69,
+  "delta_pct": null,
+  "delta_tps": null,
+  "top1": 0.0,
+  "kl": 18.1017,
+  "gpu": "RTX 5090 (sm_120) \u00b7 vast.ai",
+  "date": "2026-07-01",
+  "frontier": 461.69,
+  "clocks_pinned": false,
+  "clock_mhz": "2932",
+  "clock_spread_mhz": "8",
+  "eval_seed": "d461f414a1b624f5",
+  "model_sha_pinned": true,
+  "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176"
+}
