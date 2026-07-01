@@ -1,0 +1,23 @@
+{
+  "id": "0117-2c0848b",
+  "pr": 117,
+  "title": "perf(moe): batch 8 gate/up MMVQ rows per CTA \u2014 fewer decode graph nodes",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/117",
+  "commit": "2c0848b",
+  "label": "REJECT",
+  "tps": 475.07,
+  "baseline_tps": 461.69,
+  "delta_pct": null,
+  "delta_tps": null,
+  "top1": 0.0177,
+  "kl": 13.9592,
+  "gpu": "RTX 5090 (sm_120) \u00b7 vast.ai",
+  "date": "2026-07-01",
+  "frontier": 461.69,
+  "clocks_pinned": false,
+  "clock_mhz": "2940",
+  "clock_spread_mhz": "8",
+  "eval_seed": "41606fb02dac53b4",
+  "model_sha_pinned": true,
+  "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176"
+}

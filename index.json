@@ -142,5 +142,14 @@
     "delta_pct": 0.6,
     "tps": 464.51,
     "date": "2026-07-01"
+  },
+  {
+    "id": "0117-2c0848b",
+    "pr": 117,
+    "title": "perf(moe): batch 8 gate/up MMVQ rows per CTA \u2014 fewer decode graph nodes",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 475.07,
+    "date": "2026-07-01"
   }
 ]
