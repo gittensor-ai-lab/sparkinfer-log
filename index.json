@@ -133,5 +133,14 @@
     "delta_pct": 0.1,
     "tps": 462.02,
     "date": "2026-07-01"
+  },
+  {
+    "id": "0116-dbcb3bb",
+    "pr": 116,
+    "title": "perf(moe): PDL overlap on gate_up -> quant_h -> down MMVQ chain",
+    "label": "none",
+    "delta_pct": 0.6,
+    "tps": 464.51,
+    "date": "2026-07-01"
   }
 ]
