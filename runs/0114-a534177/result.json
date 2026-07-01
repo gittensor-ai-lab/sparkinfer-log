@@ -1,0 +1,23 @@
+{
+  "id": "0114-a534177",
+  "pr": 114,
+  "title": "perf(runtime): context-adaptive flash-decode split count",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/114",
+  "commit": "a534177",
+  "label": "none",
+  "tps": 462.02,
+  "baseline_tps": 461.67,
+  "delta_pct": 0.1,
+  "delta_tps": 0.35,
+  "top1": 0.9851,
+  "kl": 0.0093,
+  "gpu": "RTX 5090 (sm_120) \u00b7 vast.ai",
+  "date": "2026-07-01",
+  "frontier": 461.67,
+  "clocks_pinned": false,
+  "clock_mhz": "2932",
+  "clock_spread_mhz": "8",
+  "eval_seed": "8e42213b854a5786",
+  "model_sha_pinned": true,
+  "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176"
+}

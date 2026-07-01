@@ -115,5 +115,14 @@
     "delta_pct": 1.7,
     "tps": 440.48,
     "date": "2026-06-30"
+  },
+  {
+    "id": "0114-a534177",
+    "pr": 114,
+    "title": "perf(runtime): context-adaptive flash-decode split count",
+    "label": "none",
+    "delta_pct": 0.1,
+    "tps": 462.02,
+    "date": "2026-07-01"
   }
 ]
