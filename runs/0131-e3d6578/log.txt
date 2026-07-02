@@ -1,0 +1,37 @@
+>> vast funds: $0.38 (balance + credit)
+>> instance 43634439: ssh root@<ip>:20533
+>> model already cached — skipping download
+>> held-out eval prompt seed: bd6c5f7024cb7061
+RESULT_JSON {"commit": "e3d6578", "tps": 264.09, "top1": 0.9302, "kl": 0.0157, "frontier_tps": 252.14, "label": "S", "delta_tps": 11.95, "pct_over_frontier": 4.7, "pct_of_ceiling": 72.2, "pass": true, "clocks_pinned": false, "clock_mhz": "0", "clock_spread_mhz": "0", "pin_target_mhz": "", "eval_seed": "bd6c5f7024cb7061", "model_sha_pinned": true, "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176", "eval_mode": "longctx", "decode_tokens": 128, "score_context": 16384, "guard_context": 2048, "ctx_2048_tps": 278.06, "ctx_16384_tps": 264.09, "guard_2k_baseline": 277.78, "guard_2k_ratio": 1.001, "guard_2k_tol": 0.98, "guard_2k_pass": true}
+
+=== VERDICT ===
+{
+  "commit": "e3d6578",
+  "tps": 264.09,
+  "top1": 0.9302,
+  "kl": 0.0157,
+  "frontier_tps": 252.14,
+  "label": "S",
+  "delta_tps": 11.95,
+  "pct_over_frontier": 4.7,
+  "pct_of_ceiling": 72.2,
+  "pass": true,
+  "clocks_pinned": false,
+  "clock_mhz": "0",
+  "clock_spread_mhz": "0",
+  "pin_target_mhz": "",
+  "eval_seed": "bd6c5f7024cb7061",
+  "model_sha_pinned": true,
+  "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176",
+  "eval_mode": "longctx",
+  "decode_tokens": 128,
+  "score_context": 16384,
+  "guard_context": 2048,
+  "ctx_2048_tps": 278.06,
+  "ctx_16384_tps": 264.09,
+  "guard_2k_baseline": 277.78,
+  "guard_2k_ratio": 1.001,
+  "guard_2k_tol": 0.98,
+  "guard_2k_pass": true
+}
+>> leaving instance 43634439 running (--keep)

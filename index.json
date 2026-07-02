@@ -286,5 +286,15 @@
     "tps": 265.41,
     "score_context": 16384,
     "date": "2026-07-02"
+  },
+  {
+    "id": "0131-e3d6578",
+    "pr": 131,
+    "title": "perf(attn): 128-bit uint4 KV staging in 16k GQA flash-decode split (+6% decode)",
+    "label": "S",
+    "delta_pct": 4.7,
+    "tps": 264.09,
+    "score_context": 16384,
+    "date": "2026-07-02"
   }
 ]
