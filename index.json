@@ -216,5 +216,15 @@
     "tps": 221.02,
     "score_context": 16384,
     "date": "2026-07-02"
+  },
+  {
+    "id": "0124-e024855",
+    "pr": 124,
+    "title": "Optimize 16k long-context GQA KV load: hoist block-table lookup + vectorize",
+    "label": "M",
+    "delta_pct": 7.7,
+    "tps": 240.57,
+    "score_context": 16384,
+    "date": "2026-07-02"
   }
 ]
