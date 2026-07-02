@@ -266,5 +266,15 @@
     "tps": 252.39,
     "score_context": 16384,
     "date": "2026-07-02"
+  },
+  {
+    "id": "0128-c7f9ba8",
+    "pr": 128,
+    "title": "perf(gemv): specialize q4 mmvq common K",
+    "label": "XS",
+    "delta_pct": 3.0,
+    "tps": 259.6,
+    "score_context": 16384,
+    "date": "2026-07-02"
   }
 ]
