@@ -276,5 +276,15 @@
     "tps": 259.6,
     "score_context": 16384,
     "date": "2026-07-02"
+  },
+  {
+    "id": "0130-abcd575",
+    "pr": 130,
+    "title": "perf(attn): uint4 ldg KV staging + GQA TILE=14",
+    "label": "S",
+    "delta_pct": 5.3,
+    "tps": 265.41,
+    "score_context": 16384,
+    "date": "2026-07-02"
   }
 ]
