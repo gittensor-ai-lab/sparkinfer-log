@@ -246,5 +246,15 @@
     "tps": 228.76,
     "score_context": 16384,
     "date": "2026-07-02"
+  },
+  {
+    "id": "0126-948a288",
+    "pr": 126,
+    "title": "perf(attn): bf16 GQA tile12 + adaptive combine for 16k n_splits=256",
+    "label": "S",
+    "delta_pct": 4.9,
+    "tps": 252.39,
+    "score_context": 16384,
+    "date": "2026-07-02"
   }
 ]
