@@ -196,5 +196,15 @@
     "delta_pct": 3.4,
     "tps": 479.83,
     "date": "2026-07-02"
+  },
+  {
+    "id": "0123-8a7f5d9",
+    "pr": 123,
+    "title": "Optimize 16k long-context GQA flash decode",
+    "label": "XL",
+    "delta_pct": 31.6,
+    "tps": 221.02,
+    "score_context": 16384,
+    "date": "2026-07-02"
   }
 ]
