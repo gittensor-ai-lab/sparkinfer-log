@@ -171,6 +171,15 @@
     "date": "2026-07-01"
   },
   {
+    "id": "0121-ab00883",
+    "pr": 121,
+    "title": "perf: optimize qwen decode kernels",
+    "label": "none",
+    "delta_pct": 0.9,
+    "tps": 468.1,
+    "date": "2026-07-02"
+  },
+  {
     "id": "0121-cebd768",
     "pr": 121,
     "title": "perf: optimize qwen decode kernels",
