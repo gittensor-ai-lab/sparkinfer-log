@@ -226,5 +226,15 @@
     "tps": 240.57,
     "score_context": 16384,
     "date": "2026-07-02"
+  },
+  {
+    "id": "0125-f32bba0",
+    "pr": 125,
+    "title": "perf(attn): bf16 GQA smem tile + scale combine warps at 256 splits",
+    "label": "XS",
+    "delta_pct": 2.5,
+    "tps": 228.76,
+    "score_context": 16384,
+    "date": "2026-07-02"
   }
 ]
