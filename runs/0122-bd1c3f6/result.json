@@ -1,0 +1,23 @@
+{
+  "id": "0122-bd1c3f6",
+  "pr": 122,
+  "title": "perf(attn): fuse QK-norm+RoPE+KV-append and emit Q8_1(attn) in flash combine",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/122",
+  "commit": "bd1c3f6",
+  "label": "L",
+  "tps": 479.83,
+  "baseline_tps": 463.92,
+  "delta_pct": 3.4,
+  "delta_tps": 15.91,
+  "top1": 0.9753,
+  "kl": 0.0126,
+  "gpu": "RTX 5090 (sm_120) \u00b7 vast.ai",
+  "date": "2026-07-02",
+  "frontier": 463.92,
+  "clocks_pinned": false,
+  "clock_mhz": "2917",
+  "clock_spread_mhz": "22",
+  "eval_seed": "c40e1a271bb58fe4",
+  "model_sha_pinned": true,
+  "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176"
+}

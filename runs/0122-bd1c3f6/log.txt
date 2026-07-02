@@ -1,0 +1,29 @@
+>> vast funds: $4.48 (balance + credit)
+>> instance 43469949: ssh root@<ip>:40117
+>> model already cached — skipping download
+>> held-out eval prompt seed: c40e1a271bb58fe4
+RESULT_JSON {"commit": "bd1c3f6", "tps": 479.83, "top1": 0.9753, "kl": 0.0126, "frontier_tps": 463.92, "label": "L", "delta_tps": 15.91, "pct_over_frontier": 3.4, "pct_of_ceiling": 131.1, "difficulty_mult": 3.14, "effective_pct": 10.8, "pass": true, "clocks_pinned": false, "clock_mhz": "2917", "clock_spread_mhz": "22", "pin_target_mhz": "", "eval_seed": "c40e1a271bb58fe4", "model_sha_pinned": true, "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176"}
+
+=== VERDICT ===
+{
+  "commit": "bd1c3f6",
+  "tps": 479.83,
+  "top1": 0.9753,
+  "kl": 0.0126,
+  "frontier_tps": 463.92,
+  "label": "L",
+  "delta_tps": 15.91,
+  "pct_over_frontier": 3.4,
+  "pct_of_ceiling": 131.1,
+  "difficulty_mult": 3.14,
+  "effective_pct": 10.8,
+  "pass": true,
+  "clocks_pinned": false,
+  "clock_mhz": "2917",
+  "clock_spread_mhz": "22",
+  "pin_target_mhz": "",
+  "eval_seed": "c40e1a271bb58fe4",
+  "model_sha_pinned": true,
+  "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176"
+}
+>> leaving instance 43469949 running (--keep)
