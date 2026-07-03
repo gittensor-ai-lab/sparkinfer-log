@@ -346,5 +346,15 @@
     "tps": 392.94,
     "score_context": 4096,
     "date": "2026-07-03"
+  },
+  {
+    "id": "0139-1766b32",
+    "pr": 139,
+    "title": "perf(decode): O-proj pack2 MMVQ + context-aware GQA flash tile (~3% e2e)",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 488.0,
+    "score_context": 512,
+    "date": "2026-07-03"
   }
 ]
