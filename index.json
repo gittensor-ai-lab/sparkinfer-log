@@ -328,6 +328,16 @@
     "date": "2026-07-03"
   },
   {
+    "id": "0137-bbe0cb0",
+    "pr": 137,
+    "title": "perf(decode): occupancy-first n_splits schedule (+8.8% @ 4k over #136)",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "tps": 470.98,
+    "score_context": 512,
+    "date": "2026-07-03"
+  },
+  {
     "id": "0138-5ca05b0",
     "pr": 138,
     "title": "perf(decode): use 128-split mid-context plateau",
