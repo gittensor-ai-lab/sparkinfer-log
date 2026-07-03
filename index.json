@@ -356,5 +356,15 @@
     "tps": 488.0,
     "score_context": 512,
     "date": "2026-07-03"
+  },
+  {
+    "id": "0142-d573d4a",
+    "pr": 142,
+    "title": "perf(decode): pack2 MMVQ for attention Q4_K Wq and O projections",
+    "label": "none",
+    "delta_pct": 0.3,
+    "tps": 497.13,
+    "score_context": 128,
+    "date": "2026-07-03"
   }
 ]
