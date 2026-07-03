@@ -326,5 +326,15 @@
     "tps": 348.86,
     "score_context": 4096,
     "date": "2026-07-03"
+  },
+  {
+    "id": "0138-5ca05b0",
+    "pr": 138,
+    "title": "perf(decode): use 128-split mid-context plateau",
+    "label": "XL",
+    "delta_pct": 12.6,
+    "tps": 392.94,
+    "score_context": 4096,
+    "date": "2026-07-03"
   }
 ]
