@@ -1,0 +1,67 @@
+>> vast funds: $12.66 (balance + credit)
+>> instance 43634439: ssh root@<ip>:20533
+>> model already cached — skipping download
+>> held-out eval prompt seed: a45e0bd603a1ecad
+RESULT_JSON {"commit": "5f2c6e4", "tps": 327.46, "top1": 0.9426, "kl": 0.0368, "frontier_tps": 308.11, "label": "XL", "delta_tps": 19.35, "pct_over_frontier": 6.3, "pct_of_ceiling": 89.5, "difficulty_mult": 3.04, "effective_pct": 19.1, "pass": true, "clocks_pinned": false, "clock_mhz": "0", "clock_spread_mhz": "0", "pin_target_mhz": "", "eval_seed": "a45e0bd603a1ecad", "model_sha_pinned": true, "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176", "eval_mode": "longctx", "decode_tokens": 128, "score_context": 16384, "best_context_label": "16k-context", "context_gains_pct": {"128-context": -0.15, "512-context": -0.19, "4k-context": -0.16, "16k-context": 6.28, "32k-context": 4.46}, "regression_labels": [], "guard_context": 0, "ctx_128_tps": 495.55, "ctx_512_tps": 470.28, "ctx_4096_tps": 393.39, "ctx_16384_tps": 327.46, "ctx_32768_tps": 260.3, "guard_128_baseline": 496.27, "guard_128_ratio": 0.9985, "guard_128_tol": 0.98, "guard_128_pass": true, "guard_512_baseline": 471.18, "guard_512_ratio": 0.9981, "guard_512_tol": 0.98, "guard_512_pass": true, "guard_4k_baseline": 394.02, "guard_4k_ratio": 0.9984, "guard_4k_tol": 0.98, "guard_4k_pass": true, "guard_16k_baseline": 308.11, "guard_16k_ratio": 1.0628, "guard_16k_tol": 0.98, "guard_16k_pass": true, "guard_32k_baseline": 249.18, "guard_32k_ratio": 1.0446, "guard_32k_tol": 0.98, "guard_32k_pass": true}
+
+=== VERDICT ===
+{
+  "commit": "5f2c6e4",
+  "tps": 327.46,
+  "top1": 0.9426,
+  "kl": 0.0368,
+  "frontier_tps": 308.11,
+  "label": "XL",
+  "delta_tps": 19.35,
+  "pct_over_frontier": 6.3,
+  "pct_of_ceiling": 89.5,
+  "difficulty_mult": 3.04,
+  "effective_pct": 19.1,
+  "pass": true,
+  "clocks_pinned": false,
+  "clock_mhz": "0",
+  "clock_spread_mhz": "0",
+  "pin_target_mhz": "",
+  "eval_seed": "a45e0bd603a1ecad",
+  "model_sha_pinned": true,
+  "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176",
+  "eval_mode": "longctx",
+  "decode_tokens": 128,
+  "score_context": 16384,
+  "best_context_label": "16k-context",
+  "context_gains_pct": {
+    "128-context": -0.15,
+    "512-context": -0.19,
+    "4k-context": -0.16,
+    "16k-context": 6.28,
+    "32k-context": 4.46
+  },
+  "regression_labels": [],
+  "guard_context": 0,
+  "ctx_128_tps": 495.55,
+  "ctx_512_tps": 470.28,
+  "ctx_4096_tps": 393.39,
+  "ctx_16384_tps": 327.46,
+  "ctx_32768_tps": 260.3,
+  "guard_128_baseline": 496.27,
+  "guard_128_ratio": 0.9985,
+  "guard_128_tol": 0.98,
+  "guard_128_pass": true,
+  "guard_512_baseline": 471.18,
+  "guard_512_ratio": 0.9981,
+  "guard_512_tol": 0.98,
+  "guard_512_pass": true,
+  "guard_4k_baseline": 394.02,
+  "guard_4k_ratio": 0.9984,
+  "guard_4k_tol": 0.98,
+  "guard_4k_pass": true,
+  "guard_16k_baseline": 308.11,
+  "guard_16k_ratio": 1.0628,
+  "guard_16k_tol": 0.98,
+  "guard_16k_pass": true,
+  "guard_32k_baseline": 249.18,
+  "guard_32k_ratio": 1.0446,
+  "guard_32k_tol": 0.98,
+  "guard_32k_pass": true
+}
+>> leaving instance 43634439 running (--keep)

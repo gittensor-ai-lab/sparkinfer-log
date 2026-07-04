@@ -376,5 +376,15 @@
     "tps": 308.02,
     "score_context": 16384,
     "date": "2026-07-04"
+  },
+  {
+    "id": "0221-5f2c6e4",
+    "pr": 221,
+    "title": "perf(attn): trim int8 mma flash-decode shared round-trips + raise occupancy to 5 blocks/SM (+4.7% at 16k)",
+    "label": "XL",
+    "delta_pct": 6.3,
+    "tps": 327.46,
+    "score_context": 16384,
+    "date": "2026-07-04"
   }
 ]
