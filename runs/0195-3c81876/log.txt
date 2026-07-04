@@ -1,0 +1,61 @@
+>> vast funds: $14.00 (balance + credit)
+>> instance 43634439: ssh root@<ip>:20533
+>> model already cached — skipping download
+>> held-out eval prompt seed: a3b93d20902f7851
+RESULT_JSON {"commit": "3c81876", "tps": 308.02, "top1": 0.9538, "kl": 0.0209, "frontier_tps": 263.85, "label": "XL", "delta_tps": 44.17, "pct_over_frontier": 16.7, "pct_of_ceiling": 84.2, "difficulty_mult": 1.6, "effective_pct": 26.7, "pass": true, "clocks_pinned": false, "clock_mhz": "0", "clock_spread_mhz": "0", "pin_target_mhz": "", "eval_seed": "a3b93d20902f7851", "model_sha_pinned": true, "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176", "eval_mode": "longctx", "decode_tokens": 128, "score_context": 16384, "best_context_label": "16k-context", "context_gains_pct": {"128-context": -0.38, "512-context": -0.25, "4k-context": -0.22, "16k-context": 16.74}, "regression_labels": [], "guard_context": 0, "ctx_128_tps": 494.59, "ctx_512_tps": 470.3, "ctx_4096_tps": 392.88, "ctx_16384_tps": 308.02, "guard_128_baseline": 496.49, "guard_128_ratio": 0.9962, "guard_128_tol": 0.98, "guard_128_pass": true, "guard_512_baseline": 471.5, "guard_512_ratio": 0.9975, "guard_512_tol": 0.98, "guard_512_pass": true, "guard_4k_baseline": 393.75, "guard_4k_ratio": 0.9978, "guard_4k_tol": 0.98, "guard_4k_pass": true, "guard_16k_baseline": 263.85, "guard_16k_ratio": 1.1674, "guard_16k_tol": 0.98, "guard_16k_pass": true}
+
+=== VERDICT ===
+{
+  "commit": "3c81876",
+  "tps": 308.02,
+  "top1": 0.9538,
+  "kl": 0.0209,
+  "frontier_tps": 263.85,
+  "label": "XL",
+  "delta_tps": 44.17,
+  "pct_over_frontier": 16.7,
+  "pct_of_ceiling": 84.2,
+  "difficulty_mult": 1.6,
+  "effective_pct": 26.7,
+  "pass": true,
+  "clocks_pinned": false,
+  "clock_mhz": "0",
+  "clock_spread_mhz": "0",
+  "pin_target_mhz": "",
+  "eval_seed": "a3b93d20902f7851",
+  "model_sha_pinned": true,
+  "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176",
+  "eval_mode": "longctx",
+  "decode_tokens": 128,
+  "score_context": 16384,
+  "best_context_label": "16k-context",
+  "context_gains_pct": {
+    "128-context": -0.38,
+    "512-context": -0.25,
+    "4k-context": -0.22,
+    "16k-context": 16.74
+  },
+  "regression_labels": [],
+  "guard_context": 0,
+  "ctx_128_tps": 494.59,
+  "ctx_512_tps": 470.3,
+  "ctx_4096_tps": 392.88,
+  "ctx_16384_tps": 308.02,
+  "guard_128_baseline": 496.49,
+  "guard_128_ratio": 0.9962,
+  "guard_128_tol": 0.98,
+  "guard_128_pass": true,
+  "guard_512_baseline": 471.5,
+  "guard_512_ratio": 0.9975,
+  "guard_512_tol": 0.98,
+  "guard_512_pass": true,
+  "guard_4k_baseline": 393.75,
+  "guard_4k_ratio": 0.9978,
+  "guard_4k_tol": 0.98,
+  "guard_4k_pass": true,
+  "guard_16k_baseline": 263.85,
+  "guard_16k_ratio": 1.1674,
+  "guard_16k_tol": 0.98,
+  "guard_16k_pass": true
+}
+>> leaving instance 43634439 running (--keep)

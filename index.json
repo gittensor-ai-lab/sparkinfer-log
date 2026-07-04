@@ -366,5 +366,15 @@
     "tps": 497.13,
     "score_context": 128,
     "date": "2026-07-03"
+  },
+  {
+    "id": "0195-3c81876",
+    "pr": 195,
+    "title": "perf(attn): int8 KV tensor-core GQA flash-decode (+19% decode at 16k)",
+    "label": "XL",
+    "delta_pct": 16.7,
+    "tps": 308.02,
+    "score_context": 16384,
+    "date": "2026-07-04"
   }
 ]
