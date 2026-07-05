@@ -4,3 +4,4 @@
 {"date": "2026-07-04", "pr": 195, "author": "fansilas", "commit": "1be97014b", "delta_pct": 16.7, "prev_frontier": 266.14, "new_frontier": 310.69, "proof": "https://gittensor-ai-lab.github.io/sparkinfer-log/?run=0195-3c81876"}
 {"date": "2026-07-04", "pr": 221, "author": "fansilas", "commit": "f22d71a7c", "delta_pct": 6.3, "prev_frontier": 310.69, "new_frontier": 330.2, "proof": "https://gittensor-ai-lab.github.io/sparkinfer-log/?run=0221-5f2c6e4"}
 {"date": "2026-07-05", "pr": 230, "author": "inference2026", "commit": "2258b0cbe", "delta_pct": 635.7, "prev_frontier": 493.56, "new_frontier": 3631.12, "proof": "https://gittensor-ai-lab.github.io/sparkinfer-log/?run=0230-03c3069"}
+{"date": "2026-07-05", "pr": 229, "author": "James-CUDA", "commit": "b724c004e", "delta_pct": 635.6, "prev_frontier": 3631.34, "new_frontier": 26712.14, "proof": "https://gittensor-ai-lab.github.io/sparkinfer-log/?run=0229-3beae5f"}
