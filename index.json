@@ -398,6 +398,16 @@
     "date": "2026-07-05"
   },
   {
+    "id": "0229-3beae5f",
+    "pr": 229,
+    "title": "feat(qwen36): add optimized Gated-DeltaNet AR state update kernel wit\u2026",
+    "label": "XL",
+    "delta_pct": 635.6,
+    "tps": 170.81,
+    "score_context": 128,
+    "date": "2026-07-05"
+  },
+  {
     "id": "0229-ea902b7",
     "pr": 229,
     "title": "feat(qwen36): add optimized Gated-DeltaNet AR state update kernel wit\u2026",
