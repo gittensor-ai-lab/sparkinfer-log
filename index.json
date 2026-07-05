@@ -386,5 +386,15 @@
     "tps": 327.46,
     "score_context": 16384,
     "date": "2026-07-04"
+  },
+  {
+    "id": "0226-28112f0",
+    "pr": 226,
+    "title": "perf(qwen3.6): enable Qwen3.6-35B-A3B + 7.2\u00d7 decode via coalesced shared-expert GEMVs",
+    "label": "REJECT",
+    "delta_pct": 640.6,
+    "tps": 170.57,
+    "score_context": 4096,
+    "date": "2026-07-05"
   }
 ]
