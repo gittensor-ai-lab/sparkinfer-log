@@ -406,5 +406,15 @@
     "tps": 23.58,
     "score_context": 128,
     "date": "2026-07-05"
+  },
+  {
+    "id": "0230-03c3069",
+    "pr": 230,
+    "title": "perf(qwen3.6): shared expert as coalesced GEMVs \u2014 7.2\u00d7 decode (23\u2192167 tok/s)",
+    "label": "XL",
+    "delta_pct": 635.7,
+    "tps": 170.84,
+    "score_context": 128,
+    "date": "2026-07-05"
   }
 ]
