@@ -456,5 +456,15 @@
     "tps": 168.76,
     "score_context": 4096,
     "date": "2026-07-06"
+  },
+  {
+    "id": "0241-2aa0768",
+    "pr": 241,
+    "title": "perf(gemv): split-K the bf16 dense projection GEMV for decode occupancy (+9.5% Qwen3.6 decode)",
+    "label": "REJECT",
+    "delta_pct": -26.4,
+    "tps": 179.9,
+    "score_context": 4096,
+    "date": "2026-07-06"
   }
 ]
