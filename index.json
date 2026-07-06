@@ -448,6 +448,16 @@
     "date": "2026-07-06"
   },
   {
+    "id": "0235-e1547c3",
+    "pr": 235,
+    "title": "perf(qwen3.6): GQA-8 flash decode for head_dim=256 (+4% @16k ctx)",
+    "label": "REJECT",
+    "delta_pct": -20.9,
+    "tps": 168.1,
+    "score_context": 4096,
+    "date": "2026-07-06"
+  },
+  {
     "id": "0237-e490d89",
     "pr": 237,
     "title": "perf(qwen3.6): speed up GDN and overlap decode work",
