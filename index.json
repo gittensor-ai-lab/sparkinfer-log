@@ -428,6 +428,16 @@
     "date": "2026-07-05"
   },
   {
+    "id": "0233-1cb0054",
+    "pr": 233,
+    "title": "perf(qwen36): warp-grid GDN + decode pipelining + Q8_0 shared MMVQ",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 275.52,
+    "score_context": 128,
+    "date": "2026-07-06"
+  },
+  {
     "id": "0234-511c10e",
     "pr": 234,
     "title": "perf(qwen3.6): Q8_0 on-read GEMV for dense projections (+8.9% decode, 128/512/4k)",
