@@ -616,5 +616,15 @@
     "tps": 278.76,
     "score_context": 128,
     "date": "2026-07-06"
+  },
+  {
+    "id": "0269-54558d5",
+    "pr": 269,
+    "title": "perf(gemv): Q8_0 on-read GEMV with split-K for native Q8_0 projection\u2026",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 318.64,
+    "score_context": 128,
+    "date": "2026-07-06"
   }
 ]
