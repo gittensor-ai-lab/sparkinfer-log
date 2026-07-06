@@ -511,10 +511,10 @@
     "id": "0243-79058f2",
     "pr": 243,
     "title": "perf(moe): int8 dp4a MMVQ for the Q5_K expert down projection (+6.6% Qwen3.6 decode)",
-    "label": "REJECT",
-    "delta_pct": -29.2,
-    "tps": 173.1,
-    "score_context": 4096,
+    "label": "S",
+    "delta_pct": 7.3,
+    "tps": 241.75,
+    "score_context": 128,
     "date": "2026-07-06"
   }
 ]
