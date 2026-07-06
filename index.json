@@ -518,6 +518,16 @@
     "date": "2026-07-06"
   },
   {
+    "id": "0240-feb32e2",
+    "pr": 240,
+    "title": "perf(qwen3.6): fast Gated-DeltaNet AR kernel + conv/L2-norm and shared-expert GEMV fusions",
+    "label": "none",
+    "delta_pct": 1.4,
+    "tps": 258.35,
+    "score_context": 128,
+    "date": "2026-07-06"
+  },
+  {
     "id": "0241-2aa0768",
     "pr": 241,
     "title": "perf(gemv): split-K the bf16 dense projection GEMV for decode occupancy (+9.5% Qwen3.6 decode)",
