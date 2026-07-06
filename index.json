@@ -588,6 +588,16 @@
     "date": "2026-07-06"
   },
   {
+    "id": "0266-c127774",
+    "pr": 266,
+    "title": "perf(qwen36): +15-20% decode \u2014 Q8 shared MMVQ, pipelining, F=512 MoE, hd256 FA",
+    "label": "L",
+    "delta_pct": 20.5,
+    "tps": 287.91,
+    "score_context": 4096,
+    "date": "2026-07-06"
+  },
+  {
     "id": "0267-20df85f",
     "pr": 267,
     "title": "perf(moe): Q5_K fp split-K Qwen specialization + gate_up F=512 dispatch (+4.3% Qwen3.6 decode)",
