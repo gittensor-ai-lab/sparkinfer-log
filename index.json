@@ -468,6 +468,16 @@
     "date": "2026-07-06"
   },
   {
+    "id": "0239-2a2ebde",
+    "pr": 239,
+    "title": "perf(qwen3.6): fuse decode kernel launches \u2014 shared-expert + GDN conv/L2-norm",
+    "label": "XS",
+    "delta_pct": 3.8,
+    "tps": 231.31,
+    "score_context": 512,
+    "date": "2026-07-06"
+  },
+  {
     "id": "0239-cd383fb",
     "pr": 239,
     "title": "perf(qwen3.6): fuse decode kernel launches \u2014 shared-expert + GDN conv/L2-norm",
