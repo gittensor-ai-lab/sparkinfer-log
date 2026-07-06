@@ -1,0 +1,87 @@
+>> vast funds: $4.57 (balance + credit)
+>> instance 43843591: ssh root@<ip>:40791
+>> HF token configured on box (authenticated model downloads)
+>> model already cached — skipping download
+>> Qwen3.6 model already cached — skipping download
+>> held-out eval prompt seed: a33701601cc91aea
+RESULT_JSON {"commit": "8868b7c", "tps": 277.98, "top1": 0.9823, "kl": 0.0154, "frontier_tps": 254.72, "label": "M", "delta_tps": 23.26, "pct_over_frontier": 9.1, "pct_of_llama": 8.4, "pct_of_ceiling": 100.7, "effective_pct": 8.4, "pass": true, "clocks_pinned": false, "clock_mhz": "0", "clock_spread_mhz": "0", "pin_target_mhz": "", "eval_seed": "a33701601cc91aea", "model_sha_pinned": true, "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176", "eval_mode": "longctx", "decode_tokens": 128, "score_context": 128, "best_context_label": "128-context", "context_gains_pct": {"128-context": 9.13, "512-context": 8.8, "4k-context": 8.31}, "regression_labels": [], "guard_context": 0, "ctx_128_tps": 277.98, "ctx_512_tps": 274.03, "ctx_4096_tps": 258.85, "ctx_16384_tps": 0.0, "ctx_32768_tps": 0.0, "guard_128_baseline": 254.72, "guard_128_ratio": 1.0913, "guard_128_tol": 0.98, "guard_128_pass": true, "guard_512_baseline": 251.87, "guard_512_ratio": 1.088, "guard_512_tol": 0.98, "guard_512_pass": true, "guard_4k_baseline": 239.0, "guard_4k_ratio": 1.0831, "guard_4k_tol": 0.98, "guard_4k_pass": true, "guard_16k_baseline": 0.0, "guard_16k_ratio": 0.0, "guard_16k_tol": 0.98, "guard_16k_pass": true, "guard_32k_baseline": 0.0, "guard_32k_ratio": 0.0, "guard_32k_tol": 0.98, "guard_32k_pass": true, "model": "Qwen3.6-35B-A3B", "guard_model": "Qwen3-30B-A3B", "guard": {"pass": true, "top1": 0.9647, "kl": 0.015, "label": "none", "ctx_128_tps": 481.38, "ctx_512_tps": 458.09, "ctx_4096_tps": 385.21, "ctx_16384_tps": 326.97, "ctx_32768_tps": 254.61, "guard_128_pass": true, "guard_512_pass": true, "guard_4k_pass": true, "guard_16k_pass": true, "guard_32k_pass": true, "speed_ok": true, "accuracy_ok": true}}
+
+=== VERDICT ===
+{
+  "commit": "8868b7c",
+  "tps": 277.98,
+  "top1": 0.9823,
+  "kl": 0.0154,
+  "frontier_tps": 254.72,
+  "label": "M",
+  "delta_tps": 23.26,
+  "pct_over_frontier": 9.1,
+  "pct_of_llama": 8.4,
+  "pct_of_ceiling": 100.7,
+  "effective_pct": 8.4,
+  "pass": true,
+  "clocks_pinned": false,
+  "clock_mhz": "0",
+  "clock_spread_mhz": "0",
+  "pin_target_mhz": "",
+  "eval_seed": "a33701601cc91aea",
+  "model_sha_pinned": true,
+  "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176",
+  "eval_mode": "longctx",
+  "decode_tokens": 128,
+  "score_context": 128,
+  "best_context_label": "128-context",
+  "context_gains_pct": {
+    "128-context": 9.13,
+    "512-context": 8.8,
+    "4k-context": 8.31
+  },
+  "regression_labels": [],
+  "guard_context": 0,
+  "ctx_128_tps": 277.98,
+  "ctx_512_tps": 274.03,
+  "ctx_4096_tps": 258.85,
+  "ctx_16384_tps": 0.0,
+  "ctx_32768_tps": 0.0,
+  "guard_128_baseline": 254.72,
+  "guard_128_ratio": 1.0913,
+  "guard_128_tol": 0.98,
+  "guard_128_pass": true,
+  "guard_512_baseline": 251.87,
+  "guard_512_ratio": 1.088,
+  "guard_512_tol": 0.98,
+  "guard_512_pass": true,
+  "guard_4k_baseline": 239.0,
+  "guard_4k_ratio": 1.0831,
+  "guard_4k_tol": 0.98,
+  "guard_4k_pass": true,
+  "guard_16k_baseline": 0.0,
+  "guard_16k_ratio": 0.0,
+  "guard_16k_tol": 0.98,
+  "guard_16k_pass": true,
+  "guard_32k_baseline": 0.0,
+  "guard_32k_ratio": 0.0,
+  "guard_32k_tol": 0.98,
+  "guard_32k_pass": true,
+  "model": "Qwen3.6-35B-A3B",
+  "guard_model": "Qwen3-30B-A3B",
+  "guard": {
+    "pass": true,
+    "top1": 0.9647,
+    "kl": 0.015,
+    "label": "none",
+    "ctx_128_tps": 481.38,
+    "ctx_512_tps": 458.09,
+    "ctx_4096_tps": 385.21,
+    "ctx_16384_tps": 326.97,
+    "ctx_32768_tps": 254.61,
+    "guard_128_pass": true,
+    "guard_512_pass": true,
+    "guard_4k_pass": true,
+    "guard_16k_pass": true,
+    "guard_32k_pass": true,
+    "speed_ok": true,
+    "accuracy_ok": true
+  }
+}
+>> leaving instance 43843591 running (--keep)
