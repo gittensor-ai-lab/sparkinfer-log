@@ -548,6 +548,16 @@
     "date": "2026-07-06"
   },
   {
+    "id": "0243-d55934d",
+    "pr": 243,
+    "title": "perf(moe): int8 dp4a MMVQ for the Q5_K expert down projection (+6.6% Qwen3.6 decode)",
+    "label": "M",
+    "delta_pct": 8.5,
+    "tps": 276.26,
+    "score_context": 128,
+    "date": "2026-07-06"
+  },
+  {
     "id": "0260-2f143a3",
     "pr": 260,
     "title": "perf(moe): Q5_K fp split-K Qwen specialization + gate_up F=512 dispatch (+4.0% Qwen3.6 decode)",
