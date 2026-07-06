@@ -436,5 +436,15 @@
     "tps": 178.74,
     "score_context": 4096,
     "date": "2026-07-06"
+  },
+  {
+    "id": "0237-e490d89",
+    "pr": 237,
+    "title": "perf(qwen3.6): speed up GDN and overlap decode work",
+    "label": "none",
+    "delta_pct": 0.0,
+    "tps": 261.31,
+    "score_context": 128,
+    "date": "2026-07-06"
   }
 ]
