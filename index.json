@@ -498,6 +498,16 @@
     "date": "2026-07-06"
   },
   {
+    "id": "0240-52b7b5e",
+    "pr": 240,
+    "title": "perf(qwen3.6): fast Gated-DeltaNet AR kernel + conv/L2-norm and shared-expert GEMV fusions",
+    "label": "XS",
+    "delta_pct": 3.4,
+    "tps": 230.47,
+    "score_context": 512,
+    "date": "2026-07-06"
+  },
+  {
     "id": "0240-d888f45",
     "pr": 240,
     "title": "perf(qwen3.6): fast Gated-DeltaNet AR kernel + conv/L2-norm and shared-expert GEMV fusions",
