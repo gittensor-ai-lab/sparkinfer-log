@@ -606,5 +606,15 @@
     "tps": 252.23,
     "score_context": 512,
     "date": "2026-07-06"
+  },
+  {
+    "id": "0267-c42844c",
+    "pr": 267,
+    "title": "perf(moe): Q5_K fp split-K Qwen specialization + gate_up F=512 dispatch (+4.3% Qwen3.6 decode)",
+    "label": "M",
+    "delta_pct": 9.4,
+    "tps": 278.76,
+    "score_context": 128,
+    "date": "2026-07-06"
   }
 ]
