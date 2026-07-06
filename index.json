@@ -446,5 +446,15 @@
     "tps": 261.31,
     "score_context": 128,
     "date": "2026-07-06"
+  },
+  {
+    "id": "0239-cd383fb",
+    "pr": 239,
+    "title": "perf(qwen3.6): fuse decode kernel launches \u2014 shared-expert + GDN conv/L2-norm",
+    "label": "REJECT",
+    "delta_pct": -30.9,
+    "tps": 168.76,
+    "score_context": 4096,
+    "date": "2026-07-06"
   }
 ]
