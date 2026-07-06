@@ -526,5 +526,15 @@
     "tps": 168.94,
     "score_context": 4096,
     "date": "2026-07-06"
+  },
+  {
+    "id": "0264-8e9a2bd",
+    "pr": 264,
+    "title": "perf(gemv): Q8_0 on-read GEMV for dense projections (+12% Qwen3.6 dec\u2026",
+    "label": "REJECT",
+    "delta_pct": -15.8,
+    "tps": 178.77,
+    "score_context": 4096,
+    "date": "2026-07-06"
   }
 ]
