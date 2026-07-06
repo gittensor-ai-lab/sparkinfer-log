@@ -431,10 +431,10 @@
     "id": "0234-511c10e",
     "pr": 234,
     "title": "perf(qwen3.6): Q8_0 on-read GEMV for dense projections (+8.9% decode, 128/512/4k)",
-    "label": "XL",
-    "delta_pct": 708.8,
-    "tps": 187.81,
-    "score_context": 128,
+    "label": "REJECT",
+    "delta_pct": -26.9,
+    "tps": 178.74,
+    "score_context": 4096,
     "date": "2026-07-06"
   }
 ]
