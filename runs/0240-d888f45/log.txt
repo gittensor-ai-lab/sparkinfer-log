@@ -1,0 +1,90 @@
+>> vast funds: $6.62 (balance + credit)
+>> instance 43843591: ssh root@<ip>:40791
+>> HF token configured on box (authenticated model downloads)
+>> model already cached — skipping download
+>> Qwen3.6 model already cached — skipping download
+>> held-out eval prompt seed: 3e69e17a93a93b59
+RESULT_JSON {"commit": "d888f45", "tps": 219.36, "top1": 0.9727, "kl": 0.0174, "frontier_tps": 244.35, "label": "REJECT", "pass": false, "reason": "128-token decode no-regression gate: 232.74 tok/s < 98% of main 261.30 tok/s; 512-context decode no-regression gate: 230.54 tok/s < 98% of main 258.18 tok/s; 4k-context decode no-regression gate: 219.36 tok/s < 98% of main 244.35 tok/s", "auto_close": true, "delta_tps": -24.99, "pct_over_frontier": -10.2, "clocks_pinned": false, "clock_mhz": "0", "clock_spread_mhz": "0", "pin_target_mhz": "", "eval_seed": "3e69e17a93a93b59", "model_sha_pinned": true, "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176", "eval_mode": "longctx", "decode_tokens": 128, "score_context": 4096, "best_context_label": "4k-context", "context_gains_pct": {"128-context": -10.93, "512-context": -10.71, "4k-context": -10.23}, "regression_labels": ["regression-128", "regression-512", "regression-4k"], "guard_context": 0, "ctx_128_tps": 232.74, "ctx_512_tps": 230.54, "ctx_4096_tps": 219.36, "ctx_16384_tps": 0.0, "ctx_32768_tps": 0.0, "guard_128_baseline": 261.3, "guard_128_ratio": 0.8907, "guard_128_tol": 0.98, "guard_128_pass": false, "guard_512_baseline": 258.18, "guard_512_ratio": 0.8929, "guard_512_tol": 0.98, "guard_512_pass": false, "guard_4k_baseline": 244.35, "guard_4k_ratio": 0.8977, "guard_4k_tol": 0.98, "guard_4k_pass": false, "guard_16k_baseline": 0.0, "guard_16k_ratio": 0.0, "guard_16k_tol": 0.98, "guard_16k_pass": true, "guard_32k_baseline": 0.0, "guard_32k_ratio": 0.0, "guard_32k_tol": 0.98, "guard_32k_pass": true, "model": "Qwen3.6-35B-A3B", "guard_model": "Qwen3-30B-A3B", "guard": {"pass": true, "top1": 0.9485, "kl": 0.0237, "label": "none", "ctx_128_tps": 498.27, "ctx_512_tps": 473.18, "ctx_4096_tps": 394.9, "ctx_16384_tps": 331.6, "ctx_32768_tps": 261.9, "guard_128_pass": true, "guard_512_pass": true, "guard_4k_pass": true, "guard_16k_pass": true, "guard_32k_pass": true, "speed_ok": true, "accuracy_ok": true}}
+
+=== VERDICT ===
+{
+  "commit": "d888f45",
+  "tps": 219.36,
+  "top1": 0.9727,
+  "kl": 0.0174,
+  "frontier_tps": 244.35,
+  "label": "REJECT",
+  "pass": false,
+  "reason": "128-token decode no-regression gate: 232.74 tok/s < 98% of main 261.30 tok/s; 512-context decode no-regression gate: 230.54 tok/s < 98% of main 258.18 tok/s; 4k-context decode no-regression gate: 219.36 tok/s < 98% of main 244.35 tok/s",
+  "auto_close": true,
+  "delta_tps": -24.99,
+  "pct_over_frontier": -10.2,
+  "clocks_pinned": false,
+  "clock_mhz": "0",
+  "clock_spread_mhz": "0",
+  "pin_target_mhz": "",
+  "eval_seed": "3e69e17a93a93b59",
+  "model_sha_pinned": true,
+  "llama_commit": "6f4f53f2b7da54fcdbbecaaa734337c337ad6176",
+  "eval_mode": "longctx",
+  "decode_tokens": 128,
+  "score_context": 4096,
+  "best_context_label": "4k-context",
+  "context_gains_pct": {
+    "128-context": -10.93,
+    "512-context": -10.71,
+    "4k-context": -10.23
+  },
+  "regression_labels": [
+    "regression-128",
+    "regression-512",
+    "regression-4k"
+  ],
+  "guard_context": 0,
+  "ctx_128_tps": 232.74,
+  "ctx_512_tps": 230.54,
+  "ctx_4096_tps": 219.36,
+  "ctx_16384_tps": 0.0,
+  "ctx_32768_tps": 0.0,
+  "guard_128_baseline": 261.3,
+  "guard_128_ratio": 0.8907,
+  "guard_128_tol": 0.98,
+  "guard_128_pass": false,
+  "guard_512_baseline": 258.18,
+  "guard_512_ratio": 0.8929,
+  "guard_512_tol": 0.98,
+  "guard_512_pass": false,
+  "guard_4k_baseline": 244.35,
+  "guard_4k_ratio": 0.8977,
+  "guard_4k_tol": 0.98,
+  "guard_4k_pass": false,
+  "guard_16k_baseline": 0.0,
+  "guard_16k_ratio": 0.0,
+  "guard_16k_tol": 0.98,
+  "guard_16k_pass": true,
+  "guard_32k_baseline": 0.0,
+  "guard_32k_ratio": 0.0,
+  "guard_32k_tol": 0.98,
+  "guard_32k_pass": true,
+  "model": "Qwen3.6-35B-A3B",
+  "guard_model": "Qwen3-30B-A3B",
+  "guard": {
+    "pass": true,
+    "top1": 0.9485,
+    "kl": 0.0237,
+    "label": "none",
+    "ctx_128_tps": 498.27,
+    "ctx_512_tps": 473.18,
+    "ctx_4096_tps": 394.9,
+    "ctx_16384_tps": 331.6,
+    "ctx_32768_tps": 261.9,
+    "guard_128_pass": true,
+    "guard_512_pass": true,
+    "guard_4k_pass": true,
+    "guard_16k_pass": true,
+    "guard_32k_pass": true,
+    "speed_ok": true,
+    "accuracy_ok": true
+  }
+}
+>> leaving instance 43843591 running (--keep)
