@@ -646,5 +646,15 @@
     "tps": 360.62,
     "score_context": 4096,
     "date": "2026-07-06"
+  },
+  {
+    "id": "0272-59dd212",
+    "pr": 272,
+    "title": "perf(decode): pack2 MMVQ for attention Q4_K Wq and O projections",
+    "label": "BASELINE",
+    "delta_pct": null,
+    "tps": 0.0,
+    "score_context": 16384,
+    "date": "2026-07-07"
   }
 ]
