@@ -568,6 +568,16 @@
     "date": "2026-07-06"
   },
   {
+    "id": "0245-8db5dcb",
+    "pr": 245,
+    "title": "perf(qwen3.6): requantize Q8_0 attention/GDN projections to Q6_K at load (+19.6% decode)",
+    "label": "BASELINE",
+    "delta_pct": null,
+    "tps": 0.0,
+    "score_context": 16384,
+    "date": "2026-07-07"
+  },
+  {
     "id": "0260-2f143a3",
     "pr": 260,
     "title": "perf(moe): Q5_K fp split-K Qwen specialization + gate_up F=512 dispatch (+4.0% Qwen3.6 decode)",
