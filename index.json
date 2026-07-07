@@ -656,5 +656,15 @@
     "tps": 0.0,
     "score_context": 16384,
     "date": "2026-07-07"
+  },
+  {
+    "id": "0273-7c889bb",
+    "pr": 273,
+    "title": "perf(qwen3.6): fused router GEMV+top-k + folded residual-norm (decode)",
+    "label": "BASELINE",
+    "delta_pct": null,
+    "tps": 0.0,
+    "score_context": 16384,
+    "date": "2026-07-07"
   }
 ]
