@@ -696,5 +696,15 @@
     "tps": 415.04,
     "score_context": 128,
     "date": "2026-07-09"
+  },
+  {
+    "id": "0284-c78e30f",
+    "pr": 284,
+    "title": "perf(qwen3.6): int8 KV + tensor-core flash-decode for the hd256 full-attn layers (long-context)",
+    "label": "M",
+    "delta_pct": 8.0,
+    "tps": 345.7,
+    "score_context": 32768,
+    "date": "2026-07-09"
   }
 ]
