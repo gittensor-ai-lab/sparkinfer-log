@@ -658,6 +658,16 @@
     "date": "2026-07-07"
   },
   {
+    "id": "0272-e39923b",
+    "pr": 272,
+    "title": "perf(decode): pack2 MMVQ for attention Q4_K Wq and O projections",
+    "label": "none",
+    "delta_pct": 0.2,
+    "tps": 413.26,
+    "score_context": 128,
+    "date": "2026-07-09"
+  },
+  {
     "id": "0273-7c889bb",
     "pr": 273,
     "title": "perf(qwen3.6): fused router GEMV+top-k + folded residual-norm (decode)",
