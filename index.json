@@ -686,5 +686,15 @@
     "tps": 427.05,
     "score_context": 128,
     "date": "2026-07-09"
+  },
+  {
+    "id": "0283-f2f973a",
+    "pr": 283,
+    "title": "perf(qwen3.6): fuse Q-gate + O-proj Q8_1 quantize into one launch",
+    "label": "none",
+    "delta_pct": 0.6,
+    "tps": 415.04,
+    "score_context": 128,
+    "date": "2026-07-09"
   }
 ]
