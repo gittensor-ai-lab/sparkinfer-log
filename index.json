@@ -676,5 +676,15 @@
     "tps": 401.69,
     "score_context": 128,
     "date": "2026-07-07"
+  },
+  {
+    "id": "0282-bb7a2f5",
+    "pr": 282,
+    "title": "perf(qwen3.6): fused router GEMV + bitonic top-k (grid-completion, decode)",
+    "label": "XL",
+    "delta_pct": 3.6,
+    "tps": 427.28,
+    "score_context": 128,
+    "date": "2026-07-09"
   }
 ]
