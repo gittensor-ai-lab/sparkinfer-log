@@ -775,12 +775,12 @@
     "id": "0323-ec3d7c9",
     "pr": 323,
     "title": "perf(qwen35): requantize dense FFN down Q6_K\u2192Q4_K at load (~5% Qwythos decode)",
-    "label": "none",
-    "delta_pct": -0.1,
-    "tps": 363.43,
-    "score_context": 32768,
+    "label": "S",
+    "delta_pct": 5.8,
+    "tps": 271.85,
+    "score_context": 128,
     "date": "2026-07-10",
     "polaris": true,
-    "polaris_receipt_id": "a6408c66e0db1b9f"
+    "polaris_receipt_id": "09e4375bf7c15aa7"
   }
 ]
