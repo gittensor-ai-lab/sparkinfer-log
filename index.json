@@ -1,5 +1,17 @@
 [
   {
+    "id": "0000-51467dd",
+    "pr": 0,
+    "title": "polaris-pipeline-check",
+    "label": "none",
+    "delta_pct": -0.1,
+    "tps": 385.58,
+    "score_context": 16384,
+    "date": "2026-07-10",
+    "polaris": true,
+    "polaris_receipt_id": "8dd8d6f26031092a"
+  },
+  {
     "id": "0051-d7824bf",
     "pr": 51,
     "title": "runtime: prompt-lookup speculative decoding for bs=1 MoE decode",
