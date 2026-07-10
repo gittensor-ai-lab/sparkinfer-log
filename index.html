@@ -112,7 +112,7 @@ async function renderRun(id){
   try{ attestation = await getJSON(`runs/${encodeURIComponent(id)}/attestation.json`); }catch(e){}
   const d = r.delta_pct, dl = r.delta_tps;
   const polarisPills = [
-    receipt ? `<a class="pill" href="runs/${esc(id)}/receipt.json" target="_blank">🔒 receipt.json</a>` : "",
+    receipt ? `<a class="pill" href="runs/${esc(id)}/receipt.json" target="_blank">🛡️ receipt.json</a>` : "",
     attestation ? `<a class="pill" href="runs/${esc(id)}/attestation.json" target="_blank">{ } attestation.json</a>` : "",
   ].filter(Boolean).join("");
   const polarisCard = receipt ? `
