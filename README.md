@@ -2,7 +2,8 @@
 
 Immutable, public **evaluation log** for [sparkinfer](https://github.com/gittensor-ai-lab/sparkinfer) (SN74).
 
-Every PR evaluation's raw `log.txt` + `result.json` is committed here — one directory per run under
+Every PR evaluation's raw `log.txt` + `result.json` (+ `receipt.json` / `attestation.json` when
+Polaris TDX attested) is committed here — one directory per run under
 [`runs/`](runs) — and rendered at a **unique URL** by the GitHub Pages viewer:
 
 - **Index:** https://gittensor-ai-lab.github.io/sparkinfer-log/

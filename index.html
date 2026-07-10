@@ -29,6 +29,7 @@
   .b.M{background:#8250DF22;color:#b794ff} .b.S{background:#B8860B22;color:#e0b341}
   .b.XS{background:#8A93A022;color:#9aa6b2} .b.none{background:#9AA6B222;color:#9aa6b2}
   .b.REJECT{background:#B6020522;color:#ff6b6b} .b.BASELINE{background:#0E8A1622;color:#37C871}
+  .b.polaris{background:#37C87122;color:#37C871}
   /* index table */
   table{width:100%;border-collapse:collapse;font-size:14px;border:1px solid var(--line);border-radius:12px;overflow:hidden}
   th,td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--line)}
@@ -64,7 +65,8 @@
 
 <footer class="wrap">
   Immutable, reproducible record of every sparkinfer SN74 evaluation.
-  Each run's raw <span class="mono">log.txt</span> + <span class="mono">result.json</span> are committed to this repo —
+  Each run's raw <span class="mono">log.txt</span> + <span class="mono">result.json</span>
+  (<span class="mono">receipt.json</span> when Polaris TDX attested) are committed to this repo —
   the page is just a view. <a href="https://github.com/gittensor-ai-lab/sparkinfer/blob/main/EVAL-TRUST.md" target="_blank">How to verify →</a>
 </footer>
 
@@ -77,14 +79,16 @@ async function getJSON(u){ const r=await fetch(u,{cache:"no-store"}); if(!r.ok) 
 async function getText(u){ const r=await fetch(u,{cache:"no-store"}); if(!r.ok) throw new Error(u); return r.text(); }
 
 function badge(l){ return `<span class="b ${esc(l)}">eval:${esc(l)}</span>`; }
+function polarisBadge(){ return `<span class="b polaris">TDX</span>`; }
 
 async function renderIndex(){
   let runs=[];
   try{ runs = await getJSON("index.json"); }catch(e){}
   runs.sort((a,b)=> (b.id>a.id?1:-1));
   const rows = runs.map(r=>`<tr>
+    <td class="mono"><a href="?run=${encodeURIComponent(r.id)}">${esc(r.id)}</a></td>
     <td><a href="?run=${encodeURIComponent(r.id)}">#${esc(r.pr)}</a></td>
-    <td>${badge(r.label)}</td>
+    <td>${badge(r.label)}${r.polaris?` ${polarisBadge()}`:""}</td>
     <td class="r">${r.delta_pct==null?"—":(r.delta_pct>0?"+":"")+esc(r.delta_pct)+"%"}</td>
     <td class="r">${esc(r.tps??"—")}</td>
     <td style="color:var(--body)">${esc((r.title||"").slice(0,52))}</td>
@@ -93,27 +97,47 @@ async function renderIndex(){
   $("#app").innerHTML = `
     <h1>Evaluation log</h1>
     <p class="sub">Every PR evaluation, recorded immutably. Same-box, warmed, accuracy-gated — <a href="https://github.com/gittensor-ai-lab/sparkinfer/blob/main/EVAL-TRUST.md" target="_blank">reproducible from source</a>.</p>
-    ${runs.length? `<table><thead><tr><th>PR</th><th>verdict</th><th class="r">Δ%</th><th class="r">tok/s</th><th>change</th><th>date</th></tr></thead><tbody>${rows}</tbody></table>`
+    ${runs.length? `<table><thead><tr><th>run</th><th>PR</th><th>verdict</th><th class="r">Δ%</th><th class="r">tok/s</th><th>change</th><th>date</th></tr></thead><tbody>${rows}</tbody></table>`
       : `<div class="loading">No runs recorded yet.</div>`}`;
   document.title = "sparkinfer · eval log";
 }
 
 async function renderRun(id){
   $("#app").innerHTML = `<div class="loading mono">loading run ${esc(id)}…</div>`;
-  let r, log="";
-  try{ r = await getJSON(`runs/${id}/result.json`); }
+  let r, log="", receipt=null, attestation=null;
+  try{ r = await getJSON(`runs/${encodeURIComponent(id)}/result.json`); }
   catch(e){ $("#app").innerHTML = `<a class="back" href="./">← all runs</a><div class="card">Run <span class="mono">${esc(id)}</span> not found.</div>`; return; }
-  try{ log = await getText(`runs/${id}/log.txt`); }catch(e){ log="(log unavailable)"; }
+  try{ log = await getText(`runs/${encodeURIComponent(id)}/log.txt`); }catch(e){ log="(log unavailable)"; }
+  try{ receipt = await getJSON(`runs/${encodeURIComponent(id)}/receipt.json`); }catch(e){}
+  try{ attestation = await getJSON(`runs/${encodeURIComponent(id)}/attestation.json`); }catch(e){}
   const d = r.delta_pct, dl = r.delta_tps;
-  $("#app").innerHTML = `
+  const polarisPills = [
+    receipt ? `<a class="pill" href="runs/${esc(id)}/receipt.json" target="_blank">🔒 receipt.json</a>` : "",
+    attestation ? `<a class="pill" href="runs/${esc(id)}/attestation.json" target="_blank">{ } attestation.json</a>` : "",
+  ].filter(Boolean).join("");
+  const polarisCard = receipt ? `
+    <div class="card" style="margin-top:0;margin-bottom:22px;border-color:#37C87144">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <h2 style="margin:0">Polaris TDX receipt</h2>${polarisBadge()}
+      </div>
+      <div class="kv">
+        <div><div class="k">receipt id</div><div class="v" style="font-size:12px">${esc(receipt.receipt_id||"—")}</div></div>
+        <div><div class="k">intel verified</div><div class="v">${esc(receipt?.attestation?.verification?.intel_verified ?? receipt?.verification?.intel_verified ?? "—")}</div></div>
+        <div><div class="k">verdict</div><div class="v">${esc(receipt?.attestation?.verdict?.label ?? receipt?.verdict?.label ?? "—")}</div></div>
+      </div>
+      <div class="note">Signed in Intel TDX — verify offline with <code>python3 eval/polaris/verify.py receipt.json</code>. <a href="https://github.com/gittensor-ai-lab/sparkinfer/blob/main/docs/polaris.md" target="_blank">Polaris docs →</a></div>
+      ${polarisPills?`<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px">${polarisPills}</div>`:""}
+    </div>` : "";
+  const app = document.getElementById("app");
+  app.innerHTML = `
     <a class="back" href="./">← all runs</a>
     <div class="card">
       <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:14px;flex-wrap:wrap">
-        <div><h2>PR #${esc(r.pr)}</h2>
+        <div><h2>PR #${esc(r.pr)} <span class="mono" style="font-size:14px;color:var(--muted)">${esc(id)}</span></h2>
           <div style="color:var(--body);font-size:14.5px;margin-top:5px">${esc(r.title||"")}</div>
           ${r.url?`<a href="${esc(r.url)}" target="_blank" style="font-size:13px">${esc(r.url)} ↗</a>`:""}
         </div>
-        <div>${badge(r.label)}</div>
+        <div>${badge(r.label)}${r.polaris||receipt?` ${polarisBadge()}`:""}</div>
       </div>
       <div class="kv">
         <div><div class="k">decode (this PR)</div><div class="v">${esc(r.tps??"—")} tok/s</div></div>
@@ -132,8 +156,11 @@ async function renderRun(id){
         ${r.url?`<a class="pill" href="${esc(r.url)}" target="_blank">↗ the PR</a>`:""}
       </div>
     </div>
-    <h2 style="margin-bottom:12px">Evaluation log</h2>
-    <pre>${esc(log)}</pre>`;
+    ${polarisCard}
+    <h2 style="margin-bottom:12px">Evaluation log</h2>`;
+  const pre = document.createElement("pre");
+  pre.textContent = log;
+  app.appendChild(pre);
   document.title = `#${r.pr} eval:${r.label} · sparkinfer log`;
 }
 
