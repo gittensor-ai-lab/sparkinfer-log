@@ -806,5 +806,17 @@
     "date": "2026-07-10",
     "polaris": true,
     "polaris_receipt_id": "09e4375bf7c15aa7"
+  },
+  {
+    "id": "0324-ecad70b",
+    "pr": 324,
+    "title": "perf(qwen35): tune dense split-K and int8 graph capture",
+    "label": "M",
+    "delta_pct": 9.4,
+    "tps": 281.63,
+    "score_context": 128,
+    "date": "2026-07-10",
+    "polaris": true,
+    "polaris_receipt_id": "a18b3bd817b823f3"
   }
 ]
