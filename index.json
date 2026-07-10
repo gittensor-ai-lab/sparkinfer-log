@@ -748,5 +748,17 @@
     "tps": 0,
     "score_context": null,
     "date": "2026-07-09"
+  },
+  {
+    "id": "0294-06a3b7f",
+    "pr": 294,
+    "title": "perf: Qwen3.6 +36 tok/s @12k, Qwythos 264 tok/s (beats llama.cpp 225)",
+    "label": "REJECT",
+    "delta_pct": 1.9,
+    "tps": 393.04,
+    "score_context": 16384,
+    "date": "2026-07-10",
+    "polaris": true,
+    "polaris_receipt_id": "25532e6afc7e46f2"
   }
 ]
