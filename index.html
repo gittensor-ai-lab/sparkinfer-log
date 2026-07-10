@@ -122,7 +122,12 @@ async function renderRun(id){
       </div>
       <div class="kv">
         <div><div class="k">receipt id</div><div class="v" style="font-size:12px">${esc(receipt.receipt_id||"—")}</div></div>
-        <div><div class="k">intel verified</div><div class="v">${esc(receipt?.attestation?.verification?.intel_verified ?? receipt?.verification?.intel_verified ?? "—")}</div></div>
+        <div><div class="k">intel verified</div><div class="v">${(() => {
+          const v = receipt?.tdx?.verification?.intel_verified ?? receipt?.verification?.intel_verified;
+          if (v === true) return `<span style="color:var(--green)">yes</span>`;
+          if (v === false) return `<span style="color:#ff6b6b">no</span>`;
+          return "—";
+        })()}</div></div>
         <div><div class="k">verdict</div><div class="v">${esc(receipt?.attestation?.verdict?.label ?? receipt?.verdict?.label ?? "—")}</div></div>
       </div>
       <div class="note">Signed in Intel TDX — verify offline with <code>python3 eval/polaris/verify.py receipt.json</code>. <a href="https://github.com/gittensor-ai-lab/sparkinfer/blob/main/docs/polaris.md" target="_blank">Polaris docs →</a></div>
