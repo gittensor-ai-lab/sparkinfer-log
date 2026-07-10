@@ -854,5 +854,15 @@
     "date": "2026-07-10",
     "polaris": true,
     "polaris_receipt_id": "cc44cc0e5a67b18f"
+  },
+  {
+    "id": "0331-9dac26a",
+    "pr": 331,
+    "title": "perf(moe): complete gate_up->quant_h->down PDL chain for bs=1 decode",
+    "label": "S",
+    "delta_pct": 3.5,
+    "tps": 365.46,
+    "score_context": 32768,
+    "date": "2026-07-10"
   }
 ]
