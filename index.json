@@ -818,5 +818,17 @@
     "date": "2026-07-10",
     "polaris": true,
     "polaris_receipt_id": "a18b3bd817b823f3"
+  },
+  {
+    "id": "0327-833fda1",
+    "pr": 327,
+    "title": "perf(attn): GQA-4 shared-KV tile for Qwythos hd256 full-attn decode (+2.4% @4k)",
+    "label": "XS",
+    "delta_pct": 3.7,
+    "tps": 261.97,
+    "score_context": 4096,
+    "date": "2026-07-10",
+    "polaris": true,
+    "polaris_receipt_id": "cc44cc0e5a67b18f"
   }
 ]
