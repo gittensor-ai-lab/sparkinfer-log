@@ -784,6 +784,18 @@
     "date": "2026-07-10"
   },
   {
+    "id": "0318-99a48b6",
+    "pr": 318,
+    "title": "perf: quantized dense FFN + GDN fusions + hd256 32k combine",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 367.04,
+    "score_context": 32768,
+    "date": "2026-07-10",
+    "polaris": true,
+    "polaris_receipt_id": "247ef62f151f6710"
+  },
+  {
     "id": "0323-ec3d7c9",
     "pr": 323,
     "title": "perf(qwen35): requantize dense FFN down Q6_K\u2192Q4_K at load (~5% Qwythos decode)",
