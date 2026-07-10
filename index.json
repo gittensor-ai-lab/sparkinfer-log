@@ -760,5 +760,15 @@
     "date": "2026-07-10",
     "polaris": true,
     "polaris_receipt_id": "25532e6afc7e46f2"
+  },
+  {
+    "id": "0318-560345c",
+    "pr": 318,
+    "title": "perf: quantized dense FFN + GDN fusions + hd256 32k combine",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 363.07,
+    "score_context": 32768,
+    "date": "2026-07-10"
   }
 ]
