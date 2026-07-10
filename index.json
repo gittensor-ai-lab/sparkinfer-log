@@ -774,6 +774,18 @@
     "polaris_receipt_id": "0fb16ab5f47ecff5"
   },
   {
+    "id": "0294-f9065a6",
+    "pr": 294,
+    "title": "perf: Qwen3.6 +36 tok/s @12k, Qwythos 264 tok/s (beats llama.cpp 225)",
+    "label": "REJECT",
+    "delta_pct": 5.1,
+    "tps": 370.91,
+    "score_context": 32768,
+    "date": "2026-07-10",
+    "polaris": true,
+    "polaris_receipt_id": "3dfc54cb7104c57a"
+  },
+  {
     "id": "0318-560345c",
     "pr": 318,
     "title": "perf: quantized dense FFN + GDN fusions + hd256 32k combine",
