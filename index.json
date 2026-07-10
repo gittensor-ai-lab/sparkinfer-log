@@ -796,6 +796,18 @@
     "polaris_receipt_id": "247ef62f151f6710"
   },
   {
+    "id": "0318-c91f381",
+    "pr": 318,
+    "title": "perf: GDN H=4096 + dense FFN fuse + hd256 32k combine (rebased)",
+    "label": "M",
+    "delta_pct": 5.7,
+    "tps": 281.19,
+    "score_context": 512,
+    "date": "2026-07-10",
+    "polaris": true,
+    "polaris_receipt_id": "7310dd223899b465"
+  },
+  {
     "id": "0323-ec3d7c9",
     "pr": 323,
     "title": "perf(qwen35): requantize dense FFN down Q6_K\u2192Q4_K at load (~5% Qwythos decode)",
