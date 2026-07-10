@@ -859,10 +859,10 @@
     "id": "0331-9dac26a",
     "pr": 331,
     "title": "perf(moe): complete gate_up->quant_h->down PDL chain for bs=1 decode",
-    "label": "S",
+    "label": "XS",
     "delta_pct": 3.5,
-    "tps": 365.46,
+    "tps": 365.49,
     "score_context": 32768,
-    "date": "2026-07-10"
+    "date": "2026-07-11"
   }
 ]
