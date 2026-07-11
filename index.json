@@ -874,5 +874,15 @@
     "tps": 365.49,
     "score_context": 32768,
     "date": "2026-07-11"
+  },
+  {
+    "id": "0345-0954339",
+    "pr": 345,
+    "title": "perf(attn): grid-target KV-split cap for int8-MMA long-context decode",
+    "label": "none",
+    "delta_pct": -0.5,
+    "tps": 425.22,
+    "score_context": 128,
+    "date": "2026-07-11"
   }
 ]
