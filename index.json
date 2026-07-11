@@ -777,9 +777,9 @@
     "id": "0294-a36d27d",
     "pr": 294,
     "title": "perf(qwen36): rebased decode fuses on main (+10.4 tok/s @16k, +5.2% @12k)",
-    "label": "S",
-    "delta_pct": 3.8,
-    "tps": 367.82,
+    "label": "REJECT",
+    "delta_pct": 3.9,
+    "tps": 367.72,
     "score_context": 32768,
     "date": "2026-07-11"
   },
