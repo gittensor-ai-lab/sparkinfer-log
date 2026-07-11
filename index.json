@@ -886,6 +886,16 @@
     "date": "2026-07-11"
   },
   {
+    "id": "0338-844c415",
+    "pr": 338,
+    "title": "perf(qwen36): hd256/GQA-8 occupancy-corrected KV-split count (+2.8-5.1% @8k-32k)",
+    "label": "S",
+    "delta_pct": 4.9,
+    "tps": 372.04,
+    "score_context": 32768,
+    "date": "2026-07-11"
+  },
+  {
     "id": "0338-8a6de37",
     "pr": 338,
     "title": "perf(qwen36): hd256/GQA-8 occupancy-corrected KV-split count (+2.8-5.1% @8k-32k)",
