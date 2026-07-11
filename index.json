@@ -866,6 +866,16 @@
     "polaris_receipt_id": "cc44cc0e5a67b18f"
   },
   {
+    "id": "0329-47f2e8e",
+    "pr": 329,
+    "title": "perf(qwen35): Q4_K requant for Qwythos Q6 decode reads",
+    "label": "M",
+    "delta_pct": 7.1,
+    "tps": 303.18,
+    "score_context": 128,
+    "date": "2026-07-11"
+  },
+  {
     "id": "0331-9dac26a",
     "pr": 331,
     "title": "perf(moe): complete gate_up->quant_h->down PDL chain for bs=1 decode",
