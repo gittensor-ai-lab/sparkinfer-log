@@ -928,6 +928,18 @@
     "date": "2026-07-11"
   },
   {
+    "id": "0345-911e280",
+    "pr": 345,
+    "title": "perf(attn): grid-target KV-split cap for int8-MMA long-context decode",
+    "label": "none",
+    "delta_pct": 0.1,
+    "tps": 412.32,
+    "score_context": 128,
+    "date": "2026-07-12",
+    "polaris": true,
+    "polaris_receipt_id": "e43a441cba58062c"
+  },
+  {
     "id": "0350-f8f0534",
     "pr": 350,
     "title": "perf(qwen36): opt-in Q8\u2192Q4 requant reward profile (~+6.3% @512)",
