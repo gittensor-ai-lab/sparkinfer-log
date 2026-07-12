@@ -784,6 +784,18 @@
     "date": "2026-07-11"
   },
   {
+    "id": "0294-cf2fd83",
+    "pr": 294,
+    "title": "perf(qwen36): decode fuses + FAGQA4 restore (+3.5% @32k vs current main)",
+    "label": "S",
+    "delta_pct": 3.7,
+    "tps": 382.25,
+    "score_context": 32768,
+    "date": "2026-07-12",
+    "polaris": true,
+    "polaris_receipt_id": "3d11e2405d91d16e"
+  },
+  {
     "id": "0294-f9065a6",
     "pr": 294,
     "title": "perf: Qwen3.6 +36 tok/s @12k, Qwythos 264 tok/s (beats llama.cpp 225)",
