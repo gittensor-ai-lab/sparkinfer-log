@@ -950,5 +950,15 @@
     "date": "2026-07-12",
     "polaris": true,
     "polaris_receipt_id": "179e7d450601d0e9"
+  },
+  {
+    "id": "0353-d1192b3",
+    "pr": 353,
+    "title": "perf(qwen36): Q8_0\u2192Q4_K requant of full-attention q/o projections",
+    "label": "XL",
+    "delta_pct": 3.7,
+    "tps": 427.54,
+    "score_context": 128,
+    "date": "2026-07-12"
   }
 ]
