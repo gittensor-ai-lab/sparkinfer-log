@@ -926,5 +926,17 @@
     "tps": 425.22,
     "score_context": 128,
     "date": "2026-07-11"
+  },
+  {
+    "id": "0350-f8f0534",
+    "pr": 350,
+    "title": "perf(qwen36): opt-in Q8\u2192Q4 requant reward profile (~+6.3% @512)",
+    "label": "REJECT",
+    "delta_pct": 0.4,
+    "tps": 414.62,
+    "score_context": 128,
+    "date": "2026-07-12",
+    "polaris": true,
+    "polaris_receipt_id": "179e7d450601d0e9"
   }
 ]
