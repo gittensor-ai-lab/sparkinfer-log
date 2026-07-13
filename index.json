@@ -650,6 +650,16 @@
     "date": "2026-07-06"
   },
   {
+    "id": "0267-e36ea94",
+    "pr": 267,
+    "title": "perf(qwen36): Q8_0\u2192Q4_K requant of GDN input projections (attn_qkv + attn_gate) (+11.5% @128)",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 456.42,
+    "score_context": 512,
+    "date": "2026-07-13"
+  },
+  {
     "id": "0269-54558d5",
     "pr": 269,
     "title": "perf(gemv): Q8_0 on-read GEMV with split-K for native Q8_0 projection\u2026",
