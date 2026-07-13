@@ -650,6 +650,18 @@
     "date": "2026-07-06"
   },
   {
+    "id": "0267-ca7028c",
+    "pr": 267,
+    "title": "perf(qwen36): Q8_0\u2192Q4_K requant of GDN input projections (attn_qkv + attn_gate) (+11.5% @128)",
+    "label": "XL",
+    "delta_pct": 11.0,
+    "tps": 456.42,
+    "score_context": 512,
+    "date": "2026-07-13",
+    "polaris": true,
+    "polaris_receipt_id": "f6e61cd0534f2779"
+  },
+  {
     "id": "0267-e36ea94",
     "pr": 267,
     "title": "perf(qwen36): Q8_0\u2192Q4_K requant of GDN input projections (attn_qkv + attn_gate) (+11.5% @128)",
