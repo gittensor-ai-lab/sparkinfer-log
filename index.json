@@ -1016,5 +1016,17 @@
     "tps": 399.17,
     "score_context": 32768,
     "date": "2026-07-13"
+  },
+  {
+    "id": "0363-99d1f3c",
+    "pr": 363,
+    "title": "perf(qwen36): shared-expert pack2 + gate/up->quant->down PDL chain",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 426.04,
+    "score_context": 32768,
+    "date": "2026-07-13",
+    "polaris": true,
+    "polaris_receipt_id": "6f3b9b812829a66d"
   }
 ]
