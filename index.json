@@ -982,5 +982,17 @@
     "tps": 427.54,
     "score_context": 128,
     "date": "2026-07-12"
+  },
+  {
+    "id": "0355-e05a38a",
+    "pr": 355,
+    "title": "perf(qwen36): Q8_0\u2192Q4_K requant of GDN ssm_out projections (+2.8% @128)",
+    "label": "M",
+    "delta_pct": 3.0,
+    "tps": 423.38,
+    "score_context": 512,
+    "date": "2026-07-13",
+    "polaris": true,
+    "polaris_receipt_id": "8ac9aa5e216ede9c"
   }
 ]
