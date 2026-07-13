@@ -1028,5 +1028,17 @@
     "date": "2026-07-13",
     "polaris": true,
     "polaris_receipt_id": "6f3b9b812829a66d"
+  },
+  {
+    "id": "0366-6d8ccd0",
+    "pr": 366,
+    "title": "perf(qwythos): GQA-4 int8 MMA flash-decode + tiered KV splits (+4% @64k)",
+    "label": "L",
+    "delta_pct": 7.0,
+    "tps": 257.61,
+    "score_context": 32768,
+    "date": "2026-07-13",
+    "polaris": true,
+    "polaris_receipt_id": "99fd979071d8bbee"
   }
 ]
