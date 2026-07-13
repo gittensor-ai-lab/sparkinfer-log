@@ -994,5 +994,17 @@
     "date": "2026-07-13",
     "polaris": true,
     "polaris_receipt_id": "8ac9aa5e216ede9c"
+  },
+  {
+    "id": "0359-231a487",
+    "pr": 359,
+    "title": "perf(qwen36): Q4_K shared-expert FFN kernels + Q8_0/Q5_K\u2192Q4_K requant of the MoE FFN stage (+2.8\u20133.2%)",
+    "label": "REJECT",
+    "delta_pct": -6.4,
+    "tps": 399.68,
+    "score_context": 32768,
+    "date": "2026-07-13",
+    "polaris": true,
+    "polaris_receipt_id": "9507c647303940b4"
   }
 ]
