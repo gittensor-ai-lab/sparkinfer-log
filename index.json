@@ -1018,6 +1018,16 @@
     "date": "2026-07-13"
   },
   {
+    "id": "0363-5dd398c",
+    "pr": 363,
+    "title": "perf(qwen36): tune hd256 combine for 160-split long-context decode",
+    "label": "none",
+    "delta_pct": 0.4,
+    "tps": 428.64,
+    "score_context": 32768,
+    "date": "2026-07-13"
+  },
+  {
     "id": "0363-99d1f3c",
     "pr": 363,
     "title": "perf(qwen36): shared-expert pack2 + gate/up->quant->down PDL chain",
