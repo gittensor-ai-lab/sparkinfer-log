@@ -1064,6 +1064,18 @@
     "polaris_receipt_id": "99fd979071d8bbee"
   },
   {
+    "id": "0379-db34f90",
+    "pr": 379,
+    "title": "perf(attn): sink + sliding-window sparse KV for Qwythos long decode",
+    "label": "XL",
+    "delta_pct": 46.8,
+    "tps": 283.28,
+    "score_context": 131072,
+    "date": "2026-07-14",
+    "polaris": true,
+    "polaris_receipt_id": "98c2395badd27ead"
+  },
+  {
     "id": "0379-df74674",
     "pr": 379,
     "title": "perf(attn): sink + sliding-window sparse KV for Qwythos long decode",
