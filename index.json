@@ -1190,6 +1190,16 @@
     "polaris_receipt_id": "247ef62f151f6710"
   },
   {
+    "id": "0398-e73885f",
+    "pr": 398,
+    "title": "perf(qwen35): batched prompt prefill for Qwythos (one weight-amortized GEMM pass)",
+    "label": "REJECT",
+    "delta_pct": 0.1,
+    "tps": 283.41,
+    "score_context": 65536,
+    "date": "2026-07-16"
+  },
+  {
     "id": "0403-ccf35db",
     "pr": 403,
     "title": "perf(qwen36): specialize fixed-shape decode kernels",
