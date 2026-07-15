@@ -1010,10 +1010,12 @@
     "pr": 355,
     "title": "perf(qwen36): Q8_0\u2192Q4_K requant of GDN ssm_out projections (+2.8% @128)",
     "label": "REJECT",
-    "delta_pct": null,
-    "tps": 479.89,
+    "delta_pct": 3.2,
+    "tps": 480.18,
     "score_context": 128,
-    "date": "2026-07-15"
+    "date": "2026-07-15",
+    "polaris": true,
+    "polaris_receipt_id": "1941029b66c644b7"
   },
   {
     "id": "0355-e05a38a",
