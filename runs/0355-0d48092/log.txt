@@ -1,0 +1,56 @@
+>> bare-metal eval box: ssh root@<ip>:57696
+>> HF token configured on box (authenticated model downloads)
+>> Qwen3.6 model already cached — skipping download
+>> Qwythos model (Q4_K_M) already cached — skipping download
+>> held-out eval prompt seed: 1f0e36ffa3860ffa
+>> WARN: warm_llamacpp failed — eval will retry inline
+bash: bench/scripts/warm_llamacpp.sh: No such file or directory
+RESULT_JSON {"commit": "0d48092", "tps": 0, "top1": 0, "kl": 99, "frontier_tps": 0, "label": "REJECT", "reason": "build failed (does not compile)", "pass": false, "mode": "bidir"}
+POLARIS_ATTESTATION {"code":{"repo":"https://github.com/gittensor-ai-lab/sparkinfer","commit":"0d480924d50199e30867709b6d4e66819c4632d3","build_hash":"","scoring_scripts_commit":"399edc3afa3732c2f7c3d69ab84865ba8c436ddc"},"references":{"model_sha256":"ac0e2c1189e055faa36eff361580e79c5bd6f8e76bffb4ce547f167d53e31a61","model_file":"Qwen3.6-35B-A3B-UD-Q4_K_M.gguf","guard_model_sha256":"5c09e7f207d2fd9069c802ff77632fa7cdaffe7fb5ba40ff9f060aaeaa09acd5","guard_model_file":"Qwythos-9B-Claude-Mythos-5-1M-Q4_K_M.gguf","llamacpp_commit":"","eval_seed":""},"environment":{"eval_mode":"longctx","decode_tokens":128,"gpu_name":"NVIDIA GeForce RTX 5090","gpu_arch":"sm_120","clocks_pinned":false,"clock_mhz":0,"clock_spread_mhz":0,"pin_target_mhz":0,"cuda_version":"","driver_version":"580.95.05"},"measurements":{"primary":{"model":"","model_sha256":"","ctx_128_tps":null,"ctx_512_tps":null,"ctx_4096_tps":null,"ctx_16384_tps":null,"ctx_32768_tps":null,"top1":0.0,"kl":99.0,"guard_128_baseline":null,"guard_128_ratio":null,"guard_128_pass":true,"guard_512_baseline":null,"guard_512_ratio":null,"guard_512_pass":true,"guard_4k_baseline":null,"guard_4k_ratio":null,"guard_4k_pass":true,"guard_16k_baseline":null,"guard_16k_ratio":null,"guard_16k_pass":true,"guard_32k_baseline":null,"guard_32k_ratio":null,"guard_32k_pass":true}},"verdict":{"model":"","label":"REJECT","pass":false,"tps":0.0,"delta_tps":null,"pct_over_frontier":null,"score_context":null,"best_context_label":"","context_gains_pct":{},"regression_labels":[],"guard_regression_labels":[],"reason":"build failed (does not compile)"},"timestamp_utc":"2026-07-15T15:23:32Z"}
+ze_i8_kernelEPK13__nv_bfloat16PaPfi' for 'sm_120'
+ptxas info    : Function properties for _ZN10sparkinfer7kernels18quantize_i8_kernelEPK13__nv_bfloat16PaPfi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, used 1 barriers, 128 bytes smem
+ptxas info    : Compile time = 12.738 ms
+sh: 0: getcwd() failed: No such file or directory
+sh: 0: getcwd() failed: No such file or directory
+Assembler messages:
+Fatal error: can't create CMakeFiles/si_quant.dir/quant.cu.o: No such file or directory
+gmake[2]: *** [kernels/csrc/cuda/quant/CMakeFiles/si_quant.dir/build.make:118: kernels/csrc/cuda/quant/CMakeFiles/si_quant.dir/quant.cu.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+ptxas info    : 0 bytes gmem
+ptxas info    : Function properties for _ZN10sparkinfer7kernels13pql_fit_groupEPKfPfPh
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 156.730 ms
+ptxas info    : Function properties for _ZN10sparkinfer7kernels19pql_pack_superblockEPKfPNS0_13pql_q4k_blockE
+    1928 bytes stack frame, 4332 bytes spill stores, 3380 bytes spill loads
+ptxas info    : Compile time = 2581.427 ms
+ptxas info    : Compiling entry function '_ZN10sparkinfer7kernels18pql_requant_kernelEPK13__nv_bfloat16PNS0_13pql_q4k_blockEl' for 'sm_120'
+ptxas info    : Function properties for _ZN10sparkinfer7kernels18pql_requant_kernelEPK13__nv_bfloat16PNS0_13pql_q4k_blockEl
+    1408 bytes stack frame, 3256 bytes spill stores, 4284 bytes spill loads
+ptxas info    : Used 255 registers, used 0 barriers
+ptxas info    : Compile time = 2881.676 ms
+sh: 0: getcwd() failed: No such file or directory
+sh: 0: getcwd() failed: No such file or directory
+Assembler messages:
+Fatal error: can't create CMakeFiles/si_quant.dir/proj_q4k_lloyd.cu.o: No such file or directory
+gmake[2]: *** [kernels/csrc/cuda/quant/CMakeFiles/si_quant.dir/build.make:104: kernels/csrc/cuda/quant/CMakeFiles/si_quant.dir/proj_q4k_lloyd.cu.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:354: kernels/csrc/cuda/quant/CMakeFiles/si_quant.dir/all] Error 2
+gmake: *** [Makefile:101: all] Error 2
+>> build FAILED — submission does not compile (sm_120)
+RESULT_JSON {"commit": "0d48092", "tps": 0, "top1": 0, "kl": 99, "frontier_tps": 0, "label": "REJECT", "reason": "build failed (does not compile)", "pass": false, "mode": "bidir"}
+POLARIS_ATTESTATION {"code":{"repo":"https://github.com/gittensor-ai-lab/sparkinfer","commit":"0d480924d50199e30867709b6d4e66819c4632d3","build_hash":"","scoring_scripts_commit":"399edc3afa3732c2f7c3d69ab84865ba8c436ddc"},"references":{"model_sha256":"ac0e2c1189e055faa36eff361580e79c5bd6f8e76bffb4ce547f167d53e31a61","model_file":"Qwen3.6-35B-A3B-UD-Q4_K_M.gguf","guard_model_sha256":"5c09e7f207d2fd9069c802ff77632fa7cdaffe7fb5ba40ff9f060aaeaa09acd5","guard_model_file":"Qwythos-9B-Claude-Mythos-5-1M-Q4_K_M.gguf","llamacpp_commit":"","eval_seed":""},"environment":{"eval_mode":"longctx","decode_tokens":128,"gpu_name":"NVIDIA GeForce RTX 5090","gpu_arch":"sm_120","clocks_pinned":false,"clock_mhz":0,"clock_spread_mhz":0,"pin_target_mhz":0,"cuda_version":"","driver_version":"580.95.05"},"measurements":{"primary":{"model":"","model_sha256":"","ctx_128_tps":null,"ctx_512_tps":null,"ctx_4096_tps":null,"ctx_16384_tps":null,"ctx_32768_tps":null,"top1":0.0,"kl":99.0,"guard_128_baseline":null,"guard_128_ratio":null,"guard_128_pass":true,"guard_512_baseline":null,"guard_512_ratio":null,"guard_512_pass":true,"guard_4k_baseline":null,"guard_4k_ratio":null,"guard_4k_pass":true,"guard_16k_baseline":null,"guard_16k_ratio":null,"guard_16k_pass":true,"guard_32k_baseline":null,"guard_32k_ratio":null,"guard_32k_pass":true}},"verdict":{"model":"","label":"REJECT","pass":false,"tps":0.0,"delta_tps":null,"pct_over_frontier":null,"score_context":null,"best_context_label":"","context_gains_pct":{},"regression_labels":[],"guard_regression_labels":[],"reason":"build failed (does not compile)"},"timestamp_utc":"2026-07-15T15:23:32Z"}
+
+=== VERDICT ===
+{
+  "commit": "0d48092",
+  "tps": 0,
+  "top1": 0,
+  "kl": 99,
+  "frontier_tps": 0,
+  "label": "REJECT",
+  "reason": "build failed (does not compile)",
+  "pass": false,
+  "mode": "bidir"
+}
+>> bare-metal box left running (ssh root@<ip>:57696)

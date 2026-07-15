@@ -984,6 +984,16 @@
     "date": "2026-07-12"
   },
   {
+    "id": "0355-0d48092",
+    "pr": 355,
+    "title": "perf(qwen36): Q8_0\u2192Q4_K requant of GDN ssm_out projections (+2.8% @128)",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 0,
+    "score_context": null,
+    "date": "2026-07-15"
+  },
+  {
     "id": "0355-943f58a",
     "pr": 355,
     "title": "perf(qwen36): Q8_0\u2192Q4_K requant of GDN ssm_out projections (+2.8% @128)",
