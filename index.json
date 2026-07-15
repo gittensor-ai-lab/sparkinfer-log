@@ -1074,6 +1074,18 @@
     "polaris_receipt_id": "1cd832fe063d0c87"
   },
   {
+    "id": "0363-99ae7d5",
+    "pr": 363,
+    "title": "perf(qwen36): tune hd256 combine for 160-split long-context decode",
+    "label": "REJECT",
+    "delta_pct": 0.1,
+    "tps": 441.47,
+    "score_context": 4096,
+    "date": "2026-07-15",
+    "polaris": true,
+    "polaris_receipt_id": "9dd51f4d5409880e"
+  },
+  {
     "id": "0363-99d1f3c",
     "pr": 363,
     "title": "perf(qwen36): shared-expert pack2 + gate/up->quant->down PDL chain",
