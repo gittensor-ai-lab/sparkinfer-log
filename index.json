@@ -1156,6 +1156,16 @@
     "polaris_receipt_id": "247ef62f151f6710"
   },
   {
+    "id": "0387-dbec181",
+    "pr": 387,
+    "title": "perf(qwen35): skip LM head on prefill + dedicated prefill CUDA graph",
+    "label": "none",
+    "delta_pct": 0.0,
+    "tps": 459.11,
+    "score_context": 512,
+    "date": "2026-07-15"
+  },
+  {
     "id": "0398-471f287",
     "pr": 398,
     "title": "perf(qwen35): batched prompt prefill for Qwythos (one weight-amortized GEMM pass)",
