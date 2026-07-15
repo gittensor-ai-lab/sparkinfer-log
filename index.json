@@ -1052,6 +1052,18 @@
     "date": "2026-07-13"
   },
   {
+    "id": "0363-4e28c06",
+    "pr": 363,
+    "title": "perf(qwen36): shared-expert pack2 + race-safe PDL chain",
+    "label": "REJECT",
+    "delta_pct": -0.1,
+    "tps": 464.41,
+    "score_context": 128,
+    "date": "2026-07-15",
+    "polaris": true,
+    "polaris_receipt_id": "7cb12d05b0c0d183"
+  },
+  {
     "id": "0363-5dd398c",
     "pr": 363,
     "title": "perf(qwen36): tune hd256 combine for 160-split long-context decode",
