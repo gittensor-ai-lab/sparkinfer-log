@@ -1188,5 +1188,15 @@
     "date": "2026-07-15",
     "polaris": true,
     "polaris_receipt_id": "247ef62f151f6710"
+  },
+  {
+    "id": "0403-ccf35db",
+    "pr": 403,
+    "title": "perf(qwen36): specialize fixed-shape decode kernels",
+    "label": "none",
+    "delta_pct": 2.0,
+    "tps": 441.98,
+    "score_context": 16384,
+    "date": "2026-07-16"
   }
 ]
