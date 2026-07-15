@@ -1198,5 +1198,17 @@
     "tps": 441.98,
     "score_context": 16384,
     "date": "2026-07-16"
+  },
+  {
+    "id": "0445-1904c27",
+    "pr": 445,
+    "title": "perf(qwen36): Q6_K->Q4_K requant of LM head",
+    "label": "M",
+    "delta_pct": 3.6,
+    "tps": 481.56,
+    "score_context": 128,
+    "date": "2026-07-16",
+    "polaris": true,
+    "polaris_receipt_id": "ec9e9c8c4f1209f7"
   }
 ]
