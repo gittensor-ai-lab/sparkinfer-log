@@ -1098,5 +1098,17 @@
     "date": "2026-07-13",
     "polaris": true,
     "polaris_receipt_id": "9b1f5f7e8cdd4d4a"
+  },
+  {
+    "id": "0387-a12e228",
+    "pr": 387,
+    "title": "perf(qwen35): skip LM head on prefill + dedicated prefill CUDA graph",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 455.27,
+    "score_context": 512,
+    "date": "2026-07-15",
+    "polaris": true,
+    "polaris_receipt_id": "247ef62f151f6710"
   }
 ]
