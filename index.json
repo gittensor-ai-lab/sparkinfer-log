@@ -1171,10 +1171,10 @@
     "id": "0387-dbec181",
     "pr": 387,
     "title": "perf(qwen35): skip LM head on prefill + dedicated prefill CUDA graph",
-    "label": "none",
-    "delta_pct": 0.0,
-    "tps": 459.11,
-    "score_context": 512,
+    "label": "L",
+    "delta_pct": 11.2,
+    "tps": 320.33,
+    "score_context": 4096,
     "date": "2026-07-15"
   },
   {
