@@ -1240,6 +1240,16 @@
     "date": "2026-07-16"
   },
   {
+    "id": "0422-d25a69f",
+    "pr": 422,
+    "title": "perf(qwen35): int8 tensor-core prefill GEMM for Qwythos [DRAFT \u2014 awaits #398]",
+    "label": "REJECT",
+    "delta_pct": 46.5,
+    "tps": 6122.71,
+    "score_context": 4096,
+    "date": "2026-07-16"
+  },
+  {
     "id": "0445-1904c27",
     "pr": 445,
     "title": "perf(qwen36): Q6_K->Q4_K requant of LM head",
