@@ -1220,6 +1220,16 @@
     "date": "2026-07-16"
   },
   {
+    "id": "0409-2a5705c",
+    "pr": 409,
+    "title": "perf(qwen35): weight-amortized Q4_K tile-GEMM prefill for Qwythos above 64k (5.5x pp @128k)",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "tps": 285.42,
+    "score_context": 32768,
+    "date": "2026-07-16"
+  },
+  {
     "id": "0409-44dcad4",
     "pr": 409,
     "title": "perf(qwen35): weight-amortized Q4_K tile-GEMM prefill for Qwythos above 64k (5.5x pp @128k)",
