@@ -1220,6 +1220,16 @@
     "date": "2026-07-16"
   },
   {
+    "id": "0409-44dcad4",
+    "pr": 409,
+    "title": "perf(qwen35): weight-amortized Q4_K tile-GEMM prefill for Qwythos above 64k (5.5x pp @128k)",
+    "label": "none",
+    "delta_pct": -0.0,
+    "tps": 480.01,
+    "score_context": 128,
+    "date": "2026-07-16"
+  },
+  {
     "id": "0445-1904c27",
     "pr": 445,
     "title": "perf(qwen36): Q6_K->Q4_K requant of LM head",
