@@ -1307,9 +1307,9 @@
     "id": "0463-ecc22ff",
     "pr": 463,
     "title": "perf(qwen35): fp16 shared-memory tiles for windowed prefill attention (+3\u20135% pp)",
-    "label": "REJECT",
-    "delta_pct": 7.5,
-    "tps": 5511.53,
+    "label": "M",
+    "delta_pct": 7.4,
+    "tps": 5509.41,
     "score_context": 65536,
     "date": "2026-07-16"
   }
