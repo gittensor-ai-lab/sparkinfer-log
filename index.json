@@ -1344,6 +1344,16 @@
     "date": "2026-07-16"
   },
   {
+    "id": "0464-b699eb5",
+    "pr": 464,
+    "title": "perf(qwen35): fused Q4K/Q6K->int8 dequant + token-parallel GDN conv + lane-parallel fallback attention (+78% pp @32k on top of #465)",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 462.69,
+    "score_context": 4096,
+    "date": "2026-07-16"
+  },
+  {
     "id": "0464-e2f8dce",
     "pr": 464,
     "title": "perf(qwen35): fused Q4K/Q6K->int8 dequant + token-parallel GDN conv + lane-parallel fallback attention (+78% pp @32k on top of #465)",
