@@ -1250,5 +1250,15 @@
     "date": "2026-07-16",
     "polaris": true,
     "polaris_receipt_id": "ec9e9c8c4f1209f7"
+  },
+  {
+    "id": "0445-afefbf8",
+    "pr": 445,
+    "title": "perf(qwen36): Q6_K->Q4_K requant of LM head",
+    "label": "REJECT",
+    "delta_pct": -0.0,
+    "tps": 283.18,
+    "score_context": 65536,
+    "date": "2026-07-16"
   }
 ]
