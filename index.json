@@ -1260,5 +1260,15 @@
     "tps": 283.18,
     "score_context": 65536,
     "date": "2026-07-16"
+  },
+  {
+    "id": "0455-ef6bc69",
+    "pr": 455,
+    "title": "perf(qwen35): windowed prefill attention for Qwythos long context",
+    "label": "XL",
+    "delta_pct": 247.0,
+    "tps": 4394.9,
+    "score_context": 65536,
+    "date": "2026-07-16"
   }
 ]
