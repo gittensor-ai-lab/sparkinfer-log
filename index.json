@@ -1193,10 +1193,10 @@
     "id": "0398-9786172",
     "pr": 398,
     "title": "perf(qwen35): batched prompt prefill for Qwythos (one weight-amortized GEMM pass)",
-    "label": "none",
-    "delta_pct": 0.0,
-    "tps": 473.14,
-    "score_context": 512,
+    "label": "XL",
+    "delta_pct": 1195.2,
+    "tps": 4150.42,
+    "score_context": 4096,
     "date": "2026-07-16"
   },
   {
