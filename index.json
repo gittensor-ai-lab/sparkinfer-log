@@ -1372,5 +1372,15 @@
     "tps": 7828.06,
     "score_context": 65536,
     "date": "2026-07-16"
+  },
+  {
+    "id": "0474-3b021c9",
+    "pr": 474,
+    "title": "perf(qwen35): int8-native prefill GEMM (mma.sync m16n8k32) for Qwythos",
+    "label": "XL",
+    "delta_pct": 25.5,
+    "tps": 16083.38,
+    "score_context": 4096,
+    "date": "2026-07-17"
   }
 ]
