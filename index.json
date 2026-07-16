@@ -1190,6 +1190,16 @@
     "polaris_receipt_id": "247ef62f151f6710"
   },
   {
+    "id": "0398-9786172",
+    "pr": 398,
+    "title": "perf(qwen35): batched prompt prefill for Qwythos (one weight-amortized GEMM pass)",
+    "label": "none",
+    "delta_pct": 0.0,
+    "tps": 473.14,
+    "score_context": 512,
+    "date": "2026-07-16"
+  },
+  {
     "id": "0398-e73885f",
     "pr": 398,
     "title": "perf(qwen35): batched prompt prefill for Qwythos (one weight-amortized GEMM pass)",
