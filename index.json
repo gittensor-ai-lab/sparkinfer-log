@@ -1344,6 +1344,16 @@
     "date": "2026-07-16"
   },
   {
+    "id": "0464-e2f8dce",
+    "pr": 464,
+    "title": "perf(qwen35): fused Q4K/Q6K->int8 dequant + token-parallel GDN conv + lane-parallel fallback attention (+78% pp @32k on top of #465)",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 462.76,
+    "score_context": 4096,
+    "date": "2026-07-16"
+  },
+  {
     "id": "0465-0217e1f",
     "pr": 465,
     "title": "perf(qwen35): int8 tensor-core prefill attention for Qwythos",
