@@ -1230,6 +1230,16 @@
     "date": "2026-07-16"
   },
   {
+    "id": "0409-bf0a845",
+    "pr": 409,
+    "title": "perf(qwen35): weight-amortized Q4_K tile-GEMM prefill for Qwythos above 64k (5.5x pp @128k)",
+    "label": "REJECT",
+    "delta_pct": 0.1,
+    "tps": 285.56,
+    "score_context": 65536,
+    "date": "2026-07-16"
+  },
+  {
     "id": "0422-8a5e571",
     "pr": 422,
     "title": "perf(qwen35): int8 tensor-core prefill GEMM for Qwythos [DRAFT \u2014 awaits #398]",
