@@ -1280,5 +1280,17 @@
     "tps": 4394.9,
     "score_context": 65536,
     "date": "2026-07-16"
+  },
+  {
+    "id": "0458-31a7f6c",
+    "pr": 458,
+    "title": "perf(qwen36): Q6\u2192Q4 LM-head via loader + specialize GDN AR",
+    "label": "REJECT",
+    "delta_pct": -0.0,
+    "tps": 283.39,
+    "score_context": 32768,
+    "date": "2026-07-16",
+    "polaris": true,
+    "polaris_receipt_id": "305deabdeb6b56cf"
   }
 ]
