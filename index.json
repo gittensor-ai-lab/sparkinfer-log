@@ -1322,5 +1322,15 @@
     "tps": 5509.41,
     "score_context": 65536,
     "date": "2026-07-16"
+  },
+  {
+    "id": "0464-8e7e027",
+    "pr": 464,
+    "title": "perf(qwen35): lane-parallel prefill attention + token-parallel GDN conv + fused Q4K/Q6K->int8 dequant (4.8x pp @32k)",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": null,
+    "score_context": null,
+    "date": "2026-07-16"
   }
 ]
