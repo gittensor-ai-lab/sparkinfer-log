@@ -1233,10 +1233,10 @@
     "id": "0422-8a5e571",
     "pr": 422,
     "title": "perf(qwen35): int8 tensor-core prefill GEMM for Qwythos [DRAFT \u2014 awaits #398]",
-    "label": "L",
+    "label": "XL",
     "delta_pct": 46.0,
     "tps": 6062.59,
-    "score_context": 65536,
+    "score_context": 4096,
     "date": "2026-07-16"
   },
   {
