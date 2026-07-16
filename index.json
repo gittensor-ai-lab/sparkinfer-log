@@ -1347,9 +1347,9 @@
     "id": "0464-b699eb5",
     "pr": 464,
     "title": "perf(qwen35): fused Q4K/Q6K->int8 dequant + token-parallel GDN conv + lane-parallel fallback attention (+78% pp @32k on top of #465)",
-    "label": "REJECT",
-    "delta_pct": -0.1,
-    "tps": 425.05,
+    "label": "XL",
+    "delta_pct": 83.5,
+    "tps": 14057.87,
     "score_context": 32768,
     "date": "2026-07-16"
   },
