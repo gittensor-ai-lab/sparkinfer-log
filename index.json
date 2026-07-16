@@ -1332,5 +1332,17 @@
     "tps": null,
     "score_context": null,
     "date": "2026-07-16"
+  },
+  {
+    "id": "0465-0217e1f",
+    "pr": 465,
+    "title": "perf(qwen35): int8 tensor-core prefill attention for Qwythos",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": null,
+    "score_context": null,
+    "date": "2026-07-16",
+    "polaris": true,
+    "polaris_receipt_id": "50b1c4856ce3c332"
   }
 ]
