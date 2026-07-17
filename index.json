@@ -1394,5 +1394,17 @@
     "date": "2026-07-17",
     "polaris": true,
     "polaris_receipt_id": "a9bb3bc11c11b06b"
+  },
+  {
+    "id": "0512-a6d97d3",
+    "pr": 512,
+    "title": "perf(qwen35): quantize each prefill activation once + emit SwiGLU straight to int8 (+2.6% pp @64k)",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 285.33,
+    "score_context": 65536,
+    "date": "2026-07-17",
+    "polaris": true,
+    "polaris_receipt_id": "b8a357fc6bcaa14d"
   }
 ]
