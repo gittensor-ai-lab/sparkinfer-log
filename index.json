@@ -1384,6 +1384,18 @@
     "date": "2026-07-17"
   },
   {
+    "id": "0511-74bafab",
+    "pr": 511,
+    "title": "perf(qwen35): chunk-parallel GDN scan + vector-store int8 dequant + single-pass row quantize + skinny GEMM (+23% prefill pp)",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 0,
+    "score_context": null,
+    "date": "2026-07-18",
+    "polaris": true,
+    "polaris_receipt_id": "247ef62f151f6710"
+  },
+  {
     "id": "0511-95d846c",
     "pr": 511,
     "title": "perf(qwen35): chunk-parallel GDN scan + vector-store int8 dequant + single-pass row quantize + skinny GEMM (+23% prefill pp)",
