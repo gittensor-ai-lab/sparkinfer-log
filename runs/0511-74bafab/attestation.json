@@ -1,8 +1,8 @@
 {
   "code": {
     "repo": "https://github.com/gittensor-ai-lab/sparkinfer",
-    "commit": "74bafab251233197b4ccff3f4d8f31afa77e8e29",
-    "build_hash": "",
+    "commit": "703188b1bcc5837a8725242273538a1f4fd5d5e6",
+    "build_hash": "f166224a855fc22943329a49d7eabae129e4fad8dee008cbb2769816c06f0493",
     "scoring_scripts_commit": "55974abb0cac62a89fa79aa19105c510c1d3e968"
   },
   "references": {
@@ -27,7 +27,7 @@
   },
   "measurements": {
     "primary": {
-      "model": "",
+      "model": "bidir",
       "model_sha256": "",
       "ctx_128_tps": null,
       "ctx_512_tps": null,
@@ -54,7 +54,7 @@
     }
   },
   "verdict": {
-    "model": "",
+    "model": "bidir",
     "label": "REJECT",
     "pass": false,
     "tps": 0.0,
@@ -65,7 +65,7 @@
     "context_gains_pct": {},
     "regression_labels": [],
     "guard_regression_labels": [],
-    "reason": "build failed (does not compile)"
+    "reason": "infra error: accuracy check produced no METRIC (ModuleNotFoundError: No module named 'tokenizers')"
   },
-  "timestamp_utc": "2026-07-18T14:30:58Z"
+  "timestamp_utc": "2026-07-18T14:36:20Z"
 }
