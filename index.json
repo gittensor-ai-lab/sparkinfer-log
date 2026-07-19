@@ -1471,12 +1471,12 @@
     "id": "0531-e2d829a",
     "pr": 531,
     "title": "perf(qwen35): faithful batched prefill to 128k for Qwythos",
-    "label": "REJECT",
-    "delta_pct": null,
-    "tps": 0,
-    "score_context": null,
-    "date": "2026-07-18",
+    "label": "XL",
+    "delta_pct": 2298.1,
+    "tps": 6888.0,
+    "score_context": 131072,
+    "date": "2026-07-19",
     "polaris": true,
-    "polaris_receipt_id": "247ef62f151f6710"
+    "polaris_receipt_id": "561c6b19ae5cd512"
   }
 ]
