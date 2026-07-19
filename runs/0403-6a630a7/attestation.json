@@ -1,0 +1,90 @@
+{
+  "code": {
+    "repo": "https://github.com/gittensor-ai-lab/sparkinfer",
+    "commit": "6a630a7be06dea7f13694e248a0a08e756e12e37",
+    "build_hash": "736ea18837bc8077da781a071cc21adb5ee50d549d7c4fd80d0155d5c71e6ed1",
+    "scoring_scripts_commit": "3cc50e5d3ef3a204f3a666cc7e8741befc39ae5c"
+  },
+  "references": {
+    "model_sha256": "ac0e2c1189e055faa36eff361580e79c5bd6f8e76bffb4ce547f167d53e31a61",
+    "model_file": "Qwen3.6-35B-A3B-UD-Q4_K_M.gguf",
+    "guard_model_sha256": "5c09e7f207d2fd9069c802ff77632fa7cdaffe7fb5ba40ff9f060aaeaa09acd5",
+    "guard_model_file": "Qwythos-9B-Claude-Mythos-5-1M-Q4_K_M.gguf",
+    "llamacpp_commit": "",
+    "eval_seed": ""
+  },
+  "environment": {
+    "eval_mode": "longctx",
+    "decode_tokens": 128,
+    "gpu_name": "NVIDIA GeForce RTX 5090",
+    "gpu_arch": "sm_120",
+    "clocks_pinned": true,
+    "clock_mhz": 2542,
+    "clock_spread_mhz": 0,
+    "pin_target_mhz": 2550,
+    "cuda_version": "",
+    "driver_version": "580.159.03"
+  },
+  "measurements": {
+    "primary": {
+      "model": "bidir",
+      "model_sha256": "",
+      "ctx_128_tps": 475.87,
+      "ctx_512_tps": 470.59,
+      "ctx_4096_tps": 451.44,
+      "ctx_16384_tps": 435.12,
+      "ctx_32768_tps": 407.54,
+      "top1": 0.8549,
+      "kl": 0.0523,
+      "guard_128_baseline": 475.97,
+      "guard_128_ratio": 0.9998,
+      "guard_128_pass": true,
+      "guard_512_baseline": 469.85,
+      "guard_512_ratio": 1.0016,
+      "guard_512_pass": true,
+      "guard_4k_baseline": 450.96,
+      "guard_4k_ratio": 1.0011,
+      "guard_4k_pass": true,
+      "guard_16k_baseline": 434.42,
+      "guard_16k_ratio": 1.0016,
+      "guard_16k_pass": true,
+      "guard_32k_baseline": 406.66,
+      "guard_32k_ratio": 1.0022,
+      "guard_32k_pass": true
+    },
+    "guard": {
+      "model": "Qwythos-9B (Q4_K_M)",
+      "model_sha256": "",
+      "ctx_128_tps": 294.05,
+      "ctx_512_tps": 0.0,
+      "ctx_4096_tps": 283.91,
+      "ctx_16384_tps": 0.0,
+      "ctx_32768_tps": 282.21,
+      "top1": 0.9275,
+      "kl": 0.0274,
+      "speed_ok": true,
+      "accuracy_ok": true
+    }
+  },
+  "verdict": {
+    "model": "bidir",
+    "label": "REJECT",
+    "pass": false,
+    "tps": 407.54,
+    "delta_tps": null,
+    "pct_over_frontier": null,
+    "score_context": 32768,
+    "best_context_label": "32k-context",
+    "context_gains_pct": {
+      "128-context": -0.02,
+      "512-context": 0.16,
+      "4k-context": 0.11,
+      "16k-context": 0.16,
+      "32k-context": 0.22
+    },
+    "regression_labels": [],
+    "guard_regression_labels": [],
+    "reason": "correctness gate: top1=0.854922 (need >= 0.9), kl=0.052262 (need <= 0.2)"
+  },
+  "timestamp_utc": "2026-07-19T16:32:01Z"
+}

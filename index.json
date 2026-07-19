@@ -1210,6 +1210,18 @@
     "date": "2026-07-16"
   },
   {
+    "id": "0403-6a630a7",
+    "pr": 403,
+    "title": "perf(qwen36): grouped int8 tensor-core MoE prefill for Qwen3.6-35B-A3B",
+    "label": "REJECT",
+    "delta_pct": null,
+    "tps": 407.54,
+    "score_context": 32768,
+    "date": "2026-07-19",
+    "polaris": true,
+    "polaris_receipt_id": "88bc94528a4eb6a5"
+  },
+  {
     "id": "0403-ccf35db",
     "pr": 403,
     "title": "perf(qwen36): specialize fixed-shape decode kernels",
