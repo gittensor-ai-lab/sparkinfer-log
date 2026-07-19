@@ -1456,6 +1456,18 @@
     "polaris_receipt_id": "b8a357fc6bcaa14d"
   },
   {
+    "id": "0530-22278aa",
+    "pr": 530,
+    "title": "perf(qwen36): batched weight-amortized MoE prefill for Qwen3.6-35B-A3B (2.9x pp)",
+    "label": "XL",
+    "delta_pct": 2297.6,
+    "tps": 6886.48,
+    "score_context": 131072,
+    "date": "2026-07-20",
+    "polaris": true,
+    "polaris_receipt_id": "ac908f5e4d89b5d6"
+  },
+  {
     "id": "0530-703188b",
     "pr": 530,
     "title": "perf(qwen36): batched weight-amortized MoE prefill for Qwen3.6-35B-A3B (2.9x pp)",
