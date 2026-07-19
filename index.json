@@ -1478,5 +1478,17 @@
     "date": "2026-07-19",
     "polaris": true,
     "polaris_receipt_id": "561c6b19ae5cd512"
+  },
+  {
+    "id": "0533-ecd28e1",
+    "pr": 533,
+    "title": "perf(qwen36): batched MoE-hybrid prefill \u2014 4.5\u20135.5\u00d7 prefill pp by reusing the dense batched path",
+    "label": "XL",
+    "delta_pct": 518.8,
+    "tps": 3120.28,
+    "score_context": 16384,
+    "date": "2026-07-19",
+    "polaris": true,
+    "polaris_receipt_id": "f5bdc780d9768ff5"
   }
 ]
