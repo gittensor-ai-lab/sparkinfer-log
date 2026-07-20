@@ -1526,5 +1526,17 @@
     "date": "2026-07-20",
     "polaris": true,
     "polaris_receipt_id": "781a1aad8174f0a2"
+  },
+  {
+    "id": "0537-bcd8790",
+    "pr": 537,
+    "title": "perf(qwen36): expert-grouped batched MoE prefill (21.6x pp @4k)",
+    "label": "REJECT",
+    "delta_pct": 0.2,
+    "tps": 407.45,
+    "score_context": 32768,
+    "date": "2026-07-20",
+    "polaris": true,
+    "polaris_receipt_id": "06585e913875385f"
   }
 ]
