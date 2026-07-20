@@ -1562,5 +1562,15 @@
     "date": "2026-07-20",
     "polaris": true,
     "polaris_receipt_id": "da9718144553455d"
+  },
+  {
+    "id": "0546-a132f8f",
+    "pr": 546,
+    "title": "perf(qwen35): mma.sync bf16 prefill GEMM (+7.4% faithful 128k prefill)",
+    "label": "REJECT",
+    "delta_pct": 0.2,
+    "tps": 407.29,
+    "score_context": 32768,
+    "date": "2026-07-20"
   }
 ]
