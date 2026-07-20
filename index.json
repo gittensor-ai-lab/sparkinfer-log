@@ -1620,5 +1620,17 @@
     "date": "2026-07-20",
     "polaris": true,
     "polaris_receipt_id": "f28de13eaf026b57"
+  },
+  {
+    "id": "0552-97dce5d",
+    "pr": 552,
+    "title": "perf(qwen35): mma.sync bf16 prefill GEMM for dense long-ctx (+10% @128k)",
+    "label": "REJECT",
+    "delta_pct": 0.1,
+    "tps": 283.06,
+    "score_context": 32768,
+    "date": "2026-07-20",
+    "polaris": true,
+    "polaris_receipt_id": "09ee94d43d217aa6"
   }
 ]
