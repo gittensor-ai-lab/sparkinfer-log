@@ -1776,5 +1776,17 @@
     "date": "2026-07-20",
     "polaris": true,
     "polaris_receipt_id": "2a4f22a2f6ef2c13"
+  },
+  {
+    "id": "0560-8bdc432",
+    "pr": 560,
+    "title": "perf(qwen36): extend sink+sliding-window sparse KV to GQA-8 hd256",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "tps": 294.81,
+    "score_context": 128,
+    "date": "2026-07-21",
+    "polaris": true,
+    "polaris_receipt_id": "f3fc1f11585e5051"
   }
 ]
