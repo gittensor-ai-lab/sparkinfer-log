@@ -2,7 +2,7 @@
   "code": {
     "repo": "https://github.com/gittensor-ai-lab/sparkinfer",
     "commit": "5d7166849257e6b64001c7cdbd99999b6b7cc967",
-    "build_hash": "9fbb983aa59370d3ed962f87401f8dd55e285f7ea8b73b614107bbeef66c5271",
+    "build_hash": "049ea16ff9444d3bc9c2971eb2ed3b1d4142888a2d2cc1fb349889d6bff8edf1",
     "scoring_scripts_commit": "b6ba309686e07da9d34ccf9932e36074f0039e8f"
   },
   "references": {
@@ -29,67 +29,62 @@
     "primary": {
       "model": "bidir",
       "model_sha256": "",
-      "ctx_128_tps": 294.02,
-      "ctx_512_tps": 0.0,
-      "ctx_4096_tps": 284.01,
-      "ctx_16384_tps": 0.0,
-      "ctx_32768_tps": 282.34,
-      "top1": 0.9503,
-      "kl": 0.0401,
-      "guard_128_baseline": 301.47,
-      "guard_128_ratio": 0.9753,
-      "guard_128_pass": false,
-      "guard_512_baseline": 0.0,
-      "guard_512_ratio": 0.0,
+      "ctx_128_tps": 476.4,
+      "ctx_512_tps": 469.99,
+      "ctx_4096_tps": 450.78,
+      "ctx_16384_tps": 434.34,
+      "ctx_32768_tps": 406.89,
+      "top1": 0.0,
+      "kl": 1.1533,
+      "guard_128_baseline": 476.13,
+      "guard_128_ratio": 1.0006,
+      "guard_128_pass": true,
+      "guard_512_baseline": 469.98,
+      "guard_512_ratio": 1.0,
       "guard_512_pass": true,
-      "guard_4k_baseline": 291.12,
-      "guard_4k_ratio": 0.9756,
-      "guard_4k_pass": false,
-      "guard_16k_baseline": 0.0,
-      "guard_16k_ratio": 0.0,
+      "guard_4k_baseline": 450.53,
+      "guard_4k_ratio": 1.0006,
+      "guard_4k_pass": true,
+      "guard_16k_baseline": 434.05,
+      "guard_16k_ratio": 1.0007,
       "guard_16k_pass": true,
-      "guard_32k_baseline": 289.53,
-      "guard_32k_ratio": 0.9752,
-      "guard_32k_pass": false
+      "guard_32k_baseline": 406.52,
+      "guard_32k_ratio": 1.0009,
+      "guard_32k_pass": true
     },
     "guard": {
-      "model": "Qwen3.6-35B-A3B",
+      "model": "Qwythos-9B (Q4_K_M)",
       "model_sha256": "",
-      "ctx_128_tps": 476.34,
-      "ctx_512_tps": 469.81,
-      "ctx_4096_tps": 450.59,
-      "ctx_16384_tps": 434.22,
-      "ctx_32768_tps": 406.7,
-      "top1": 0.0,
-      "kl": 1.1772,
+      "ctx_128_tps": 294.04,
+      "ctx_512_tps": 0.0,
+      "ctx_4096_tps": 283.95,
+      "ctx_16384_tps": 0.0,
+      "ctx_32768_tps": 282.22,
+      "top1": 0.9101,
+      "kl": 0.0367,
       "speed_ok": true,
-      "accuracy_ok": false
+      "accuracy_ok": true
     }
   },
   "verdict": {
     "model": "bidir",
     "label": "REJECT",
     "pass": false,
-    "tps": 282.35,
-    "delta_tps": -6.99,
-    "pct_over_frontier": -2.4,
-    "score_context": 65536,
-    "best_context_label": "64k-context",
+    "tps": 406.89,
+    "delta_tps": 0.37,
+    "pct_over_frontier": 0.1,
+    "score_context": 32768,
+    "best_context_label": "32k-context",
     "context_gains_pct": {
-      "128-context": -2.47,
-      "4k-context": -2.44,
-      "32k-context": -2.48,
-      "64k-context": -2.42,
-      "128k-context": 0.0
+      "128-context": 0.06,
+      "512-context": 0.0,
+      "4k-context": 0.06,
+      "16k-context": 0.07,
+      "32k-context": 0.09
     },
-    "regression_labels": [
-      "regression-qwen35-128",
-      "regression-qwen35-4k",
-      "regression-qwen35-32k",
-      "regression-qwen35-64k"
-    ],
+    "regression_labels": [],
     "guard_regression_labels": [],
-    "reason": "no-regression guard: Qwen3.6-35B-A3B accuracy broke (top1=0.0, kl=1.1772)"
+    "reason": "correctness gate: top1=0.0 (need >= 0.9), kl=1.153283 (need <= 0.2)"
   },
-  "timestamp_utc": "2026-07-20T00:23:16Z"
+  "timestamp_utc": "2026-07-20T01:28:14Z"
 }
