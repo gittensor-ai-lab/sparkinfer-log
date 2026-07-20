@@ -1622,6 +1622,18 @@
     "polaris_receipt_id": "f28de13eaf026b57"
   },
   {
+    "id": "0551-523814d",
+    "pr": 551,
+    "title": "perf(qwen36): precompute expert int8 row scales at load",
+    "label": "XL",
+    "delta_pct": 18.3,
+    "tps": 2793.82,
+    "score_context": 512,
+    "date": "2026-07-20",
+    "polaris": true,
+    "polaris_receipt_id": "83b14dd5694a9498"
+  },
+  {
     "id": "0552-97dce5d",
     "pr": 552,
     "title": "perf(qwen35): mma.sync bf16 prefill GEMM for dense long-ctx (+10% @128k)",
