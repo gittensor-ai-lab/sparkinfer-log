@@ -1598,6 +1598,18 @@
     "date": "2026-07-20"
   },
   {
+    "id": "0548-09ee936",
+    "pr": 548,
+    "title": "perf(qwen35): chunk-parallel GDN scan + faster prefill dequant/GEMM (+24.6% pp)",
+    "label": "XL",
+    "delta_pct": 24.0,
+    "tps": 19581.7,
+    "score_context": 4096,
+    "date": "2026-07-20",
+    "polaris": true,
+    "polaris_receipt_id": "339d9f426503a25b"
+  },
+  {
     "id": "0548-8b084b9",
     "pr": 548,
     "title": "perf(qwen35): chunk-parallel GDN scan + faster prefill dequant/GEMM (+24.6% pp)",
