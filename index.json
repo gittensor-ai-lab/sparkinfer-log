@@ -1754,6 +1754,18 @@
     "polaris_receipt_id": "16306659f0ee7c8c"
   },
   {
+    "id": "0555-fb8fdf2",
+    "pr": 555,
+    "title": "perf(qwen36): cache bf16 projection weights at load for batched prefill",
+    "label": "REJECT",
+    "delta_pct": 0.1,
+    "tps": 455.86,
+    "score_context": 4096,
+    "date": "2026-07-21",
+    "polaris": true,
+    "polaris_receipt_id": "a471ba75539af68e"
+  },
+  {
     "id": "0557-98d4625",
     "pr": 557,
     "title": "perf(qwen35): selective int8 FFN+attn at long ctx (+97% pp @128k)",
