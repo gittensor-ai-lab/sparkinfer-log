@@ -1608,5 +1608,17 @@
     "date": "2026-07-20",
     "polaris": true,
     "polaris_receipt_id": "dd8fb1055d575688"
+  },
+  {
+    "id": "0549-e621666",
+    "pr": 549,
+    "title": "perf(qwen36): enable int8 KV by default so short-ctx batched prefill runs (4.6x pp @512)",
+    "label": "none",
+    "delta_pct": 0.1,
+    "tps": 481.99,
+    "score_context": 128,
+    "date": "2026-07-20",
+    "polaris": true,
+    "polaris_receipt_id": "f28de13eaf026b57"
   }
 ]
