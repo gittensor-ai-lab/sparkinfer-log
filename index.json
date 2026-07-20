@@ -1564,6 +1564,18 @@
     "polaris_receipt_id": "da9718144553455d"
   },
   {
+    "id": "0546-3b516d6",
+    "pr": 546,
+    "title": "perf(qwen35): mma.sync bf16 prefill GEMM (+7.4% faithful 128k prefill)",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "tps": 481.62,
+    "score_context": 128,
+    "date": "2026-07-20",
+    "polaris": true,
+    "polaris_receipt_id": "d8283a7d2b4fd9ee"
+  },
+  {
     "id": "0546-73fcea1",
     "pr": 546,
     "title": "perf(qwen35): mma.sync bf16 prefill GEMM (+7.4% faithful 128k prefill)",
