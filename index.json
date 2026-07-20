@@ -1788,5 +1788,17 @@
     "date": "2026-07-21",
     "polaris": true,
     "polaris_receipt_id": "f3fc1f11585e5051"
+  },
+  {
+    "id": "0561-8d21679",
+    "pr": 561,
+    "title": "perf(qwen36): expert-group L2 MoE prefill for short-N (+5.6% pp @512)",
+    "label": "REJECT",
+    "delta_pct": 0.1,
+    "tps": 294.87,
+    "score_context": 128,
+    "date": "2026-07-21",
+    "polaris": true,
+    "polaris_receipt_id": "1d40039828205c99"
   }
 ]
