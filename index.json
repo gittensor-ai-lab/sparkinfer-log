@@ -1668,5 +1668,17 @@
     "date": "2026-07-20",
     "polaris": true,
     "polaris_receipt_id": "879b1737b3307201"
+  },
+  {
+    "id": "0553-fd2e126",
+    "pr": 553,
+    "title": "perf(prefill): single-pass Q\u2192i8 row dequant (+15% Qwen3.6 pp @512)",
+    "label": "XL",
+    "delta_pct": 21.3,
+    "tps": 2864.85,
+    "score_context": 512,
+    "date": "2026-07-20",
+    "polaris": true,
+    "polaris_receipt_id": "0ca374beaab1c35a"
   }
 ]
