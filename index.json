@@ -1752,5 +1752,17 @@
     "date": "2026-07-20",
     "polaris": true,
     "polaris_receipt_id": "16306659f0ee7c8c"
+  },
+  {
+    "id": "0557-98d4625",
+    "pr": 557,
+    "title": "perf(qwen35): selective int8 FFN+attn at long ctx (+97% pp @128k)",
+    "label": "XL",
+    "delta_pct": 107.0,
+    "tps": 17014.53,
+    "score_context": 131072,
+    "date": "2026-07-20",
+    "polaris": true,
+    "polaris_receipt_id": "2a4f22a2f6ef2c13"
   }
 ]
