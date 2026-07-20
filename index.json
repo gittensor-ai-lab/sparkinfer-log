@@ -1718,6 +1718,18 @@
     "polaris_receipt_id": "0ca374beaab1c35a"
   },
   {
+    "id": "0555-1dff490",
+    "pr": 555,
+    "title": "perf(qwen36): cache bf16 projection weights at load for batched prefill",
+    "label": "XS",
+    "delta_pct": 2.7,
+    "tps": 3605.88,
+    "score_context": 512,
+    "date": "2026-07-20",
+    "polaris": true,
+    "polaris_receipt_id": "7ed8a5fb3f5257e9"
+  },
+  {
     "id": "0555-c07b207",
     "pr": 555,
     "title": "perf(qwen36): cache bf16 projection weights at load for batched prefill",
