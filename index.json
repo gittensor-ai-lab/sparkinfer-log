@@ -1550,5 +1550,17 @@
     "date": "2026-07-20",
     "polaris": true,
     "polaris_receipt_id": "06585e913875385f"
+  },
+  {
+    "id": "0544-efe3c76",
+    "pr": 544,
+    "title": "perf(qwen36): faithful weight-stationary grouped MoE prefill for Qwen3.6-35B-A3B",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "tps": 293.97,
+    "score_context": 128,
+    "date": "2026-07-20",
+    "polaris": true,
+    "polaris_receipt_id": "da9718144553455d"
   }
 ]
