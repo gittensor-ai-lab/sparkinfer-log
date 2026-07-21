@@ -1848,5 +1848,17 @@
     "date": "2026-07-21",
     "polaris": true,
     "polaris_receipt_id": "3a970c9ff4c14bc8"
+  },
+  {
+    "id": "0565-0f3c52e",
+    "pr": 565,
+    "title": "perf(qwen36): layer-tapered sink+sliding-window sparse KV for GQA-8 (+8% vs uniform window, fixes GQA-8 kernel no-op)",
+    "label": "REJECT",
+    "delta_pct": 5.5,
+    "tps": 432.82,
+    "score_context": 32768,
+    "date": "2026-07-21",
+    "polaris": true,
+    "polaris_receipt_id": "88bc94528a4eb6a5"
   }
 ]
