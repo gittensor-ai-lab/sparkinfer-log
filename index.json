@@ -1634,6 +1634,18 @@
     "polaris_receipt_id": "e19e963312485c72"
   },
   {
+    "id": "0549-b5c3d5e",
+    "pr": 549,
+    "title": "perf(qwen36): int8 shared-expert MoE prefill (+3.5% pp @512)",
+    "label": "S",
+    "delta_pct": 3.6,
+    "tps": 3675.79,
+    "score_context": 512,
+    "date": "2026-07-21",
+    "polaris": true,
+    "polaris_receipt_id": "b800ef7c81b44cef"
+  },
+  {
     "id": "0549-e621666",
     "pr": 549,
     "title": "perf(qwen36): enable int8 KV by default so short-ctx batched prefill runs (4.6x pp @512)",
