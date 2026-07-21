@@ -1884,5 +1884,17 @@
     "date": "2026-07-21",
     "polaris": true,
     "polaris_receipt_id": "88bc94528a4eb6a5"
+  },
+  {
+    "id": "0566-3913650",
+    "pr": 566,
+    "title": "perf(qwen36): coalesce live MoE dequant + fused gate/up (+11% pp @512)",
+    "label": "REJECT",
+    "delta_pct": -0.0,
+    "tps": 409.97,
+    "score_context": 32768,
+    "date": "2026-07-21",
+    "polaris": true,
+    "polaris_receipt_id": "07d5ca92973578e6"
   }
 ]
