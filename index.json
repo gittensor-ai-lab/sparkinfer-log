@@ -1800,5 +1800,17 @@
     "date": "2026-07-21",
     "polaris": true,
     "polaris_receipt_id": "1d40039828205c99"
+  },
+  {
+    "id": "0562-b6edb7f",
+    "pr": 562,
+    "title": "perf(qwen35): resident fragment-order prefill weights and packed int8 prefill GEMM",
+    "label": "L",
+    "delta_pct": 13.6,
+    "tps": 22897.14,
+    "score_context": 65536,
+    "date": "2026-07-21",
+    "polaris": true,
+    "polaris_receipt_id": "3a970c9ff4c14bc8"
   }
 ]
