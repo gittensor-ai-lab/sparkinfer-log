@@ -1932,5 +1932,17 @@
     "date": "2026-07-22",
     "polaris": true,
     "polaris_receipt_id": "9649c6f9129aeaf8"
+  },
+  {
+    "id": "0573-2357dc0",
+    "pr": 573,
+    "title": "perf(prefill): fp8 e4m3 GDN projections + fused SwiGLU-quant for Qwen3.5 long-context prefill",
+    "label": "REJECT",
+    "delta_pct": 0.2,
+    "tps": 410.36,
+    "score_context": 32768,
+    "date": "2026-07-22",
+    "polaris": true,
+    "polaris_receipt_id": "034db9c02e0597dc"
   }
 ]
