@@ -1908,5 +1908,17 @@
     "date": "2026-07-21",
     "polaris": true,
     "polaris_receipt_id": "07d5ca92973578e6"
+  },
+  {
+    "id": "0571-ab868d1",
+    "pr": 571,
+    "title": "perf(qwen36): n_splits=160 for hd128/GQA-8 long-context decode (+13% @32k, +7% @16k)",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "tps": 409.7,
+    "score_context": 32768,
+    "date": "2026-07-21",
+    "polaris": true,
+    "polaris_receipt_id": "3a4e9cdc6fa4de4e"
   }
 ]
