@@ -1814,6 +1814,18 @@
     "polaris_receipt_id": "f3fc1f11585e5051"
   },
   {
+    "id": "0560-cd94c07",
+    "pr": 560,
+    "title": "perf(qwen36): extend sink+sliding-window sparse KV to GQA-8 hd256",
+    "label": "REJECT",
+    "delta_pct": 8.6,
+    "tps": 445.42,
+    "score_context": 32768,
+    "date": "2026-07-21",
+    "polaris": true,
+    "polaris_receipt_id": "be5410c012be1b3a"
+  },
+  {
     "id": "0561-15f3795",
     "pr": 561,
     "title": "perf(qwen36): expert-group L2 MoE prefill for short-N (+5.6% pp @512)",
