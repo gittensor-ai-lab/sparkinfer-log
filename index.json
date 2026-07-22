@@ -2076,5 +2076,17 @@
     "date": "2026-07-22",
     "polaris": true,
     "polaris_receipt_id": "333b928b37de5b86"
+  },
+  {
+    "id": "0582-3887818",
+    "pr": 582,
+    "title": "perf(qwen36): fp8 e4m3 tensor-core attn/GDN projections for MoE batched prefill (+29% pp @16k)",
+    "label": "XL",
+    "delta_pct": 32.7,
+    "tps": 20233.78,
+    "score_context": 32768,
+    "date": "2026-07-22",
+    "polaris": true,
+    "polaris_receipt_id": "7ff81d8ed21a7720"
   }
 ]
