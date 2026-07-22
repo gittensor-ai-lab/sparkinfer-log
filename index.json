@@ -1922,6 +1922,18 @@
     "polaris_receipt_id": "3a4e9cdc6fa4de4e"
   },
   {
+    "id": "0572-20e58ba",
+    "pr": 572,
+    "title": "perf(qwen36): mma.sync short-N MoE GEMM (+6.6% pp @512)",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "tps": 284.13,
+    "score_context": 4096,
+    "date": "2026-07-22",
+    "polaris": true,
+    "polaris_receipt_id": "63a4fece173f8db5"
+  },
+  {
     "id": "0572-9ce3fda",
     "pr": 572,
     "title": "perf(qwen36): mma.sync short-N MoE GEMM (+6.6% pp @512)",
