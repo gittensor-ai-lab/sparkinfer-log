@@ -1992,5 +1992,17 @@
     "date": "2026-07-22",
     "polaris": true,
     "polaris_receipt_id": "88bc94528a4eb6a5"
+  },
+  {
+    "id": "0578-e83213c",
+    "pr": 578,
+    "title": "perf(qwen36): fused gate+up MoE GEMM with dual-B staging (+9% pp @512)",
+    "label": "REJECT",
+    "delta_pct": 0.1,
+    "tps": 473.06,
+    "score_context": 512,
+    "date": "2026-07-22",
+    "polaris": true,
+    "polaris_receipt_id": "0d7fbb2c3064cc19"
   }
 ]
