@@ -1970,6 +1970,18 @@
     "polaris_receipt_id": "310730ea419403e1"
   },
   {
+    "id": "0574-7e57012",
+    "pr": 574,
+    "title": "perf(qwen36): direct-4-bit MMQ MoE prefill GEMM for short-context prefill (+38% pp @128)",
+    "label": "REJECT",
+    "delta_pct": 0.1,
+    "tps": 284.09,
+    "score_context": 4096,
+    "date": "2026-07-22",
+    "polaris": true,
+    "polaris_receipt_id": "561635eda969f221"
+  },
+  {
     "id": "0574-8250017",
     "pr": 574,
     "title": "perf(qwen36): direct-4-bit MMQ MoE prefill GEMM for short-context prefill (+38% pp @128)",
