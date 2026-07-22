@@ -1937,12 +1937,12 @@
     "id": "0573-2357dc0",
     "pr": 573,
     "title": "perf(prefill): fp8 e4m3 GDN projections + fused SwiGLU-quant for Qwen3.5 long-context prefill",
-    "label": "REJECT",
-    "delta_pct": 0.2,
-    "tps": 410.36,
-    "score_context": 32768,
+    "label": "XL",
+    "delta_pct": 20.9,
+    "tps": 20622.09,
+    "score_context": 131072,
     "date": "2026-07-22",
     "polaris": true,
-    "polaris_receipt_id": "034db9c02e0597dc"
+    "polaris_receipt_id": "310730ea419403e1"
   }
 ]
