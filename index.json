@@ -2160,5 +2160,17 @@
     "date": "2026-07-22",
     "polaris": true,
     "polaris_receipt_id": "a85a0a6abbe2db14"
+  },
+  {
+    "id": "0585-89c3450",
+    "pr": 585,
+    "title": "perf(serve): vLLM V1 decode-first continuous batching",
+    "label": "REJECT",
+    "delta_pct": 0.1,
+    "tps": 294.47,
+    "score_context": 128,
+    "date": "2026-07-22",
+    "polaris": true,
+    "polaris_receipt_id": "879b1737b3307201"
   }
 ]
