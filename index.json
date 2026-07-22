@@ -2004,5 +2004,17 @@
     "date": "2026-07-22",
     "polaris": true,
     "polaris_receipt_id": "9904069513d7d38d"
+  },
+  {
+    "id": "0579-eb7447a",
+    "pr": 579,
+    "title": "perf(qwen35): ldmatrix GEMM staging, register-resident attention O, fused residual/quantize prefill passes",
+    "label": "L",
+    "delta_pct": 14.6,
+    "tps": 23086.09,
+    "score_context": 65536,
+    "date": "2026-07-22",
+    "polaris": true,
+    "polaris_receipt_id": "fef275ef74c9447c"
   }
 ]
