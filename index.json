@@ -2016,5 +2016,17 @@
     "date": "2026-07-22",
     "polaris": true,
     "polaris_receipt_id": "fef275ef74c9447c"
+  },
+  {
+    "id": "0580-5b35d60",
+    "pr": 580,
+    "title": "perf(qwythos): int8 tensor-core sparse flash-decode (GQA-4 hd256)",
+    "label": "none",
+    "delta_pct": -0.0,
+    "tps": 410.19,
+    "score_context": 32768,
+    "date": "2026-07-22",
+    "polaris": true,
+    "polaris_receipt_id": "b31ab0ded2348f0b"
   }
 ]
