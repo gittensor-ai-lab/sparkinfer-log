@@ -2064,5 +2064,17 @@
     "date": "2026-07-22",
     "polaris": true,
     "polaris_receipt_id": "6caeeff26e9fb412"
+  },
+  {
+    "id": "0581-9dba730",
+    "pr": 581,
+    "title": "perf(qwen36): double bf16 prefill projection GEMM occupancy to 2 blocks/SM (+12% pp)",
+    "label": "L",
+    "delta_pct": 13.4,
+    "tps": 17288.8,
+    "score_context": 32768,
+    "date": "2026-07-22",
+    "polaris": true,
+    "polaris_receipt_id": "333b928b37de5b86"
   }
 ]
