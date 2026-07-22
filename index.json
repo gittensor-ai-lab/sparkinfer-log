@@ -2042,6 +2042,18 @@
     "polaris_receipt_id": "fef275ef74c9447c"
   },
   {
+    "id": "0580-13675e8",
+    "pr": 580,
+    "title": "perf(qwen36): GQA-8 sink+window sparse MMA flash-decode (+8.6% @32k)",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "tps": 294.91,
+    "score_context": 128,
+    "date": "2026-07-23",
+    "polaris": true,
+    "polaris_receipt_id": "0ce2b067f8933722"
+  },
+  {
     "id": "0580-5b35d60",
     "pr": 580,
     "title": "perf(qwythos): int8 tensor-core sparse flash-decode (GQA-4 hd256)",
