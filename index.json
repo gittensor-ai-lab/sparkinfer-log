@@ -2088,5 +2088,17 @@
     "date": "2026-07-22",
     "polaris": true,
     "polaris_receipt_id": "7ff81d8ed21a7720"
+  },
+  {
+    "id": "0583-5ed3252",
+    "pr": 583,
+    "title": "perf(qwen36): GPU MoE tilemap \u2014 skip D2H sync (+30% pp @512)",
+    "label": "XL",
+    "delta_pct": 35.8,
+    "tps": 5632.7,
+    "score_context": 512,
+    "date": "2026-07-22",
+    "polaris": true,
+    "polaris_receipt_id": "40676b2d8076e443"
   }
 ]
