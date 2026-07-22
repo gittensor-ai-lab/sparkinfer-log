@@ -2114,6 +2114,18 @@
     "polaris_receipt_id": "333b928b37de5b86"
   },
   {
+    "id": "0581-f5156a6",
+    "pr": 581,
+    "title": "perf(qwen36): double bf16 prefill projection GEMM occupancy to 2 blocks/SM (+12% pp)",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "tps": 294.88,
+    "score_context": 128,
+    "date": "2026-07-23",
+    "polaris": true,
+    "polaris_receipt_id": "0ce2b067f8933722"
+  },
+  {
     "id": "0582-3887818",
     "pr": 582,
     "title": "perf(qwen36): fp8 e4m3 tensor-core attn/GDN projections for MoE batched prefill (+29% pp @16k)",
