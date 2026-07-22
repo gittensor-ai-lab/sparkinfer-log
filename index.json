@@ -1925,13 +1925,13 @@
     "id": "0572-9ce3fda",
     "pr": 572,
     "title": "perf(qwen36): mma.sync short-N MoE GEMM (+6.6% pp @512)",
-    "label": "REJECT",
-    "delta_pct": 0.2,
-    "tps": 410.41,
-    "score_context": 32768,
+    "label": "M",
+    "delta_pct": 6.3,
+    "tps": 3908.06,
+    "score_context": 512,
     "date": "2026-07-22",
     "polaris": true,
-    "polaris_receipt_id": "9649c6f9129aeaf8"
+    "polaris_receipt_id": "bf918e9aaec67058"
   },
   {
     "id": "0573-2357dc0",
