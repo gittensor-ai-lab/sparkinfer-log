@@ -2162,6 +2162,18 @@
     "polaris_receipt_id": "40676b2d8076e443"
   },
   {
+    "id": "0584-2dca058",
+    "pr": 584,
+    "title": "perf(qwen36): tensor-core router logits + warp top-k + bit-identical GDN scan pipelining (+18% pp @32k)",
+    "label": "REJECT",
+    "delta_pct": 0.1,
+    "tps": 294.94,
+    "score_context": 128,
+    "date": "2026-07-23",
+    "polaris": true,
+    "polaris_receipt_id": "0ce2b067f8933722"
+  },
+  {
     "id": "0584-4d6f416",
     "pr": 584,
     "title": "perf(qwen36): tensor-core router logits + warp top-k + bit-identical GDN scan pipelining (+18% pp @32k)",
