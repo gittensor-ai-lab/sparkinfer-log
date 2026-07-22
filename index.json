@@ -2054,6 +2054,18 @@
     "polaris_receipt_id": "b31ab0ded2348f0b"
   },
   {
+    "id": "0580-b97e3a3",
+    "pr": 580,
+    "title": "perf(qwythos): int8 tensor-core sparse flash-decode (GQA-4 hd256)",
+    "label": "REJECT",
+    "delta_pct": 0.3,
+    "tps": 283.91,
+    "score_context": 32768,
+    "date": "2026-07-22",
+    "polaris": true,
+    "polaris_receipt_id": "46ea81f07face0e6"
+  },
+  {
     "id": "0581-14500c0",
     "pr": 581,
     "title": "perf(qwen36): double bf16 prefill projection GEMM occupancy to 2 blocks/SM (+12% pp)",
