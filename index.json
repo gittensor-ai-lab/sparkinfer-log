@@ -2280,5 +2280,17 @@
     "date": "2026-07-23",
     "polaris": true,
     "polaris_receipt_id": "e12b068006abedad"
+  },
+  {
+    "id": "0595-63d838b",
+    "pr": 595,
+    "title": "fix(qwen36): restore MoE FP8 prefill default (+30% pp @16k)",
+    "label": "REJECT",
+    "delta_pct": 0.1,
+    "tps": 284.61,
+    "score_context": 4096,
+    "date": "2026-07-23",
+    "polaris": true,
+    "polaris_receipt_id": "0ce2b067f8933722"
   }
 ]
