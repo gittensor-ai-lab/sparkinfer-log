@@ -2250,12 +2250,12 @@
     "pr": 591,
     "title": "perf(qwen36): default MoE live-expert gather on (+3.5% pp @512)",
     "label": "REJECT",
-    "delta_pct": 3.5,
-    "tps": 4382.88,
-    "score_context": 512,
+    "delta_pct": 0.1,
+    "tps": 283.0,
+    "score_context": 65536,
     "date": "2026-07-23",
     "polaris": true,
-    "polaris_receipt_id": "5a2333b293ea1575"
+    "polaris_receipt_id": "4251fa4ce6e14801"
   },
   {
     "id": "0593-6215a30",
