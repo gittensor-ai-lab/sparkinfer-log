@@ -2222,6 +2222,18 @@
     "polaris_receipt_id": "0ce2b067f8933722"
   },
   {
+    "id": "0585-f951146",
+    "pr": 585,
+    "title": "perf(serve): MoE CB batched prefill + vLLM V1 decode-first scheduling",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "tps": 284.77,
+    "score_context": 4096,
+    "date": "2026-07-23",
+    "polaris": true,
+    "polaris_receipt_id": "0ce2b067f8933722"
+  },
+  {
     "id": "0591-4cc00ca",
     "pr": 591,
     "title": "perf(qwen36): default MoE live-expert gather on (+3.5% pp @512)",
