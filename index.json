@@ -2338,5 +2338,17 @@
     "date": "2026-07-23",
     "polaris": true,
     "polaris_receipt_id": "0ce2b067f8933722"
+  },
+  {
+    "id": "0597-b5337f6",
+    "pr": 597,
+    "title": "perf(serve): vLLM V1 decode-first CB + Qwen3.6 MoE batched prefill (\u221296.6% CB TTFT)",
+    "label": "XL",
+    "delta_pct": 96.6,
+    "tps": 15048.3,
+    "score_context": 8192,
+    "date": "2026-07-23",
+    "polaris": true,
+    "polaris_receipt_id": "2d15066d89df1f85"
   }
 ]
