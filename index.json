@@ -2232,5 +2232,17 @@
     "date": "2026-07-23",
     "polaris": true,
     "polaris_receipt_id": "0ce2b067f8933722"
+  },
+  {
+    "id": "0593-6215a30",
+    "pr": 593,
+    "title": "fix(qwen36): MoE GPU mask dequant for moe_ffn=512 (#583 fidelity)",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "tps": 284.76,
+    "score_context": 4096,
+    "date": "2026-07-23",
+    "polaris": true,
+    "polaris_receipt_id": "0ce2b067f8933722"
   }
 ]
