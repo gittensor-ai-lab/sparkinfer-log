@@ -2364,6 +2364,18 @@
     "polaris_receipt_id": "0ce2b067f8933722"
   },
   {
+    "id": "0595-be2fd51",
+    "pr": 595,
+    "title": "fix(qwen36): restore MoE FP8 prefill default (+30% pp @16k)",
+    "label": "L",
+    "delta_pct": 16.8,
+    "tps": 20954.6,
+    "score_context": 16384,
+    "date": "2026-07-24",
+    "polaris": true,
+    "polaris_receipt_id": "f1b8851b6061d271"
+  },
+  {
     "id": "0597-b5337f6",
     "pr": 597,
     "title": "perf(serve): vLLM V1 decode-first CB + Qwen3.6 MoE batched prefill (\u221296.6% CB TTFT)",
