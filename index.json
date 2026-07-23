@@ -2306,6 +2306,16 @@
     "polaris_receipt_id": "e12b068006abedad"
   },
   {
+    "id": "0593-e5837c8",
+    "pr": 593,
+    "title": "perf(serve): MoE CB batched prefill + Qwythos H3 GDN fidelity",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "tps": 284.51,
+    "score_context": 4096,
+    "date": "2026-07-23"
+  },
+  {
     "id": "0595-63d838b",
     "pr": 595,
     "title": "fix(qwen36): restore MoE FP8 prefill default (+30% pp @16k)",
