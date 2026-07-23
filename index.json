@@ -2213,11 +2213,13 @@
     "id": "0584-c5d1351",
     "pr": 584,
     "title": "perf(qwen36): tensor-core router logits + warp top-k + bit-identical GDN scan pipelining (+18% pp @32k)",
-    "label": "L",
-    "delta_pct": 16.6,
-    "tps": 21744.81,
-    "score_context": 32768,
-    "date": "2026-07-24"
+    "label": "REJECT",
+    "delta_pct": -0.0,
+    "tps": 511.97,
+    "score_context": 128,
+    "date": "2026-07-24",
+    "polaris": true,
+    "polaris_receipt_id": "fcfaf18b8dee7ed3"
   },
   {
     "id": "0585-89c3450",
