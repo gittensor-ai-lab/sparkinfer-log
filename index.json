@@ -2274,11 +2274,11 @@
     "pr": 593,
     "title": "perf(serve): MoE CB batched prefill + Qwythos H3 GDN fidelity",
     "label": "REJECT",
-    "delta_pct": 96.6,
-    "tps": 12775.7,
-    "score_context": 8192,
+    "delta_pct": 0.0,
+    "tps": 284.46,
+    "score_context": 4096,
     "date": "2026-07-23",
     "polaris": true,
-    "polaris_receipt_id": "04a7886defce8aa9"
+    "polaris_receipt_id": "e12b068006abedad"
   }
 ]
