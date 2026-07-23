@@ -2214,9 +2214,9 @@
     "pr": 585,
     "title": "perf(serve): vLLM V1 decode-first continuous batching",
     "label": "REJECT",
-    "delta_pct": -0.0,
-    "tps": 283.1,
-    "score_context": 32768,
+    "delta_pct": 0.1,
+    "tps": 295.07,
+    "score_context": 128,
     "date": "2026-07-23",
     "polaris": true,
     "polaris_receipt_id": "0ce2b067f8933722"
