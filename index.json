@@ -2398,5 +2398,17 @@
     "date": "2026-07-24",
     "polaris": true,
     "polaris_receipt_id": "505f1677e2931d88"
+  },
+  {
+    "id": "0598-3f7faf0",
+    "pr": 598,
+    "title": "perf(qwen36): default MoE live-expert gather on (+5.3% pp @512)",
+    "label": "XL",
+    "delta_pct": 18.1,
+    "tps": 5381.31,
+    "score_context": 512,
+    "date": "2026-07-24",
+    "polaris": true,
+    "polaris_receipt_id": "5bcba8b20935d75e"
   }
 ]
