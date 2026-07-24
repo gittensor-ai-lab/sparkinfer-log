@@ -2410,5 +2410,17 @@
     "date": "2026-07-24",
     "polaris": true,
     "polaris_receipt_id": "5bcba8b20935d75e"
+  },
+  {
+    "id": "0603-8192a79",
+    "pr": 603,
+    "title": "perf(qwen36): tensor core MoE router logits and GQA prefill attention fusion (+23% pp @32k)",
+    "label": "REJECT",
+    "delta_pct": 0.2,
+    "tps": 364.52,
+    "score_context": 32768,
+    "date": "2026-07-24",
+    "polaris": true,
+    "polaris_receipt_id": "cf2386aa34747798"
   }
 ]
