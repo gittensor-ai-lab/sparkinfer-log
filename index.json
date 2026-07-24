@@ -2434,5 +2434,17 @@
     "date": "2026-07-24",
     "polaris": true,
     "polaris_receipt_id": "43d08e1a538dd12c"
+  },
+  {
+    "id": "0609-64f2aff",
+    "pr": 609,
+    "title": "perf(qwen36): fast Q5_K gather dequant for MoE down cols=512 (+8.7% pp @512)",
+    "label": "S",
+    "delta_pct": 4.9,
+    "tps": 4768.53,
+    "score_context": 512,
+    "date": "2026-07-24",
+    "polaris": true,
+    "polaris_receipt_id": "05e860f6de1d2ade"
   }
 ]
