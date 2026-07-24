@@ -2424,6 +2424,18 @@
     "polaris_receipt_id": "cf2386aa34747798"
   },
   {
+    "id": "0603-a6b71f0",
+    "pr": 603,
+    "title": "perf(qwen36): tensor core MoE router logits and GQA prefill attention fusion (+23% pp @32k)",
+    "label": "REJECT",
+    "delta_pct": -0.0,
+    "tps": 425.75,
+    "score_context": 128,
+    "date": "2026-07-24",
+    "polaris": true,
+    "polaris_receipt_id": "41e25ca7dae95180"
+  },
+  {
     "id": "0609-4ff3946",
     "pr": 609,
     "title": "perf(qwen36): fast Q5_K gather dequant for MoE down cols=512 (+8.7% pp @512)",
