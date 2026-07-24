@@ -2458,5 +2458,15 @@
     "date": "2026-07-24",
     "polaris": true,
     "polaris_receipt_id": "05e860f6de1d2ade"
+  },
+  {
+    "id": "0614-1f0e02f",
+    "pr": 614,
+    "title": "perf(qwen36): tensor-core router logits + warp top-k + pipelined GDN scan + fused SwiGLU-quant (+24% pp @32k)",
+    "label": "XL",
+    "delta_pct": 19.3,
+    "tps": 21405.99,
+    "score_context": 32768,
+    "date": "2026-07-24"
   }
 ]
