@@ -2468,5 +2468,17 @@
     "tps": 21405.99,
     "score_context": 32768,
     "date": "2026-07-24"
+  },
+  {
+    "id": "0618-6dcd216",
+    "pr": 618,
+    "title": "perf(qwen36): GQA-fused prefill attention + native mma.sync MoE GEMM (+9% pp @4k)",
+    "label": "REJECT",
+    "delta_pct": 0.1,
+    "tps": 294.57,
+    "score_context": 128,
+    "date": "2026-07-27",
+    "polaris": true,
+    "polaris_receipt_id": "53ea283a82faca67"
   }
 ]
