@@ -2492,5 +2492,17 @@
     "date": "2026-07-27",
     "polaris": true,
     "polaris_receipt_id": "17a63327529cce23"
+  },
+  {
+    "id": "0621-a119a02",
+    "pr": 621,
+    "title": "perf(qwen36): routed MoE prefill GEMM reads native quantized experts, no int8 materialize",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "tps": 294.35,
+    "score_context": 128,
+    "date": "2026-07-27",
+    "polaris": true,
+    "polaris_receipt_id": "b6bd81cc56b4b696"
   }
 ]
