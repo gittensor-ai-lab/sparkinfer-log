@@ -2504,5 +2504,17 @@
     "date": "2026-07-27",
     "polaris": true,
     "polaris_receipt_id": "b6bd81cc56b4b696"
+  },
+  {
+    "id": "0623-e48072f",
+    "pr": 623,
+    "title": "perf(qwen36): mma.sync MoE gate/up GEMM + async prefill allocator + Q8_0 dequant coalesce",
+    "label": "REJECT",
+    "delta_pct": 0.1,
+    "tps": 294.42,
+    "score_context": 128,
+    "date": "2026-07-27",
+    "polaris": true,
+    "polaris_receipt_id": "dcdba81b173fa5de"
   }
 ]
