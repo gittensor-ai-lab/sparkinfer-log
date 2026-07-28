@@ -2531,12 +2531,12 @@
     "id": "0625-b0cca18",
     "pr": 625,
     "title": "perf(qwen36): Q4_K requant for shared-expert + lm_head, fused GDN alpha/beta GEMV",
-    "label": "REJECT",
-    "delta_pct": 0.0,
-    "tps": 284.55,
-    "score_context": 4096,
+    "label": "L",
+    "delta_pct": 5.0,
+    "tps": 511.5,
+    "score_context": 128,
     "date": "2026-07-28",
     "polaris": true,
-    "polaris_receipt_id": "632f0d9bc7ff1a95"
+    "polaris_receipt_id": "a2aa15178dcdb637"
   }
 ]
