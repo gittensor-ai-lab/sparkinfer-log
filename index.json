@@ -2470,6 +2470,18 @@
     "date": "2026-07-24"
   },
   {
+    "id": "0618-2920a1f",
+    "pr": 618,
+    "title": "perf(qwen36): GQA-fused prefill attention + native mma.sync MoE GEMM (+9% pp @4k)",
+    "label": "REJECT",
+    "delta_pct": 0.1,
+    "tps": 414.18,
+    "score_context": 32768,
+    "date": "2026-07-28",
+    "polaris": true,
+    "polaris_receipt_id": "42a68fb66d193b04"
+  },
+  {
     "id": "0618-6dcd216",
     "pr": 618,
     "title": "perf(qwen36): GQA-fused prefill attention + native mma.sync MoE GEMM (+9% pp @4k)",
