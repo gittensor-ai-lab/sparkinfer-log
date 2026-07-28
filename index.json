@@ -2484,12 +2484,12 @@
     "pr": 619,
     "title": "perf(qwen36): compacted paged-KV view for GQA-8 sink+window sparse decode @32k (+11.7%)",
     "label": "REJECT",
-    "delta_pct": 0.0,
-    "tps": 294.39,
-    "score_context": 128,
-    "date": "2026-07-27",
+    "delta_pct": 11.8,
+    "tps": 462.82,
+    "score_context": 32768,
+    "date": "2026-07-28",
     "polaris": true,
-    "polaris_receipt_id": "17a63327529cce23"
+    "polaris_receipt_id": "82a8d6caa740aaf2"
   },
   {
     "id": "0621-a119a02",
