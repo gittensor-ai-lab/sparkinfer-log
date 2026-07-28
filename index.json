@@ -2508,12 +2508,12 @@
     "pr": 623,
     "title": "perf(qwen36): mma.sync MoE gate/up GEMM + async prefill allocator + Q8_0 dequant coalesce",
     "label": "REJECT",
-    "delta_pct": 0.0,
-    "tps": 284.59,
-    "score_context": 4096,
+    "delta_pct": -0.0,
+    "tps": 486.99,
+    "score_context": 128,
     "date": "2026-07-28",
     "polaris": true,
-    "polaris_receipt_id": "de8aec40285581b8"
+    "polaris_receipt_id": "51503d89c24fd818"
   },
   {
     "id": "0623-e48072f",
