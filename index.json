@@ -2528,5 +2528,17 @@
     "date": "2026-07-27",
     "polaris": true,
     "polaris_receipt_id": "dcdba81b173fa5de"
+  },
+  {
+    "id": "0625-b0cca18",
+    "pr": 625,
+    "title": "perf(qwen36): Q4_K requant for shared-expert + lm_head, fused GDN alpha/beta GEMV",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "tps": 284.55,
+    "score_context": 4096,
+    "date": "2026-07-28",
+    "polaris": true,
+    "polaris_receipt_id": "632f0d9bc7ff1a95"
   }
 ]
