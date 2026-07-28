@@ -2562,5 +2562,17 @@
     "date": "2026-07-28",
     "polaris": true,
     "polaris_receipt_id": "a2aa15178dcdb637"
+  },
+  {
+    "id": "0629-8874159",
+    "pr": 629,
+    "title": "perf(qwen36): int8 MoE prefill projections + MOE_GPU masked dequant fix",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "tps": 414.0,
+    "score_context": 32768,
+    "date": "2026-07-28",
+    "polaris": true,
+    "polaris_receipt_id": "ae2a0ecaf4b915b6"
   }
 ]
