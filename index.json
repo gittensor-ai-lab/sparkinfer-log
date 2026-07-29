@@ -2598,5 +2598,17 @@
     "date": "2026-07-29",
     "polaris": true,
     "polaris_receipt_id": "74b03307fe90e5b5"
+  },
+  {
+    "id": "0636-73fb1ac",
+    "pr": 636,
+    "title": "perf(qwen36): incremental early-exit verify for dflash speculative decode (2.8x)",
+    "label": "none",
+    "delta_pct": 0.1,
+    "tps": 478.82,
+    "score_context": 512,
+    "date": "2026-07-29",
+    "polaris": true,
+    "polaris_receipt_id": "e5b959f0b5513ff8"
   }
 ]
