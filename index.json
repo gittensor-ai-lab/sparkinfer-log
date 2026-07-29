@@ -2682,5 +2682,17 @@
     "date": "2026-07-29",
     "polaris": true,
     "polaris_receipt_id": "fd7d0a2f838c67be"
+  },
+  {
+    "id": "0663-a395ff7",
+    "pr": 663,
+    "title": "perf(qwen36): CUDA-graph replay for the DFlash verify-loop decode tokens",
+    "label": "XS",
+    "delta_pct": 2.5,
+    "tps": 7582.73,
+    "score_context": 512,
+    "date": "2026-07-29",
+    "polaris": true,
+    "polaris_receipt_id": "0567c184cca814a2"
   }
 ]
