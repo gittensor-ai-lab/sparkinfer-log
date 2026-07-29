@@ -2708,6 +2708,18 @@
     "polaris_receipt_id": "0567c184cca814a2"
   },
   {
+    "id": "0663-efc1f18",
+    "pr": 663,
+    "title": "perf(qwen36): CUDA-graph replay for the DFlash verify-loop decode tokens",
+    "label": "L",
+    "delta_pct": 11.4,
+    "tps": 461.38,
+    "score_context": 32768,
+    "date": "2026-07-30",
+    "polaris": true,
+    "polaris_receipt_id": "848a76724836f774"
+  },
+  {
     "id": "0664-25b8d85",
     "pr": 664,
     "title": "perf(qwen36): GQA-fused prefill attention (+8% pp @32k)",
