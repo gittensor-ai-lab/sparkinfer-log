@@ -2588,6 +2588,18 @@
     "polaris_receipt_id": "a2aa15178dcdb637"
   },
   {
+    "id": "0625-ee2d4dc",
+    "pr": 625,
+    "title": "perf(qwen36): Q4_K requant for shared-expert + lm_head, fused GDN alpha/beta GEMV",
+    "label": "M",
+    "delta_pct": 5.0,
+    "tps": 502.94,
+    "score_context": 512,
+    "date": "2026-07-29",
+    "polaris": true,
+    "polaris_receipt_id": "43e002fe9d7aea0b"
+  },
+  {
     "id": "0629-8874159",
     "pr": 629,
     "title": "perf(qwen36): int8 MoE prefill projections + MOE_GPU masked dequant fix",
