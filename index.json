@@ -2586,5 +2586,17 @@
     "date": "2026-07-28",
     "polaris": true,
     "polaris_receipt_id": "701a1b00f8bbe3ea"
+  },
+  {
+    "id": "0632-96b98e1",
+    "pr": 632,
+    "title": "perf(qwen36): extend fused quantized-B MoE GEMM to the BM=16 short-context path",
+    "label": "XL",
+    "delta_pct": 26.6,
+    "tps": 7604.03,
+    "score_context": 512,
+    "date": "2026-07-29",
+    "polaris": true,
+    "polaris_receipt_id": "74b03307fe90e5b5"
   }
 ]
