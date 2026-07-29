@@ -2694,5 +2694,17 @@
     "date": "2026-07-29",
     "polaris": true,
     "polaris_receipt_id": "0567c184cca814a2"
+  },
+  {
+    "id": "0664-25b8d85",
+    "pr": 664,
+    "title": "perf(qwen36): GQA-fused prefill attention (+8% pp @32k)",
+    "label": "S",
+    "delta_pct": 4.7,
+    "tps": 26268.59,
+    "score_context": 32768,
+    "date": "2026-07-29",
+    "polaris": true,
+    "polaris_receipt_id": "e19a48f52336a110"
   }
 ]
