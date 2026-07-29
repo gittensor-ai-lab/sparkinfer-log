@@ -2684,6 +2684,18 @@
     "polaris_receipt_id": "fd7d0a2f838c67be"
   },
   {
+    "id": "0662-80f12dc",
+    "pr": 662,
+    "title": "perf(qwen36): native-Q6_K multi-row DFlash head MMVQ (+5.1% DFLASH_TPS)",
+    "label": "L",
+    "delta_pct": 11.4,
+    "tps": 461.31,
+    "score_context": 32768,
+    "date": "2026-07-29",
+    "polaris": true,
+    "polaris_receipt_id": "d52b1d785f953491"
+  },
+  {
     "id": "0663-a395ff7",
     "pr": 663,
     "title": "perf(qwen36): CUDA-graph replay for the DFlash verify-loop decode tokens",
