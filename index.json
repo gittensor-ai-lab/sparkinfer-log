@@ -2670,5 +2670,17 @@
     "date": "2026-07-29",
     "polaris": true,
     "polaris_receipt_id": "e5b959f0b5513ff8"
+  },
+  {
+    "id": "0662-3167fa4",
+    "pr": 662,
+    "title": "perf(qwen36): native-Q6_K multi-row DFlash head MMVQ (+5.1% DFLASH_TPS)",
+    "label": "XS",
+    "delta_pct": 2.6,
+    "tps": 7591.24,
+    "score_context": 512,
+    "date": "2026-07-29",
+    "polaris": true,
+    "polaris_receipt_id": "fd7d0a2f838c67be"
   }
 ]
