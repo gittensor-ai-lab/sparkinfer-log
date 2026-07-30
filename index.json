@@ -2742,5 +2742,17 @@
     "date": "2026-07-30",
     "polaris": true,
     "polaris_receipt_id": "04551402cb71f86d"
+  },
+  {
+    "id": "0666-ea9f481",
+    "pr": 666,
+    "title": "perf(qwen36): hoist the Q6_K unpack out of the DFlash head multi-row loop (+3.9% DFLASH_TPS)",
+    "label": "infra-error",
+    "delta_pct": null,
+    "tps": 0,
+    "score_context": null,
+    "date": "2026-07-30",
+    "polaris": true,
+    "polaris_receipt_id": "247ef62f151f6710"
   }
 ]
