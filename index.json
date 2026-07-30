@@ -2766,5 +2766,17 @@
     "date": "2026-07-30",
     "polaris": true,
     "polaris_receipt_id": "0655356fb87cb2c8"
+  },
+  {
+    "id": "0668-c02df6c",
+    "pr": 668,
+    "title": "perf(dflash): pin verify graph to terminal KV-split tier (+13% DFLASH_TPS)",
+    "label": "none",
+    "delta_pct": -0.1,
+    "tps": 479.11,
+    "score_context": 512,
+    "date": "2026-07-30",
+    "polaris": true,
+    "polaris_receipt_id": "daec0bf3ed5b1b87"
   }
 ]
