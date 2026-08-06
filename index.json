@@ -2790,5 +2790,16 @@
     "date": "2026-07-30",
     "polaris": true,
     "polaris_receipt_id": "7ef27bf47b2d7b28"
+  },
+  {
+    "id": "dflash-0681-caeb013",
+    "pr": 681,
+    "title": "perf(dflash): accelerate mixed-layout draft attention",
+    "label": "L",
+    "delta_pct": 17.4,
+    "eval_mode": "dflash",
+    "date": "2026-08-07",
+    "polaris": true,
+    "polaris_receipt_id": "b30debc54eb19fac"
   }
 ]
