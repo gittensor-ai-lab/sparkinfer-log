@@ -2867,5 +2867,16 @@
     "date": "2026-08-07",
     "polaris": true,
     "polaris_receipt_id": "96e9aa1d282f222c"
+  },
+  {
+    "id": "dflash-0696-270da25",
+    "pr": 696,
+    "title": "perf(dflash): cut the Qwen3.6 compact block verify and draft block cost",
+    "label": "XL",
+    "delta_pct": 23.6,
+    "eval_mode": "dflash",
+    "date": "2026-08-07",
+    "polaris": true,
+    "polaris_receipt_id": "030f8cc92e45146e"
   }
 ]
