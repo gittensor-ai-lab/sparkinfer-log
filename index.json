@@ -2856,5 +2856,16 @@
     "date": "2026-08-07",
     "polaris": true,
     "polaris_receipt_id": "59ea9198bad1d4cc"
+  },
+  {
+    "id": "dflash-0694-d4d82a2",
+    "pr": 694,
+    "title": "perf(dflash): row-batched exact verification kernels for Qwen3.6 speculative decode",
+    "label": "XL",
+    "delta_pct": 23.8,
+    "eval_mode": "dflash",
+    "date": "2026-08-07",
+    "polaris": true,
+    "polaris_receipt_id": "96e9aa1d282f222c"
   }
 ]
