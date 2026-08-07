@@ -2812,5 +2812,16 @@
     "date": "2026-08-07",
     "polaris": true,
     "polaris_receipt_id": "bd8f1180aaa516ad"
+  },
+  {
+    "id": "dflash-0684-4134e2c",
+    "pr": 684,
+    "title": "perf(dflash): narrow the draft diffusion block and cut its weight and launch cost",
+    "label": "L",
+    "delta_pct": 10.6,
+    "eval_mode": "dflash",
+    "date": "2026-08-07",
+    "polaris": true,
+    "polaris_receipt_id": "20c7bfc36fce9973"
   }
 ]
