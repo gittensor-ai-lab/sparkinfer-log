@@ -2801,5 +2801,16 @@
     "date": "2026-08-07",
     "polaris": true,
     "polaris_receipt_id": "b30debc54eb19fac"
+  },
+  {
+    "id": "dflash-0682-aaa7251",
+    "pr": 682,
+    "title": "perf(dflash): overlap seed verification with fixed-depth draft",
+    "label": "L",
+    "delta_pct": 13.4,
+    "eval_mode": "dflash",
+    "date": "2026-08-07",
+    "polaris": true,
+    "polaris_receipt_id": "bd8f1180aaa516ad"
   }
 ]
