@@ -2845,5 +2845,16 @@
     "date": "2026-08-07",
     "polaris": true,
     "polaris_receipt_id": "d918f000b0fcacf3"
+  },
+  {
+    "id": "dflash-0693-119c380",
+    "pr": 693,
+    "title": "perf(dflash): widen the verify window past the compact graph's four-row limit",
+    "label": "REJECT",
+    "delta_pct": -8.6,
+    "eval_mode": "dflash",
+    "date": "2026-08-07",
+    "polaris": true,
+    "polaris_receipt_id": "59ea9198bad1d4cc"
   }
 ]
