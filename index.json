@@ -2878,5 +2878,16 @@
     "date": "2026-08-07",
     "polaris": true,
     "polaris_receipt_id": "030f8cc92e45146e"
+  },
+  {
+    "id": "dflash-0700-8f7cb0b",
+    "pr": 700,
+    "title": "perf(dflash): overlap the independent Qwen3.6 verify branches on a second stream",
+    "label": "M",
+    "delta_pct": 7.3,
+    "eval_mode": "dflash",
+    "date": "2026-08-07",
+    "polaris": true,
+    "polaris_receipt_id": "921f40ac84d26a5b"
   }
 ]
