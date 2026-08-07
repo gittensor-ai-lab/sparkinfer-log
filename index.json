@@ -2825,6 +2825,17 @@
     "polaris_receipt_id": "20c7bfc36fce9973"
   },
   {
+    "id": "dflash-0687-383563e",
+    "pr": 687,
+    "title": "perf(dflash): optimize Qwen3.6 target shared-expert decode",
+    "label": "REJECT",
+    "delta_pct": -43.1,
+    "eval_mode": "dflash",
+    "date": "2026-08-07",
+    "polaris": true,
+    "polaris_receipt_id": "7912a6b1d5b66b22"
+  },
+  {
     "id": "dflash-0687-8bde66e",
     "pr": 687,
     "title": "perf(dflash): add batch-gated hybrid-state verification",
