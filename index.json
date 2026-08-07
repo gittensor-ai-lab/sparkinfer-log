@@ -2900,5 +2900,16 @@
     "date": "2026-08-07",
     "polaris": true,
     "polaris_receipt_id": "921f40ac84d26a5b"
+  },
+  {
+    "id": "dflash-0701-845444a",
+    "pr": 701,
+    "title": "perf(dflash): keep the Qwen3.6 block verify engaged and prebuild its replay graph",
+    "label": "L",
+    "delta_pct": 12.6,
+    "eval_mode": "dflash",
+    "date": "2026-08-07",
+    "polaris": true,
+    "polaris_receipt_id": "9daa23174003df1b"
   }
 ]
