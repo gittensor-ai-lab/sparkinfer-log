@@ -2834,5 +2834,16 @@
     "date": "2026-08-07",
     "polaris": true,
     "polaris_receipt_id": "9a243fd845f6e829"
+  },
+  {
+    "id": "dflash-0689-1bfae2b",
+    "pr": 689,
+    "title": "perf(dflash): graph exact adaptive block verification",
+    "label": "M",
+    "delta_pct": 9.4,
+    "eval_mode": "dflash",
+    "date": "2026-08-07",
+    "polaris": true,
+    "polaris_receipt_id": "d918f000b0fcacf3"
   }
 ]
