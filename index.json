@@ -2823,5 +2823,16 @@
     "date": "2026-08-07",
     "polaris": true,
     "polaris_receipt_id": "20c7bfc36fce9973"
+  },
+  {
+    "id": "dflash-0687-8bde66e",
+    "pr": 687,
+    "title": "perf(dflash): add batch-gated hybrid-state verification",
+    "label": "none",
+    "delta_pct": 0.5,
+    "eval_mode": "dflash",
+    "date": "2026-08-07",
+    "polaris": true,
+    "polaris_receipt_id": "9a243fd845f6e829"
   }
 ]
