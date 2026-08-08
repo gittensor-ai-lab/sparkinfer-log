@@ -1,0 +1,50 @@
+{
+  "id": "dflash-0707-2c5e74e",
+  "pr": 707,
+  "title": "Perf/dflash q5down nsplit fix",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/707",
+  "commit": "2c5e74e",
+  "eval_mode": "dflash",
+  "label": "REJECT",
+  "pass": false,
+  "reason": "DFlash regression at: DFlash@128: 436.90 < 98% of main 894.65 (-51.2%); DFlash@512: 418.34 < 98% of main 2225.47 (-81.2%); DFlash@4k: 357.81 < 98% of main 434.16 (-17.6%)",
+  "delta_pct": -81.2,
+  "pr_dflash_tps": 418.3392,
+  "main_dflash_tps": 2225.4735,
+  "pr_ar_tps": 99.942,
+  "main_ar_tps": 98.2484,
+  "speedup_vs_main": 0.188,
+  "speedup_vs_ar": 4.186,
+  "mean_accept": 5.32,
+  "spec_agree": "METRIC SPEC_AGREE 32/32 = 1.0000",
+  "guard_ok": true,
+  "guard_problems": [],
+  "dflash_ctx": {
+    "0": {
+      "pr_dflash_tps": 436.9035,
+      "main_dflash_tps": 894.6479,
+      "pr_ar_tps": 266.7117,
+      "main_ar_tps": 263.269,
+      "delta_pct": -51.2
+    },
+    "512": {
+      "pr_dflash_tps": 418.3392,
+      "main_dflash_tps": 2225.4735,
+      "pr_ar_tps": 99.942,
+      "main_ar_tps": 98.2484,
+      "delta_pct": -81.2
+    },
+    "4096": {
+      "pr_dflash_tps": 357.8093,
+      "main_dflash_tps": 434.1555,
+      "pr_ar_tps": 15.0774,
+      "main_ar_tps": 14.9361,
+      "delta_pct": -17.6
+    }
+  },
+  "scored_ctx": "512",
+  "gpu": "RTX 5090 (sm_120)",
+  "date": "2026-08-08",
+  "polaris": true,
+  "polaris_receipt_id": "69a12f66e2aea6480080eef1da7f974b"
+}
