@@ -2977,5 +2977,16 @@
     "date": "2026-08-08",
     "polaris": true,
     "polaris_receipt_id": "9028682ddf63b686"
+  },
+  {
+    "id": "dflash-0720-5c6b5a2",
+    "pr": 720,
+    "title": "perf(dflash): engage row-batched verify on sustained full-block accepts (1.74x decode @128)",
+    "label": "XL",
+    "delta_pct": 65.0,
+    "eval_mode": "dflash",
+    "date": "2026-08-08",
+    "polaris": true,
+    "polaris_receipt_id": "69d79547ae39105b"
   }
 ]
