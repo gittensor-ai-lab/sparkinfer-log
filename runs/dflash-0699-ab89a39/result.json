@@ -1,0 +1,50 @@
+{
+  "id": "dflash-0699-ab89a39",
+  "pr": 699,
+  "title": "perf(runtime): requant MoE expert down Q5_K/Q6_K \u2192 Q4_K at load",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/699",
+  "commit": "ab89a39",
+  "eval_mode": "dflash",
+  "label": "XL",
+  "pass": true,
+  "reason": "ok (best at 128 context)",
+  "delta_pct": 58.4,
+  "pr_dflash_tps": 713.8081,
+  "main_dflash_tps": 450.5765,
+  "pr_ar_tps": 267.0144,
+  "main_ar_tps": 263.9693,
+  "speedup_vs_main": 1.584,
+  "speedup_vs_ar": 2.673,
+  "mean_accept": 5.32,
+  "spec_agree": "METRIC SPEC_AGREE 32/32 = 1.0000",
+  "guard_ok": true,
+  "guard_problems": [],
+  "dflash_ctx": {
+    "0": {
+      "pr_dflash_tps": 713.8081,
+      "main_dflash_tps": 450.5765,
+      "pr_ar_tps": 267.0144,
+      "main_ar_tps": 263.9693,
+      "delta_pct": 58.4
+    },
+    "512": {
+      "pr_dflash_tps": 413.2096,
+      "main_dflash_tps": 414.4842,
+      "pr_ar_tps": 99.7625,
+      "main_ar_tps": 98.3721,
+      "delta_pct": -0.3
+    },
+    "4096": {
+      "pr_dflash_tps": 399.7309,
+      "main_dflash_tps": 355.2825,
+      "pr_ar_tps": 15.0888,
+      "main_ar_tps": 14.9266,
+      "delta_pct": 12.5
+    }
+  },
+  "scored_ctx": "128",
+  "gpu": "RTX 5090 (sm_120)",
+  "date": "2026-08-08",
+  "polaris": true,
+  "polaris_receipt_id": "a0d328c4831f66c0a32d434f5c0c65a2"
+}

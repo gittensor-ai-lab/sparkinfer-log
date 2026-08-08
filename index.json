@@ -2891,6 +2891,17 @@
     "polaris_receipt_id": "030f8cc92e45146e"
   },
   {
+    "id": "dflash-0699-ab89a39",
+    "pr": 699,
+    "title": "perf(runtime): requant MoE expert down Q5_K/Q6_K \u2192 Q4_K at load",
+    "label": "XL",
+    "delta_pct": 58.4,
+    "eval_mode": "dflash",
+    "date": "2026-08-08",
+    "polaris": true,
+    "polaris_receipt_id": "a0d328c4831f66c0"
+  },
+  {
     "id": "dflash-0700-8f7cb0b",
     "pr": 700,
     "title": "perf(dflash): overlap the independent Qwen3.6 verify branches on a second stream",
