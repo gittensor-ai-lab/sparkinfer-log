@@ -2916,11 +2916,11 @@
     "id": "dflash-0707-b67123d",
     "pr": 707,
     "title": "Perf/dflash q5down nsplit fix",
-    "label": "XS",
-    "delta_pct": 2.6,
+    "label": "REJECT",
+    "delta_pct": -83.2,
     "eval_mode": "dflash",
     "date": "2026-08-08",
     "polaris": true,
-    "polaris_receipt_id": "4db49fbc39c1b5fd"
+    "polaris_receipt_id": "9d1683d061cd9bb7"
   }
 ]

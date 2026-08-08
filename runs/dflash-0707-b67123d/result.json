@@ -5,22 +5,46 @@
   "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/707",
   "commit": "b67123d",
   "eval_mode": "dflash",
-  "label": "XS",
-  "pass": true,
-  "reason": "ok",
-  "delta_pct": 2.6,
-  "pr_dflash_tps": 834.3939,
-  "main_dflash_tps": 813.4614,
-  "pr_ar_tps": 247.5582,
-  "main_ar_tps": 248.0906,
-  "speedup_vs_main": 1.026,
-  "speedup_vs_ar": 3.37,
+  "label": "REJECT",
+  "pass": false,
+  "reason": "DFlash regression at: DFlash@512: 349.79 < 98% of main 2084.82 (-83.2%)",
+  "delta_pct": -83.2,
+  "pr_dflash_tps": 349.7925,
+  "main_dflash_tps": 2084.8238,
+  "pr_ar_tps": 92.0331,
+  "main_ar_tps": 92.4272,
+  "speedup_vs_main": 0.168,
+  "speedup_vs_ar": 3.801,
   "mean_accept": 5.3333,
   "spec_agree": "METRIC SPEC_AGREE 32/32 = 1.0000",
   "guard_ok": true,
   "guard_problems": [],
+  "dflash_ctx": {
+    "0": {
+      "pr_dflash_tps": 833.1186,
+      "main_dflash_tps": 812.4606,
+      "pr_ar_tps": 246.7675,
+      "main_ar_tps": 248.3207,
+      "delta_pct": 2.5
+    },
+    "512": {
+      "pr_dflash_tps": 349.7925,
+      "main_dflash_tps": 2084.8238,
+      "pr_ar_tps": 92.0331,
+      "main_ar_tps": 92.4272,
+      "delta_pct": -83.2
+    },
+    "4096": {
+      "pr_dflash_tps": 522.8293,
+      "main_dflash_tps": 400.494,
+      "pr_ar_tps": 14.0109,
+      "main_ar_tps": 14.0053,
+      "delta_pct": 30.5
+    }
+  },
+  "scored_ctx": "512",
   "gpu": "RTX 5090 (sm_120)",
   "date": "2026-08-08",
   "polaris": true,
-  "polaris_receipt_id": "4db49fbc39c1b5fdd3825d8e0ee27bc3"
+  "polaris_receipt_id": "9d1683d061cd9bb730625da8ecdbd8b5"
 }
