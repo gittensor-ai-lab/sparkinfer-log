@@ -1,0 +1,50 @@
+{
+  "id": "dflash-0717-c26cb21",
+  "pr": 717,
+  "title": "perf(dflash): row-batched KV-split draft attention and tensor-core context ingestion",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/717",
+  "commit": "c26cb21",
+  "eval_mode": "dflash",
+  "label": "L",
+  "pass": true,
+  "reason": "ok (best at 4k context)",
+  "delta_pct": 11.3,
+  "pr_dflash_tps": 395.4325,
+  "main_dflash_tps": 355.4128,
+  "pr_ar_tps": 14.9401,
+  "main_ar_tps": 14.9338,
+  "speedup_vs_main": 1.113,
+  "speedup_vs_ar": 26.468,
+  "mean_accept": 5.3333,
+  "spec_agree": "METRIC SPEC_AGREE 32/32 = 1.0000",
+  "guard_ok": true,
+  "guard_problems": [],
+  "dflash_ctx": {
+    "0": {
+      "pr_dflash_tps": 449.4418,
+      "main_dflash_tps": 449.2265,
+      "pr_ar_tps": 263.4361,
+      "main_ar_tps": 263.9631,
+      "delta_pct": 0.0
+    },
+    "512": {
+      "pr_dflash_tps": 412.9771,
+      "main_dflash_tps": 412.2223,
+      "pr_ar_tps": 98.4819,
+      "main_ar_tps": 98.3097,
+      "delta_pct": 0.2
+    },
+    "4096": {
+      "pr_dflash_tps": 395.4325,
+      "main_dflash_tps": 355.4128,
+      "pr_ar_tps": 14.9401,
+      "main_ar_tps": 14.9338,
+      "delta_pct": 11.3
+    }
+  },
+  "scored_ctx": "4k",
+  "gpu": "RTX 5090 (sm_120)",
+  "date": "2026-08-08",
+  "polaris": true,
+  "polaris_receipt_id": "27d1cee1f8faa64bfaf594911c4f44a8"
+}
