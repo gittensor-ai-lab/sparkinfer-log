@@ -2946,6 +2946,17 @@
     "polaris_receipt_id": "9d1683d061cd9bb7"
   },
   {
+    "id": "dflash-0717-62e8f74",
+    "pr": 717,
+    "title": "perf(dflash): row-batched KV-split draft attention and tensor-core context ingestion",
+    "label": "L",
+    "delta_pct": 11.0,
+    "eval_mode": "dflash",
+    "date": "2026-08-08",
+    "polaris": true,
+    "polaris_receipt_id": "a55b65ec2b3eda34"
+  },
+  {
     "id": "dflash-0717-c26cb21",
     "pr": 717,
     "title": "perf(dflash): row-batched KV-split draft attention and tensor-core context ingestion",
