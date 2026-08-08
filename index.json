@@ -2966,5 +2966,16 @@
     "date": "2026-08-08",
     "polaris": true,
     "polaris_receipt_id": "27d1cee1f8faa64b"
+  },
+  {
+    "id": "dflash-0720-4d8f931",
+    "pr": 720,
+    "title": "perf(dflash): score compact verify against the native Q4_K head, re-enabled where it wins (2.04x decode @128)",
+    "label": "none",
+    "delta_pct": 0.4,
+    "eval_mode": "dflash",
+    "date": "2026-08-08",
+    "polaris": true,
+    "polaris_receipt_id": "9028682ddf63b686"
   }
 ]

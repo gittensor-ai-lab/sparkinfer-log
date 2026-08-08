@@ -1,0 +1,50 @@
+{
+  "id": "dflash-0720-4d8f931",
+  "pr": 720,
+  "title": "perf(dflash): score compact verify against the native Q4_K head, re-enabled where it wins (2.04x decode @128)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/720",
+  "commit": "4d8f931",
+  "eval_mode": "dflash",
+  "label": "none",
+  "pass": true,
+  "reason": "within significance gate \u2014 not a verified DFlash improvement (best at 128 context)",
+  "delta_pct": 0.4,
+  "pr_dflash_tps": 437.461,
+  "main_dflash_tps": 435.8772,
+  "pr_ar_tps": 266.859,
+  "main_ar_tps": 265.9584,
+  "speedup_vs_main": 1.004,
+  "speedup_vs_ar": 1.639,
+  "mean_accept": 5.32,
+  "spec_agree": "METRIC SPEC_AGREE 32/32 = 1.0000",
+  "guard_ok": true,
+  "guard_problems": [],
+  "dflash_ctx": {
+    "0": {
+      "pr_dflash_tps": 437.461,
+      "main_dflash_tps": 435.8772,
+      "pr_ar_tps": 266.859,
+      "main_ar_tps": 265.9584,
+      "delta_pct": 0.4
+    },
+    "512": {
+      "pr_dflash_tps": 418.0323,
+      "main_dflash_tps": 418.0172,
+      "pr_ar_tps": 99.6587,
+      "main_ar_tps": 99.6626,
+      "delta_pct": 0.0
+    },
+    "4096": {
+      "pr_dflash_tps": 396.8015,
+      "main_dflash_tps": 398.9572,
+      "pr_ar_tps": 15.0442,
+      "main_ar_tps": 15.0933,
+      "delta_pct": -0.5
+    }
+  },
+  "scored_ctx": "128",
+  "gpu": "RTX 5090 (sm_120)",
+  "date": "2026-08-08",
+  "polaris": true,
+  "polaris_receipt_id": "9028682ddf63b68629f0f1b0a15a8901"
+}
