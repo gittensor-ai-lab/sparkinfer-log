@@ -3010,5 +3010,16 @@
     "date": "2026-08-09",
     "polaris": true,
     "polaris_receipt_id": "b09b590ec371284a"
+  },
+  {
+    "id": "dflash-0745-24b52c3",
+    "pr": 745,
+    "title": "perf(dflash): engage the batched verify on the evidence that pays (1.09x @128, 1.08x @4k)",
+    "label": "M",
+    "delta_pct": 9.1,
+    "eval_mode": "dflash",
+    "date": "2026-08-09",
+    "polaris": true,
+    "polaris_receipt_id": "8fcba19706b05f1d"
   }
 ]

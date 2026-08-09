@@ -1,0 +1,50 @@
+{
+  "id": "dflash-0745-24b52c3",
+  "pr": 745,
+  "title": "perf(dflash): engage the batched verify on the evidence that pays (1.09x @128, 1.08x @4k)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/745",
+  "commit": "24b52c3",
+  "eval_mode": "dflash",
+  "label": "M",
+  "pass": true,
+  "reason": "ok (best at 128 context)",
+  "delta_pct": 9.1,
+  "pr_dflash_tps": 880.3895,
+  "main_dflash_tps": 806.7107,
+  "pr_ar_tps": 272.6029,
+  "main_ar_tps": 272.602,
+  "speedup_vs_main": 1.091,
+  "speedup_vs_ar": 3.23,
+  "mean_accept": 5.3333,
+  "spec_agree": "METRIC SPEC_AGREE 32/32 = 1.0000",
+  "guard_ok": true,
+  "guard_problems": [],
+  "dflash_ctx": {
+    "0": {
+      "pr_dflash_tps": 880.3895,
+      "main_dflash_tps": 806.7107,
+      "pr_ar_tps": 272.6029,
+      "main_ar_tps": 272.602,
+      "delta_pct": 9.1
+    },
+    "512": {
+      "pr_dflash_tps": 426.6344,
+      "main_dflash_tps": 425.6443,
+      "pr_ar_tps": 101.8586,
+      "main_ar_tps": 104.2953,
+      "delta_pct": 0.2
+    },
+    "4096": {
+      "pr_dflash_tps": 543.1836,
+      "main_dflash_tps": 501.9613,
+      "pr_ar_tps": 15.8739,
+      "main_ar_tps": 16.7901,
+      "delta_pct": 8.2
+    }
+  },
+  "scored_ctx": "128",
+  "gpu": "RTX 5090 (sm_120)",
+  "date": "2026-08-09",
+  "polaris": true,
+  "polaris_receipt_id": "8fcba19706b05f1d675ddf48ab7f6364"
+}
