@@ -2999,5 +2999,16 @@
     "date": "2026-08-09",
     "polaris": true,
     "polaris_receipt_id": "c7e72151ae4b2d35"
+  },
+  {
+    "id": "dflash-0728-729c0aa",
+    "pr": 728,
+    "title": "perf(dflash): run the row-batched verify at long context (1.24x decode @4k)",
+    "label": "XL",
+    "delta_pct": 23.7,
+    "eval_mode": "dflash",
+    "date": "2026-08-09",
+    "polaris": true,
+    "polaris_receipt_id": "b09b590ec371284a"
   }
 ]
