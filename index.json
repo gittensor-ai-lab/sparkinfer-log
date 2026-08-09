@@ -3021,5 +3021,16 @@
     "date": "2026-08-09",
     "polaris": true,
     "polaris_receipt_id": "8fcba19706b05f1d"
+  },
+  {
+    "id": "dflash-0746-cba94ca",
+    "pr": 746,
+    "title": "perf(dflash): skip speculation where the batched verify cannot engage (1.22x decode @512)",
+    "label": "XL",
+    "delta_pct": 22.3,
+    "eval_mode": "dflash",
+    "date": "2026-08-09",
+    "polaris": true,
+    "polaris_receipt_id": "50eb522d8426c80b"
   }
 ]
