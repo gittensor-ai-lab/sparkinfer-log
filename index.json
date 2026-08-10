@@ -3065,5 +3065,16 @@
     "date": "2026-08-10",
     "polaris": true,
     "polaris_receipt_id": "0985b3e2e72154cf"
+  },
+  {
+    "id": "dflash-0762-9c543d6",
+    "pr": 762,
+    "title": "perf(dflash): window the draft's full-attention layer at long context (1.02x decode @16k)",
+    "label": "M",
+    "delta_pct": 8.5,
+    "eval_mode": "dflash",
+    "date": "2026-08-10",
+    "polaris": true,
+    "polaris_receipt_id": "d945ded0686a6ad8"
   }
 ]
