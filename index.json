@@ -3076,5 +3076,16 @@
     "date": "2026-08-10",
     "polaris": true,
     "polaris_receipt_id": "d945ded0686a6ad8"
+  },
+  {
+    "id": "dflash-0763-db3ccf7",
+    "pr": 763,
+    "title": "perf(dflash): share the verify's KV tile across folded rows (1.08x decode @32k)",
+    "label": "M",
+    "delta_pct": 7.5,
+    "eval_mode": "dflash",
+    "date": "2026-08-11",
+    "polaris": true,
+    "polaris_receipt_id": "666e49d51143c448"
   }
 ]

@@ -1,0 +1,103 @@
+{
+  "code": {
+    "repo": "https://github.com/gittensor-ai-lab/sparkinfer",
+    "commit": "db3ccf7618cfb5109d682b6e48d598ceb6de379d",
+    "build_hash": "41be291cc1d71cb27b64e574d7753dd4651aef2125c6e6be12ff2c041de4fc97",
+    "scoring_scripts_commit": "fad32fb30fce0649bd4d1ae61d4495389c87ef01"
+  },
+  "references": {
+    "model_sha256": "ac0e2c1189e055faa36eff361580e79c5bd6f8e76bffb4ce547f167d53e31a61",
+    "model_file": "Qwen3.6-35B-A3B-UD-Q4_K_M.gguf",
+    "guard_model_sha256": "5c09e7f207d2fd9069c802ff77632fa7cdaffe7fb5ba40ff9f060aaeaa09acd5",
+    "guard_model_file": "Qwythos-9B-Claude-Mythos-5-1M-Q4_K_M.gguf",
+    "llamacpp_commit": "",
+    "eval_seed": "dflash-1786401640181"
+  },
+  "environment": {
+    "eval_mode": "dflash",
+    "decode_tokens": 128,
+    "gpu_name": "NVIDIA GeForce RTX 5090",
+    "gpu_arch": "sm_120",
+    "clocks_pinned": false,
+    "clock_mhz": 0,
+    "clock_spread_mhz": 0,
+    "pin_target_mhz": 0,
+    "cuda_version": "",
+    "driver_version": "580.95.05"
+  },
+  "measurements": {
+    "dflash": {
+      "pr_dflash_tps": 556.7142,
+      "main_dflash_tps": 517.7865,
+      "pr_ar_tps": 382.7977,
+      "main_ar_tps": 385.5131,
+      "mean_accept": 5.3333,
+      "spec_agree": "METRIC SPEC_AGREE 32/32 = 1.0000",
+      "speedup_vs_main": 1.075,
+      "speedup_vs_ar": 1.454
+    },
+    "qwen_guard": {
+      "ok": true,
+      "problems": [],
+      "qwen36": {
+        "0": {
+          "decode": 528.6969,
+          "prefill": 0.0
+        },
+        "512": {
+          "decode": 520.5622,
+          "prefill": 8557.4311
+        },
+        "4096": {
+          "decode": 498.9352,
+          "prefill": 25542.0253
+        },
+        "16384": {
+          "decode": 500.4958,
+          "prefill": 27089.6932
+        },
+        "32768": {
+          "decode": 500.4395,
+          "prefill": 28314.5211
+        }
+      },
+      "qwen35": {
+        "0": {
+          "decode": 302.9996,
+          "prefill": 0.0
+        },
+        "4096": {
+          "decode": 293.339,
+          "prefill": 24732.2739
+        },
+        "32768": {
+          "decode": 292.2221,
+          "prefill": 26121.9685
+        },
+        "65536": {
+          "decode": 292.2624,
+          "prefill": 26108.3706
+        },
+        "131072": {
+          "decode": 291.339,
+          "prefill": 25438.1946
+        }
+      }
+    }
+  },
+  "verdict": {
+    "model": "dflash",
+    "label": "M",
+    "pass": true,
+    "tps": 556.7142,
+    "delta_tps": 38.9277,
+    "pct_over_frontier": 7.5,
+    "score_context": null,
+    "best_context_label": "",
+    "context_gains_pct": {},
+    "regression_labels": [],
+    "guard_regression_labels": [],
+    "reason": "ok (best at 32k context)"
+  },
+  "timestamp_utc": "2026-08-10T22:41:43Z"
+}
