@@ -3054,5 +3054,16 @@
     "date": "2026-08-10",
     "polaris": true,
     "polaris_receipt_id": "e7d4352ec306dbbd"
+  },
+  {
+    "id": "dflash-0752-d37280e",
+    "pr": 752,
+    "title": "perf(dflash): skip context rows a windowed draft layer can never read (1.02x decode @16k)",
+    "label": "XS",
+    "delta_pct": 2.1,
+    "eval_mode": "dflash",
+    "date": "2026-08-10",
+    "polaris": true,
+    "polaris_receipt_id": "0985b3e2e72154cf"
   }
 ]

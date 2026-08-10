@@ -1,0 +1,57 @@
+{
+  "id": "dflash-0752-d37280e",
+  "pr": 752,
+  "title": "perf(dflash): skip context rows a windowed draft layer can never read (1.02x decode @16k)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/752",
+  "commit": "d37280e",
+  "eval_mode": "dflash",
+  "label": "XS",
+  "pass": true,
+  "reason": "ok (best at 16k context)",
+  "delta_pct": 2.1,
+  "pr_dflash_tps": 606.2155,
+  "main_dflash_tps": 593.7117,
+  "pr_ar_tps": 4.0503,
+  "main_ar_tps": 4.0515,
+  "speedup_vs_main": 1.021,
+  "speedup_vs_ar": 149.672,
+  "mean_accept": 5.3333,
+  "spec_agree": "METRIC SPEC_AGREE 32/32 = 1.0000",
+  "guard_ok": true,
+  "guard_problems": [],
+  "dflash_ctx": {
+    "0": {
+      "pr_dflash_tps": 893.6022,
+      "main_dflash_tps": 897.5887,
+      "pr_ar_tps": 300.3426,
+      "main_ar_tps": 299.9659,
+      "delta_pct": -0.4
+    },
+    "512": {
+      "pr_dflash_tps": 522.0258,
+      "main_dflash_tps": 521.5701,
+      "pr_ar_tps": 112.3235,
+      "main_ar_tps": 112.2277,
+      "delta_pct": 0.1
+    },
+    "4096": {
+      "pr_dflash_tps": 556.5002,
+      "main_dflash_tps": 554.4647,
+      "pr_ar_tps": 16.9756,
+      "main_ar_tps": 16.9625,
+      "delta_pct": 0.4
+    },
+    "16384": {
+      "pr_dflash_tps": 606.2155,
+      "main_dflash_tps": 593.7117,
+      "pr_ar_tps": 4.0503,
+      "main_ar_tps": 4.0515,
+      "delta_pct": 2.1
+    }
+  },
+  "scored_ctx": "16k",
+  "gpu": "RTX 5090 (sm_120)",
+  "date": "2026-08-10",
+  "polaris": true,
+  "polaris_receipt_id": "0985b3e2e72154cf246afeaca78f37d4"
+}
