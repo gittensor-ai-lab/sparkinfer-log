@@ -3037,11 +3037,11 @@
     "id": "dflash-0750-a05c508",
     "pr": 750,
     "title": "fix(dflash): size draft KV to the requested context (unbreak DFlash at 16k)",
-    "label": "none",
-    "delta_pct": 0.7,
+    "label": "XL",
+    "delta_pct": Infinity,
     "eval_mode": "dflash",
     "date": "2026-08-10",
     "polaris": true,
-    "polaris_receipt_id": "d487c81708bb4669"
+    "polaris_receipt_id": "c20eea5308f9c69e"
   }
 ]
