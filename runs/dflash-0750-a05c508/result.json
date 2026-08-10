@@ -1,0 +1,57 @@
+{
+  "id": "dflash-0750-a05c508",
+  "pr": 750,
+  "title": "fix(dflash): size draft KV to the requested context (unbreak DFlash at 16k)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/750",
+  "commit": "a05c508",
+  "eval_mode": "dflash",
+  "label": "none",
+  "pass": true,
+  "reason": "within significance gate \u2014 not a verified DFlash improvement (best at 128 context)",
+  "delta_pct": 0.7,
+  "pr_dflash_tps": 899.4067,
+  "main_dflash_tps": 892.9244,
+  "pr_ar_tps": 300.0537,
+  "main_ar_tps": 288.5937,
+  "speedup_vs_main": 1.007,
+  "speedup_vs_ar": 2.997,
+  "mean_accept": 5.3333,
+  "spec_agree": "METRIC SPEC_AGREE 32/32 = 1.0000",
+  "guard_ok": true,
+  "guard_problems": [],
+  "dflash_ctx": {
+    "0": {
+      "pr_dflash_tps": 899.4067,
+      "main_dflash_tps": 892.9244,
+      "pr_ar_tps": 300.0537,
+      "main_ar_tps": 288.5937,
+      "delta_pct": 0.7
+    },
+    "512": {
+      "pr_dflash_tps": 522.0972,
+      "main_dflash_tps": 522.0922,
+      "pr_ar_tps": 112.2981,
+      "main_ar_tps": 112.2182,
+      "delta_pct": 0.0
+    },
+    "4096": {
+      "pr_dflash_tps": 556.249,
+      "main_dflash_tps": 554.3158,
+      "pr_ar_tps": 16.9753,
+      "main_ar_tps": 16.9839,
+      "delta_pct": 0.3
+    },
+    "16384": {
+      "pr_dflash_tps": 549.4609,
+      "main_dflash_tps": 0,
+      "pr_ar_tps": 4.0558,
+      "main_ar_tps": 4.0566,
+      "delta_pct": null
+    }
+  },
+  "scored_ctx": "128",
+  "gpu": "RTX 5090 (sm_120)",
+  "date": "2026-08-10",
+  "polaris": true,
+  "polaris_receipt_id": "d487c81708bb46695941c017c47e2c54"
+}
