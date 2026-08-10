@@ -3043,5 +3043,16 @@
     "date": "2026-08-10",
     "polaris": true,
     "polaris_receipt_id": "c20eea5308f9c69e"
+  },
+  {
+    "id": "dflash-0751-0a42bfe",
+    "pr": 751,
+    "title": "perf(dflash): skip the draft's out-of-window keys at long context (1.08x decode @16k)",
+    "label": "M",
+    "delta_pct": 8.1,
+    "eval_mode": "dflash",
+    "date": "2026-08-10",
+    "polaris": true,
+    "polaris_receipt_id": "e7d4352ec306dbbd"
   }
 ]
