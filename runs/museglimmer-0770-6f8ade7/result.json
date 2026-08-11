@@ -1,0 +1,22 @@
+{
+  "id": "museglimmer-0770-6f8ade7",
+  "pr": 770,
+  "title": "perf(muse-glimmer): stop dequantizing the Q5_K LM head, and stop running hot decode kernels on one CTA (1.14x decode @128)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/770",
+  "commit": "6f8ade7",
+  "eval_mode": "museglimmer-128",
+  "label": "L",
+  "pass": true,
+  "reason": "ok",
+  "delta_pct": 14.0,
+  "pr_decode_tps": 93.41,
+  "main_decode_tps": 81.97,
+  "speedup_vs_main": 1.14,
+  "pr_top1": 0.979798,
+  "pr_kl": 0.01028,
+  "accuracy_ok": true,
+  "gpu": "pinned eval box",
+  "date": "2026-08-11",
+  "polaris": true,
+  "polaris_receipt_id": "090f232adcf19581fbe8788be9eea96b"
+}
