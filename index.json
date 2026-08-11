@@ -3175,5 +3175,14 @@
     "date": "2026-08-11",
     "polaris": true,
     "polaris_receipt_id": "84e27e521f1cc340"
+  },
+  {
+    "id": "museglimmer-0773-57caba5",
+    "pr": 773,
+    "title": "perf(muse-glimmer): 3.5-bit dense-FFN gate/up weights",
+    "label": "REJECT",
+    "delta_pct": 10.4,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-12"
   }
 ]

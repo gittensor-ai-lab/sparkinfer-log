@@ -1,0 +1,20 @@
+{
+  "id": "museglimmer-0773-57caba5",
+  "pr": 773,
+  "title": "perf(muse-glimmer): 3.5-bit dense-FFN gate/up weights",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/773",
+  "commit": "57caba5",
+  "eval_mode": "museglimmer-128",
+  "label": "REJECT",
+  "pass": false,
+  "reason": "accuracy gate failed: top1=0.909 (bar >=0.9) kl=0.1788 (bar <=0.1) | speed: ok",
+  "delta_pct": 10.4,
+  "pr_decode_tps": 106.63,
+  "main_decode_tps": 96.59,
+  "speedup_vs_main": 1.104,
+  "pr_top1": 0.909091,
+  "pr_kl": 0.178752,
+  "accuracy_ok": false,
+  "gpu": "pinned eval box",
+  "date": "2026-08-12"
+}
