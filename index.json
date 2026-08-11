@@ -3153,5 +3153,16 @@
     "date": "2026-08-11",
     "polaris": true,
     "polaris_receipt_id": "8f9301d1db394618"
+  },
+  {
+    "id": "museglimmer-0772-28594bd",
+    "pr": 772,
+    "title": "perf(muse-glimmer): shape-specialize the dense-FFN GEMVs and widen the sandwich-norm tail (1.04x decode @128)",
+    "label": "S",
+    "delta_pct": 3.6,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-11",
+    "polaris": true,
+    "polaris_receipt_id": "84e27e521f1cc340"
   }
 ]

@@ -1,0 +1,22 @@
+{
+  "id": "museglimmer-0772-28594bd",
+  "pr": 772,
+  "title": "perf(muse-glimmer): shape-specialize the dense-FFN GEMVs and widen the sandwich-norm tail (1.04x decode @128)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/772",
+  "commit": "28594bd",
+  "eval_mode": "museglimmer-128",
+  "label": "S",
+  "pass": true,
+  "reason": "ok",
+  "delta_pct": 3.6,
+  "pr_decode_tps": 96.67,
+  "main_decode_tps": 93.33,
+  "speedup_vs_main": 1.036,
+  "pr_top1": 0.959596,
+  "pr_kl": 0.011418,
+  "accuracy_ok": true,
+  "gpu": "pinned eval box",
+  "date": "2026-08-11",
+  "polaris": true,
+  "polaris_receipt_id": "84e27e521f1cc340131ae1976d33ac63"
+}
