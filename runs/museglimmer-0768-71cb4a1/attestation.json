@@ -2,8 +2,8 @@
   "code": {
     "repo": "https://github.com/gittensor-ai-lab/sparkinfer",
     "commit": "71cb4a16e7175921a50baf62a3a759d7e36cc460",
-    "build_hash": "ee5b6ff26f1728ffca717f0e6aef5bbc328fafff6f3331fb4a4e8b091d439247",
-    "scoring_scripts_commit": "b23b6ad0fa11dfa29df88d45dc254c090ed62cc5"
+    "build_hash": "4896b534e846b31e98ac08262b125d491badf577e0d852c7ade25f11a7be464f",
+    "scoring_scripts_commit": "405486d4684c4a74c8a7fa61e553526625d5b3d9"
   },
   "references": {
     "model_sha256": "7e9b74b7c8875e9e265695df9613bf6290f2392e479ce740495a129019c488d8",
@@ -11,7 +11,7 @@
     "guard_model_sha256": "",
     "guard_model_file": "",
     "llamacpp_commit": "",
-    "eval_seed": "museglimmer-1786469644195"
+    "eval_seed": "museglimmer-1786470413623"
   },
   "environment": {
     "eval_mode": "museglimmer-128",
@@ -58,7 +58,7 @@
     "label": "none",
     "pass": true,
     "tps": 68.74,
-    "delta_tps": 0.02,
+    "delta_tps": 0.01,
     "pct_over_frontier": 0.0,
     "score_context": 128,
     "best_context_label": "128",
@@ -67,5 +67,5 @@
     "guard_regression_labels": [],
     "reason": null
   },
-  "timestamp_utc": "2026-08-11T17:34:51Z"
+  "timestamp_utc": "2026-08-11T17:47:35Z"
 }

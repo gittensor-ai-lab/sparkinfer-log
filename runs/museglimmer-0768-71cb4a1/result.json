@@ -10,7 +10,7 @@
   "reason": "within significance gate \u2014 not a verified decode improvement",
   "delta_pct": 0.0,
   "pr_decode_tps": 68.74,
-  "main_decode_tps": 68.72,
+  "main_decode_tps": 68.73,
   "speedup_vs_main": 1.0,
   "pr_top1": 0.979798,
   "pr_kl": 0.002867,
