@@ -1,0 +1,22 @@
+{
+  "id": "museglimmer-0771-f532cff",
+  "pr": 771,
+  "title": "perf(muse-glimmer): emit Q8_1 from the sandwich tail so the FFN + next-layer Q/K/V skip their quantize (1.02x decode @128)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/771",
+  "commit": "f532cff",
+  "eval_mode": "museglimmer-128",
+  "label": "XS",
+  "pass": true,
+  "reason": "ok",
+  "delta_pct": 2.3,
+  "pr_decode_tps": 95.51,
+  "main_decode_tps": 93.36,
+  "speedup_vs_main": 1.023,
+  "pr_top1": 0.959596,
+  "pr_kl": 0.011418,
+  "accuracy_ok": true,
+  "gpu": "pinned eval box",
+  "date": "2026-08-11",
+  "polaris": true,
+  "polaris_receipt_id": "8f9301d1db3946189443cdc0f33bdaee"
+}
