@@ -1,0 +1,64 @@
+{
+  "id": "dflash-0766-473bea3",
+  "pr": 766,
+  "title": "fix(kv): give paged-KV storage only to layers that use it (unbreak DFlash at 64k)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/766",
+  "commit": "473bea3",
+  "eval_mode": "dflash",
+  "label": "none",
+  "pass": true,
+  "reason": "within significance gate \u2014 not a verified DFlash improvement (best at 4k context)",
+  "delta_pct": 0.4,
+  "pr_dflash_tps": 557.1111,
+  "main_dflash_tps": 554.7154,
+  "pr_ar_tps": 494.0779,
+  "main_ar_tps": 490.8009,
+  "speedup_vs_main": 1.004,
+  "speedup_vs_ar": 1.128,
+  "mean_accept": 5.3333,
+  "spec_agree": "METRIC SPEC_AGREE 32/32 = 1.0000",
+  "guard_ok": true,
+  "guard_problems": [],
+  "dflash_ctx": {
+    "0": {
+      "pr_dflash_tps": 879.7806,
+      "main_dflash_tps": 880.32,
+      "pr_ar_tps": 522.604,
+      "main_ar_tps": 525.8769,
+      "delta_pct": -0.1
+    },
+    "512": {
+      "pr_dflash_tps": 515.1095,
+      "main_dflash_tps": 518.8686,
+      "pr_ar_tps": 515.0994,
+      "main_ar_tps": 519.1126,
+      "delta_pct": -0.7
+    },
+    "4096": {
+      "pr_dflash_tps": 557.1111,
+      "main_dflash_tps": 554.7154,
+      "pr_ar_tps": 494.0779,
+      "main_ar_tps": 490.8009,
+      "delta_pct": 0.4
+    },
+    "16384": {
+      "pr_dflash_tps": 637.549,
+      "main_dflash_tps": 636.2121,
+      "pr_ar_tps": 437.0204,
+      "main_ar_tps": 437.6264,
+      "delta_pct": 0.2
+    },
+    "32768": {
+      "pr_dflash_tps": 580.8713,
+      "main_dflash_tps": 581.1222,
+      "pr_ar_tps": 383.3354,
+      "main_ar_tps": 382.2184,
+      "delta_pct": -0.0
+    }
+  },
+  "scored_ctx": "4k",
+  "gpu": "RTX 5090 (sm_120)",
+  "date": "2026-08-11",
+  "polaris": true,
+  "polaris_receipt_id": "e082f2632fcd62fa54e5f821c6197d75"
+}

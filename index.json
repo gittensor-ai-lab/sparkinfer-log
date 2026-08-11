@@ -3098,5 +3098,16 @@
     "date": "2026-08-11",
     "polaris": true,
     "polaris_receipt_id": "ffef368fad0dd382"
+  },
+  {
+    "id": "dflash-0766-473bea3",
+    "pr": 766,
+    "title": "fix(kv): give paged-KV storage only to layers that use it (unbreak DFlash at 64k)",
+    "label": "none",
+    "delta_pct": 0.4,
+    "eval_mode": "dflash",
+    "date": "2026-08-11",
+    "polaris": true,
+    "polaris_receipt_id": "e082f2632fcd62fa"
   }
 ]
