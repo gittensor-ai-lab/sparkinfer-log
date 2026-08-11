@@ -3144,6 +3144,17 @@
     "polaris_receipt_id": "090f232adcf19581"
   },
   {
+    "id": "museglimmer-0771-82a537e",
+    "pr": 771,
+    "title": "perf(muse-glimmer): skip gated-off SwiGLU neurons' up-projection reads (contextual-sparsity FFN, 1.05x decode @128)",
+    "label": "REJECT",
+    "delta_pct": -36.0,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-12",
+    "polaris": true,
+    "polaris_receipt_id": "3165ba37cc0b9cb9"
+  },
+  {
     "id": "museglimmer-0771-f532cff",
     "pr": 771,
     "title": "perf(muse-glimmer): emit Q8_1 from the sandwich tail so the FFN + next-layer Q/K/V skip their quantize (1.02x decode @128)",
