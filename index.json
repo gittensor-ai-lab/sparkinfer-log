@@ -3087,5 +3087,16 @@
     "date": "2026-08-11",
     "polaris": true,
     "polaris_receipt_id": "666e49d51143c448"
+  },
+  {
+    "id": "dflash-0764-e8372ba",
+    "pr": 764,
+    "title": "perf(dflash): ask the draft for two more tokens once the KV is long (1.04x decode @32k)",
+    "label": "S",
+    "delta_pct": 4.1,
+    "eval_mode": "dflash",
+    "date": "2026-08-11",
+    "polaris": true,
+    "polaris_receipt_id": "ffef368fad0dd382"
   }
 ]

@@ -1,0 +1,64 @@
+{
+  "id": "dflash-0764-e8372ba",
+  "pr": 764,
+  "title": "perf(dflash): ask the draft for two more tokens once the KV is long (1.04x decode @32k)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/764",
+  "commit": "e8372ba",
+  "eval_mode": "dflash",
+  "label": "S",
+  "pass": true,
+  "reason": "ok (best at 32k context)",
+  "delta_pct": 4.1,
+  "pr_dflash_tps": 578.9691,
+  "main_dflash_tps": 555.9068,
+  "pr_ar_tps": 382.4092,
+  "main_ar_tps": 382.5727,
+  "speedup_vs_main": 1.041,
+  "speedup_vs_ar": 1.514,
+  "mean_accept": 5.3333,
+  "spec_agree": "METRIC SPEC_AGREE 32/32 = 1.0000",
+  "guard_ok": true,
+  "guard_problems": [],
+  "dflash_ctx": {
+    "0": {
+      "pr_dflash_tps": 879.9666,
+      "main_dflash_tps": 880.5756,
+      "pr_ar_tps": 526.2946,
+      "main_ar_tps": 526.0455,
+      "delta_pct": -0.1
+    },
+    "512": {
+      "pr_dflash_tps": 518.7922,
+      "main_dflash_tps": 518.4075,
+      "pr_ar_tps": 517.4667,
+      "main_ar_tps": 518.5736,
+      "delta_pct": 0.1
+    },
+    "4096": {
+      "pr_dflash_tps": 555.3313,
+      "main_dflash_tps": 555.0537,
+      "pr_ar_tps": 490.6367,
+      "main_ar_tps": 490.9775,
+      "delta_pct": 0.1
+    },
+    "16384": {
+      "pr_dflash_tps": 632.9441,
+      "main_dflash_tps": 627.5258,
+      "pr_ar_tps": 437.3522,
+      "main_ar_tps": 437.2204,
+      "delta_pct": 0.9
+    },
+    "32768": {
+      "pr_dflash_tps": 578.9691,
+      "main_dflash_tps": 555.9068,
+      "pr_ar_tps": 382.4092,
+      "main_ar_tps": 382.5727,
+      "delta_pct": 4.1
+    }
+  },
+  "scored_ctx": "32k",
+  "gpu": "RTX 5090 (sm_120)",
+  "date": "2026-08-11",
+  "polaris": true,
+  "polaris_receipt_id": "ffef368fad0dd382874ba3df53bb1839"
+}
