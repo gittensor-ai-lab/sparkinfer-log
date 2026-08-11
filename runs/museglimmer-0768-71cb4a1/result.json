@@ -1,0 +1,22 @@
+{
+  "id": "museglimmer-0768-71cb4a1",
+  "pr": 768,
+  "title": "perf(dflash): finish post-#764 leftovers \u2014 i4 CTA cap, draft fold, verify graph N (X.XXx @32k)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/768",
+  "commit": "71cb4a1",
+  "eval_mode": "museglimmer-128",
+  "label": "none",
+  "pass": true,
+  "reason": "within significance gate \u2014 not a verified decode improvement",
+  "delta_pct": 0.0,
+  "pr_decode_tps": 68.74,
+  "main_decode_tps": 68.72,
+  "speedup_vs_main": 1.0,
+  "pr_top1": 0.979798,
+  "pr_kl": 0.002867,
+  "accuracy_ok": true,
+  "gpu": "pinned eval box",
+  "date": "2026-08-11",
+  "polaris": true,
+  "polaris_receipt_id": "ae378f4dcff77e4ba43252f21a197173"
+}
