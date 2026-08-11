@@ -3120,5 +3120,16 @@
     "date": "2026-08-11",
     "polaris": true,
     "polaris_receipt_id": "ae378f4dcff77e4b"
+  },
+  {
+    "id": "museglimmer-0769-c02366b",
+    "pr": 769,
+    "title": "perf(muse-glimmer): keep attn_q/attn_gate quantized instead of dequantizing at load (1.19x decode @128)",
+    "label": "XL",
+    "delta_pct": 19.3,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-11",
+    "polaris": true,
+    "polaris_receipt_id": "29ae0c90f4f136f3"
   }
 ]

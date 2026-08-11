@@ -1,0 +1,22 @@
+{
+  "id": "museglimmer-0769-c02366b",
+  "pr": 769,
+  "title": "perf(muse-glimmer): keep attn_q/attn_gate quantized instead of dequantizing at load (1.19x decode @128)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/769",
+  "commit": "c02366b",
+  "eval_mode": "museglimmer-128",
+  "label": "XL",
+  "pass": true,
+  "reason": "ok",
+  "delta_pct": 19.3,
+  "pr_decode_tps": 81.98,
+  "main_decode_tps": 68.72,
+  "speedup_vs_main": 1.193,
+  "pr_top1": 0.979798,
+  "pr_kl": 0.003982,
+  "accuracy_ok": true,
+  "gpu": "pinned eval box",
+  "date": "2026-08-11",
+  "polaris": true,
+  "polaris_receipt_id": "29ae0c90f4f136f399192489ae4667eb"
+}
