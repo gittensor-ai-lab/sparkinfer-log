@@ -3294,5 +3294,16 @@
     "date": "2026-08-12",
     "polaris": true,
     "polaris_receipt_id": "451eaf11ef743088"
+  },
+  {
+    "id": "museglimmer-0790-545ce87",
+    "pr": 790,
+    "title": "perf(muse-glimmer): admit Muse's weight widths to the vector-store i8 dequant (1.27x prefill@128)",
+    "label": "XL",
+    "delta_pct": 27.5,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-12",
+    "polaris": true,
+    "polaris_receipt_id": "309c9d3021494897"
   }
 ]
