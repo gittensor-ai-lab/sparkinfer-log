@@ -3296,6 +3296,17 @@
     "polaris_receipt_id": "451eaf11ef743088"
   },
   {
+    "id": "museglimmer-0789-1c01268",
+    "pr": 789,
+    "title": "perf(muse-glimmer): split-K the skinny prefill projections and stop re-allocating the scratch (1.17x prefill@128)",
+    "label": "XL",
+    "delta_pct": 20.0,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-13",
+    "polaris": true,
+    "polaris_receipt_id": "4a08ea6ccba233a9"
+  },
+  {
     "id": "museglimmer-0790-545ce87",
     "pr": 790,
     "title": "perf(muse-glimmer): admit Muse's weight widths to the vector-store i8 dequant (1.27x prefill@128)",
