@@ -3239,5 +3239,16 @@
     "date": "2026-08-12",
     "polaris": true,
     "polaris_receipt_id": "164498dc3dcfa6b1"
+  },
+  {
+    "id": "museglimmer-0782-52798bf",
+    "pr": 782,
+    "title": "perf(muse-glimmer): fill idle bus windows with L2 prefetch and collapse four decode launches per layer (1.03x decode @128)",
+    "label": "S",
+    "delta_pct": 3.9,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-12",
+    "polaris": true,
+    "polaris_receipt_id": "8c20348b9a31b2bb"
   }
 ]
