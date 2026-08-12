@@ -3208,6 +3208,17 @@
     "polaris_receipt_id": "6e9030f84ac53052"
   },
   {
+    "id": "museglimmer-0777-5734cdb",
+    "pr": 777,
+    "title": "perf(muse-glimmer): emit Q8_1 from the sandwich-norm tail (1.04x decode @128)",
+    "label": "none",
+    "delta_pct": -0.1,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-12",
+    "polaris": true,
+    "polaris_receipt_id": "78d36139730626a1"
+  },
+  {
     "id": "museglimmer-0780-266a50e",
     "pr": 780,
     "title": "feat(runtime): MTP speculative decode for Qwen3.5 NextN GGUF (Qwythos-MTP, +4.9% decode @128)",
