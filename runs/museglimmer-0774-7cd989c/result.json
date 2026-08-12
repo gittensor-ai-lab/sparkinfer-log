@@ -1,0 +1,22 @@
+{
+  "id": "museglimmer-0774-7cd989c",
+  "pr": 774,
+  "title": "perf(muse-glimmer): skip gated-off SwiGLU neurons' up-projection reads (contextual-sparsity FFN, 1.03x decode @128)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/774",
+  "commit": "7cd989c",
+  "eval_mode": "museglimmer-128",
+  "label": "XS",
+  "pass": true,
+  "reason": "ok",
+  "delta_pct": 3.3,
+  "pr_decode_tps": 99.76,
+  "main_decode_tps": 96.6,
+  "speedup_vs_main": 1.033,
+  "pr_top1": 0.939394,
+  "pr_kl": 0.036192,
+  "accuracy_ok": true,
+  "gpu": "pinned eval box",
+  "date": "2026-08-12",
+  "polaris": true,
+  "polaris_receipt_id": "451b7eb7fa01df32ddf59b73c4d87f41"
+}

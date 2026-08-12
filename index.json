@@ -3184,5 +3184,16 @@
     "delta_pct": 10.4,
     "eval_mode": "museglimmer-128",
     "date": "2026-08-12"
+  },
+  {
+    "id": "museglimmer-0774-7cd989c",
+    "pr": 774,
+    "title": "perf(muse-glimmer): skip gated-off SwiGLU neurons' up-projection reads (contextual-sparsity FFN, 1.03x decode @128)",
+    "label": "XS",
+    "delta_pct": 3.3,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-12",
+    "polaris": true,
+    "polaris_receipt_id": "451b7eb7fa01df32"
   }
 ]
