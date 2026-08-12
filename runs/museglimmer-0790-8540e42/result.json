@@ -1,0 +1,29 @@
+{
+  "id": "museglimmer-0790-8540e42",
+  "pr": 790,
+  "title": "perf(muse-glimmer): admit Muse's weight widths to the vector-store i8 dequant (1.27x prefill@128)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/790",
+  "commit": "8540e42",
+  "eval_mode": "museglimmer-128",
+  "label": "REJECT",
+  "pass": false,
+  "reason": "qwen3.6 no-regression guard failed: qwen3.6 prefill@512: 6501.2 < 98% of main 8431.0 (-22.9%) | ok",
+  "delta_pct": 28.3,
+  "pr_decode_tps": 102.7989,
+  "main_decode_tps": 102.817,
+  "speedup_vs_main": 1.0,
+  "pr_prefill128_pp": 1427.8433,
+  "main_prefill128_pp": 1113.1029,
+  "prefill_speedup_vs_main": 1.283,
+  "pr_top1": 0.939394,
+  "pr_kl": 0.036192,
+  "accuracy_ok": true,
+  "q36_guard_ok": false,
+  "q36_guard_problems": [
+    "qwen3.6 prefill@512: 6501.2 < 98% of main 8431.0 (-22.9%)"
+  ],
+  "gpu": "pinned eval box",
+  "date": "2026-08-13",
+  "polaris": true,
+  "polaris_receipt_id": "f61f76486eaf34c65d27e571bfb40aa8"
+}
