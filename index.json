@@ -3195,5 +3195,16 @@
     "date": "2026-08-12",
     "polaris": true,
     "polaris_receipt_id": "451b7eb7fa01df32"
+  },
+  {
+    "id": "museglimmer-0776-3a6a9ee",
+    "pr": 776,
+    "title": "perf(dflash): arm the row-batched verify from the first step at short context (1.04x decode @128)",
+    "label": "none",
+    "delta_pct": 0.0,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-12",
+    "polaris": true,
+    "polaris_receipt_id": "6e9030f84ac53052"
   }
 ]
