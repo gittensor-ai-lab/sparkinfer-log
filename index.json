@@ -3250,5 +3250,16 @@
     "date": "2026-08-12",
     "polaris": true,
     "polaris_receipt_id": "8c20348b9a31b2bb"
+  },
+  {
+    "id": "museglimmer-0783-16bd319",
+    "pr": 783,
+    "title": "perf(muse-glimmer): windowed batched-GEMM prefill \u2014 10.1x prefill@128 (opt-in)",
+    "label": "none",
+    "delta_pct": 0.1,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-12",
+    "polaris": true,
+    "polaris_receipt_id": "383491e87692368c"
   }
 ]
