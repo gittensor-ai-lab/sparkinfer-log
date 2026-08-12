@@ -3263,6 +3263,17 @@
     "polaris_receipt_id": "383491e87692368c"
   },
   {
+    "id": "museglimmer-0785-1dc63d3",
+    "pr": 785,
+    "title": "perf(muse-glimmer): selective 3.5-bit FFN gate/up weights (+5.69% decode)",
+    "label": "XL",
+    "delta_pct": 207.2,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-12",
+    "polaris": true,
+    "polaris_receipt_id": "1b3f58f9646ed754"
+  },
+  {
     "id": "museglimmer-0785-235d6f7",
     "pr": 785,
     "title": "perf(muse-glimmer): selective 3.5-bit FFN gate/up weights (+5.69% decode)",
