@@ -3321,11 +3321,11 @@
     "id": "museglimmer-0790-8540e42",
     "pr": 790,
     "title": "perf(muse-glimmer): admit Muse's weight widths to the vector-store i8 dequant (1.27x prefill@128)",
-    "label": "REJECT",
+    "label": "XL",
     "delta_pct": 28.3,
     "eval_mode": "museglimmer-128",
     "date": "2026-08-13",
     "polaris": true,
-    "polaris_receipt_id": "f61f76486eaf34c6"
+    "polaris_receipt_id": "9f1ffde8e901f403"
   }
 ]

@@ -2,8 +2,8 @@
   "code": {
     "repo": "https://github.com/gittensor-ai-lab/sparkinfer",
     "commit": "8540e42071765c63c0301f05c763f0671a5501dc",
-    "build_hash": "f2dda06c7257318e94847b4e280d654142e751e92d937df78d05a279467ac03c",
-    "scoring_scripts_commit": "596e4edb8fafe71045a4771b3a8ef23e990513e3"
+    "build_hash": "e1e09d5f650da3e9dfa0ddb8d7248cb1cdcc63dd5fcdadb705e207c8a5a7a346",
+    "scoring_scripts_commit": "ae0f3784a4929cd0c43fad538a5c8698afaff89f"
   },
   "references": {
     "model_sha256": "7e9b74b7c8875e9e265695df9613bf6290f2392e479ce740495a129019c488d8",
@@ -11,7 +11,7 @@
     "guard_model_sha256": "",
     "guard_model_file": "",
     "llamacpp_commit": "",
-    "eval_seed": "museglimmer-1786573877112"
+    "eval_seed": "museglimmer-1786577817019"
   },
   "environment": {
     "eval_mode": "museglimmer-128",
@@ -29,7 +29,7 @@
     "primary": {
       "model": "museglimmer-128",
       "model_sha256": "",
-      "ctx_128_tps": 102.7989,
+      "ctx_128_tps": 102.7817,
       "ctx_512_tps": null,
       "ctx_4096_tps": null,
       "ctx_16384_tps": null,
@@ -55,10 +55,10 @@
   },
   "verdict": {
     "model": "museglimmer-128",
-    "label": "REJECT",
-    "pass": false,
-    "tps": 102.7989,
-    "delta_tps": -0.0181,
+    "label": "XL",
+    "pass": true,
+    "tps": 102.7817,
+    "delta_tps": 0.0458,
     "pct_over_frontier": 28.3,
     "score_context": 128,
     "best_context_label": "128",
@@ -67,5 +67,5 @@
     "guard_regression_labels": [],
     "reason": null
   },
-  "timestamp_utc": "2026-08-12T22:32:06Z"
+  "timestamp_utc": "2026-08-12T23:37:46Z"
 }
