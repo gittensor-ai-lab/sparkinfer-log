@@ -1,0 +1,26 @@
+{
+  "id": "museglimmer-0781-9fe3200",
+  "pr": 781,
+  "title": "perf(muse-glimmer): L2-prefetch weights into idle bus windows and gate the attention combine (1.02x decode @128)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/781",
+  "commit": "9fe3200",
+  "eval_mode": "museglimmer-128",
+  "label": "REJECT",
+  "pass": false,
+  "reason": "qwen3.6 no-regression guard failed: qwen3.6 prefill@512: 6578.0 < 98% of main 8313.5 (-20.9%) | ok",
+  "delta_pct": 3.4,
+  "pr_decode_tps": 102.96,
+  "main_decode_tps": 99.57,
+  "speedup_vs_main": 1.034,
+  "pr_top1": 0.939394,
+  "pr_kl": 0.036192,
+  "accuracy_ok": true,
+  "q36_guard_ok": false,
+  "q36_guard_problems": [
+    "qwen3.6 prefill@512: 6578.0 < 98% of main 8313.5 (-20.9%)"
+  ],
+  "gpu": "pinned eval box",
+  "date": "2026-08-12",
+  "polaris": true,
+  "polaris_receipt_id": "164498dc3dcfa6b1c1b7465fccc8b835"
+}

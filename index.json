@@ -3228,5 +3228,16 @@
     "date": "2026-08-12",
     "polaris": true,
     "polaris_receipt_id": "06de15f32f7ca610"
+  },
+  {
+    "id": "museglimmer-0781-9fe3200",
+    "pr": 781,
+    "title": "perf(muse-glimmer): L2-prefetch weights into idle bus windows and gate the attention combine (1.02x decode @128)",
+    "label": "REJECT",
+    "delta_pct": 3.4,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-12",
+    "polaris": true,
+    "polaris_receipt_id": "164498dc3dcfa6b1"
   }
 ]
