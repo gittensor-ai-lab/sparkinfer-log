@@ -3534,5 +3534,16 @@
     "date": "2026-08-14",
     "polaris": true,
     "polaris_receipt_id": "98ca0d898805a7f7"
+  },
+  {
+    "id": "museglimmer-0807-6d2f40b",
+    "pr": 807,
+    "title": "perf(muse-glimmer): k-tiled activation copy for the dense prefill GEMM (1.07x prefill@128)",
+    "label": "L",
+    "delta_pct": 10.1,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-14",
+    "polaris": true,
+    "polaris_receipt_id": "8667d2f1d0978106"
   }
 ]
