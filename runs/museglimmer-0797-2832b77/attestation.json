@@ -2,7 +2,7 @@
   "code": {
     "repo": "https://github.com/gittensor-ai-lab/sparkinfer",
     "commit": "2832b7780d2bbeddba528b206376f526801ae4d8",
-    "build_hash": "1c6d0b8fc92ca911bb7ffa348db3742dbe21b61ae18fe69e31d1246be7f0f30e",
+    "build_hash": "94ad629009b3ac976f966bd32ac1ee9e26fab5e42da4b7c6b9f171df4a826509",
     "scoring_scripts_commit": "f3283349f611d71eb551ab5cbbc7fb4793a65f0c"
   },
   "references": {
@@ -11,7 +11,7 @@
     "guard_model_sha256": "",
     "guard_model_file": "",
     "llamacpp_commit": "",
-    "eval_seed": "museglimmer-1786594338526"
+    "eval_seed": "museglimmer-1786595513230"
   },
   "environment": {
     "eval_mode": "museglimmer-128",
@@ -29,7 +29,7 @@
     "primary": {
       "model": "museglimmer-128",
       "model_sha256": "",
-      "ctx_128_tps": 102.8139,
+      "ctx_128_tps": 102.8275,
       "ctx_512_tps": null,
       "ctx_4096_tps": null,
       "ctx_16384_tps": null,
@@ -55,11 +55,11 @@
   },
   "verdict": {
     "model": "museglimmer-128",
-    "label": "REJECT",
-    "pass": false,
-    "tps": 102.8139,
-    "delta_tps": 0.009,
-    "pct_over_frontier": 8.0,
+    "label": "M",
+    "pass": true,
+    "tps": 102.8275,
+    "delta_tps": 0.0165,
+    "pct_over_frontier": 7.8,
     "score_context": 128,
     "best_context_label": "128",
     "context_gains_pct": {},
@@ -67,5 +67,5 @@
     "guard_regression_labels": [],
     "reason": null
   },
-  "timestamp_utc": "2026-08-13T04:13:09Z"
+  "timestamp_utc": "2026-08-13T04:32:42Z"
 }
