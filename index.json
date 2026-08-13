@@ -3435,5 +3435,16 @@
     "date": "2026-08-13",
     "polaris": true,
     "polaris_receipt_id": "02c7aecec64ef414"
+  },
+  {
+    "id": "museglimmer-0801-cc919ee",
+    "pr": 801,
+    "title": "perf(muse-glimmer): lane-parallel bf16 prefill attention (1.03x prefill@128)",
+    "label": "XS",
+    "delta_pct": 2.7,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-13",
+    "polaris": true,
+    "polaris_receipt_id": "73401533fb66932c"
   }
 ]
