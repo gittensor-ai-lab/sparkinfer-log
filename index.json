@@ -3545,5 +3545,16 @@
     "date": "2026-08-14",
     "polaris": true,
     "polaris_receipt_id": "8667d2f1d0978106"
+  },
+  {
+    "id": "museglimmer-0808-ed7eac7",
+    "pr": 808,
+    "title": "perf(muse-glimmer): wave-aware split-K slices, evict-first weight loads, and three fused prefill passes",
+    "label": "XS",
+    "delta_pct": 2.1,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-14",
+    "polaris": true,
+    "polaris_receipt_id": "6e529893a14690f6"
   }
 ]
