@@ -3327,5 +3327,16 @@
     "date": "2026-08-13",
     "polaris": true,
     "polaris_receipt_id": "9f1ffde8e901f403"
+  },
+  {
+    "id": "museglimmer-0791-6bbe681",
+    "pr": 791,
+    "title": "perf(muse-glimmer): one grouped GEMM for the q/gate/k/v prefill projections (1.13x prefill@128)",
+    "label": "L",
+    "delta_pct": 11.8,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-13",
+    "polaris": true,
+    "polaris_receipt_id": "bcdb3bf2bd262c24"
   }
 ]
