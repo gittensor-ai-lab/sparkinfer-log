@@ -1,0 +1,71 @@
+{
+  "code": {
+    "repo": "https://github.com/gittensor-ai-lab/sparkinfer",
+    "commit": "63d40ef64c4121e2ee25f5bc01f29c83c3ca4f84",
+    "build_hash": "1443dfda5e99534997b816603b1822efe88414fa74151cf7f8eba7472a9aa061",
+    "scoring_scripts_commit": "896d860eaa3a61de475826a8eefa085dfdd7acec"
+  },
+  "references": {
+    "model_sha256": "7e9b74b7c8875e9e265695df9613bf6290f2392e479ce740495a129019c488d8",
+    "model_file": "muse-glimmer-30B-kquant-17gb.gguf",
+    "guard_model_sha256": "",
+    "guard_model_file": "",
+    "llamacpp_commit": "",
+    "eval_seed": "museglimmer-1786590678384"
+  },
+  "environment": {
+    "eval_mode": "museglimmer-128",
+    "decode_tokens": 128,
+    "gpu_name": "NVIDIA GeForce RTX 5090",
+    "gpu_arch": "sm_120",
+    "clocks_pinned": false,
+    "clock_mhz": 0,
+    "clock_spread_mhz": 0,
+    "pin_target_mhz": 0,
+    "cuda_version": "",
+    "driver_version": "580.173.02"
+  },
+  "measurements": {
+    "primary": {
+      "model": "museglimmer-128",
+      "model_sha256": "",
+      "ctx_128_tps": 102.8086,
+      "ctx_512_tps": null,
+      "ctx_4096_tps": null,
+      "ctx_16384_tps": null,
+      "ctx_32768_tps": null,
+      "top1": 0.939394,
+      "kl": 0.036192,
+      "guard_128_baseline": null,
+      "guard_128_ratio": null,
+      "guard_128_pass": true,
+      "guard_512_baseline": null,
+      "guard_512_ratio": null,
+      "guard_512_pass": true,
+      "guard_4k_baseline": null,
+      "guard_4k_ratio": null,
+      "guard_4k_pass": true,
+      "guard_16k_baseline": null,
+      "guard_16k_ratio": null,
+      "guard_16k_pass": true,
+      "guard_32k_baseline": null,
+      "guard_32k_ratio": null,
+      "guard_32k_pass": true
+    }
+  },
+  "verdict": {
+    "model": "museglimmer-128",
+    "label": "XL",
+    "pass": true,
+    "tps": 102.8086,
+    "delta_tps": 0.003,
+    "pct_over_frontier": 36.0,
+    "score_context": 128,
+    "best_context_label": "128",
+    "context_gains_pct": {},
+    "regression_labels": [],
+    "guard_regression_labels": [],
+    "reason": null
+  },
+  "timestamp_utc": "2026-08-13T03:12:07Z"
+}
