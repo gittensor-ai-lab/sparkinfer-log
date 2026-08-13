@@ -3406,6 +3406,17 @@
     "polaris_receipt_id": "100bdafdff8a3365"
   },
   {
+    "id": "museglimmer-0798-aae555b",
+    "pr": 798,
+    "title": "perf(muse-glimmer): compress dense FFN gate/up with accuracy-safe Q3_A",
+    "label": "S",
+    "delta_pct": 4.5,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-13",
+    "polaris": true,
+    "polaris_receipt_id": "67300831d4d1c405"
+  },
+  {
     "id": "museglimmer-0798-e2f754a",
     "pr": 798,
     "title": "perf(muse-glimmer): compress dense FFN gate/up with accuracy-safe Q3_A",
