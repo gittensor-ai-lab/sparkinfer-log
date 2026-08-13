@@ -3338,5 +3338,16 @@
     "date": "2026-08-13",
     "polaris": true,
     "polaris_receipt_id": "bcdb3bf2bd262c24"
+  },
+  {
+    "id": "museglimmer-0792-e3477ed",
+    "pr": 792,
+    "title": "perf(muse-glimmer): support Q3_A decode without breaking batched prefill",
+    "label": "REJECT",
+    "delta_pct": -22.2,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-13",
+    "polaris": true,
+    "polaris_receipt_id": "226592e56540a13c"
   }
 ]
