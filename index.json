@@ -3413,5 +3413,16 @@
     "delta_pct": 4.1,
     "eval_mode": "museglimmer-128",
     "date": "2026-08-13"
+  },
+  {
+    "id": "museglimmer-0799-8d4aca6",
+    "pr": 799,
+    "title": "perf(muse-glimmer): atomic split-K accumulation and a table-driven Q4_K decode",
+    "label": "M",
+    "delta_pct": 6.8,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-13",
+    "polaris": true,
+    "polaris_receipt_id": "e22368e83ed3005c"
   }
 ]
