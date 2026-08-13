@@ -3360,5 +3360,16 @@
     "date": "2026-08-13",
     "polaris": true,
     "polaris_receipt_id": "2f5ed414f04c5194"
+  },
+  {
+    "id": "museglimmer-0795-0229f80",
+    "pr": 795,
+    "title": "perf(muse-glimmer): unstarve the skinny prefill GEMMs, reuse the scratch, read the SwiGLU row once (1.30x prefill@128)",
+    "label": "S",
+    "delta_pct": 5.9,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-13",
+    "polaris": true,
+    "polaris_receipt_id": "53bf21be4c4f6b84"
   }
 ]
