@@ -1,0 +1,29 @@
+{
+  "id": "museglimmer-0797-2832b77",
+  "pr": 797,
+  "title": "perf(muse-glimmer): split-K and widen the grouped prefill projections (1.08x prefill@128)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/797",
+  "commit": "2832b77",
+  "eval_mode": "museglimmer-128",
+  "label": "REJECT",
+  "pass": false,
+  "reason": "qwen3.6 no-regression guard failed: qwen3.6 guard measurement unavailable | ok",
+  "delta_pct": 8.0,
+  "pr_decode_tps": 102.8139,
+  "main_decode_tps": 102.8049,
+  "speedup_vs_main": 1.0,
+  "pr_prefill128_pp": 3277.2077,
+  "main_prefill128_pp": 3034.3803,
+  "prefill_speedup_vs_main": 1.08,
+  "pr_top1": 0.939394,
+  "pr_kl": 0.036192,
+  "accuracy_ok": true,
+  "q36_guard_ok": false,
+  "q36_guard_problems": [
+    "qwen3.6 guard measurement unavailable"
+  ],
+  "gpu": "pinned eval box",
+  "date": "2026-08-13",
+  "polaris": true,
+  "polaris_receipt_id": "fdddd58f0490e8d481df0b69662fa596"
+}

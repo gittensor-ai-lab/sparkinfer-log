@@ -3393,5 +3393,16 @@
     "date": "2026-08-13",
     "polaris": true,
     "polaris_receipt_id": "aadbb7b51e2f80d3"
+  },
+  {
+    "id": "museglimmer-0797-2832b77",
+    "pr": 797,
+    "title": "perf(muse-glimmer): split-K and widen the grouped prefill projections (1.08x prefill@128)",
+    "label": "REJECT",
+    "delta_pct": 8.0,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-13",
+    "polaris": true,
+    "polaris_receipt_id": "fdddd58f0490e8d4"
   }
 ]
