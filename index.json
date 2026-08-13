@@ -3457,5 +3457,16 @@
     "date": "2026-08-13",
     "polaris": true,
     "polaris_receipt_id": "73401533fb66932c"
+  },
+  {
+    "id": "museglimmer-0804-60417b0",
+    "pr": 804,
+    "title": "perf(muse-glimmer): issue mma.m16n8k32 in the dense prefill GEMM (1.078x prefill@128)",
+    "label": "L",
+    "delta_pct": 11.7,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-13",
+    "polaris": true,
+    "polaris_receipt_id": "8ca9cf7aad97325b"
   }
 ]
