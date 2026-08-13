@@ -3340,6 +3340,17 @@
     "polaris_receipt_id": "bcdb3bf2bd262c24"
   },
   {
+    "id": "museglimmer-0791-b7dc927",
+    "pr": 791,
+    "title": "perf(muse-glimmer): one grouped GEMM for the q/gate/k/v prefill projections (1.14x prefill@128)",
+    "label": "L",
+    "delta_pct": 13.9,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-13",
+    "polaris": true,
+    "polaris_receipt_id": "03383c43e353c599"
+  },
+  {
     "id": "museglimmer-0792-e3477ed",
     "pr": 792,
     "title": "perf(muse-glimmer): support Q3_A decode without breaking batched prefill",
