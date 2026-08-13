@@ -3437,6 +3437,17 @@
     "polaris_receipt_id": "e22368e83ed3005c"
   },
   {
+    "id": "museglimmer-0800-1f31204",
+    "pr": 800,
+    "title": "perf(muse-glimmer): CUDA-graph capture for the batched prefill (1.03x prefill@128)",
+    "label": "S",
+    "delta_pct": 4.2,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-13",
+    "polaris": true,
+    "polaris_receipt_id": "25f6be4463d70fa8"
+  },
+  {
     "id": "museglimmer-0800-59d5e8c",
     "pr": 800,
     "title": "perf(muse-glimmer): CUDA-graph capture for the batched prefill (1.03x prefill@128)",
