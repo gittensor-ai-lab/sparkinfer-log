@@ -3609,5 +3609,16 @@
     "date": "2026-08-14",
     "polaris": true,
     "polaris_receipt_id": "9e0eaf2cf5f1a1b5"
+  },
+  {
+    "id": "museglimmer-0812-b92b830",
+    "pr": 812,
+    "title": "perf(muse-glimmer): extend SM120 NVFP4 prefill to the full dense FFN",
+    "label": "none",
+    "delta_pct": -0.2,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-14",
+    "polaris": true,
+    "polaris_receipt_id": "2e0fea1eda713300"
   }
 ]
