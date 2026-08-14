@@ -3503,6 +3503,15 @@
     "polaris_receipt_id": "d66387836354b6bf"
   },
   {
+    "id": "museglimmer-0806-39e1319",
+    "pr": 806,
+    "title": "perf(muse-glimmer): uncap the prefill split-K slice count, zero the accumulator on read (1.05x prefill@128)",
+    "label": "none",
+    "delta_pct": 0.7,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-14"
+  },
+  {
     "id": "museglimmer-0806-788fc92",
     "pr": 806,
     "title": "perf(muse-glimmer): uncap the prefill split-K slice count, zero the accumulator on read (1.05x prefill@128)",
