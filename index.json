@@ -3640,5 +3640,16 @@
     "delta_pct": 9.9,
     "eval_mode": "museglimmer-128",
     "date": "2026-08-14"
+  },
+  {
+    "id": "museglimmer-0816-73a7369",
+    "pr": 816,
+    "title": "perf(muse-glimmer): extend the SM120 NVFP4 prefill path to ffn_down (1.08x prefill@128)",
+    "label": "L",
+    "delta_pct": 12.6,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-14",
+    "polaris": true,
+    "polaris_receipt_id": "7bfab800526d68a9"
   }
 ]
