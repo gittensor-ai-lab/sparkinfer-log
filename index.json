@@ -3739,5 +3739,14 @@
     "date": "2026-08-14",
     "polaris": true,
     "polaris_receipt_id": "01efe4b007b0af0a"
+  },
+  {
+    "id": "museglimmer-0828-680d198",
+    "pr": 828,
+    "title": "perf(muse-glimmer): wider prefill attention loads and a one-pass q|gate|k|v split (1.03x prefill@128)",
+    "label": "XS",
+    "delta_pct": 2.7,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-15"
   }
 ]
