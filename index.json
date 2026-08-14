@@ -3695,5 +3695,16 @@
     "date": "2026-08-14",
     "polaris": true,
     "polaris_receipt_id": "8ed9c87be5c734da"
+  },
+  {
+    "id": "museglimmer-0822-39c0a81",
+    "pr": 822,
+    "title": "perf(muse-glimmer): block-scaled FP4 attention projection group (1.08x prefill@128)",
+    "label": "M",
+    "delta_pct": 7.1,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-14",
+    "polaris": true,
+    "polaris_receipt_id": "ed35dcb0630a0ec9"
   }
 ]
