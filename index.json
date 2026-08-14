@@ -3536,6 +3536,17 @@
     "polaris_receipt_id": "98ca0d898805a7f7"
   },
   {
+    "id": "museglimmer-0806-d5bfb25",
+    "pr": 806,
+    "title": "perf(muse-glimmer): uncap the prefill split-K slice count, zero the accumulator on read (1.05x prefill@128)",
+    "label": "S",
+    "delta_pct": 5.7,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-14",
+    "polaris": true,
+    "polaris_receipt_id": "9c7303dce9e4a207"
+  },
+  {
     "id": "museglimmer-0807-6d2f40b",
     "pr": 807,
     "title": "perf(muse-glimmer): k-tiled activation copy for the dense prefill GEMM (1.07x prefill@128)",
