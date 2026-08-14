@@ -3662,5 +3662,16 @@
     "date": "2026-08-14",
     "polaris": true,
     "polaris_receipt_id": "9399be6c3396e5ea"
+  },
+  {
+    "id": "museglimmer-0818-b8eefb8",
+    "pr": 818,
+    "title": "perf(muse-glimmer): block-scaled FP4 ffn_down and o-projection, shape-adaptive GEMM tile, fused activation quantizes (1.21x prefill@128)",
+    "label": "REJECT",
+    "delta_pct": -100.0,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-14",
+    "polaris": true,
+    "polaris_receipt_id": "f3ca02d2f0fae8c3"
   }
 ]
