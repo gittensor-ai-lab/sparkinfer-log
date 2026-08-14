@@ -3706,5 +3706,16 @@
     "date": "2026-08-14",
     "polaris": true,
     "polaris_receipt_id": "ed35dcb0630a0ec9"
+  },
+  {
+    "id": "museglimmer-0826-7ff53bb",
+    "pr": 826,
+    "title": "perf(muse-glimmer): block-scaled FP4 o-projection with the attention gate fused into its quantize",
+    "label": "S",
+    "delta_pct": 4.1,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-14",
+    "polaris": true,
+    "polaris_receipt_id": "17d37a61c83ae1c7"
   }
 ]
