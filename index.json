@@ -3587,5 +3587,16 @@
     "date": "2026-08-14",
     "polaris": true,
     "polaris_receipt_id": "9c3cb0e9eb471d79"
+  },
+  {
+    "id": "museglimmer-0810-9aabf4e",
+    "pr": 810,
+    "title": "perf(muse-glimmer): add SM120 NVFP4 gate/up prefill path",
+    "label": "XS",
+    "delta_pct": 2.6,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-14",
+    "polaris": true,
+    "polaris_receipt_id": "4cc20be9416c35cf"
   }
 ]
