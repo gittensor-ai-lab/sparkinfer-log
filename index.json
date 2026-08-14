@@ -3598,5 +3598,16 @@
     "date": "2026-08-14",
     "polaris": true,
     "polaris_receipt_id": "4cc20be9416c35cf"
+  },
+  {
+    "id": "museglimmer-0811-44a537f",
+    "pr": 811,
+    "title": "perf(muse-glimmer): build the SM120 FP4 prefill path by default (1.14x prefill@128)",
+    "label": "none",
+    "delta_pct": 0.8,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-14",
+    "polaris": true,
+    "polaris_receipt_id": "9e0eaf2cf5f1a1b5"
   }
 ]
