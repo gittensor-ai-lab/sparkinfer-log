@@ -3651,5 +3651,16 @@
     "date": "2026-08-14",
     "polaris": true,
     "polaris_receipt_id": "7bfab800526d68a9"
+  },
+  {
+    "id": "museglimmer-0817-32d2f36",
+    "pr": 817,
+    "title": "perf(muse-glimmer): NVFP4 ffn_down prefill leg (fixed #816) + finer FP4 CTA tiles (1.11x prefill@128)",
+    "label": "REJECT",
+    "delta_pct": 12.5,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-14",
+    "polaris": true,
+    "polaris_receipt_id": "9399be6c3396e5ea"
   }
 ]
