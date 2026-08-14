@@ -3748,5 +3748,16 @@
     "delta_pct": 2.7,
     "eval_mode": "museglimmer-128",
     "date": "2026-08-15"
+  },
+  {
+    "id": "museglimmer-0829-0433d52",
+    "pr": 829,
+    "title": "perf(muse-glimmer): one key per lane in the bf16 prefill attention",
+    "label": "M",
+    "delta_pct": 7.5,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-15",
+    "polaris": true,
+    "polaris_receipt_id": "83f704bd1a152146"
   }
 ]
