@@ -3708,6 +3708,17 @@
     "polaris_receipt_id": "ed35dcb0630a0ec9"
   },
   {
+    "id": "museglimmer-0824-908b5a1",
+    "pr": 824,
+    "title": "perf(muse-glimmer): pipeline FP4 down projection without long-context OOM",
+    "label": "M",
+    "delta_pct": 7.0,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-14",
+    "polaris": true,
+    "polaris_receipt_id": "2bd27e2afcb30703"
+  },
+  {
     "id": "museglimmer-0826-7ff53bb",
     "pr": 826,
     "title": "perf(muse-glimmer): block-scaled FP4 o-projection with the attention gate fused into its quantize",
