@@ -3728,5 +3728,16 @@
     "date": "2026-08-14",
     "polaris": true,
     "polaris_receipt_id": "17d37a61c83ae1c7"
+  },
+  {
+    "id": "museglimmer-0827-45ff39d",
+    "pr": 827,
+    "title": "perf(muse-glimmer): block-scaled FP4 ffn_down behind an all-or-nothing VRAM preflight",
+    "label": "S",
+    "delta_pct": 6.0,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-08-14",
+    "polaris": true,
+    "polaris_receipt_id": "01efe4b007b0af0a"
   }
 ]
