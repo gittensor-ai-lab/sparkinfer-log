@@ -1,0 +1,33 @@
+{
+  "id": "qwen38-0853-6b0c001",
+  "pr": 853,
+  "title": "perf(qwen3.8): pipeline GDN scan loads and raise the 16k FFN chunk (1.02x prefill@16k)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/853",
+  "commit": "6b0c001",
+  "eval_mode": "qwen38-128",
+  "label": "REJECT",
+  "pass": false,
+  "reason": "qwen3.6 no-regression guard failed: qwen3.6 prefill@512: 9800.7 < 98% of main 10020.2 (-2.2%) | within significance gate \u2014 not a verified prefill@16k improvement",
+  "delta_pct": -0.2,
+  "pr_decode_tps": 84.3057,
+  "main_decode_tps": 84.1656,
+  "pr_prefill_pp": 5239.9539,
+  "main_prefill_pp": 5159.0432,
+  "prefill_delta_pct": 1.6,
+  "pr_prefill16k_pp": 8414.9213,
+  "main_prefill16k_pp": 8432.26,
+  "prefill16k_delta_pct": -0.2,
+  "scored_dimension": "prefill@16k",
+  "speedup_vs_main": 1.002,
+  "pr_top1": 1.0,
+  "pr_kl": 0.0,
+  "accuracy_ok": true,
+  "q36_guard_ok": false,
+  "q36_guard_problems": [
+    "qwen3.6 prefill@512: 9800.7 < 98% of main 10020.2 (-2.2%)"
+  ],
+  "gpu": "pinned eval box",
+  "date": "2026-08-15",
+  "polaris": true,
+  "polaris_receipt_id": "664c63eab8ecdd30120e819bd42eab80"
+}

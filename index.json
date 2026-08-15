@@ -3986,5 +3986,16 @@
     "date": "2026-08-15",
     "polaris": true,
     "polaris_receipt_id": "998b0a96508a22fc"
+  },
+  {
+    "id": "qwen38-0853-6b0c001",
+    "pr": 853,
+    "title": "perf(qwen3.8): pipeline GDN scan loads and raise the 16k FFN chunk (1.02x prefill@16k)",
+    "label": "REJECT",
+    "delta_pct": -0.2,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-15",
+    "polaris": true,
+    "polaris_receipt_id": "664c63eab8ecdd30"
   }
 ]
