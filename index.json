@@ -3920,5 +3920,16 @@
     "date": "2026-08-15",
     "polaris": true,
     "polaris_receipt_id": "24cedb69bce07a0b"
+  },
+  {
+    "id": "qwen38-0847-971ec43",
+    "pr": 847,
+    "title": "perf(qwen3.8): allocate KV only for the full-attention layers (1.55x prefill@8k)",
+    "label": "REJECT",
+    "delta_pct": -96.3,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-15",
+    "polaris": true,
+    "polaris_receipt_id": "2cc9c35692eb2111"
   }
 ]
