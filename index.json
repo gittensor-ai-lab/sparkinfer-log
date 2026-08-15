@@ -3942,5 +3942,16 @@
     "date": "2026-08-15",
     "polaris": true,
     "polaris_receipt_id": "c450eae4f9978512"
+  },
+  {
+    "id": "qwen38-0849-c8ad861",
+    "pr": 849,
+    "title": "perf(qwen3.8): size the prefill FFN chunk to the largest that fits (1.08x prefill@16k)",
+    "label": "REJECT",
+    "delta_pct": -98.5,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-15",
+    "polaris": true,
+    "polaris_receipt_id": "e600c4e650000846"
   }
 ]
