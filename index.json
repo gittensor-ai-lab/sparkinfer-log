@@ -3975,5 +3975,16 @@
     "date": "2026-08-15",
     "polaris": true,
     "polaris_receipt_id": "3b899e33311906e7"
+  },
+  {
+    "id": "qwen38-0852-d9d415c",
+    "pr": 852,
+    "title": "perf(qwen3.8): reserve the GDN scan's workspace when sizing the FFN chunk (1.08x prefill@16k)",
+    "label": "M",
+    "delta_pct": 8.2,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-15",
+    "polaris": true,
+    "polaris_receipt_id": "998b0a96508a22fc"
   }
 ]
