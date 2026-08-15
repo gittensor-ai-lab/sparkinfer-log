@@ -3770,5 +3770,16 @@
     "date": "2026-08-15",
     "polaris": true,
     "polaris_receipt_id": "ba55fcc4f4a87639"
+  },
+  {
+    "id": "qwen38-0834-57e509e",
+    "pr": 834,
+    "title": "perf(qwen3.8): keep checkpoint NVFP4 for prefill FFN (1.29x prefill@4096)",
+    "label": "none",
+    "delta_pct": -0.0,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-15",
+    "polaris": true,
+    "polaris_receipt_id": "d03e572ab8a562e4"
   }
 ]
