@@ -3854,5 +3854,16 @@
     "date": "2026-08-15",
     "polaris": true,
     "polaris_receipt_id": "b713b46e2593cf78"
+  },
+  {
+    "id": "qwen38-0842-b17010d",
+    "pr": 842,
+    "title": "perf(qwen3.8): cp.async-staged skinny prefill GEMM for the 48-wide GDN gate projections (1.37x prefill@128)",
+    "label": "XL",
+    "delta_pct": 18.2,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-15",
+    "polaris": true,
+    "polaris_receipt_id": "9b2240e9fd06c9e7"
   }
 ]
