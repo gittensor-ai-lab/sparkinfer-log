@@ -3843,5 +3843,16 @@
     "delta_pct": -0.1,
     "eval_mode": "qwen38-128",
     "date": "2026-08-15"
+  },
+  {
+    "id": "qwen38-0841-12a5944",
+    "pr": 841,
+    "title": "perf(qwen3.8): fused Q4_K-in-GEMM for attn prefill (1.10x prefill@128)",
+    "label": "L",
+    "delta_pct": 16.1,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-15",
+    "polaris": true,
+    "polaris_receipt_id": "b713b46e2593cf78"
   }
 ]
