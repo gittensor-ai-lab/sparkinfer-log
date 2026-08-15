@@ -3834,5 +3834,14 @@
     "delta_pct": 25.6,
     "eval_mode": "qwen38-128",
     "date": "2026-08-15"
+  },
+  {
+    "id": "qwen38-0839-ac314b0",
+    "pr": 839,
+    "title": "fix(qwen3.8): restore the dropped FFN residual in the block-scaled prefill",
+    "label": "none",
+    "delta_pct": -0.1,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-15"
   }
 ]
