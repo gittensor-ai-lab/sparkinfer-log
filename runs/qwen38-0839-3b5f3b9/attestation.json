@@ -1,0 +1,71 @@
+{
+  "code": {
+    "repo": "https://github.com/gittensor-ai-lab/sparkinfer",
+    "commit": "3b5f3b94a392fb20678c3f2f3cb28b5c9387330c",
+    "build_hash": "54a8ef418804927d5b0bb7759e69d63f05b0a1847f05c46b74385de1508166cc",
+    "scoring_scripts_commit": "02770d561581d37c101e175ff10be27e3fdf2555"
+  },
+  "references": {
+    "model_sha256": "c473512c70eace07e2256fe9fd76596ac03e3295bee7d54cfb72676416afcc05",
+    "model_file": "model.safetensors",
+    "guard_model_sha256": "",
+    "guard_model_file": "",
+    "llamacpp_commit": "",
+    "eval_seed": "qwen38-1786783271911"
+  },
+  "environment": {
+    "eval_mode": "qwen38-128",
+    "decode_tokens": 128,
+    "gpu_name": "NVIDIA GeForce RTX 5090",
+    "gpu_arch": "sm_120",
+    "clocks_pinned": false,
+    "clock_mhz": 0,
+    "clock_spread_mhz": 0,
+    "pin_target_mhz": 0,
+    "cuda_version": "",
+    "driver_version": "580.173.02"
+  },
+  "measurements": {
+    "primary": {
+      "model": "qwen38-128",
+      "model_sha256": "",
+      "ctx_128_tps": 84.5046,
+      "ctx_512_tps": null,
+      "ctx_4096_tps": null,
+      "ctx_16384_tps": null,
+      "ctx_32768_tps": null,
+      "top1": 1.0,
+      "kl": 0.0,
+      "guard_128_baseline": null,
+      "guard_128_ratio": null,
+      "guard_128_pass": true,
+      "guard_512_baseline": null,
+      "guard_512_ratio": null,
+      "guard_512_pass": true,
+      "guard_4k_baseline": null,
+      "guard_4k_ratio": null,
+      "guard_4k_pass": true,
+      "guard_16k_baseline": null,
+      "guard_16k_ratio": null,
+      "guard_16k_pass": true,
+      "guard_32k_baseline": null,
+      "guard_32k_ratio": null,
+      "guard_32k_pass": true
+    }
+  },
+  "verdict": {
+    "model": "qwen38-128",
+    "label": "XL",
+    "pass": true,
+    "tps": 84.5046,
+    "delta_tps": -0.0292,
+    "pct_over_frontier": 25.6,
+    "score_context": 128,
+    "best_context_label": "128",
+    "context_gains_pct": {},
+    "regression_labels": [],
+    "guard_regression_labels": [],
+    "reason": null
+  },
+  "timestamp_utc": "2026-08-15T08:41:27Z"
+}
