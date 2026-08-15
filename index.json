@@ -3964,5 +3964,16 @@
     "date": "2026-08-15",
     "polaris": true,
     "polaris_receipt_id": "9f2616b1018957c6"
+  },
+  {
+    "id": "qwen38-0851-d16a5a0",
+    "pr": 851,
+    "title": "perf(qwen3.8): larger GDN scan segments via malloc probe (1.09x prefill@16k)",
+    "label": "XS",
+    "delta_pct": 2.0,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-15",
+    "polaris": true,
+    "polaris_receipt_id": "3b899e33311906e7"
   }
 ]
