@@ -3909,5 +3909,16 @@
     "date": "2026-08-15",
     "polaris": true,
     "polaris_receipt_id": "c5428b303bdc51fc"
+  },
+  {
+    "id": "qwen38-0846-b2b8da7",
+    "pr": 846,
+    "title": "perf(qwen3.8): CUTLASS FP8 GDN projections + warp-synchronous chunk prep",
+    "label": "none",
+    "delta_pct": -0.0,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-15",
+    "polaris": true,
+    "polaris_receipt_id": "24cedb69bce07a0b"
   }
 ]
