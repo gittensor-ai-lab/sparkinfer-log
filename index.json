@@ -3887,5 +3887,16 @@
     "date": "2026-08-15",
     "polaris": true,
     "polaris_receipt_id": "f6d8f46a51c29785"
+  },
+  {
+    "id": "qwen38-0844-5c86037",
+    "pr": 844,
+    "title": "perf(qwen3.8): 3-stage cp.async pipeline for the FP8 GDN prefill projections (1.03x prefill@128)",
+    "label": "none",
+    "delta_pct": -0.0,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-15",
+    "polaris": true,
+    "polaris_receipt_id": "61db5c29af28e4c2"
   }
 ]
