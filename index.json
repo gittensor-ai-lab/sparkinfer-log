@@ -3898,5 +3898,16 @@
     "date": "2026-08-15",
     "polaris": true,
     "polaris_receipt_id": "61db5c29af28e4c2"
+  },
+  {
+    "id": "qwen38-0845-85d6faf",
+    "pr": 845,
+    "title": "perf(muse-glimmer): tensor-core windowed attention + prefill graph node-count reduction (1.06x prefill@128)",
+    "label": "XL",
+    "delta_pct": 2619.1,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-15",
+    "polaris": true,
+    "polaris_receipt_id": "c5428b303bdc51fc"
   }
 ]
