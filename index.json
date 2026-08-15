@@ -3759,5 +3759,16 @@
     "date": "2026-08-15",
     "polaris": true,
     "polaris_receipt_id": "83f704bd1a152146"
+  },
+  {
+    "id": "qwen38-0832-743d30f",
+    "pr": 832,
+    "title": "perf(qwen3.8): native FP8 GDN decode GEMV (1.27x decode@128)",
+    "label": "XL",
+    "delta_pct": 27.6,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-15",
+    "polaris": true,
+    "polaris_receipt_id": "ba55fcc4f4a87639"
   }
 ]
