@@ -4019,5 +4019,14 @@
     "date": "2026-08-16",
     "polaris": true,
     "polaris_receipt_id": "06b8bacc1a932b7e"
+  },
+  {
+    "id": "qwen38-0856-e3d6a77",
+    "pr": 856,
+    "title": "perf(qwen3.8): decode NVFP4 scales and nibbles arithmetically, not through local memory (1.22x decode@128)",
+    "label": "XL",
+    "delta_pct": 22.0,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-16"
   }
 ]
