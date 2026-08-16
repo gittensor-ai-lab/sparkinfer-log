@@ -4052,6 +4052,17 @@
     "polaris_receipt_id": "63fe4f0830140a8c"
   },
   {
+    "id": "qwen38-0859-657daea",
+    "pr": 859,
+    "title": "perf(qwen3.8): per-group basis for the NVFP4 checkpoint decode (1.07x prefill@128)",
+    "label": "none",
+    "delta_pct": -0.3,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-16",
+    "polaris": true,
+    "polaris_receipt_id": "850e55bacfa59fe6"
+  },
+  {
     "id": "qwen38-0859-d3421b8",
     "pr": 859,
     "title": "perf(qwen3.8): per-group basis for the NVFP4 checkpoint decode (1.07x prefill@128)",
