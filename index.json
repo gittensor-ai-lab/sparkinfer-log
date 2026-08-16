@@ -4039,5 +4039,16 @@
     "date": "2026-08-16",
     "polaris": true,
     "polaris_receipt_id": "379ab7b1f8bfb86e"
+  },
+  {
+    "id": "qwen38-0858-bc441a3",
+    "pr": 858,
+    "title": "perf(qwen3.8): integer NVFP4 decode straight to int8 rows (1.12x prefill@128)",
+    "label": "L",
+    "delta_pct": 11.6,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-16",
+    "polaris": true,
+    "polaris_receipt_id": "63fe4f0830140a8c"
   }
 ]
