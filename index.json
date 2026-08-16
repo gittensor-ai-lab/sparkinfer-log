@@ -3997,5 +3997,16 @@
     "date": "2026-08-15",
     "polaris": true,
     "polaris_receipt_id": "664c63eab8ecdd30"
+  },
+  {
+    "id": "qwen38-0854-c0e7593",
+    "pr": 854,
+    "title": "perf(qwen3.8): chunk-size the FP4 activation arena and cap the fused Q4_K GEMM by M (1.22x prefill@16k)",
+    "label": "M",
+    "delta_pct": 6.2,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-16",
+    "polaris": true,
+    "polaris_receipt_id": "56220082ce163334"
   }
 ]
