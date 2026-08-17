@@ -4105,5 +4105,16 @@
     "date": "2026-08-17",
     "polaris": true,
     "polaris_receipt_id": "ee2f154c6299ad07"
+  },
+  {
+    "id": "qwen38-0863-19d94f4",
+    "pr": 863,
+    "title": "perf(qwen3.8): GQA-6 shared-KV and int8 tensor-core flash-decode split (1.10x decode@16k)",
+    "label": "M",
+    "delta_pct": 10.0,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-17",
+    "polaris": true,
+    "polaris_receipt_id": "e367d7e531447d99"
   }
 ]
