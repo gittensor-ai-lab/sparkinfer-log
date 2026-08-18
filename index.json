@@ -4125,5 +4125,14 @@
     "delta_pct": 21.0,
     "eval_mode": "qwen38-128",
     "date": "2026-08-18"
+  },
+  {
+    "id": "qwen38-0865-2528769",
+    "pr": 865,
+    "title": "perf(qwen3.8): one-wave GDN scan, GQA-6 attention tier, fused NVFP4 residual, native-FP4 attention projections (1.11x prefill@16k)",
+    "label": "L",
+    "delta_pct": 12.2,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-18"
   }
 ]
