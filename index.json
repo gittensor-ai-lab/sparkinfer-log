@@ -4179,5 +4179,14 @@
     "delta_pct": 11.8,
     "eval_mode": "qwen38-128",
     "date": "2026-08-18"
+  },
+  {
+    "id": "qwen38-0874-3d2bbed",
+    "pr": 874,
+    "title": "perf(dspark): overlap KV staging with compute via cp.async (1.23x dspark-decode@4k)",
+    "label": "XL",
+    "delta_pct": 18.6,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-18"
   }
 ]
