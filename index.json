@@ -4170,5 +4170,14 @@
     "delta_pct": 9.8,
     "eval_mode": "qwen38-128",
     "date": "2026-08-18"
+  },
+  {
+    "id": "qwen38-0872-7db53bd",
+    "pr": 872,
+    "title": "perf(dspark): stage a deeper KV tile when the split count is small (1.14x dspark-decode@4k)",
+    "label": "L",
+    "delta_pct": 11.8,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-18"
   }
 ]
