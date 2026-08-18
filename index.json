@@ -4161,5 +4161,14 @@
     "delta_pct": 21.2,
     "eval_mode": "qwen38-128",
     "date": "2026-08-18"
+  },
+  {
+    "id": "qwen38-0869-ce7b32d",
+    "pr": 869,
+    "title": "perf(dspark): stop drafting once the batched verify has stopped arming (1.10x dspark-decode@128)",
+    "label": "M",
+    "delta_pct": 9.8,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-18"
   }
 ]
