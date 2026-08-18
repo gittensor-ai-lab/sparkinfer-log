@@ -4134,5 +4134,14 @@
     "delta_pct": 12.2,
     "eval_mode": "qwen38-128",
     "date": "2026-08-18"
+  },
+  {
+    "id": "qwen38-0866-44e1c45",
+    "pr": 866,
+    "title": "perf(qwen3.8): wider activation-quantize lanes and a register-resident GDN state (1.03x prefill@16k)",
+    "label": "XS",
+    "delta_pct": 3.2,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-18"
   }
 ]
