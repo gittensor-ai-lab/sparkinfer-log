@@ -4143,5 +4143,14 @@
     "delta_pct": 3.2,
     "eval_mode": "qwen38-128",
     "date": "2026-08-18"
+  },
+  {
+    "id": "qwen38-0867-7160115",
+    "pr": 867,
+    "title": "perf(dspark): propose 3 tokens below the deep threshold, not 5 (1.36x dspark-decode@128)",
+    "label": "XL",
+    "delta_pct": 35.6,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-18"
   }
 ]
