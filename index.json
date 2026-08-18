@@ -4152,5 +4152,14 @@
     "delta_pct": 35.6,
     "eval_mode": "qwen38-128",
     "date": "2026-08-18"
+  },
+  {
+    "id": "qwen38-0868-dec6852",
+    "pr": 868,
+    "title": "perf(dspark): batch the draft LM head at K=5120 and gate the Markov head (1.20x dspark-decode@128)",
+    "label": "XL",
+    "delta_pct": 21.2,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-18"
   }
 ]
