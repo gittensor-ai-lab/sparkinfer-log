@@ -4202,8 +4202,8 @@
     "id": "qwen38-0878-b545b4f",
     "pr": 878,
     "title": "perf(dspark): propose one token, not three, once the draft is carrying real context (+9.4% dspark-decode@4k)",
-    "label": "S",
-    "delta_pct": 5.3,
+    "label": "REJECT",
+    "delta_pct": -47.5,
     "eval_mode": "qwen38-128",
     "date": "2026-08-19"
   }

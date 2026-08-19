@@ -2,8 +2,8 @@
   "code": {
     "repo": "https://github.com/gittensor-ai-lab/sparkinfer",
     "commit": "b545b4f2a9ebe7fcb1bba946cb1ee517f5abfbf1",
-    "build_hash": "31f4b845b097d1a0521984079edb3bd5ef18f5c596fcddb6b89fea9a83a859a8",
-    "scoring_scripts_commit": "33e8acd8ad0cc549a9148cca2c1b284ea08746ca"
+    "build_hash": "02fa09cd54af890275b6cb3cfbdc2e47fd82a05a0af38b2d8461289650bbf870",
+    "scoring_scripts_commit": "f3b2e04cce54dd49b44ab74e04dfa13d5f2cae71"
   },
   "references": {
     "model_sha256": "cdd37b0e61eccc8a3d7d08f9d1a4f52856a9d88e4e8b42089bd18a970e3a01ec",
@@ -11,7 +11,7 @@
     "guard_model_sha256": "",
     "guard_model_file": "",
     "llamacpp_commit": "",
-    "eval_seed": "qwen38-1787099480009"
+    "eval_seed": "qwen38-1787102264295"
   },
   "environment": {
     "eval_mode": "qwen38-128",
@@ -29,7 +29,7 @@
     "primary": {
       "model": "qwen38-128",
       "model_sha256": "",
-      "ctx_128_tps": 45.3617,
+      "ctx_128_tps": 45.3707,
       "ctx_512_tps": null,
       "ctx_4096_tps": null,
       "ctx_16384_tps": null,
@@ -55,11 +55,11 @@
   },
   "verdict": {
     "model": "qwen38-128",
-    "label": "S",
-    "pass": true,
-    "tps": 45.3617,
-    "delta_tps": 2.3033,
-    "pct_over_frontier": 5.3,
+    "label": "REJECT",
+    "pass": false,
+    "tps": 45.3707,
+    "delta_tps": -28.7028,
+    "pct_over_frontier": -47.5,
     "score_context": 128,
     "best_context_label": "128",
     "context_gains_pct": {},
@@ -67,5 +67,5 @@
     "guard_regression_labels": [],
     "reason": null
   },
-  "timestamp_utc": "2026-08-19T00:31:39Z"
+  "timestamp_utc": "2026-08-19T01:18:02Z"
 }
