@@ -4215,5 +4215,14 @@
     "delta_pct": 1.4,
     "eval_mode": "qwen38-128",
     "date": "2026-08-19"
+  },
+  {
+    "id": "qwen38-0882-6d5572c",
+    "pr": 882,
+    "title": "perf(dspark): row-batched dense gate/up for the speculative verify \u2014 the FFN read once, not once per row",
+    "label": "XS",
+    "delta_pct": 2.7,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-19"
   }
 ]
