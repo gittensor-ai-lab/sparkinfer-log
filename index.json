@@ -4224,5 +4224,14 @@
     "delta_pct": 2.7,
     "eval_mode": "qwen38-128",
     "date": "2026-08-19"
+  },
+  {
+    "id": "qwen38-0883-a7a1630",
+    "pr": 883,
+    "title": "perf(dspark): PRMT magnitude lookup and consolidated weight loads in the NVFP4 decode GEMV (+0.6%)",
+    "label": "none",
+    "delta_pct": 0.3,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-19"
   }
 ]
