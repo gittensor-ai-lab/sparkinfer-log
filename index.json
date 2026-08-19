@@ -4188,5 +4188,14 @@
     "delta_pct": 18.6,
     "eval_mode": "qwen38-128",
     "date": "2026-08-18"
+  },
+  {
+    "id": "qwen38-0877-9a13964",
+    "pr": 877,
+    "title": "perf(qwen3.8): split the flash-decode KV range across warp-groups",
+    "label": "L",
+    "delta_pct": 11.7,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-19"
   }
 ]
