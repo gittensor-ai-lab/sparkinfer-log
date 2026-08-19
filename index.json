@@ -4206,5 +4206,14 @@
     "delta_pct": -47.5,
     "eval_mode": "qwen38-128",
     "date": "2026-08-19"
+  },
+  {
+    "id": "qwen38-0880-d5fcb80",
+    "pr": 880,
+    "title": "perf(dspark): row-batched NVFP4 GEMV for the speculative verify \u2014 one weight stream for N rows",
+    "label": "none",
+    "delta_pct": 1.4,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-19"
   }
 ]
