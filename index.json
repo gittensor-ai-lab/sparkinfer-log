@@ -4260,5 +4260,14 @@
     "delta_pct": 18.1,
     "eval_mode": "qwen38-128",
     "date": "2026-08-20"
+  },
+  {
+    "id": "qwen38-0894-40c491a",
+    "pr": 894,
+    "title": "perf(dspark): restore bidirectional draft context",
+    "label": "S",
+    "delta_pct": 4.5,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-20"
   }
 ]
