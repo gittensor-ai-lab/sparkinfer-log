@@ -4242,5 +4242,14 @@
     "delta_pct": 4.1,
     "eval_mode": "qwen38-128",
     "date": "2026-08-20"
+  },
+  {
+    "id": "qwen38-0891-d82b8ca",
+    "pr": 891,
+    "title": "perf(dspark): reuse one activation load across two output rows in the NVFP4 verify GEMV (1.08x dspark-decode@4k)",
+    "label": "M",
+    "delta_pct": 7.3,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-20"
   }
 ]
