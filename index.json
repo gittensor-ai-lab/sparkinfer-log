@@ -4269,5 +4269,14 @@
     "delta_pct": 4.5,
     "eval_mode": "qwen38-128",
     "date": "2026-08-20"
+  },
+  {
+    "id": "qwen38-0895-88469f8",
+    "pr": 895,
+    "title": "perf(dspark): hold the engage EMA at x64 so low acceptance can disarm the batched verify (1.14x dspark-decode@4k)",
+    "label": "none",
+    "delta_pct": 1.5,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-20"
   }
 ]
