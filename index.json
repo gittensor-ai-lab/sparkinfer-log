@@ -4251,5 +4251,14 @@
     "delta_pct": 7.3,
     "eval_mode": "qwen38-128",
     "date": "2026-08-20"
+  },
+  {
+    "id": "qwen38-0893-4db7ce4",
+    "pr": 893,
+    "title": "perf(dspark): align Markov rows and add a two-row draft tier",
+    "label": "XL",
+    "delta_pct": 18.1,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-20"
   }
 ]
