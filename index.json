@@ -4287,5 +4287,14 @@
     "delta_pct": 0.0,
     "eval_mode": "qwen38-128",
     "date": "2026-08-21"
+  },
+  {
+    "id": "qwen38-0899-ae5a205",
+    "pr": 899,
+    "title": "perf(dspark): widen native NVFP4 verifier loads",
+    "label": "XS",
+    "delta_pct": 2.0,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-21"
   }
 ]
