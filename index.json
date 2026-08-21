@@ -4314,5 +4314,14 @@
     "delta_pct": 0.0,
     "eval_mode": "qwen38-128",
     "date": "2026-08-21"
+  },
+  {
+    "id": "qwen38-0903-9384756",
+    "pr": 903,
+    "title": "perf(dspark): fuse native NVFP4 gate-up and SwiGLU",
+    "label": "none",
+    "delta_pct": 1.6,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-22"
   }
 ]
