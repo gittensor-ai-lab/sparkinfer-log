@@ -4278,5 +4278,14 @@
     "delta_pct": 1.5,
     "eval_mode": "qwen38-128",
     "date": "2026-08-20"
+  },
+  {
+    "id": "qwen38-0897-21215f9",
+    "pr": 897,
+    "title": "perf(dspark): dp4a NVFP4 verify GEMV, and a second proposal now that the extra row is cheap",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-21"
   }
 ]
