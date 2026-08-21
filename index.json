@@ -4305,5 +4305,14 @@
     "delta_pct": 0.0,
     "eval_mode": "qwen38-128",
     "date": "2026-08-21"
+  },
+  {
+    "id": "qwen38-0902-b6b4c53",
+    "pr": 902,
+    "title": "perf(dspark): drop the draft's fifth layer and widen its attention and Markov loads",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-21"
   }
 ]
