@@ -4296,5 +4296,14 @@
     "delta_pct": 2.0,
     "eval_mode": "qwen38-128",
     "date": "2026-08-21"
+  },
+  {
+    "id": "qwen38-0901-12ccc42",
+    "pr": 901,
+    "title": "Title: fix(gemv): enable qkgate_fuse for H=5120 (Qwen3.8-27B)",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-21"
   }
 ]
