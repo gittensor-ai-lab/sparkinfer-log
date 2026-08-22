@@ -4332,5 +4332,14 @@
     "delta_pct": 8.5,
     "eval_mode": "qwen38-128",
     "date": "2026-08-22"
+  },
+  {
+    "id": "qwen38-0905-aa4ab5a",
+    "pr": 905,
+    "title": "perf(dspark): dp4a the native NVFP4 GDN and attention projections (1.024x dspark-decode@4k)",
+    "label": "none",
+    "delta_pct": 1.6,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-22"
   }
 ]
