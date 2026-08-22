@@ -4350,5 +4350,14 @@
     "delta_pct": 6.3,
     "eval_mode": "qwen38-128",
     "date": "2026-08-22"
+  },
+  {
+    "id": "qwen38-0908-3d6406c",
+    "pr": 908,
+    "title": "perf(dspark): plan the verify length, and fix the two kernels the profile blames (1.080x dspark-decode@4k)",
+    "label": "M",
+    "delta_pct": 8.5,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-22"
   }
 ]
