@@ -4359,5 +4359,14 @@
     "delta_pct": 8.5,
     "eval_mode": "qwen38-128",
     "date": "2026-08-22"
+  },
+  {
+    "id": "qwen38-0909-7e8c596",
+    "pr": 909,
+    "title": "perf(dspark): keep the Markov table in L2 and stream the weight reads past it (1.035x dspark-decode@4k)",
+    "label": "XS",
+    "delta_pct": 3.3,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-23"
   }
 ]
