@@ -4386,5 +4386,14 @@
     "delta_pct": 24.4,
     "eval_mode": "qwen38-128",
     "date": "2026-08-24"
+  },
+  {
+    "id": "qwen38-0913-1aa6446",
+    "pr": 913,
+    "title": "perf(dspark): draft one more proposal, and instantiate the kernels that depth needs (1.043x dspark-decode@4k)",
+    "label": "S",
+    "delta_pct": 4.2,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-25"
   }
 ]
