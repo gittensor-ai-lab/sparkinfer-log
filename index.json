@@ -4377,5 +4377,14 @@
     "delta_pct": 4.1,
     "eval_mode": "qwen38-128",
     "date": "2026-08-24"
+  },
+  {
+    "id": "qwen38-0912-b8a8de7",
+    "pr": 912,
+    "title": "perf(dspark): draft with the checkpoint's own MTP head, recursed to depth 2 (1.134x dspark-decode@4k)",
+    "label": "XL",
+    "delta_pct": 24.4,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-24"
   }
 ]
