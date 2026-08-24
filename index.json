@@ -4368,5 +4368,14 @@
     "delta_pct": 3.3,
     "eval_mode": "qwen38-128",
     "date": "2026-08-23"
+  },
+  {
+    "id": "qwen38-0911-de248d4",
+    "pr": 911,
+    "title": "perf(dspark): price the verify per width, calibrate the accept head, and cut the per-row cost (1.068x dspark-decode@4k)",
+    "label": "S",
+    "delta_pct": 4.1,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-24"
   }
 ]
