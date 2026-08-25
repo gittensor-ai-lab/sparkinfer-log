@@ -4395,5 +4395,14 @@
     "delta_pct": 4.2,
     "eval_mode": "qwen38-128",
     "date": "2026-08-25"
+  },
+  {
+    "id": "qwen38-0915-d3c712e",
+    "pr": 915,
+    "title": "perf(dspark): cut the draft's per-block bytes and its KV re-reads (1.039x dspark-decode@4k)",
+    "label": "XS",
+    "delta_pct": 2.9,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-25"
   }
 ]
