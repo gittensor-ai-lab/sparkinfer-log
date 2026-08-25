@@ -4404,5 +4404,14 @@
     "delta_pct": 2.9,
     "eval_mode": "qwen38-128",
     "date": "2026-08-25"
+  },
+  {
+    "id": "qwen38-0916-0d173ad",
+    "pr": 916,
+    "title": "perf(dspark): delete the verify's activation-quantize nodes and shorten the draft attention chain",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-25"
   }
 ]
