@@ -4422,5 +4422,14 @@
     "delta_pct": 3.9,
     "eval_mode": "qwen38-128",
     "date": "2026-08-25"
+  },
+  {
+    "id": "qwen38-0920-c01e1ee",
+    "pr": 920,
+    "title": "perf(dspark): cap planner bootstrap width",
+    "label": "none",
+    "delta_pct": 0.2,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-26"
   }
 ]
