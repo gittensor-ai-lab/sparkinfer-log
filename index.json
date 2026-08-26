@@ -4431,5 +4431,14 @@
     "delta_pct": 0.2,
     "eval_mode": "qwen38-128",
     "date": "2026-08-26"
+  },
+  {
+    "id": "qwen38-0921-b30d638",
+    "pr": 921,
+    "title": "perf(dspark): drive the draft backbone on q8_1 activations + dp4a",
+    "label": "S",
+    "delta_pct": 5.3,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-26"
   }
 ]
