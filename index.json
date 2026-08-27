@@ -4449,5 +4449,14 @@
     "delta_pct": 1.4,
     "eval_mode": "qwen38-128",
     "date": "2026-08-27"
+  },
+  {
+    "id": "qwen38-0923-5f3167c",
+    "pr": 923,
+    "title": "perf(dspark): fuse exact Q4K head argmax",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-27"
   }
 ]
