@@ -4458,5 +4458,14 @@
     "delta_pct": 0.0,
     "eval_mode": "qwen38-128",
     "date": "2026-08-27"
+  },
+  {
+    "id": "qwen38-0926-298db5f",
+    "pr": 926,
+    "title": "perf(dspark): keep ModelOpt LM head in native NVFP4",
+    "label": "none",
+    "delta_pct": 1.2,
+    "eval_mode": "qwen38-128",
+    "date": "2026-08-27"
   }
 ]
