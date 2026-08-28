@@ -4467,5 +4467,14 @@
     "delta_pct": 1.2,
     "eval_mode": "qwen38-128",
     "date": "2026-08-27"
+  },
+  {
+    "id": "qwen38-0927-58ac5af",
+    "pr": 927,
+    "title": "perf(dspark): window the draft's attention once the context dwarfs it",
+    "label": "XL",
+    "delta_pct": 19.7,
+    "eval_mode": "qwen38-32k",
+    "date": "2026-08-28"
   }
 ]
