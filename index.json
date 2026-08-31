@@ -4494,5 +4494,14 @@
     "delta_pct": 11.7,
     "eval_mode": "qwen38-16k",
     "date": "2026-08-29"
+  },
+  {
+    "id": "qwen38-0930-2561e21",
+    "pr": 930,
+    "title": "perf(dspark): trim draft attention rows and hoist verify QK dots",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-08-31"
   }
 ]
