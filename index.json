@@ -4566,5 +4566,14 @@
     "delta_pct": 6.4,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-01"
+  },
+  {
+    "id": "qwen38-0937-767c8e5",
+    "pr": 937,
+    "title": "perf(prefill): alias the FFN chunk scratch and pin the chunk at its measured optimum",
+    "label": "S",
+    "delta_pct": 3.6,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-01"
   }
 ]
