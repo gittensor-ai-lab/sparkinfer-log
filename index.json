@@ -4622,6 +4622,15 @@
     "date": "2026-09-01"
   },
   {
+    "id": "qwen38-0943-d8e175f",
+    "pr": 943,
+    "title": "perf(dspark): hoist the batched verify's QK dots on the synchronous fold",
+    "label": "S",
+    "delta_pct": 3.7,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-01"
+  },
+  {
     "id": "qwen38-0944-73fe6a4",
     "pr": 944,
     "title": "perf(dspark): a 4k-class context can afford five proposals, not three (1.05x dspark-decode@4k)",
