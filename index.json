@@ -4575,5 +4575,14 @@
     "delta_pct": 3.6,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-01"
+  },
+  {
+    "id": "qwen38-0939-1973da3",
+    "pr": 939,
+    "title": "perf(prefill): fuse int8 V shadow for 32k DSpark prefill",
+    "label": "S",
+    "delta_pct": 4.0,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-01"
   }
 ]
