@@ -4548,5 +4548,14 @@
     "delta_pct": 400.3,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-01"
+  },
+  {
+    "id": "qwen38-0935-6dbe47f",
+    "pr": 935,
+    "title": "perf(prefill): widen BF16 MMA groups at 32k (1.22x DSpark prefill)",
+    "label": "XL",
+    "delta_pct": 22.6,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-01"
   }
 ]
