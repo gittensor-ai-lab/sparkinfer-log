@@ -4530,5 +4530,14 @@
     "delta_pct": 34.6,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-01"
+  },
+  {
+    "id": "qwen38-0933-a505fbf",
+    "pr": 933,
+    "title": "perf(prefill): give each warp two queries against the staged K/V tile",
+    "label": "S",
+    "delta_pct": 5.4,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-01"
   }
 ]
