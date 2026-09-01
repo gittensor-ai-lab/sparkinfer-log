@@ -4514,6 +4514,15 @@
     "date": "2026-09-01"
   },
   {
+    "id": "qwen38-0931-d978d8a",
+    "pr": 931,
+    "title": "perf(dspark): trim draft attention rows and hoist verify QK dots",
+    "label": "XS",
+    "delta_pct": 2.2,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-01"
+  },
+  {
     "id": "qwen38-0932-b0e59b5",
     "pr": 932,
     "title": "perf(prefill): stage the BF16 paged attention's K/V tile in shared memory",
