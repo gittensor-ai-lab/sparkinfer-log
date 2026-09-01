@@ -4593,5 +4593,14 @@
     "delta_pct": 2.9,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-01"
+  },
+  {
+    "id": "qwen38-0941-c046a2d",
+    "pr": 941,
+    "title": "perf(prefill): fuse 32k norms into FP4 quantization",
+    "label": "XS",
+    "delta_pct": 2.1,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-01"
   }
 ]
