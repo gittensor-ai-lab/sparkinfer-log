@@ -4638,5 +4638,14 @@
     "delta_pct": 4.9,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-01"
+  },
+  {
+    "id": "qwen38-0945-db1962c",
+    "pr": 945,
+    "title": "perf(prefill): run the int8 V shadow from ctx=16384, not 32768 only (1.20x dspark-prefill@16k)",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-01"
   }
 ]
