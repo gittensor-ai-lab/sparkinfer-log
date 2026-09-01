@@ -4656,5 +4656,14 @@
     "delta_pct": 17.9,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-01"
+  },
+  {
+    "id": "qwen38-0949-bede61f",
+    "pr": 949,
+    "title": "perf(prefill): use wide BF16 attention at scored 16k",
+    "label": "XL",
+    "delta_pct": 20.9,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-01"
   }
 ]
