@@ -4620,5 +4620,14 @@
     "delta_pct": 3.5,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-01"
+  },
+  {
+    "id": "qwen38-0944-73fe6a4",
+    "pr": 944,
+    "title": "perf(dspark): a 4k-class context can afford five proposals, not three (1.05x dspark-decode@4k)",
+    "label": "S",
+    "delta_pct": 4.9,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-01"
   }
 ]
