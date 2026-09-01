@@ -4611,5 +4611,14 @@
     "delta_pct": 4.5,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-01"
+  },
+  {
+    "id": "qwen38-0943-afdccbc",
+    "pr": 943,
+    "title": "perf(dspark): hoist the batched verify's QK dots on the synchronous fold",
+    "label": "S",
+    "delta_pct": 3.5,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-01"
   }
 ]
