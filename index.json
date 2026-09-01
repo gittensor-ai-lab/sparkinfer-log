@@ -4584,5 +4584,14 @@
     "delta_pct": 4.0,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-01"
+  },
+  {
+    "id": "qwen38-0940-a2a1690",
+    "pr": 940,
+    "title": "perf(prefill): run the 32k DSpark prefill P x V stage on int8 tensor cores",
+    "label": "XS",
+    "delta_pct": 2.9,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-01"
   }
 ]
