@@ -4602,5 +4602,14 @@
     "delta_pct": 2.1,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-01"
+  },
+  {
+    "id": "qwen38-0942-63da893",
+    "pr": 942,
+    "title": "perf(dspark): drop the 32k depth carve-out \u2014 the third proposal does not pay there (1.08x dspark-decode@32k)",
+    "label": "S",
+    "delta_pct": 4.5,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-01"
   }
 ]
