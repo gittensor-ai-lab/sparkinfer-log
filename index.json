@@ -4710,5 +4710,14 @@
     "delta_pct": 2.5,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-02"
+  },
+  {
+    "id": "qwen38-0954-a163557",
+    "pr": 954,
+    "title": "perf(prefill): ingest long prompts in position windows",
+    "label": "XL",
+    "delta_pct": 3128.9,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-02"
   }
 ]
