@@ -4683,5 +4683,14 @@
     "delta_pct": 1.5,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-02"
+  },
+  {
+    "id": "qwen38-0951-351de6b",
+    "pr": 951,
+    "title": "perf(dspark): tune the 4k width-three verifier",
+    "label": "S",
+    "delta_pct": 5.6,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-02"
   }
 ]
