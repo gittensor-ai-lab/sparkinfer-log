@@ -1,0 +1,71 @@
+{
+  "code": {
+    "repo": "https://github.com/gittensor-ai-lab/sparkinfer",
+    "commit": "5b0b7c70153fd0146803b0c41bfa105ee78ea806",
+    "build_hash": "988763a8685c125276325c3b76fbb5e1998f897210c3b8f3b20ae1d7cb27d138",
+    "scoring_scripts_commit": "359818fa05c677771e556f8be7551ba9d94a26d2"
+  },
+  "references": {
+    "model_sha256": "cdd37b0e61eccc8a3d7d08f9d1a4f52856a9d88e4e8b42089bd18a970e3a01ec",
+    "model_file": "model-00001-of-00003.safetensors",
+    "guard_model_sha256": "",
+    "guard_model_file": "",
+    "llamacpp_commit": "",
+    "eval_seed": "qwen38-1788333088492"
+  },
+  "environment": {
+    "eval_mode": "qwen38-dspark-4k-16k-32k",
+    "decode_tokens": 128,
+    "gpu_name": "NVIDIA GeForce RTX 5090",
+    "gpu_arch": "sm_120",
+    "clocks_pinned": false,
+    "clock_mhz": 0,
+    "clock_spread_mhz": 0,
+    "pin_target_mhz": 0,
+    "cuda_version": "12.8.1",
+    "driver_version": "575.64.03"
+  },
+  "measurements": {
+    "primary": {
+      "model": "qwen38-dspark-4k-16k-32k",
+      "model_sha256": "",
+      "ctx_128_tps": null,
+      "ctx_512_tps": null,
+      "ctx_4096_tps": 127.4,
+      "ctx_16384_tps": 125.4822,
+      "ctx_32768_tps": null,
+      "top1": 1.0,
+      "kl": 0.0,
+      "guard_128_baseline": null,
+      "guard_128_ratio": null,
+      "guard_128_pass": true,
+      "guard_512_baseline": null,
+      "guard_512_ratio": null,
+      "guard_512_pass": true,
+      "guard_4k_baseline": null,
+      "guard_4k_ratio": null,
+      "guard_4k_pass": true,
+      "guard_16k_baseline": null,
+      "guard_16k_ratio": null,
+      "guard_16k_pass": true,
+      "guard_32k_baseline": null,
+      "guard_32k_ratio": null,
+      "guard_32k_pass": true
+    }
+  },
+  "verdict": {
+    "model": "qwen38-dspark-4k-16k-32k",
+    "label": "S",
+    "pass": true,
+    "tps": 125.4822,
+    "delta_tps": 0.0073,
+    "pct_over_frontier": 4.9,
+    "score_context": 16384,
+    "best_context_label": "4k+16k+32k-decode-prefill",
+    "context_gains_pct": {},
+    "regression_labels": [],
+    "guard_regression_labels": [],
+    "reason": null
+  },
+  "timestamp_utc": "2026-09-02T07:11:38Z"
+}
