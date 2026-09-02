@@ -4701,5 +4701,14 @@
     "delta_pct": 4.9,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-02"
+  },
+  {
+    "id": "qwen38-0953-b8673f8",
+    "pr": 953,
+    "title": "perf(dspark): narrow the draft's mid-context attention window to 2048",
+    "label": "XS",
+    "delta_pct": 2.5,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-02"
   }
 ]
