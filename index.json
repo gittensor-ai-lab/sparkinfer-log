@@ -4719,5 +4719,14 @@
     "delta_pct": 3128.9,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-02"
+  },
+  {
+    "id": "qwen38-0955-2d0dfaa",
+    "pr": 955,
+    "title": "perf(prefill): size the long-prompt window independently of the single-pass bound",
+    "label": "XL",
+    "delta_pct": 23.2,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-03"
   }
 ]
