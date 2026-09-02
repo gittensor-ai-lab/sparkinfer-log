@@ -4674,5 +4674,14 @@
     "delta_pct": 20.9,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-01"
+  },
+  {
+    "id": "qwen38-0950-d453efe",
+    "pr": 950,
+    "title": "perf(dspark): take the 16-page KV group at a 4k-class prefill too",
+    "label": "none",
+    "delta_pct": 1.5,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-02"
   }
 ]
