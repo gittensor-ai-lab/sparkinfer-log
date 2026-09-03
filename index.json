@@ -4728,5 +4728,14 @@
     "delta_pct": 23.2,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-03"
+  },
+  {
+    "id": "qwen38-0956-27580ba",
+    "pr": 956,
+    "title": "perf(prefill): widen the int8 attention KV-page group to 16 and register-stage the softmax",
+    "label": "S",
+    "delta_pct": 5.1,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-03"
   }
 ]
