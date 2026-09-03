@@ -4746,5 +4746,14 @@
     "delta_pct": 20.4,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-03"
+  },
+  {
+    "id": "qwen38-0958-82199fd",
+    "pr": 958,
+    "title": "perf(decode): admit GQA-6 to the compact-view sparse KV tier",
+    "label": "XL",
+    "delta_pct": 88.9,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-03"
   }
 ]
