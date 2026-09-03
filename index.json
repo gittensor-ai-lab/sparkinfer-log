@@ -4755,5 +4755,14 @@
     "delta_pct": 88.9,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-03"
+  },
+  {
+    "id": "qwen38-0959-b97f6ce",
+    "pr": 959,
+    "title": "perf(dspark): give the deepest context its own depth and window (1.03x dspark-decode@32k)",
+    "label": "XS",
+    "delta_pct": 2.5,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-03"
   }
 ]
