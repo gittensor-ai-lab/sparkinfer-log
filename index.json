@@ -4764,5 +4764,14 @@
     "delta_pct": 2.5,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-03"
+  },
+  {
+    "id": "qwen38-0961-5f848ae",
+    "pr": 961,
+    "title": "perf(dspark): give the width-three verify the NVFP4 row blocking every other width takes",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-04"
   }
 ]
