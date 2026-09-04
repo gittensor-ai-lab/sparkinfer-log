@@ -4782,5 +4782,14 @@
     "delta_pct": 0.0,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-04"
+  },
+  {
+    "id": "qwen38-0963-e281c61",
+    "pr": 963,
+    "title": "perf(prefill): give the 256k int8 attention a six-head tier on a rolling score plane",
+    "label": "L",
+    "delta_pct": 10.4,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-04"
   }
 ]
