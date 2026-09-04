@@ -4773,5 +4773,14 @@
     "delta_pct": 0.0,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-04"
+  },
+  {
+    "id": "qwen38-0962-8f38da0",
+    "pr": 962,
+    "title": "perf(dspark): the mid-context band accepts more at depth three",
+    "label": "none",
+    "delta_pct": 0.0,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-04"
   }
 ]
