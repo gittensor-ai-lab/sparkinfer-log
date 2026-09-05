@@ -4800,5 +4800,14 @@
     "delta_pct": 3.1,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-05"
+  },
+  {
+    "id": "qwen38-0966-26d942f",
+    "pr": 966,
+    "title": "perf(prefill): issue the 256k int8 attention's PV at full 8-bit tensor rate",
+    "label": "L",
+    "delta_pct": 14.3,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-05"
   }
 ]
