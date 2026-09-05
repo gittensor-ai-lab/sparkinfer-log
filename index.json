@@ -4791,5 +4791,14 @@
     "delta_pct": 10.4,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-04"
+  },
+  {
+    "id": "qwen38-0964-394a1af",
+    "pr": 964,
+    "title": "perf(prefill): take back the six-head tier's per-group overhead",
+    "label": "XS",
+    "delta_pct": 3.1,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-05"
   }
 ]
