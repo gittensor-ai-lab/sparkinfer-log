@@ -4827,5 +4827,14 @@
     "delta_pct": 33.2,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-06"
+  },
+  {
+    "id": "qwen38-0975-18c7753",
+    "pr": 975,
+    "title": "perf(runtime): decode a whole continuous-batch in one packed forward (1.95x/3.29x/5.11x cb-decode@c2/c4/c8)",
+    "label": "XL",
+    "delta_pct": 388.0,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-06"
   }
 ]
