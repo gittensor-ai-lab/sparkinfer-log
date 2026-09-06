@@ -4836,5 +4836,14 @@
     "delta_pct": 388.0,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-06"
+  },
+  {
+    "id": "qwen38-0986-14658c2",
+    "pr": 986,
+    "title": "perf(gemv): default the NVFP4 multi-row GEMV to its pairwise kernel (1.025x cb-decode@c8)",
+    "label": "XS",
+    "delta_pct": 3.3,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-06"
   }
 ]
