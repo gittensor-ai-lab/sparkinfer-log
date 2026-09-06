@@ -4845,5 +4845,14 @@
     "delta_pct": 3.3,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-06"
+  },
+  {
+    "id": "qwen38-0987-4131e70",
+    "pr": 987,
+    "title": "fix(prefill): refresh xn for the GDN gate projections the FP4 norm deferral skips",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-06"
   }
 ]
