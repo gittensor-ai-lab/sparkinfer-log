@@ -4809,5 +4809,14 @@
     "delta_pct": 14.3,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-05"
+  },
+  {
+    "id": "qwen38-0970-b819f2f",
+    "pr": 970,
+    "title": "perf(prefill): issue the 32k DSpark attention's int8 PV at full tensor rate",
+    "label": "L",
+    "delta_pct": 10.7,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-06"
   }
 ]
