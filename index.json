@@ -4838,6 +4838,15 @@
     "date": "2026-09-06"
   },
   {
+    "id": "qwen38-0984-a9edbdd",
+    "pr": 984,
+    "title": "perf(nvfp4): streamline paired GEMV and reuse dense prefill scratch",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-07"
+  },
+  {
     "id": "qwen38-0986-14658c2",
     "pr": 986,
     "title": "perf(gemv): default the NVFP4 multi-row GEMV to its pairwise kernel (1.025x cb-decode@c8)",
