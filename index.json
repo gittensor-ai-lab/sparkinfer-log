@@ -4919,6 +4919,15 @@
     "date": "2026-09-07"
   },
   {
+    "id": "qwen38-0994-b5b3e91",
+    "pr": 994,
+    "title": "perf(decode): stop ramping the continuous-batch decode one row at a time (1.05x cb-decode@c32)",
+    "label": "S",
+    "delta_pct": 4.4,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-07"
+  },
+  {
     "id": "qwen38-0995-9dbf62a",
     "pr": 995,
     "title": "perf(dspark): recalibrate the proposal-depth ladder for the cheaper batched verify (1.45x dspark-decode@32k)",
