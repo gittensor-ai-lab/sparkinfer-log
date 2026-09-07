@@ -4881,5 +4881,14 @@
     "delta_pct": 3.9,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-07"
+  },
+  {
+    "id": "qwen38-0990-e211d30",
+    "pr": 990,
+    "title": "perf(runtime): serve a wide continuous-batch decode with the block-scaled NVFP4 GEMM (1.35x cb-decode@c32)",
+    "label": "XL",
+    "delta_pct": 40.2,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-07"
   }
 ]
