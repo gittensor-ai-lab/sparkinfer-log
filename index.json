@@ -4917,5 +4917,14 @@
     "delta_pct": 12.1,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-07"
+  },
+  {
+    "id": "qwen38-0995-9dbf62a",
+    "pr": 995,
+    "title": "perf(dspark): recalibrate the proposal-depth ladder for the cheaper batched verify (1.45x dspark-decode@32k)",
+    "label": "REJECT",
+    "delta_pct": 0.0,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-07"
   }
 ]
