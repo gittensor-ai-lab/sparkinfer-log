@@ -4908,5 +4908,14 @@
     "delta_pct": 11.0,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-07"
+  },
+  {
+    "id": "qwen38-0993-5940079",
+    "pr": 993,
+    "title": "perf(decode): stop falling back to the row-GEMV at wide continuous-batch decode (1.14x cb-decode@c32)",
+    "label": "L",
+    "delta_pct": 12.1,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-07"
   }
 ]
