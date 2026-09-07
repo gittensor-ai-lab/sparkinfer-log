@@ -4890,5 +4890,14 @@
     "delta_pct": 40.2,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-07"
+  },
+  {
+    "id": "qwen38-0991-3e5d2a0",
+    "pr": 991,
+    "title": "perf(decode): serve the GDN projections with the block-scaled NVFP4 GEMM at wide batch (1.15x cb-decode@c32)",
+    "label": "L",
+    "delta_pct": 14.6,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-07"
   }
 ]
