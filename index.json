@@ -4935,5 +4935,14 @@
     "delta_pct": 0.0,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-07"
+  },
+  {
+    "id": "qwen38-0996-2be89f4",
+    "pr": 996,
+    "title": "perf(decode): score the continuous-batch head with the multi-row Q4_K kernel (1.075x cb-decode@c32)",
+    "label": "M",
+    "delta_pct": 7.7,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-08"
   }
 ]
