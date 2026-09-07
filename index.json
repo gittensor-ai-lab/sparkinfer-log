@@ -4944,5 +4944,14 @@
     "delta_pct": 7.7,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-08"
+  },
+  {
+    "id": "qwen38-0997-2119291",
+    "pr": 997,
+    "title": "perf(decode): serve the wide continuous-batch LM head from the checkpoint's own NVFP4 (1.09x cb-decode@c32)",
+    "label": "M",
+    "delta_pct": 9.5,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-08"
   }
 ]
