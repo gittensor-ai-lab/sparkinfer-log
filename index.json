@@ -4899,5 +4899,14 @@
     "delta_pct": 14.6,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-07"
+  },
+  {
+    "id": "qwen38-0992-167facc",
+    "pr": 992,
+    "title": "perf(decode): keep the wide N tile and drop EVICT_FIRST at continuous-batch decode widths (1.11x cb-decode@c16)",
+    "label": "L",
+    "delta_pct": 11.0,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-07"
   }
 ]
