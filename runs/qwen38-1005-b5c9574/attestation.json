@@ -1,0 +1,71 @@
+{
+  "code": {
+    "repo": "https://github.com/gittensor-ai-lab/sparkinfer",
+    "commit": "b5c957421c593b71b08ae1a58b8b39ac71cca8eb",
+    "build_hash": "c191e42a7871838fdad3645e123cf2e6834e3cdd511157e249296b1dc5d43d52",
+    "scoring_scripts_commit": "b1a72312864d7611c0e0f21f8d49742407dc3eb9"
+  },
+  "references": {
+    "model_sha256": "cdd37b0e61eccc8a3d7d08f9d1a4f52856a9d88e4e8b42089bd18a970e3a01ec",
+    "model_file": "model-00001-of-00002.safetensors",
+    "guard_model_sha256": "",
+    "guard_model_file": "",
+    "llamacpp_commit": "",
+    "eval_seed": "qwen38-1788880881617"
+  },
+  "environment": {
+    "eval_mode": "qwen38-dspark-4k-16k-32k-prefill-decode256k",
+    "decode_tokens": 128,
+    "gpu_name": "NVIDIA GeForce RTX 5090",
+    "gpu_arch": "sm_120",
+    "clocks_pinned": false,
+    "clock_mhz": 0,
+    "clock_spread_mhz": 0,
+    "pin_target_mhz": 0,
+    "cuda_version": "12.8.1",
+    "driver_version": "595.84"
+  },
+  "measurements": {
+    "primary": {
+      "model": "qwen38-dspark-4k-16k-32k-prefill-decode256k",
+      "model_sha256": "",
+      "ctx_128_tps": null,
+      "ctx_512_tps": null,
+      "ctx_4096_tps": 129.5916,
+      "ctx_16384_tps": 130.3104,
+      "ctx_32768_tps": null,
+      "top1": 1.0,
+      "kl": 0.0,
+      "guard_128_baseline": null,
+      "guard_128_ratio": null,
+      "guard_128_pass": true,
+      "guard_512_baseline": null,
+      "guard_512_ratio": null,
+      "guard_512_pass": true,
+      "guard_4k_baseline": null,
+      "guard_4k_ratio": null,
+      "guard_4k_pass": true,
+      "guard_16k_baseline": null,
+      "guard_16k_ratio": null,
+      "guard_16k_pass": true,
+      "guard_32k_baseline": null,
+      "guard_32k_ratio": null,
+      "guard_32k_pass": true
+    }
+  },
+  "verdict": {
+    "model": "qwen38-dspark-4k-16k-32k-prefill-decode256k",
+    "label": "XS",
+    "pass": true,
+    "tps": 130.3104,
+    "delta_tps": 0.1443,
+    "pct_over_frontier": 3.0,
+    "score_context": 16384,
+    "best_context_label": "4k+16k+32k-decode-prefill+256k-prefill-decode",
+    "context_gains_pct": {},
+    "regression_labels": [],
+    "guard_regression_labels": [],
+    "reason": null
+  },
+  "timestamp_utc": "2026-09-08T15:21:30Z"
+}
