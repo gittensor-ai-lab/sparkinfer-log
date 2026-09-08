@@ -4971,5 +4971,14 @@
     "delta_pct": 10.2,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-08"
+  },
+  {
+    "id": "qwen38-1000-9366f43",
+    "pr": 1000,
+    "title": "perf(prefill): run the scored 4k prefill attention on the 16k tier (1.06x prefill@4k)",
+    "label": "S",
+    "delta_pct": 5.5,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-08"
   }
 ]
