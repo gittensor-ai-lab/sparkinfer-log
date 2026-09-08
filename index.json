@@ -4962,5 +4962,14 @@
     "delta_pct": 9.8,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-08"
+  },
+  {
+    "id": "qwen38-0999-53aba41",
+    "pr": 999,
+    "title": "perf(prefill): read the 256k attention's V operand in the PV mma's own layout (1.10x target-prefill@256k)",
+    "label": "L",
+    "delta_pct": 10.2,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-08"
   }
 ]
