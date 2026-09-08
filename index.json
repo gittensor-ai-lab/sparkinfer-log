@@ -4998,5 +4998,14 @@
     "delta_pct": 0.7,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-08"
+  },
+  {
+    "id": "qwen38-1004-68e6640",
+    "pr": 1004,
+    "title": "perf(dspark): verify three proposals in the mid-context band, on the fold shape that serves them (1.056x dspark-decode@16k)",
+    "label": "none",
+    "delta_pct": 1.3,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-08"
   }
 ]
