@@ -4980,5 +4980,14 @@
     "delta_pct": 5.5,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-08"
+  },
+  {
+    "id": "qwen38-1002-d206652",
+    "pr": 1002,
+    "title": "perf(decode): admit the whole continuous-batch ramp instead of two rows an iteration (1.06x cb-decode@c32)",
+    "label": "L",
+    "delta_pct": 12.3,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-08"
   }
 ]
