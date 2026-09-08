@@ -4953,5 +4953,14 @@
     "delta_pct": 9.5,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-08"
+  },
+  {
+    "id": "qwen38-0998-cbabb70",
+    "pr": 998,
+    "title": "perf(decode): hold the continuous-batch GDN recurrent state in bf16 (1.11x cb-decode@c32)",
+    "label": "M",
+    "delta_pct": 9.8,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-08"
   }
 ]
