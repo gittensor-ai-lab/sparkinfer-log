@@ -3806,6 +3806,15 @@
     "date": "2026-09-09"
   },
   {
+    "id": "museglimmer-1012-39e2317",
+    "pr": 1012,
+    "title": "perf(muse): give the 16:1 GQA group a shared-KV decode tile (1.20x decode@64k, 1.13x @32k)",
+    "label": "XL",
+    "delta_pct": 20.3,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-09"
+  },
+  {
     "id": "museglimmer-1013-f9c9bd4",
     "pr": 1013,
     "title": "perf(prefill): window a single pass whose FFN chunk has collapsed (10.8x prefill@32k)",
