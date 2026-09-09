@@ -3824,6 +3824,15 @@
     "date": "2026-09-09"
   },
   {
+    "id": "museglimmer-1014-23dc346",
+    "pr": 1014,
+    "title": "perf(muse): stream ffn_down's NVFP4 operand per layer instead of holding 52 copies (1.17x prefill@4k)",
+    "label": "L",
+    "delta_pct": 16.9,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-09"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
