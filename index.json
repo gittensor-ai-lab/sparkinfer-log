@@ -3770,6 +3770,15 @@
     "date": "2026-09-09"
   },
   {
+    "id": "museglimmer-1008-e8504f3",
+    "pr": 1008,
+    "title": "perf(muse): mask prefill attention on the absolute position so a long prompt can be windowed (14.85x prefill@64k)",
+    "label": "XL",
+    "delta_pct": 1417.0,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-09"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
