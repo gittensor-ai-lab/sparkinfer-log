@@ -3806,6 +3806,15 @@
     "date": "2026-09-09"
   },
   {
+    "id": "museglimmer-1013-f9c9bd4",
+    "pr": 1013,
+    "title": "perf(prefill): window a single pass whose FFN chunk has collapsed (10.8x prefill@32k)",
+    "label": "XL",
+    "delta_pct": 42.8,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-09"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
