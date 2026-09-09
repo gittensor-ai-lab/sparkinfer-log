@@ -5025,5 +5025,14 @@
     "delta_pct": 3.0,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-08"
+  },
+  {
+    "id": "qwen38-1007-e51d90d",
+    "pr": 1007,
+    "title": "perf(decode): shape the NVFP4 activation quantize by row count and fold it into SwiGLU (1.02x cb-decode@c16)",
+    "label": "XS",
+    "delta_pct": 2.0,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-09"
   }
 ]
