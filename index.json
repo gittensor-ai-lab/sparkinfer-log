@@ -3797,6 +3797,15 @@
     "date": "2026-09-09"
   },
   {
+    "id": "museglimmer-1011-a43abdb",
+    "pr": 1011,
+    "title": "perf(muse): budget the NVFP4 output legs against the prefill arena, not a context proxy (1.39x prefill@4k)",
+    "label": "none",
+    "delta_pct": 0.1,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-09"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
