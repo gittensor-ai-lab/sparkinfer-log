@@ -3779,6 +3779,15 @@
     "date": "2026-09-09"
   },
   {
+    "id": "museglimmer-1009-1ed6d50",
+    "pr": 1009,
+    "title": "perf(muse): run Muse's prefill attention on the int8 tensor cores (1.67x prefill@4k, 2.45x @16k)",
+    "label": "XL",
+    "delta_pct": 344.2,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-09"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
