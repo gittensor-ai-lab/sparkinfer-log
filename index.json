@@ -3761,6 +3761,15 @@
     "polaris_receipt_id": "83f704bd1a152146"
   },
   {
+    "id": "museglimmer-1006-8089df6",
+    "pr": 1006,
+    "title": "fix(muse): honour the int8 KV cache instead of writing bf16 into it (40x prefill@4k)",
+    "label": "XL",
+    "delta_pct": 3881.4,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-09"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
