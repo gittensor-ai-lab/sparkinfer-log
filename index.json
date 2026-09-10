@@ -5106,5 +5106,14 @@
     "delta_pct": 2.0,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-09"
+  },
+  {
+    "id": "qwen38-1018-d100666",
+    "pr": 1018,
+    "title": "perf(muse): give the 16:1 GQA group its whole kv-head in the prefill attention (1.16x prefill@64k)",
+    "label": "none",
+    "delta_pct": 1.4,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-10"
   }
 ]
