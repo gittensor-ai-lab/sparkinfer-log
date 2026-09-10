@@ -3860,6 +3860,15 @@
     "date": "2026-09-10"
   },
   {
+    "id": "museglimmer-1020-427b93b",
+    "pr": 1020,
+    "title": "perf(muse): put Muse's bf16-KV prefill attention on the tensor cores (1.22x prefill@512)",
+    "label": "XL",
+    "delta_pct": 23.5,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-10"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
