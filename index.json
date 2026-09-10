@@ -3833,6 +3833,15 @@
     "date": "2026-09-09"
   },
   {
+    "id": "museglimmer-1017-59db6f9",
+    "pr": 1017,
+    "title": "perf(muse): run the 16:1 GQA decode attention on the int8 tensor cores (1.18x decode@64k)",
+    "label": "L",
+    "delta_pct": 17.1,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-10"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
