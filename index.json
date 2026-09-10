@@ -3869,6 +3869,15 @@
     "date": "2026-09-10"
   },
   {
+    "id": "museglimmer-1021-da8c4de",
+    "pr": 1021,
+    "title": "perf(muse): stop staging an ffn-wide int8 activation for a prefill whose FFN runs on FP4 (1.27x prefill@64k)",
+    "label": "M",
+    "delta_pct": 6.4,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-10"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
