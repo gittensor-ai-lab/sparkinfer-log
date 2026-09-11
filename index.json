@@ -4004,6 +4004,15 @@
     "date": "2026-09-11"
   },
   {
+    "id": "museglimmer-1040-5023be8",
+    "pr": 1040,
+    "title": "perf(muse): share one gate/up read across the packed batch in the contextual-sparsity FFN (1.10x concurrent decode @c4)",
+    "label": "M",
+    "delta_pct": 9.8,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-11"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
