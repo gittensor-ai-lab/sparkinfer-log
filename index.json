@@ -3995,6 +3995,15 @@
     "date": "2026-09-11"
   },
   {
+    "id": "museglimmer-1039-6b3b721",
+    "pr": 1039,
+    "title": "perf(muse): run the dense down projection on the int8 tensor cores for wide packed batches (1.08x concurrent decode @c32)",
+    "label": "M",
+    "delta_pct": 6.5,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-11"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
