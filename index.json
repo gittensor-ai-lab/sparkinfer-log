@@ -3878,6 +3878,15 @@
     "date": "2026-09-10"
   },
   {
+    "id": "museglimmer-1025-fe84b11",
+    "pr": 1025,
+    "title": "perf(muse): stop materialising two prefill activations the FP4 path never reads (1.027x prefill@4k)",
+    "label": "XS",
+    "delta_pct": 3.1,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-11"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
