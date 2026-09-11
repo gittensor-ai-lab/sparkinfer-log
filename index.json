@@ -4022,6 +4022,15 @@
     "date": "2026-09-11"
   },
   {
+    "id": "museglimmer-1042-9d2f0d5",
+    "pr": 1042,
+    "title": "perf(muse): instantiate the row-batched GEMVs at the batch width the packed scheduler hands them (1.07x concurrent decode @c2)",
+    "label": "REJECT",
+    "delta_pct": -3.6,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-11"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
