@@ -3878,6 +3878,15 @@
     "date": "2026-09-10"
   },
   {
+    "id": "museglimmer-1023-be030eb",
+    "pr": 1023,
+    "title": "perf(muse): give the o-projection its NVFP4 operand at the contexts the arena can hold it (1.046x prefill@4k)",
+    "label": "REJECT",
+    "delta_pct": -2.1,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-11"
+  },
+  {
     "id": "museglimmer-1025-fe84b11",
     "pr": 1025,
     "title": "perf(muse): stop materialising two prefill activations the FP4 path never reads (1.027x prefill@4k)",
