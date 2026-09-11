@@ -3896,6 +3896,15 @@
     "date": "2026-09-11"
   },
   {
+    "id": "museglimmer-1028-20f3b9a",
+    "pr": 1028,
+    "title": "perf(muse): decode concurrent requests in one packed forward (1.42x concurrent decode @c8)",
+    "label": "XL",
+    "delta_pct": 43.9,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-11"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
