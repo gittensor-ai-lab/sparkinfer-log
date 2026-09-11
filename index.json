@@ -4058,6 +4058,15 @@
     "date": "2026-09-11"
   },
   {
+    "id": "museglimmer-1045-5b8e541",
+    "pr": 1045,
+    "title": "perf(muse): score the packed LM head on the int8 tensor cores (1.11x concurrent decode @c32)",
+    "label": "L",
+    "delta_pct": 12.6,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-12"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
