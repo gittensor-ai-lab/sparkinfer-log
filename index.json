@@ -5151,5 +5151,14 @@
     "delta_pct": 1.4,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-10"
+  },
+  {
+    "id": "qwen38-1025-fe84b11",
+    "pr": 1025,
+    "title": "perf(muse): stop materialising two prefill activations the FP4 path never reads (1.027x prefill@4k)",
+    "label": "none",
+    "delta_pct": 0.1,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-11"
   }
 ]
