@@ -3923,6 +3923,15 @@
     "date": "2026-09-11"
   },
   {
+    "id": "museglimmer-1031-7a11b00",
+    "pr": 1031,
+    "title": "perf(muse): stop reserving Gated-DeltaNet state for a stack with no linear layers (1.21x concurrent decode @c32)",
+    "label": "XL",
+    "delta_pct": 36.7,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-11"
+  },
+  {
     "id": "museglimmer-1031-f0733d0",
     "pr": 1031,
     "title": "perf(muse): stop reserving Gated-DeltaNet state for a stack with no linear layers (1.21x concurrent decode @c32)",
