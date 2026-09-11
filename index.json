@@ -3914,6 +3914,15 @@
     "date": "2026-09-11"
   },
   {
+    "id": "museglimmer-1030-9119928",
+    "pr": 1030,
+    "title": "perf(muse): read the dense gate/up once per packed decode batch instead of once per row (1.47x concurrent decode @c8)",
+    "label": "REJECT",
+    "delta_pct": -42.6,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-11"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
