@@ -3959,6 +3959,15 @@
     "date": "2026-09-11"
   },
   {
+    "id": "museglimmer-1034-118c634",
+    "pr": 1034,
+    "title": "perf(muse): walk the row-batched down projection in chunks instead of declining past eight rows (1.30x concurrent decode @c16)",
+    "label": "XL",
+    "delta_pct": 46.5,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-11"
+  },
+  {
     "id": "museglimmer-1035-ebe6fc9",
     "pr": 1035,
     "title": "perf(muse): widen the row-batched down projection to the batch width the scheduler hands it (1.29x concurrent decode @c16)",
