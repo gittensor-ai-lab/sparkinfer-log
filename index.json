@@ -4004,6 +4004,15 @@
     "date": "2026-09-11"
   },
   {
+    "id": "museglimmer-1039-bbf67b0",
+    "pr": 1039,
+    "title": "perf(muse): run the dense down projection on the int8 tensor cores for wide packed batches (1.23x concurrent decode @c32)",
+    "label": "XL",
+    "delta_pct": 119.5,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-11"
+  },
+  {
     "id": "museglimmer-1040-5023be8",
     "pr": 1040,
     "title": "perf(muse): share one gate/up read across the packed batch in the contextual-sparsity FFN (1.10x concurrent decode @c4)",
