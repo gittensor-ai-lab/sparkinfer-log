@@ -4040,6 +4040,15 @@
     "date": "2026-09-11"
   },
   {
+    "id": "museglimmer-1043-c388090",
+    "pr": 1043,
+    "title": "perf(muse): read the activation once for the gate and up dots in the packed Q3_A FFN (1.10x concurrent decode @c4)",
+    "label": "M",
+    "delta_pct": 9.3,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-12"
+  },
+  {
     "id": "museglimmer-1043-eef1881",
     "pr": 1043,
     "title": "perf(muse): read the activation once for the gate and up dots in the packed Q3_A FFN (1.10x concurrent decode @c4)",
