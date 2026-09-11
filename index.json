@@ -3977,6 +3977,15 @@
     "date": "2026-09-11"
   },
   {
+    "id": "museglimmer-1036-5ea12af",
+    "pr": 1036,
+    "title": "perf(muse): give the down projection the batch width and the split-K the scheduler actually hands it (1.37x concurrent decode @c16)",
+    "label": "XL",
+    "delta_pct": 38.0,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-11"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
