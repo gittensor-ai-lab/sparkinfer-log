@@ -3905,6 +3905,15 @@
     "date": "2026-09-11"
   },
   {
+    "id": "museglimmer-1029-10cf5c6",
+    "pr": 1029,
+    "title": "perf(muse): give the Q3_A gate/up a weight-stationary multi-row arm (1.32x concurrent decode @c8)",
+    "label": "XL",
+    "delta_pct": 34.3,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-11"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
