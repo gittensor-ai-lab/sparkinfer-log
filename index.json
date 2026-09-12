@@ -4094,6 +4094,15 @@
     "date": "2026-09-12"
   },
   {
+    "id": "museglimmer-1047-5dbe41b",
+    "pr": 1047,
+    "title": "perf(muse): hoist the Q4_K scale fold-in out of the per-element loop (1.14x concurrent decode @c32)",
+    "label": "L",
+    "delta_pct": 13.8,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-12"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
