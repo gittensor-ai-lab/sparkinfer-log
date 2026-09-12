@@ -4157,6 +4157,15 @@
     "date": "2026-09-12"
   },
   {
+    "id": "museglimmer-1054-2876c12",
+    "pr": 1054,
+    "title": "perf(muse): let the continuous-batch ramp widen at every concurrency, not just sixteen rows and up (1.03x concurrent decode @c8)",
+    "label": "XS",
+    "delta_pct": 3.2,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-12"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
