@@ -5457,5 +5457,14 @@
     "delta_pct": 0.3,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-12"
+  },
+  {
+    "id": "qwen38-1055-1bb4f59",
+    "pr": 1055,
+    "title": "perf(moe): precompute padded Q4_K down-MMA scale pairs",
+    "label": "none",
+    "delta_pct": 0.2,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-12"
   }
 ]
