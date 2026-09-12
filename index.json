@@ -4148,6 +4148,15 @@
     "date": "2026-09-12"
   },
   {
+    "id": "museglimmer-1053-3fa832d",
+    "pr": 1053,
+    "title": "perf(muse): stop the batched prefill trading its int8 down projection for six megabytes it never needed (1.18x concurrent decode @c32)",
+    "label": "M",
+    "delta_pct": 9.0,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-12"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
