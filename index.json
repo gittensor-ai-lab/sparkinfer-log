@@ -4175,6 +4175,15 @@
     "date": "2026-09-12"
   },
   {
+    "id": "museglimmer-1058-0c417f3",
+    "pr": 1058,
+    "title": "perf(muse): give the NVFP4 quantizers the hardware FP4 encode instead of a branch per value (1.08x prefill@4k)",
+    "label": "M",
+    "delta_pct": 6.6,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-12"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
