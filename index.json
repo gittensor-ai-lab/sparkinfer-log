@@ -5403,5 +5403,14 @@
     "delta_pct": 0.1,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-11"
+  },
+  {
+    "id": "qwen38-1049-c8c8abb",
+    "pr": 1049,
+    "title": "perf(muse): specialize exact two-row packed kernels (+3.42% c2 locally)",
+    "label": "none",
+    "delta_pct": 0.3,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-12"
   }
 ]
