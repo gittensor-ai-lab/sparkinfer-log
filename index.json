@@ -4166,6 +4166,15 @@
     "date": "2026-09-12"
   },
   {
+    "id": "museglimmer-1057-5f0087e",
+    "pr": 1057,
+    "title": "perf(muse): keep four packed rows on the Q3_A gate/up arm instead of the 128-row NVFP4 tile (1.03x concurrent decode @c4)",
+    "label": "none",
+    "delta_pct": 1.0,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-12"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
