@@ -4103,6 +4103,15 @@
     "date": "2026-09-12"
   },
   {
+    "id": "museglimmer-1048-4360a00",
+    "pr": 1048,
+    "title": "perf(muse): give the four attention in-projections one grid in packed decode (1.10x concurrent decode @c2)",
+    "label": "M",
+    "delta_pct": 8.1,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-12"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
