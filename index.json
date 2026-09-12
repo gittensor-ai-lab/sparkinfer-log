@@ -5466,5 +5466,14 @@
     "delta_pct": 0.2,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-12"
+  },
+  {
+    "id": "qwen38-1056-a7bd73c",
+    "pr": 1056,
+    "title": "perf(moe): precompute Q4_K scales for Muse concurrent decode",
+    "label": "none",
+    "delta_pct": 0.0,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-12"
   }
 ]
