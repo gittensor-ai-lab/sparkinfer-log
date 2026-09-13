@@ -5502,5 +5502,14 @@
     "delta_pct": 0.0,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-12"
+  },
+  {
+    "id": "qwen38-1059-1507dcf",
+    "pr": 1059,
+    "title": "perf(decode): run the Gated-DeltaNet gate projection on the side stream it already joins (1.08x cb-decode@c16)",
+    "label": "M",
+    "delta_pct": 7.6,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-14"
   }
 ]
