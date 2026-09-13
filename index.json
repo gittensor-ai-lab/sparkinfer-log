@@ -4184,6 +4184,15 @@
     "date": "2026-09-12"
   },
   {
+    "id": "museglimmer-1060-119ee00",
+    "pr": 1060,
+    "title": "perf(decode): give the widest packed-decode projections a 256-wide N tile (1.05x concurrent decode @c16)",
+    "label": "S",
+    "delta_pct": 4.5,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-13"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
