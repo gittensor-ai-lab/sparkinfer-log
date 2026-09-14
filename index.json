@@ -5547,5 +5547,14 @@
     "delta_pct": 15.2,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-14"
+  },
+  {
+    "id": "qwen38-1063-6be2c39",
+    "pr": 1063,
+    "title": "perf(decode): size the transposed tile's N to the packed row count, not to 64 (1.05x cb-decode@c16)",
+    "label": "REJECT",
+    "delta_pct": -9.9,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-14"
   }
 ]
