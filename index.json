@@ -5556,5 +5556,14 @@
     "delta_pct": -9.9,
     "eval_mode": "qwen38-16k",
     "date": "2026-09-14"
+  },
+  {
+    "id": "qwen38-1066-c7a99f6",
+    "pr": 1066,
+    "title": "perf(decode): size the transposed tile to the packed row count, and run the LM head through it too (1.05x cb-decode@c16)",
+    "label": "S",
+    "delta_pct": 4.8,
+    "eval_mode": "qwen38-16k",
+    "date": "2026-09-14"
   }
 ]
