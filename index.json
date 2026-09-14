@@ -4202,6 +4202,15 @@
     "date": "2026-09-14"
   },
   {
+    "id": "museglimmer-1067-00f23b0",
+    "pr": 1067,
+    "title": "perf(muse): let the packed decode take the NVFP4 qkv-gate GEMM from eight rows (1.12x concurrent decode @c8)",
+    "label": "L",
+    "delta_pct": 17.7,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-14"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
