@@ -4193,6 +4193,15 @@
     "date": "2026-09-13"
   },
   {
+    "id": "museglimmer-1064-40ca65b",
+    "pr": 1064,
+    "title": "perf(decode): let the packed FFN and projections take the block-scaled GEMM from eight rows, not sixteen (1.09x cb-decode@c8)",
+    "label": "XL",
+    "delta_pct": 96.1,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-14"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
