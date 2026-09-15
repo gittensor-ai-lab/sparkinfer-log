@@ -5628,5 +5628,14 @@
     "delta_pct": 48.1,
     "eval_mode": "qwen38-128",
     "date": "2026-09-15"
+  },
+  {
+    "id": "qwen38-1084-4c59f99",
+    "pr": 1084,
+    "title": "perf(decode): run the dense Q4_K gate/up on the int8 tensor cores for wide packed batches (1.12x cb-decode@c16)",
+    "label": "XL",
+    "delta_pct": 41.0,
+    "eval_mode": "qwen38-128",
+    "date": "2026-09-15"
   }
 ]
