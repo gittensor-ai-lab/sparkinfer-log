@@ -5619,5 +5619,14 @@
     "delta_pct": 111.8,
     "eval_mode": "qwen38-128",
     "date": "2026-09-15"
+  },
+  {
+    "id": "qwen38-1083-3d40581",
+    "pr": 1083,
+    "title": "perf(decode): run the packed checkpoint-FP8 Gated-DeltaNet projections on the FP8 tensor cores past eight rows (1.94x cb-decode@c16)",
+    "label": "XL",
+    "delta_pct": 48.1,
+    "eval_mode": "qwen38-128",
+    "date": "2026-09-15"
   }
 ]
