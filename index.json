@@ -5610,5 +5610,14 @@
     "delta_pct": 52.8,
     "eval_mode": "qwen38-128",
     "date": "2026-09-15"
+  },
+  {
+    "id": "qwen38-1082-e9f09fb",
+    "pr": 1082,
+    "title": "perf(runtime): hold Gated-DeltaNet recurrent state for the linear-attention layers only (1.35x cb-decode@c32)",
+    "label": "XL",
+    "delta_pct": 111.8,
+    "eval_mode": "qwen38-128",
+    "date": "2026-09-15"
   }
 ]
