@@ -5646,5 +5646,14 @@
     "delta_pct": 7.8,
     "eval_mode": "qwen38-128",
     "date": "2026-09-15"
+  },
+  {
+    "id": "qwen38-1089-0450ef8",
+    "pr": 1089,
+    "title": "perf(serving): prefill the prompts that arrive together in one batched pass (1.09x cb-decode@c32)",
+    "label": "M",
+    "delta_pct": 8.1,
+    "eval_mode": "qwen38-128",
+    "date": "2026-09-16"
   }
 ]
