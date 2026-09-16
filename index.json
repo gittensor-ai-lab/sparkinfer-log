@@ -5655,5 +5655,14 @@
     "delta_pct": 8.1,
     "eval_mode": "qwen38-128",
     "date": "2026-09-16"
+  },
+  {
+    "id": "qwen38-1091-da15526",
+    "pr": 1091,
+    "title": "perf(decode): cheaper Q4_K tensor-core staging and a single-pass FP8 row quantize for wide packed batches (1.03x cb-decode@c16)",
+    "label": "S",
+    "delta_pct": 4.2,
+    "eval_mode": "qwen38-128",
+    "date": "2026-09-16"
   }
 ]
