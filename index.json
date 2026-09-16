@@ -4247,6 +4247,15 @@
     "date": "2026-09-16"
   },
   {
+    "id": "museglimmer-1097-dce742e",
+    "pr": 1097,
+    "title": "perf(muse): size the narrow packed decode's FFN kernels to the batch (1.08x concurrent decode @c2)",
+    "label": "M",
+    "delta_pct": 7.0,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-17"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
