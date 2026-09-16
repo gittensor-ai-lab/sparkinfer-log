@@ -5682,5 +5682,14 @@
     "delta_pct": -91.5,
     "eval_mode": "qwen38-128",
     "date": "2026-09-16"
+  },
+  {
+    "id": "qwen38-1096-37c581f",
+    "pr": 1096,
+    "title": "perf(prefill): give Qwen3.8's FP8 MLP layers the NVFP4 prefill FFN (1.06x prefill@16k)",
+    "label": "REJECT",
+    "delta_pct": -39.5,
+    "eval_mode": "qwen38-128",
+    "date": "2026-09-16"
   }
 ]
