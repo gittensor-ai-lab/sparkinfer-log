@@ -1,0 +1,176 @@
+{
+  "id": "qwen38-1095-37c581f",
+  "pr": 1095,
+  "title": "perf(prefill): give Qwen3.8's FP8 MLP layers the NVFP4 prefill FFN (1.06x prefill@16k)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/1095",
+  "commit": "37c581f",
+  "eval_mode": "qwen38-128",
+  "label": "REJECT",
+  "pass": false,
+  "reason": "muse glimmer no-regression guard failed: muse glimmer decode@32k: 81.2 < 98% of main 100.0 (-18.8%); muse glimmer concurrent guard measurement unavailable; muse glimmer concurrent cb-decode@c16: PR measurement missing/zero (main 1058.1) \u2014 treated as regression; muse glimmer concurrent cb-decode@c32: PR measurement missing/zero (main 1332.6) \u2014 treated as regression | modelopt no-regression guard failed: modelopt decode@32k: 54.8 < 98% of main 85.8 (-36.1%); modelopt prefill@32k: 8826.9 < 98% of main 11422.0 (-22.7%); modelopt concurrent cb-decode@c16: 816.9 < 98% of main 1128.2 (-27.6%); modelopt concurrent cb-decode@c32: 256.9 < 98% of main 1714.3 (-85.0%) | qwen3.6 no-regression guard failed: qwen3.6 decode@128: 328.0 < 98% of main 489.1 (-32.9%); qwen3.6 decode@512: 333.0 < 98% of main 481.0 (-30.8%); qwen3.6 prefill@512: 7552.3 < 98% of main 11543.0 (-34.6%); qwen3.6 decode@4k: 312.8 < 98% of main 462.9 (-32.4%); qwen3.6 prefill@4k: 19856.6 < 98% of main 29764.8 (-33.3%); qwen3.6 decode@16k: 311.8 < 98% of main 464.8 (-32.9%) | cb-decode@c2 regression: 103.10 < 98% of main 156.10 | cb-decode@c4 regression: 187.70 < 98% of main 262.20 | cb-decode@c8 regression: 341.20 < 98% of main 465.20 | cb-decode@c16 regression: 75.50 < 98% of main 885.20 | cb-decode@c32 regression: 148.00 < 98% of main 1347.50",
+  "delta_pct": -91.5,
+  "pr_decode_tps": 84.4333,
+  "main_decode_tps": 84.5394,
+  "pr_prefill_pp": 5613.7446,
+  "main_prefill_pp": 5328.1096,
+  "prefill_delta_pct": 5.4,
+  "pr_prefill16k_pp": 10848.9524,
+  "main_prefill16k_pp": 10284.6335,
+  "prefill16k_delta_pct": 5.5,
+  "scored_dimension": "cb-decode@c16",
+  "regressed_dims": [
+    "cb-decode@c2",
+    "cb-decode@c4",
+    "cb-decode@c8",
+    "cb-decode@c16",
+    "cb-decode@c32"
+  ],
+  "pr_cb1_agg": 83.0,
+  "main_cb1_agg": 82.9,
+  "cb1_delta_pct": 0.1,
+  "pr_cb1_itl": 12.27,
+  "main_cb1_itl": 12.28,
+  "pr_cb1_err": 0.0,
+  "main_cb1_err": 0.0,
+  "pr_cb1_tok": 264.0,
+  "main_cb1_tok": 264.0,
+  "pr_cb1_runs": [
+    82.9,
+    83.0,
+    83.1
+  ],
+  "main_cb1_runs": [
+    82.3,
+    82.9,
+    82.9
+  ],
+  "pr_cb2_agg": 103.1,
+  "main_cb2_agg": 156.1,
+  "cb2_delta_pct": -34.0,
+  "pr_cb2_itl": 19.21,
+  "main_cb2_itl": 12.57,
+  "pr_cb2_err": 0.0,
+  "main_cb2_err": 0.0,
+  "pr_cb2_tok": 520.0,
+  "main_cb2_tok": 520.0,
+  "pr_cb2_runs": [
+    152.0,
+    103.1,
+    101.4
+  ],
+  "main_cb2_runs": [
+    156.0,
+    156.1,
+    156.4
+  ],
+  "pr_cb4_agg": 187.7,
+  "main_cb4_agg": 262.2,
+  "cb4_delta_pct": -28.4,
+  "pr_cb4_itl": 20.65,
+  "main_cb4_itl": 14.69,
+  "pr_cb4_err": 0.0,
+  "main_cb4_err": 0.0,
+  "pr_cb4_tok": 1032.0,
+  "main_cb4_tok": 1032.0,
+  "pr_cb4_runs": [
+    184.7,
+    188.9,
+    187.7
+  ],
+  "main_cb4_runs": [
+    262.1,
+    262.2,
+    262.6
+  ],
+  "pr_cb8_agg": 341.2,
+  "main_cb8_agg": 465.2,
+  "cb8_delta_pct": -26.7,
+  "pr_cb8_itl": 22.2,
+  "main_cb8_itl": 16.17,
+  "pr_cb8_err": 0.0,
+  "main_cb8_err": 0.0,
+  "pr_cb8_tok": 2056.0,
+  "main_cb8_tok": 2056.0,
+  "pr_cb8_runs": [
+    341.2,
+    337.9,
+    346.8
+  ],
+  "main_cb8_runs": [
+    465.7,
+    464.5,
+    465.2
+  ],
+  "pr_cb16_agg": 75.5,
+  "main_cb16_agg": 885.2,
+  "cb16_delta_pct": -91.5,
+  "pr_cb16_itl": 210.71,
+  "main_cb16_itl": 16.23,
+  "pr_cb16_err": 0.0,
+  "main_cb16_err": 0.0,
+  "pr_cb16_tok": 4104.0,
+  "main_cb16_tok": 4104.0,
+  "pr_cb16_runs": [
+    75.5,
+    75.7,
+    74.9
+  ],
+  "main_cb16_runs": [
+    885.2,
+    884.7,
+    885.7
+  ],
+  "pr_cb32_agg": 148.0,
+  "main_cb32_agg": 1347.5,
+  "cb32_delta_pct": -89.0,
+  "pr_cb32_itl": 76.2,
+  "main_cb32_itl": 20.33,
+  "pr_cb32_err": 0.0,
+  "main_cb32_err": 0.0,
+  "pr_cb32_tok": 8200.0,
+  "main_cb32_tok": 8200.0,
+  "pr_cb32_runs": [
+    146.2,
+    148.0,
+    148.2
+  ],
+  "main_cb32_runs": [
+    1348.2,
+    1333.3,
+    1347.5
+  ],
+  "speedup_vs_main": 0.999,
+  "pr_top1": 1.0,
+  "pr_kl": 0.0,
+  "accuracy_ok": true,
+  "q36_guard_ok": false,
+  "q36_guard_problems": [
+    "qwen3.6 decode@128: 328.0 < 98% of main 489.1 (-32.9%)",
+    "qwen3.6 decode@512: 333.0 < 98% of main 481.0 (-30.8%)",
+    "qwen3.6 prefill@512: 7552.3 < 98% of main 11543.0 (-34.6%)",
+    "qwen3.6 decode@4k: 312.8 < 98% of main 462.9 (-32.4%)",
+    "qwen3.6 prefill@4k: 19856.6 < 98% of main 29764.8 (-33.3%)",
+    "qwen3.6 decode@16k: 311.8 < 98% of main 464.8 (-32.9%)",
+    "qwen3.6 prefill@16k: 19353.9 < 98% of main 27444.7 (-29.5%)",
+    "qwen3.6 decode@32k: 314.6 < 98% of main 464.4 (-32.3%)",
+    "qwen3.6 prefill@32k: 18033.1 < 98% of main 24886.3 (-27.5%)"
+  ],
+  "modelopt_guard_ok": false,
+  "modelopt_guard_problems": [
+    "modelopt decode@32k: 54.8 < 98% of main 85.8 (-36.1%)",
+    "modelopt prefill@32k: 8826.9 < 98% of main 11422.0 (-22.7%)",
+    "modelopt concurrent cb-decode@c16: 816.9 < 98% of main 1128.2 (-27.6%)",
+    "modelopt concurrent cb-decode@c32: 256.9 < 98% of main 1714.3 (-85.0%)"
+  ],
+  "modelopt_guard_skipped": false,
+  "muse_guard_ok": false,
+  "muse_guard_problems": [
+    "muse glimmer decode@32k: 81.2 < 98% of main 100.0 (-18.8%)",
+    "muse glimmer concurrent guard measurement unavailable",
+    "muse glimmer concurrent cb-decode@c16: PR measurement missing/zero (main 1058.1) \u2014 treated as regression",
+    "muse glimmer concurrent cb-decode@c32: PR measurement missing/zero (main 1332.6) \u2014 treated as regression"
+  ],
+  "muse_guard_skipped": false,
+  "gpu": "pinned eval box",
+  "date": "2026-09-16"
+}
