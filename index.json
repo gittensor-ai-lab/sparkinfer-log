@@ -4274,6 +4274,15 @@
     "date": "2026-09-17"
   },
   {
+    "id": "museglimmer-1102-dde4042",
+    "pr": 1102,
+    "title": "perf(muse): decode only each lane's own 8 values in the Q4_K -> NVFP4 operand kernel and share the group amax (1.05x prefill @4k)",
+    "label": "S",
+    "delta_pct": 4.4,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-17"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
