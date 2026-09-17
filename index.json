@@ -4256,6 +4256,15 @@
     "date": "2026-09-17"
   },
   {
+    "id": "museglimmer-1100-edb1162",
+    "pr": 1100,
+    "title": "perf(muse): run the narrow packed decode's attention and LM-head Q4_K rows kernels at the batch width (1.03x concurrent decode @c2)",
+    "label": "S",
+    "delta_pct": 3.8,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-17"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
