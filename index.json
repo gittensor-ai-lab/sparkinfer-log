@@ -4265,6 +4265,15 @@
     "date": "2026-09-17"
   },
   {
+    "id": "museglimmer-1101-ad7b750",
+    "pr": 1101,
+    "title": "perf(muse): stream the prefill o-proj to NVFP4 and build streamed operands straight from Q4_K (1.02x prefill @16k-64k)",
+    "label": "XS",
+    "delta_pct": 2.7,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-17"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
