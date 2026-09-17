@@ -1,0 +1,32 @@
+{
+  "id": "museglimmer-1106-7ba4fa8",
+  "pr": 1106,
+  "title": "perf(muse): hold the sliding-window layers' KV in a per-sequence ring and spend the freed VRAM on the qkv-gate operand (1.11x cb decode @c32)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/1106",
+  "commit": "7ba4fa8",
+  "eval_mode": "museglimmer-128",
+  "label": "REJECT",
+  "pass": false,
+  "reason": "unsloth qwen3.8 no-regression guard failed: unsloth qwen3.8 guard measurement unavailable; unsloth qwen3.8 decode@32k: PR measurement missing/zero (main 75.9) \u2014 treated as regression; unsloth qwen3.8 prefill@32k: PR measurement missing/zero (main 9082.8) \u2014 treated as regression | ok",
+  "delta_pct": 11.6,
+  "pr_decode_tps": 104.0277,
+  "main_decode_tps": 104.0308,
+  "speedup_vs_main": 1.0,
+  "pr_prefill128_pp": 7892.9932,
+  "main_prefill128_pp": 7906.1647,
+  "prefill_speedup_vs_main": 0.998,
+  "pr_top1": 0.969697,
+  "pr_kl": 0.090603,
+  "accuracy_ok": true,
+  "q36_guard_ok": true,
+  "q36_guard_problems": [],
+  "modelopt_guard_ok": true,
+  "unsloth_guard_ok": false,
+  "unsloth_guard_problems": [
+    "unsloth qwen3.8 guard measurement unavailable",
+    "unsloth qwen3.8 decode@32k: PR measurement missing/zero (main 75.9) \u2014 treated as regression",
+    "unsloth qwen3.8 prefill@32k: PR measurement missing/zero (main 9082.8) \u2014 treated as regression"
+  ],
+  "gpu": "pinned eval box",
+  "date": "2026-09-17"
+}
