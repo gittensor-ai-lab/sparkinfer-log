@@ -4283,6 +4283,15 @@
     "date": "2026-09-17"
   },
   {
+    "id": "museglimmer-1103-a10bc76",
+    "pr": 1103,
+    "title": "perf(muse): run the long-prompt FP4 prefill FFN in 4096-token chunks and fold its pre-norms into the FP4 quantize (1.03x prefill @16k-64k)",
+    "label": "S",
+    "delta_pct": 5.5,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-17"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
