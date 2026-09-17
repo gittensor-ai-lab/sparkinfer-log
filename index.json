@@ -4292,6 +4292,15 @@
     "date": "2026-09-17"
   },
   {
+    "id": "museglimmer-1105-6c1e43e",
+    "pr": 1105,
+    "title": "perf(muse): keep the NVFP4 q|gate|k|v operand at c2/c4 and score the four-row LM head on the tensor cores (1.10x cb decode @c4)",
+    "label": "M",
+    "delta_pct": 9.1,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-17"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
