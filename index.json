@@ -5783,6 +5783,15 @@
     "date": "2026-09-16"
   },
   {
+    "id": "qwen38-1107-a4ef9d6",
+    "pr": 1107,
+    "title": "perf(qwen3.8): run the eight-row packed decode's FP8 projections on the tensor cores (1.06x cb decode @c8)",
+    "label": "S",
+    "delta_pct": 5.9,
+    "eval_mode": "qwen38-128",
+    "date": "2026-09-18"
+  },
+  {
     "id": "qwen38-1109-56ee608",
     "pr": 1109,
     "title": "perf(qwen3.8): ask the hd256 flash-decode kernel for the occupancy it can actually reach (1.10x decode @256k)",
