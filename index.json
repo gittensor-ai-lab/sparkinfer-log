@@ -5813,8 +5813,8 @@
     "id": "qwen38-1114-c66bd20",
     "pr": 1114,
     "title": "perf(qwen3.8): ask the hd256 flash-decode kernel for the occupancy it can actually reach (1.10x decode @256k)",
-    "label": "REJECT",
-    "delta_pct": 10.3,
+    "label": "L",
+    "delta_pct": 10.4,
     "eval_mode": "qwen38-128",
     "date": "2026-09-18"
   }
