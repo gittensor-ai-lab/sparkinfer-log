@@ -4337,6 +4337,15 @@
     "date": "2026-09-18"
   },
   {
+    "id": "museglimmer-1117-451a0d3",
+    "pr": 1117,
+    "title": "perf(muse): hold a prefix of NVFP4 o-proj copies when the whole set cannot fit (1.03x cb decode @c32)",
+    "label": "XS",
+    "delta_pct": 2.7,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-18"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
