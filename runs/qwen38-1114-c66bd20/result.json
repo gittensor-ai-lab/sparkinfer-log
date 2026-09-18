@@ -1,0 +1,152 @@
+{
+  "id": "qwen38-1114-c66bd20",
+  "pr": 1114,
+  "title": "perf(qwen3.8): ask the hd256 flash-decode kernel for the occupancy it can actually reach (1.10x decode @256k)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/1114",
+  "commit": "c66bd20",
+  "eval_mode": "qwen38-128",
+  "label": "REJECT",
+  "pass": false,
+  "reason": "muse glimmer no-regression guard failed: muse glimmer concurrent guard measurement unavailable | ok",
+  "delta_pct": 10.3,
+  "pr_decode_tps": 84.7212,
+  "main_decode_tps": 84.7593,
+  "pr_prefill_pp": 5370.0927,
+  "main_prefill_pp": 5388.678,
+  "prefill_delta_pct": -0.3,
+  "pr_prefill16k_pp": 10367.4225,
+  "main_prefill16k_pp": 10432.4,
+  "prefill16k_delta_pct": -0.6,
+  "scored_dimension": "modelopt-decode@256k",
+  "regressed_dims": [],
+  "pr_cb1_agg": 83.0,
+  "main_cb1_agg": 83.1,
+  "cb1_delta_pct": -0.1,
+  "pr_cb1_itl": 12.26,
+  "main_cb1_itl": 12.25,
+  "pr_cb1_err": 0.0,
+  "main_cb1_err": 0.0,
+  "pr_cb1_tok": 264.0,
+  "main_cb1_tok": 264.0,
+  "pr_cb1_runs": [
+    83.0,
+    83.1,
+    83.0
+  ],
+  "main_cb1_runs": [
+    82.5,
+    83.1,
+    83.1
+  ],
+  "pr_cb2_agg": 156.5,
+  "main_cb2_agg": 156.5,
+  "cb2_delta_pct": 0.0,
+  "pr_cb2_itl": 12.54,
+  "main_cb2_itl": 12.54,
+  "pr_cb2_err": 0.0,
+  "main_cb2_err": 0.0,
+  "pr_cb2_tok": 520.0,
+  "main_cb2_tok": 520.0,
+  "pr_cb2_runs": [
+    156.5,
+    156.5,
+    156.6
+  ],
+  "main_cb2_runs": [
+    156.5,
+    156.5,
+    156.5
+  ],
+  "pr_cb4_agg": 265.0,
+  "main_cb4_agg": 264.9,
+  "cb4_delta_pct": 0.0,
+  "pr_cb4_itl": 14.53,
+  "main_cb4_itl": 14.53,
+  "pr_cb4_err": 0.0,
+  "main_cb4_err": 0.0,
+  "pr_cb4_tok": 1032.0,
+  "main_cb4_tok": 1032.0,
+  "pr_cb4_runs": [
+    265.0,
+    265.0,
+    264.6
+  ],
+  "main_cb4_runs": [
+    264.9,
+    264.7,
+    264.9
+  ],
+  "pr_cb8_agg": 496.8,
+  "main_cb8_agg": 496.6,
+  "cb8_delta_pct": 0.0,
+  "pr_cb8_itl": 15.07,
+  "main_cb8_itl": 15.09,
+  "pr_cb8_err": 0.0,
+  "main_cb8_err": 0.0,
+  "pr_cb8_tok": 2056.0,
+  "main_cb8_tok": 2056.0,
+  "pr_cb8_runs": [
+    496.9,
+    496.8,
+    496.3
+  ],
+  "main_cb8_runs": [
+    495.6,
+    496.6,
+    496.6
+  ],
+  "pr_cb16_agg": 886.4,
+  "main_cb16_agg": 886.5,
+  "cb16_delta_pct": -0.0,
+  "pr_cb16_itl": 16.2,
+  "main_cb16_itl": 16.21,
+  "pr_cb16_err": 0.0,
+  "main_cb16_err": 0.0,
+  "pr_cb16_tok": 4104.0,
+  "main_cb16_tok": 4104.0,
+  "pr_cb16_runs": [
+    887.2,
+    886.4,
+    885.7
+  ],
+  "main_cb16_runs": [
+    884.3,
+    886.5,
+    886.6
+  ],
+  "pr_cb32_agg": 1354.0,
+  "main_cb32_agg": 1349.0,
+  "cb32_delta_pct": 0.4,
+  "pr_cb32_itl": 20.21,
+  "main_cb32_itl": 20.23,
+  "pr_cb32_err": 0.0,
+  "main_cb32_err": 0.0,
+  "pr_cb32_tok": 8200.0,
+  "main_cb32_tok": 8200.0,
+  "pr_cb32_runs": [
+    1355.8,
+    1354.0,
+    1352.7
+  ],
+  "main_cb32_runs": [
+    1349.0,
+    1354.3,
+    1345.4
+  ],
+  "speedup_vs_main": 1.0,
+  "pr_top1": 1.0,
+  "pr_kl": 0.0,
+  "accuracy_ok": true,
+  "q36_guard_ok": true,
+  "q36_guard_problems": [],
+  "modelopt_guard_ok": true,
+  "modelopt_guard_problems": [],
+  "modelopt_guard_skipped": false,
+  "muse_guard_ok": false,
+  "muse_guard_problems": [
+    "muse glimmer concurrent guard measurement unavailable"
+  ],
+  "muse_guard_skipped": false,
+  "gpu": "pinned eval box",
+  "date": "2026-09-18"
+}
