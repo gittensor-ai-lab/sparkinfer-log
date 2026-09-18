@@ -4310,6 +4310,15 @@
     "date": "2026-09-17"
   },
   {
+    "id": "museglimmer-1108-7ba4fa8",
+    "pr": 1108,
+    "title": "perf(muse): hold the sliding-window layers' KV in a per-sequence ring and spend the freed VRAM on the qkv-gate operand (1.11x cb decode @c32)",
+    "label": "L",
+    "delta_pct": 12.2,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-18"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
