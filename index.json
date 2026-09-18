@@ -5826,5 +5826,14 @@
     "delta_pct": 10.4,
     "eval_mode": "qwen38-128",
     "date": "2026-09-18"
+  },
+  {
+    "id": "qwen38-1116-4e9a675",
+    "pr": 1116,
+    "title": "perf(qwen3.8): stage the int8 flash-decode K tile through shared memory so each token's bytes arrive whole (1.10x target decode @256k)",
+    "label": "REJECT",
+    "delta_pct": -55.9,
+    "eval_mode": "qwen38-128",
+    "date": "2026-09-18"
   }
 ]
