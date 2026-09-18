@@ -1,0 +1,152 @@
+{
+  "id": "qwen38-1119-373df4d",
+  "pr": 1119,
+  "title": "perf(qwen3.8): read 128 bytes of each weight row per K-tile in the packed FP8 GDN GEMM (1.08x cb decode @c8)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/1119",
+  "commit": "373df4d",
+  "eval_mode": "qwen38-128",
+  "label": "REJECT",
+  "pass": false,
+  "reason": "qwen3.6 no-regression guard failed: qwen3.6 prefill@32k: 5935.4 < 98% of main 6072.6 (-2.3%) | ok",
+  "delta_pct": 837.0,
+  "pr_decode_tps": 48.5095,
+  "main_decode_tps": 48.5244,
+  "pr_prefill_pp": 3465.1411,
+  "main_prefill_pp": 3515.7664,
+  "prefill_delta_pct": -1.4,
+  "pr_prefill16k_pp": 6965.9646,
+  "main_prefill16k_pp": 7002.1759,
+  "prefill16k_delta_pct": -0.5,
+  "scored_dimension": "cb-decode@c16",
+  "regressed_dims": [],
+  "pr_cb1_agg": 50.7,
+  "main_cb1_agg": 48.0,
+  "cb1_delta_pct": 5.6,
+  "pr_cb1_itl": 20.12,
+  "main_cb1_itl": 21.31,
+  "pr_cb1_err": 0.0,
+  "main_cb1_err": 0.0,
+  "pr_cb1_tok": 264.0,
+  "main_cb1_tok": 264.0,
+  "pr_cb1_runs": [
+    50.7,
+    48.3,
+    50.9
+  ],
+  "main_cb1_runs": [
+    47.9,
+    48.5,
+    48.0
+  ],
+  "pr_cb2_agg": 94.8,
+  "main_cb2_agg": 96.3,
+  "cb2_delta_pct": -1.6,
+  "pr_cb2_itl": 20.84,
+  "main_cb2_itl": 20.52,
+  "pr_cb2_err": 0.0,
+  "main_cb2_err": 0.0,
+  "pr_cb2_tok": 520.0,
+  "main_cb2_tok": 520.0,
+  "pr_cb2_runs": [
+    94.8,
+    95.7,
+    94.2
+  ],
+  "main_cb2_runs": [
+    96.3,
+    94.5,
+    97.8
+  ],
+  "pr_cb4_agg": 170.0,
+  "main_cb4_agg": 170.5,
+  "cb4_delta_pct": -0.3,
+  "pr_cb4_itl": 22.72,
+  "main_cb4_itl": 22.66,
+  "pr_cb4_err": 0.0,
+  "main_cb4_err": 0.0,
+  "pr_cb4_tok": 1032.0,
+  "main_cb4_tok": 1032.0,
+  "pr_cb4_runs": [
+    170.4,
+    170.0,
+    169.2
+  ],
+  "main_cb4_runs": [
+    170.5,
+    179.6,
+    169.4
+  ],
+  "pr_cb8_agg": 343.3,
+  "main_cb8_agg": 337.4,
+  "cb8_delta_pct": 1.7,
+  "pr_cb8_itl": 21.79,
+  "main_cb8_itl": 22.21,
+  "pr_cb8_err": 0.0,
+  "main_cb8_err": 0.0,
+  "pr_cb8_tok": 2056.0,
+  "main_cb8_tok": 2056.0,
+  "pr_cb8_runs": [
+    344.9,
+    343.3,
+    342.4
+  ],
+  "main_cb8_runs": [
+    338.2,
+    319.5,
+    337.4
+  ],
+  "pr_cb16_agg": 922.9,
+  "main_cb16_agg": 98.5,
+  "cb16_delta_pct": 837.0,
+  "pr_cb16_itl": 15.4,
+  "main_cb16_itl": 130.4,
+  "pr_cb16_err": 0.0,
+  "main_cb16_err": 0.0,
+  "pr_cb16_tok": 4104.0,
+  "main_cb16_tok": 4104.0,
+  "pr_cb16_runs": [
+    169.0,
+    929.9,
+    922.9
+  ],
+  "main_cb16_runs": [
+    98.0,
+    98.5,
+    98.7
+  ],
+  "pr_cb32_agg": 1386.8,
+  "main_cb32_agg": 601.4,
+  "cb32_delta_pct": 130.6,
+  "pr_cb32_itl": 20.35,
+  "main_cb32_itl": 0.2,
+  "pr_cb32_err": 0.0,
+  "main_cb32_err": 0.0,
+  "pr_cb32_tok": 8200.0,
+  "main_cb32_tok": 8200.0,
+  "pr_cb32_runs": [
+    230.6,
+    1386.8,
+    1394.3
+  ],
+  "main_cb32_runs": [
+    605.4,
+    591.1,
+    601.4
+  ],
+  "speedup_vs_main": 1.0,
+  "pr_top1": 1.0,
+  "pr_kl": 0.0,
+  "accuracy_ok": true,
+  "q36_guard_ok": false,
+  "q36_guard_problems": [
+    "qwen3.6 prefill@32k: 5935.4 < 98% of main 6072.6 (-2.3%)"
+  ],
+  "modelopt_guard_ok": true,
+  "modelopt_guard_problems": [],
+  "modelopt_guard_skipped": false,
+  "muse_guard_ok": true,
+  "muse_guard_problems": [],
+  "muse_guard_skipped": false,
+  "gpu": "pinned eval box",
+  "date": "2026-09-18"
+}
