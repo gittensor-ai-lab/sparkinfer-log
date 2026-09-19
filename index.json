@@ -4346,6 +4346,15 @@
     "date": "2026-09-18"
   },
   {
+    "id": "museglimmer-1122-f778474",
+    "pr": 1122,
+    "title": "perf(muse): leave 1024 MiB after the o-proj NVFP4 prefix so packed graphs instantiate (2.12x cb decode @c32)- #1120",
+    "label": "XS",
+    "delta_pct": 2.5,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-19"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
