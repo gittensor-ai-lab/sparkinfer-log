@@ -4355,6 +4355,15 @@
     "date": "2026-09-19"
   },
   {
+    "id": "museglimmer-1125-554acec",
+    "pr": 1125,
+    "title": "perf(muse): stream Q4_K o-proj and down to NVFP4 from N=512 on the 64k eval load (1.12x prefill @512)",
+    "label": "REJECT",
+    "delta_pct": 149028.2,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-20"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
