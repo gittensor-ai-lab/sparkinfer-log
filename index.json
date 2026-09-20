@@ -5880,5 +5880,14 @@
     "delta_pct": 447.5,
     "eval_mode": "qwen38-128",
     "date": "2026-09-18"
+  },
+  {
+    "id": "qwen38-1126-e624e98",
+    "pr": 1126,
+    "title": "perf(qwen3.8): pack the Q4_K LM head into the NVFP4 GEMM the ModelOpt checkpoint already had (1.02x cb decode @c16)",
+    "label": "REJECT",
+    "delta_pct": -4.1,
+    "eval_mode": "qwen38-128",
+    "date": "2026-09-21"
   }
 ]
