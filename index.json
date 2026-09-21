@@ -4364,6 +4364,15 @@
     "date": "2026-09-20"
   },
   {
+    "id": "museglimmer-1128-3e6c658",
+    "pr": 1128,
+    "title": "perf(qwen3.8): recapture the 24Q/4KV CUDA graph at the MMA floor (1.02x decode @16k)",
+    "label": "none",
+    "delta_pct": 0.2,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-21"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
