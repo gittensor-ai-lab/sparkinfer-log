@@ -4373,6 +4373,15 @@
     "date": "2026-09-21"
   },
   {
+    "id": "museglimmer-1130-c420eab",
+    "pr": 1130,
+    "title": "perf(muse): convert Q6_K ffn_down straight to NVFP4 and stream it from N=512 (1.09x prefill @512)",
+    "label": "L",
+    "delta_pct": 11.8,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-21"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
