@@ -4382,6 +4382,15 @@
     "date": "2026-09-21"
   },
   {
+    "id": "museglimmer-1131-8528ef0",
+    "pr": 1131,
+    "title": "perf(muse): skip the Q3_A up-projection when |silu(gate)| is below tau (1.03x decode @128)",
+    "label": "REJECT",
+    "delta_pct": 2.9,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-22"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
