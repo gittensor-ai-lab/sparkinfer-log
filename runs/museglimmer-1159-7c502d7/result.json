@@ -1,0 +1,32 @@
+{
+  "id": "museglimmer-1159-7c502d7",
+  "pr": 1159,
+  "title": "perf(kernels): pack bf16 V into the wmma tile for dense-GGUF full attention (1.013x prefill @512 on Ternary-Bonsai-2)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/1159",
+  "commit": "7c502d7",
+  "eval_mode": "museglimmer-128",
+  "label": "REJECT",
+  "pass": false,
+  "reason": "ternary-bonsai no-regression guard failed: ternary-bonsai prefill@128: 4771.0 < 98% of main 4900.3 (-2.6%) | muse-prefill@64k regression: 12307.77 < 98% of main 12562.95 | muse-cb-decode@c32 regression: 1604.50 < 98% of main 1655.50",
+  "delta_pct": -3.1,
+  "pr_decode_tps": 107.151,
+  "main_decode_tps": 107.1539,
+  "speedup_vs_main": 1.0,
+  "pr_prefill128_pp": 8172.2381,
+  "main_prefill128_pp": 8164.0645,
+  "prefill_speedup_vs_main": 1.001,
+  "pr_top1": 0.969697,
+  "pr_kl": 0.088731,
+  "accuracy_ok": true,
+  "q36_guard_ok": true,
+  "q36_guard_problems": [],
+  "modelopt_guard_ok": true,
+  "unsloth_guard_ok": true,
+  "unsloth_guard_problems": [],
+  "bonsai_guard_ok": false,
+  "bonsai_guard_problems": [
+    "ternary-bonsai prefill@128: 4771.0 < 98% of main 4900.3 (-2.6%)"
+  ],
+  "gpu": "pinned eval box",
+  "date": "2026-09-25"
+}

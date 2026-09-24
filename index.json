@@ -4526,6 +4526,15 @@
     "date": "2026-09-24"
   },
   {
+    "id": "museglimmer-1159-7c502d7",
+    "pr": 1159,
+    "title": "perf(kernels): pack bf16 V into the wmma tile for dense-GGUF full attention (1.013x prefill @512 on Ternary-Bonsai-2)",
+    "label": "REJECT",
+    "delta_pct": -3.1,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-25"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
