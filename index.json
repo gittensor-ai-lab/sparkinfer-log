@@ -2855,6 +2855,15 @@
     "date": "2026-09-24"
   },
   {
+    "id": "bonsai-1151-5512ef4",
+    "pr": 1151,
+    "title": "perf(qwen35): unpack each Q4_K scale once in the int8 row dequant (1.019x prefill @4k on Ternary-Bonsai-2)",
+    "label": "none",
+    "delta_pct": 1.5,
+    "eval_mode": "bonsai-128",
+    "date": "2026-09-24"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
