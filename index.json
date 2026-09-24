@@ -2801,6 +2801,15 @@
     "date": "2026-09-24"
   },
   {
+    "id": "bonsai-1143-bc31cc9",
+    "pr": 1143,
+    "title": "perf(qwen35): materialize each dense-GGUF FFN weight once per layer, not once per token chunk (1.035x prefill @16k on Ternary-Bonsai-2)",
+    "label": "XS",
+    "delta_pct": 3.1,
+    "eval_mode": "bonsai-128",
+    "date": "2026-09-24"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
