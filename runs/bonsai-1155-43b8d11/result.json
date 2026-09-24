@@ -1,0 +1,139 @@
+{
+  "id": "bonsai-1155-43b8d11",
+  "pr": 1155,
+  "title": "perf(qwen35): fill the device on the N=512 GDN bf16 GEMMs and fuse the dense-GGUF FFN's SwiGLU into its split-K epilogue (1.05x prefill @512 on Ternary-Bonsai-2)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/1155",
+  "commit": "43b8d11",
+  "eval_mode": "bonsai-128",
+  "label": "S",
+  "pass": true,
+  "reason": "ok",
+  "delta_pct": 4.9,
+  "best_dim": "bonsai-prefill@512",
+  "dims": {
+    "bonsai-decode@128": 0.0,
+    "bonsai-prefill@128": 2.2,
+    "bonsai-decode@512": 0.1,
+    "bonsai-prefill@512": 4.9,
+    "bonsai-decode@4k": 0.0,
+    "bonsai-prefill@4k": -0.0,
+    "bonsai-decode@16k": 0.2,
+    "bonsai-prefill@16k": -0.1,
+    "bonsai-decode@32k": 0.1,
+    "bonsai-prefill@32k": -0.1,
+    "bonsai-cb-decode@c2": 0.2,
+    "bonsai-cb-decode@c4": 0.0,
+    "bonsai-cb-decode@c8": 0.1,
+    "bonsai-cb-decode@c16": -0.2,
+    "bonsai-cb-decode@c32": 0.1
+  },
+  "matrix": {
+    "bonsai-decode@128": {
+      "pr": 98.9971,
+      "main": 98.956,
+      "delta": 0.0,
+      "label": "none"
+    },
+    "bonsai-prefill@128": {
+      "pr": 4930.1597,
+      "main": 4824.0181,
+      "delta": 2.2,
+      "label": "XS"
+    },
+    "bonsai-decode@512": {
+      "pr": 98.3506,
+      "main": 98.2958,
+      "delta": 0.1,
+      "label": "none"
+    },
+    "bonsai-prefill@512": {
+      "pr": 5046.7466,
+      "main": 4812.4776,
+      "delta": 4.9,
+      "label": "S"
+    },
+    "bonsai-decode@4k": {
+      "pr": 96.8616,
+      "main": 96.8284,
+      "delta": 0.0,
+      "label": "none"
+    },
+    "bonsai-prefill@4k": {
+      "pr": 8918.4531,
+      "main": 8921.9288,
+      "delta": -0.0,
+      "label": "none"
+    },
+    "bonsai-decode@16k": {
+      "pr": 93.5933,
+      "main": 93.4346,
+      "delta": 0.2,
+      "label": "none"
+    },
+    "bonsai-prefill@16k": {
+      "pr": 8919.587,
+      "main": 8925.6628,
+      "delta": -0.1,
+      "label": "none"
+    },
+    "bonsai-decode@32k": {
+      "pr": 88.6127,
+      "main": 88.4941,
+      "delta": 0.1,
+      "label": "none"
+    },
+    "bonsai-prefill@32k": {
+      "pr": 8440.5825,
+      "main": 8452.683,
+      "delta": -0.1,
+      "label": "none"
+    },
+    "bonsai-cb-decode@c2": {
+      "pr": 168.4,
+      "main": 168.0,
+      "delta": 0.2,
+      "label": "none"
+    },
+    "bonsai-cb-decode@c4": {
+      "pr": 299.0,
+      "main": 299.0,
+      "delta": 0.0,
+      "label": "none"
+    },
+    "bonsai-cb-decode@c8": {
+      "pr": 526.1,
+      "main": 525.7,
+      "delta": 0.1,
+      "label": "none"
+    },
+    "bonsai-cb-decode@c16": {
+      "pr": 815.9,
+      "main": 817.2,
+      "delta": -0.2,
+      "label": "none"
+    },
+    "bonsai-cb-decode@c32": {
+      "pr": 1111.2,
+      "main": 1109.7,
+      "delta": 0.1,
+      "label": "none"
+    }
+  },
+  "pr_decode_tps": 98.9971,
+  "main_decode_tps": 98.956,
+  "pr_prefill128_pp": 4930.1597,
+  "main_prefill128_pp": 4824.0181,
+  "pr_top1": 0.971939,
+  "pr_kl": 0.008483,
+  "accuracy_ok": true,
+  "prefill_path_ok": true,
+  "bonsaireg_ok": true,
+  "guards_ok": {
+    "guard36": true,
+    "guardmo": true,
+    "guardun": true,
+    "guardmg": true
+  },
+  "gpu": "pinned eval box",
+  "date": "2026-09-24"
+}

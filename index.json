@@ -2900,6 +2900,15 @@
     "date": "2026-09-24"
   },
   {
+    "id": "bonsai-1155-43b8d11",
+    "pr": 1155,
+    "title": "perf(qwen35): fill the device on the N=512 GDN bf16 GEMMs and fuse the dense-GGUF FFN's SwiGLU into its split-K epilogue (1.05x prefill @512 on Ternary-Bonsai-2)",
+    "label": "S",
+    "delta_pct": 4.9,
+    "eval_mode": "bonsai-128",
+    "date": "2026-09-24"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
