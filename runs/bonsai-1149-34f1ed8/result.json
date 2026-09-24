@@ -1,0 +1,139 @@
+{
+  "id": "bonsai-1149-34f1ed8",
+  "pr": 1149,
+  "title": "perf(bonsai): decode reads the FFN from a ternary copy through a dp4a GEMV, its activation quantized once inside the Hadamard rotation (1.36x decode @128)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/1149",
+  "commit": "34f1ed8",
+  "eval_mode": "bonsai-128",
+  "label": "REJECT",
+  "pass": false,
+  "reason": "modelopt qwen3.8 no-regression guard failed: modelopt qwen3.8 decode@32k: 85.2 < 98% of main 87.2 (-2.4%) | qwen3.6 no-regression guard failed: qwen3.6 decode@32k: 446.3 < 98% of main 478.3 (-6.7%) | bonsai-cb-decode@c32 regression: 1029.20 < 98% of main 1052.00",
+  "delta_pct": -2.2,
+  "best_dim": "bonsai-cb-decode@c32",
+  "dims": {
+    "bonsai-decode@128": 30.1,
+    "bonsai-prefill@128": -1.8,
+    "bonsai-decode@512": 30.9,
+    "bonsai-prefill@512": 0.2,
+    "bonsai-decode@4k": 30.1,
+    "bonsai-prefill@4k": 0.4,
+    "bonsai-decode@16k": 29.0,
+    "bonsai-prefill@16k": -0.1,
+    "bonsai-decode@32k": 26.9,
+    "bonsai-prefill@32k": -0.2,
+    "bonsai-cb-decode@c2": -1.4,
+    "bonsai-cb-decode@c4": -1.0,
+    "bonsai-cb-decode@c8": -1.9,
+    "bonsai-cb-decode@c16": -1.4,
+    "bonsai-cb-decode@c32": -2.2
+  },
+  "matrix": {
+    "bonsai-decode@128": {
+      "pr": 128.8047,
+      "main": 99.0271,
+      "delta": 30.1,
+      "label": "XL"
+    },
+    "bonsai-prefill@128": {
+      "pr": 4245.3815,
+      "main": 4322.0585,
+      "delta": -1.8,
+      "label": "none"
+    },
+    "bonsai-decode@512": {
+      "pr": 128.6344,
+      "main": 98.3041,
+      "delta": 30.9,
+      "label": "XL"
+    },
+    "bonsai-prefill@512": {
+      "pr": 3903.8431,
+      "main": 3897.9909,
+      "delta": 0.2,
+      "label": "none"
+    },
+    "bonsai-decode@4k": {
+      "pr": 125.9667,
+      "main": 96.8505,
+      "delta": 30.1,
+      "label": "XL"
+    },
+    "bonsai-prefill@4k": {
+      "pr": 8608.0735,
+      "main": 8576.4886,
+      "delta": 0.4,
+      "label": "none"
+    },
+    "bonsai-decode@16k": {
+      "pr": 120.6719,
+      "main": 93.5177,
+      "delta": 29.0,
+      "label": "XL"
+    },
+    "bonsai-prefill@16k": {
+      "pr": 8592.1984,
+      "main": 8601.224,
+      "delta": -0.1,
+      "label": "none"
+    },
+    "bonsai-decode@32k": {
+      "pr": 112.3665,
+      "main": 88.5701,
+      "delta": 26.9,
+      "label": "XL"
+    },
+    "bonsai-prefill@32k": {
+      "pr": 8157.251,
+      "main": 8173.3811,
+      "delta": -0.2,
+      "label": "none"
+    },
+    "bonsai-cb-decode@c2": {
+      "pr": 162.8,
+      "main": 165.1,
+      "delta": -1.4,
+      "label": "none"
+    },
+    "bonsai-cb-decode@c4": {
+      "pr": 260.2,
+      "main": 262.7,
+      "delta": -1.0,
+      "label": "none"
+    },
+    "bonsai-cb-decode@c8": {
+      "pr": 487.1,
+      "main": 496.5,
+      "delta": -1.9,
+      "label": "none"
+    },
+    "bonsai-cb-decode@c16": {
+      "pr": 767.9,
+      "main": 778.9,
+      "delta": -1.4,
+      "label": "none"
+    },
+    "bonsai-cb-decode@c32": {
+      "pr": 1029.2,
+      "main": 1052.0,
+      "delta": -2.2,
+      "label": "REJECT"
+    }
+  },
+  "pr_decode_tps": 128.8047,
+  "main_decode_tps": 99.0271,
+  "pr_prefill128_pp": 4245.3815,
+  "main_prefill128_pp": 4322.0585,
+  "pr_top1": 0.955782,
+  "pr_kl": 0.021523,
+  "accuracy_ok": true,
+  "prefill_path_ok": true,
+  "bonsaireg_ok": true,
+  "guards_ok": {
+    "guard36": false,
+    "guardmo": false,
+    "guardun": true,
+    "guardmg": true
+  },
+  "gpu": "pinned eval box",
+  "date": "2026-09-24"
+}

@@ -2846,6 +2846,15 @@
     "date": "2026-09-24"
   },
   {
+    "id": "bonsai-1149-34f1ed8",
+    "pr": 1149,
+    "title": "perf(bonsai): decode reads the FFN from a ternary copy through a dp4a GEMV, its activation quantized once inside the Hadamard rotation (1.36x decode @128)",
+    "label": "REJECT",
+    "delta_pct": -2.2,
+    "eval_mode": "bonsai-128",
+    "date": "2026-09-24"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
