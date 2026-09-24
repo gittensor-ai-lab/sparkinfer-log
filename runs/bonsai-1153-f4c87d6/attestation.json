@@ -1,0 +1,71 @@
+{
+  "code": {
+    "repo": "https://github.com/gittensor-ai-lab/sparkinfer",
+    "commit": "f4c87d6b5d77f5a4e5235b7d434707b14c9f301b",
+    "build_hash": "9a87d14bea4d41ae3d559ec1bafc16d20e3bee0c37576e157173e984da0827ac",
+    "scoring_scripts_commit": "a4cf6f463fe55ef8063ec2cf7620f4f66e5c124e"
+  },
+  "references": {
+    "model_sha256": "53107f530aa52eb00912263ab1ee29bd199261c87cd7b4ad4ca1318c1fe33ee3",
+    "model_file": "Ternary-Bonsai-2-27B-PTQ1_0.gguf",
+    "guard_model_sha256": "",
+    "guard_model_file": "",
+    "llamacpp_commit": "",
+    "eval_seed": "bonsai-1790279750866"
+  },
+  "environment": {
+    "eval_mode": "bonsai-128",
+    "decode_tokens": 128,
+    "gpu_name": "NVIDIA GeForce RTX 5090",
+    "gpu_arch": "sm_120",
+    "clocks_pinned": false,
+    "clock_mhz": 0,
+    "clock_spread_mhz": 0,
+    "pin_target_mhz": 0,
+    "cuda_version": "",
+    "driver_version": "580.173.02"
+  },
+  "measurements": {
+    "primary": {
+      "model": "bonsai-128",
+      "model_sha256": "",
+      "ctx_128_tps": 99.0068,
+      "ctx_512_tps": null,
+      "ctx_4096_tps": null,
+      "ctx_16384_tps": null,
+      "ctx_32768_tps": null,
+      "top1": 0.97619,
+      "kl": 0.007387,
+      "guard_128_baseline": null,
+      "guard_128_ratio": null,
+      "guard_128_pass": true,
+      "guard_512_baseline": null,
+      "guard_512_ratio": null,
+      "guard_512_pass": true,
+      "guard_4k_baseline": null,
+      "guard_4k_ratio": null,
+      "guard_4k_pass": true,
+      "guard_16k_baseline": null,
+      "guard_16k_ratio": null,
+      "guard_16k_pass": true,
+      "guard_32k_baseline": null,
+      "guard_32k_ratio": null,
+      "guard_32k_pass": true
+    }
+  },
+  "verdict": {
+    "model": "bonsai-128",
+    "label": "S",
+    "pass": true,
+    "tps": 99.0068,
+    "delta_tps": 0.0087,
+    "pct_over_frontier": 4.4,
+    "score_context": 128,
+    "best_context_label": "128",
+    "context_gains_pct": {},
+    "regression_labels": [],
+    "guard_regression_labels": [],
+    "reason": null
+  },
+  "timestamp_utc": "2026-09-24T19:55:58Z"
+}
