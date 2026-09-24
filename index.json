@@ -2891,6 +2891,15 @@
     "date": "2026-09-24"
   },
   {
+    "id": "bonsai-1154-5a823be",
+    "pr": 1154,
+    "title": "perf(bonsai): decode and small packed batches read the FFN from a ternary copy through a dp4a GEMV (1.35x decode @128)",
+    "label": "XL",
+    "delta_pct": 35.4,
+    "eval_mode": "bonsai-128",
+    "date": "2026-09-24"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
