@@ -2873,6 +2873,15 @@
     "date": "2026-09-24"
   },
   {
+    "id": "bonsai-1152-43de308",
+    "pr": 1152,
+    "title": "perf(kernels): dense Q4_K cb-decode takes the tensor-core down and in-projections from four rows, and their fold-in stops waiting on shared loads (1.1x cb-decode @c4 on Ternary-Bonsai-2)",
+    "label": "L",
+    "delta_pct": 12.4,
+    "eval_mode": "bonsai-128",
+    "date": "2026-09-24"
+  },
+  {
     "id": "bonsai-1153-f4c87d6",
     "pr": 1153,
     "title": "perf(qwen35): skip always-true bounds checks in the dense int8 prefill GEMM (1.035x prefill @4k on Ternary-Bonsai-2)",
