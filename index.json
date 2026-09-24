@@ -2837,6 +2837,15 @@
     "date": "2026-09-24"
   },
   {
+    "id": "bonsai-1148-cde2ea3",
+    "pr": 1148,
+    "title": "perf(qwen35): k-tiled activation and mma.sync bf16 for dense-GGUF prefill, not just Muse (1.24x prefill @512 on Ternary-Bonsai-2)",
+    "label": "XL",
+    "delta_pct": 23.5,
+    "eval_mode": "bonsai-128",
+    "date": "2026-09-24"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
