@@ -2792,6 +2792,15 @@
     "polaris_receipt_id": "7ef27bf47b2d7b28"
   },
   {
+    "id": "bonsai-1139-2ff8a7a",
+    "pr": 1139,
+    "title": "perf(qwen35): decode Q4_K inside the prefill GEMM for every dense GGUF, not just Muse (1.94x prefill @128 on Ternary-Bonsai-2)",
+    "label": "XL",
+    "delta_pct": 100.5,
+    "eval_mode": "bonsai-128",
+    "date": "2026-09-24"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
