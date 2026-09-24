@@ -2864,6 +2864,15 @@
     "date": "2026-09-24"
   },
   {
+    "id": "bonsai-1152-2ef87c3",
+    "pr": 1152,
+    "title": "perf(kernels): dense Q4_K cb-decode takes the tensor-core down and in-projections from four rows, and their fold-in stops waiting on shared loads (1.1x cb-decode @c4 on Ternary-Bonsai-2)",
+    "label": "L",
+    "delta_pct": 12.3,
+    "eval_mode": "bonsai-128",
+    "date": "2026-09-24"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
