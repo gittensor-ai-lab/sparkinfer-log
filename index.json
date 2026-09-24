@@ -4400,6 +4400,15 @@
     "date": "2026-09-23"
   },
   {
+    "id": "museglimmer-1137-680060f",
+    "pr": 1137,
+    "title": "perf(muse): vectorize the Q4_K to NVFP4 operand loads and stores (1.02x prefill @512)",
+    "label": "none",
+    "delta_pct": 1.2,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-09-24"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
