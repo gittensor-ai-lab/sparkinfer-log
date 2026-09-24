@@ -2819,6 +2819,15 @@
     "date": "2026-09-24"
   },
   {
+    "id": "bonsai-1145-4927c65",
+    "pr": 1145,
+    "title": "perf(kernels): pick the split-K count by waves x per-block work, not by an occupancy tie (1.034x prefill @128 on Ternary-Bonsai-2)",
+    "label": "REJECT",
+    "delta_pct": -3.1,
+    "eval_mode": "bonsai-128",
+    "date": "2026-09-24"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
