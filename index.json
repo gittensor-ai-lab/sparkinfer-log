@@ -2810,6 +2810,15 @@
     "date": "2026-09-24"
   },
   {
+    "id": "bonsai-1144-7249667",
+    "pr": 1144,
+    "title": "perf(bonsai): decode reads the ternary weights through a dp4a GEMV instead of the folded Q4_K (1.22x decode @128)",
+    "label": "REJECT",
+    "delta_pct": 18.8,
+    "eval_mode": "bonsai-128",
+    "date": "2026-09-24"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
