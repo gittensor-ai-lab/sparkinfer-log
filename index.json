@@ -2918,6 +2918,15 @@
     "date": "2026-09-25"
   },
   {
+    "id": "bonsai-1157-915a0e0",
+    "pr": 1157,
+    "title": "perf(bonsai): decode reads the head and GDN qkv/z from ternary copies through a tensor-core GEMV (1.07x decode @128, 1.08x cb-decode @c4 on Ternary-Bonsai-2)",
+    "label": "L",
+    "delta_pct": 11.1,
+    "eval_mode": "bonsai-128",
+    "date": "2026-09-25"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
