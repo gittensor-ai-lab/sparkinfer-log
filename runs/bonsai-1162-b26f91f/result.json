@@ -1,0 +1,139 @@
+{
+  "id": "bonsai-1162-b26f91f",
+  "pr": 1162,
+  "title": "perf(kernels): the long-context int8 prefill GEMM loses its bank conflicts, takes a 64x64 warp tile and forms the FFN's SwiGLU in its epilogue (1.07x prefill @4k on Ternary-Bonsai-2)",
+  "url": "https://github.com/gittensor-ai-lab/sparkinfer/pull/1162",
+  "commit": "b26f91f",
+  "eval_mode": "bonsai-128",
+  "label": "M",
+  "pass": true,
+  "reason": "ok",
+  "delta_pct": 7.2,
+  "best_dim": "bonsai-prefill@4k",
+  "dims": {
+    "bonsai-decode@128": 0.1,
+    "bonsai-prefill@128": 0.3,
+    "bonsai-decode@512": 0.1,
+    "bonsai-prefill@512": 0.2,
+    "bonsai-decode@4k": 0.1,
+    "bonsai-prefill@4k": 7.2,
+    "bonsai-decode@16k": 0.0,
+    "bonsai-prefill@16k": 5.1,
+    "bonsai-decode@32k": 0.1,
+    "bonsai-prefill@32k": 4.2,
+    "bonsai-cb-decode@c2": 0.1,
+    "bonsai-cb-decode@c4": 0.5,
+    "bonsai-cb-decode@c8": 0.6,
+    "bonsai-cb-decode@c16": 0.5,
+    "bonsai-cb-decode@c32": 1.3
+  },
+  "matrix": {
+    "bonsai-decode@128": {
+      "pr": 134.0872,
+      "main": 133.9575,
+      "delta": 0.1,
+      "label": "none"
+    },
+    "bonsai-prefill@128": {
+      "pr": 5053.2121,
+      "main": 5039.2993,
+      "delta": 0.3,
+      "label": "none"
+    },
+    "bonsai-decode@512": {
+      "pr": 133.2145,
+      "main": 133.116,
+      "delta": 0.1,
+      "label": "none"
+    },
+    "bonsai-prefill@512": {
+      "pr": 6812.6403,
+      "main": 6795.928,
+      "delta": 0.2,
+      "label": "none"
+    },
+    "bonsai-decode@4k": {
+      "pr": 130.4105,
+      "main": 130.2775,
+      "delta": 0.1,
+      "label": "none"
+    },
+    "bonsai-prefill@4k": {
+      "pr": 9663.194,
+      "main": 9010.5049,
+      "delta": 7.2,
+      "label": "M"
+    },
+    "bonsai-decode@16k": {
+      "pr": 124.5563,
+      "main": 124.5316,
+      "delta": 0.0,
+      "label": "none"
+    },
+    "bonsai-prefill@16k": {
+      "pr": 9428.0576,
+      "main": 8967.476,
+      "delta": 5.1,
+      "label": "S"
+    },
+    "bonsai-decode@32k": {
+      "pr": 115.8668,
+      "main": 115.7918,
+      "delta": 0.1,
+      "label": "none"
+    },
+    "bonsai-prefill@32k": {
+      "pr": 8807.3641,
+      "main": 8455.4273,
+      "delta": 4.2,
+      "label": "S"
+    },
+    "bonsai-cb-decode@c2": {
+      "pr": 210.6,
+      "main": 210.3,
+      "delta": 0.1,
+      "label": "none"
+    },
+    "bonsai-cb-decode@c4": {
+      "pr": 366.9,
+      "main": 364.9,
+      "delta": 0.5,
+      "label": "none"
+    },
+    "bonsai-cb-decode@c8": {
+      "pr": 561.6,
+      "main": 558.4,
+      "delta": 0.6,
+      "label": "none"
+    },
+    "bonsai-cb-decode@c16": {
+      "pr": 827.3,
+      "main": 823.1,
+      "delta": 0.5,
+      "label": "none"
+    },
+    "bonsai-cb-decode@c32": {
+      "pr": 1124.7,
+      "main": 1109.8,
+      "delta": 1.3,
+      "label": "none"
+    }
+  },
+  "pr_decode_tps": 134.0872,
+  "main_decode_tps": 133.9575,
+  "pr_prefill128_pp": 5053.2121,
+  "main_prefill128_pp": 5039.2993,
+  "pr_top1": 0.971939,
+  "pr_kl": 0.007082,
+  "accuracy_ok": true,
+  "prefill_path_ok": true,
+  "bonsaireg_ok": true,
+  "guards_ok": {
+    "guard36": true,
+    "guardmo": true,
+    "guardun": true,
+    "guardmg": true
+  },
+  "gpu": "pinned eval box",
+  "date": "2026-09-25"
+}

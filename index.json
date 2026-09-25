@@ -2927,6 +2927,15 @@
     "date": "2026-09-25"
   },
   {
+    "id": "bonsai-1162-b26f91f",
+    "pr": 1162,
+    "title": "perf(kernels): the long-context int8 prefill GEMM loses its bank conflicts, takes a 64x64 warp tile and forms the FFN's SwiGLU in its epilogue (1.07x prefill @4k on Ternary-Bonsai-2)",
+    "label": "M",
+    "delta_pct": 7.2,
+    "eval_mode": "bonsai-128",
+    "date": "2026-09-25"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
