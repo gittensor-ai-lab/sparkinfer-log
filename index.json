@@ -2909,6 +2909,15 @@
     "date": "2026-09-24"
   },
   {
+    "id": "bonsai-1156-e90a3d7",
+    "pr": 1156,
+    "title": "perf(qwen35): dense-GGUF GDN prefill at 512 takes fused quantized-B, not bf16 (1.29x prefill @512 on Ternary-Bonsai-2)",
+    "label": "XL",
+    "delta_pct": 31.2,
+    "eval_mode": "bonsai-128",
+    "date": "2026-09-25"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
