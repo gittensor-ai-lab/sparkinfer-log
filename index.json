@@ -6213,5 +6213,14 @@
     "delta_pct": 0.4,
     "eval_mode": "qwen38-128",
     "date": "2026-10-06"
+  },
+  {
+    "id": "qwen38-1337-1d8499a",
+    "pr": 1337,
+    "title": "perf(qwen3.8): a narrow packed step runs its FFN on the block-scaled GEMM from two rows and its projections from four (1.13x cb-decode @c4 on Qwen3.8-27B)",
+    "label": "REJECT",
+    "delta_pct": -4.7,
+    "eval_mode": "qwen38-128",
+    "date": "2026-10-06"
   }
 ]
