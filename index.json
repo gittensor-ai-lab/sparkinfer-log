@@ -4670,6 +4670,15 @@
     "date": "2026-10-06"
   },
   {
+    "id": "museglimmer-1336-6bbc487",
+    "pr": 1336,
+    "title": "perf(muse): a two-row packed step runs gate/up on the block-scaled GEMM, as four rows already do (1.09x cb-decode @c2 on Muse Glimmer)",
+    "label": "REJECT",
+    "delta_pct": -9.3,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-10-06"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
