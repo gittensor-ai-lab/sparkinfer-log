@@ -2990,6 +2990,15 @@
     "date": "2026-10-06"
   },
   {
+    "id": "bonsai-1331-822feaf",
+    "pr": 1331,
+    "title": "perf(runtime): a wide burst of requests waits for its last arrival before the first prefill, as a small one already does (1.10x cb-decode @c32 on Ternary-Bonsai-2)",
+    "label": "L",
+    "delta_pct": 10.0,
+    "eval_mode": "bonsai-128",
+    "date": "2026-10-06"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
