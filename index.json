@@ -4679,6 +4679,15 @@
     "date": "2026-10-06"
   },
   {
+    "id": "museglimmer-1338-46b2c21",
+    "pr": 1338,
+    "title": "perf(qwen3.8): packed FP8 projections finish their split-K in the GEMM on a lighter split, the norms write the e4m3 rows those GEMMs read, and the fp16 Q4_K arm stages and reduces in fewer launches (1.03x cb-decode @c8 on Qwen3.8-27B)",
+    "label": "REJECT",
+    "delta_pct": -5.4,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-10-07"
+  },
+  {
     "id": "museglimmer-1338-bcfa5e0",
     "pr": 1338,
     "title": "perf(qwen3.8): packed FP8 projections finish their split-K in the GEMM on a lighter split, the norms write the e4m3 rows those GEMMs read, and the fp16 Q4_K arm stages and reduces in fewer launches (1.03x cb-decode @c8 on Qwen3.8-27B)",
