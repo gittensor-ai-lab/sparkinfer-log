@@ -2954,6 +2954,15 @@
     "date": "2026-10-06"
   },
   {
+    "id": "bonsai-1226-87e341f",
+    "pr": 1226,
+    "title": "perf(bonsai): the short-prompt FP4 GEMM loads its A stages from the decode warps, so sixteen warps hold 128 registers and the MMA loop stops spilling, on a three-stage ring (1.14x prefill @128, 1.12x @512 on Ternary-Bonsai-2)",
+    "label": "L",
+    "delta_pct": 14.9,
+    "eval_mode": "bonsai-128",
+    "date": "2026-10-06"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
