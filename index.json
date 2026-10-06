@@ -6096,5 +6096,14 @@
     "delta_pct": 7.2,
     "eval_mode": "qwen38-128",
     "date": "2026-09-21"
+  },
+  {
+    "id": "qwen38-1216-e67f572",
+    "pr": 1216,
+    "title": "perf(bonsai): the short-prompt FP4 GEMM copies its activation with two warps (1.03x prefill @512 on Ternary-Bonsai-2)",
+    "label": "none",
+    "delta_pct": 0.4,
+    "eval_mode": "qwen38-128",
+    "date": "2026-10-06"
   }
 ]
