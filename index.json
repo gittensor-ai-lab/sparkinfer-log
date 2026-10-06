@@ -2972,6 +2972,15 @@
     "date": "2026-10-06"
   },
   {
+    "id": "bonsai-1260-d7c9812",
+    "pr": 1260,
+    "title": "perf(bonsai): waiting prompts prefill as one pack instead of mixed steps, and the FP4 FFN stops reading past a ragged chunk (1.21x cb-decode @c32 on Ternary-Bonsai-2)",
+    "label": "REJECT",
+    "delta_pct": -2.5,
+    "eval_mode": "bonsai-128",
+    "date": "2026-10-06"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
