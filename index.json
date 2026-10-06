@@ -2963,6 +2963,15 @@
     "date": "2026-10-06"
   },
   {
+    "id": "bonsai-1255-deb113f",
+    "pr": 1255,
+    "title": "perf(bonsai): the FP4 activation quantizers run a warp per span and the GDN prep runs beside its scan (1.05x prefill @4k on Ternary-Bonsai-2)",
+    "label": "REJECT",
+    "delta_pct": -2.3,
+    "eval_mode": "bonsai-128",
+    "date": "2026-10-06"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
