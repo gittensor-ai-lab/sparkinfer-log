@@ -3026,6 +3026,15 @@
     "date": "2026-10-06"
   },
   {
+    "id": "bonsai-1335-18897d9",
+    "pr": 1335,
+    "title": "perf(attention): packed decode on the int8 KV of a 6:1 hd256 group takes the tensor-core split, by the row count (1.03x cb-decode @c32 on Ternary-Bonsai-2, 1.06x on Qwen3.8)",
+    "label": "XS",
+    "delta_pct": 3.2,
+    "eval_mode": "bonsai-128",
+    "date": "2026-10-06"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
