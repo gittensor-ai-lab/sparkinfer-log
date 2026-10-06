@@ -3008,6 +3008,15 @@
     "date": "2026-10-06"
   },
   {
+    "id": "bonsai-1334-91a8d9f",
+    "pr": 1334,
+    "title": "perf(bonsai): the packed step keeps each row's GDN state as int8 columns and updates eight columns a warp (1.06x cb-decode @c32 on Ternary-Bonsai-2)",
+    "label": "M",
+    "delta_pct": 6.7,
+    "eval_mode": "bonsai-128",
+    "date": "2026-10-06"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
