@@ -4634,6 +4634,15 @@
     "date": "2026-09-25"
   },
   {
+    "id": "museglimmer-1333-e8ff856",
+    "pr": 1333,
+    "title": "perf(muse): packed decode on the int8 KV splits each row's attention by the row count, as the bf16 KV does (1.17x cb-decode @c32 on Muse Glimmer)",
+    "label": "L",
+    "delta_pct": 14.7,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-10-06"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
