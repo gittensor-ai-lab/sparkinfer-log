@@ -4742,6 +4742,15 @@
     "date": "2026-10-07"
   },
   {
+    "id": "museglimmer-1343-ccf2bb8",
+    "pr": 1343,
+    "title": "perf(muse): the long-K down projection runs on CUTLASS stream-K while its 256x128 grid is under 1.25 waves, so prefill@512 uses all 170 SMs instead of 104 (1.03x prefill@512 on Muse Glimmer)",
+    "label": "none",
+    "delta_pct": 1.2,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-10-07"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
