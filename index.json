@@ -4697,6 +4697,15 @@
     "date": "2026-10-07"
   },
   {
+    "id": "museglimmer-1340-2aded92",
+    "pr": 1340,
+    "title": "perf(prefill): the FFN chunk is sized against the VRAM a pass would add, not the buffers its kept arena already holds (1.06x prefill@4k on Muse Glimmer)",
+    "label": "M",
+    "delta_pct": 6.7,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-10-07"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
