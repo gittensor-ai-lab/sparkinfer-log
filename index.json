@@ -3035,6 +3035,15 @@
     "date": "2026-10-06"
   },
   {
+    "id": "bonsai-1339-9613fe4",
+    "pr": 1339,
+    "title": "perf(bonsai): batched prefill keeps the ternary legs' NVFP4 copy between lone prompts, and 192-512-token prompts take the long path on it (1.21x prefill@512, 1.05x prefill@4k on Ternary-Bonsai-2)",
+    "label": "M",
+    "delta_pct": 6.5,
+    "eval_mode": "bonsai-128",
+    "date": "2026-10-07"
+  },
+  {
     "id": "dflash-0681-caeb013",
     "pr": 681,
     "title": "perf(dflash): accelerate mixed-layout draft attention",
