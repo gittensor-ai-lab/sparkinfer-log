@@ -4751,6 +4751,15 @@
     "date": "2026-10-07"
   },
   {
+    "id": "museglimmer-1344-cc893ea",
+    "pr": 1344,
+    "title": "perf(prefill): the NVFP4 up projection runs SwiGLU and the down projection's FP4 quantize in its epilogue (1.02x prefill@4k-32k on Muse Glimmer and Qwen3.8)",
+    "label": "XS",
+    "delta_pct": 2.1,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-10-07"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
