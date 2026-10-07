@@ -4733,6 +4733,15 @@
     "date": "2026-10-07"
   },
   {
+    "id": "museglimmer-1342-50ff6e5",
+    "pr": 1342,
+    "title": "perf(muse): the sandwich norm on a bf16 branch runs with the next pre-norm and its FP4 quantize in one pass, and the GEMM reading that operand launches as its programmatic dependent (1.03x prefill@128 on Muse Glimmer)",
+    "label": "XS",
+    "delta_pct": 2.5,
+    "eval_mode": "museglimmer-128",
+    "date": "2026-10-07"
+  },
+  {
     "id": "qwen38-0830-cb38ed2",
     "pr": 830,
     "title": "perf(qwen3.8): FP8-direct GDN prefill projections (1.27x prefill@128) + the Muse Glimmer tensor-core/node stack",
